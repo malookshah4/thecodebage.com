@@ -68,7 +68,11 @@ const FAQ = [
   },
   {
     q: "How does the Pro free trial work?",
-    a: "2-day free trial via Google Play. You're not charged until the trial ends, and you can cancel anytime through your Google Play subscriptions.",
+    a: "3-day free trial via Google Play. You're not charged until the trial ends, and you can cancel anytime through your Google Play subscriptions.",
+  },
+  {
+    q: "Will I be charged after the trial?",
+    a: "Yes — unless you cancel before the trial ends. The first paid period kicks in automatically (monthly: $1.99, yearly: $14.99). Cancel from Google Play subscriptions and you keep Pro features through the end of the trial with no charge.",
   },
   {
     q: "Can I use the free tier forever?",
@@ -237,7 +241,7 @@ export default function RemoteMouseProPage() {
               <CardHeader>
                 <div className="mb-2 flex items-center gap-2">
                   <CardTitle className="text-2xl">Pro</CardTitle>
-                  <Badge>2-day free trial</Badge>
+                  <Badge>3-day free trial</Badge>
                 </div>
                 <CardDescription>For power users</CardDescription>
                 <div className="mt-4 space-y-1">
