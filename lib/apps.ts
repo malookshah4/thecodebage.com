@@ -92,9 +92,9 @@ export const WINDOWS_APPS: AppEntry[] = [
     featured: true,
     free: true,
     version: "0.1.0",
-    updatedDate: "Apr 22, 2026",
-    sizeMb: 14.2,
-    sha256: "9c3f…a71e",
+    updatedDate: "May 10, 2026",
+    sizeMb: 6.96,
+    sha256: "091dbab762c69f4124a202a1643dbac49c3cdf020deea0e259fa15544e63a795",
     requirements: "Windows 10 or later · 64-bit",
     downloadUrl:
       "https://dl.thecodebage.com/remot-mouse-pro/v0.1.0/RemotMouseSetup.exe",
