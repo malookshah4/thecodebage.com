@@ -20,6 +20,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${SITE}/apps/remote-mouse-pro/privacy/`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.7,
+    },
+    {
       url: `${SITE}/privacy/`,
       lastModified,
       changeFrequency: "yearly",
