@@ -2,30 +2,62 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="border-t border-zinc-200/80 bg-zinc-50/50">
-      <div className="mx-auto flex max-w-6xl flex-col items-start justify-between gap-6 px-6 py-10 sm:flex-row sm:items-center">
-        <div className="text-sm text-zinc-500">
-          © {new Date().getFullYear()} thecodebage. All rights reserved.
+    <footer
+      style={{
+        borderTop: "1px solid var(--line)",
+        padding: "56px 0 32px",
+        marginTop: 80,
+        color: "var(--ink-muted)",
+      }}
+    >
+      <div className="mx-auto max-w-[1240px] px-8">
+        <div className="flex flex-wrap items-start justify-between gap-6">
+          <div>
+            <div className="flex items-center gap-2.5 font-semibold tracking-tight">
+              <span
+                className="grid h-[22px] w-[22px] place-items-center rounded-full"
+                style={{ background: "var(--ink)" }}
+                aria-hidden
+              >
+                <span
+                  className="block h-[9px] w-[9px] rounded-full"
+                  style={{ background: "var(--hub-accent)" }}
+                />
+              </span>
+              <span style={{ color: "var(--ink)" }}>thecodebage</span>
+            </div>
+            <p className="mt-3 max-w-[360px] text-[13px] leading-relaxed">
+              Small utilities for everyday computing. LAN-only by default. Privacy by design.
+              Made in spare hours, shipped when ready.
+            </p>
+          </div>
+          <nav className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+            <Link href="/privacy/" className="hover:text-[color:var(--ink)]">
+              Privacy
+            </Link>
+            <Link href="/terms/" className="hover:text-[color:var(--ink)]">
+              Terms
+            </Link>
+            <Link href="/support/" className="hover:text-[color:var(--ink)]">
+              Support
+            </Link>
+            <a
+              href="https://github.com/malookshah4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[color:var(--ink)]"
+            >
+              GitHub
+            </a>
+          </nav>
         </div>
-        <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-zinc-600">
-          <Link href="/privacy/" className="hover:text-zinc-900 transition-colors">
-            Privacy
-          </Link>
-          <Link href="/terms/" className="hover:text-zinc-900 transition-colors">
-            Terms
-          </Link>
-          <Link href="/support/" className="hover:text-zinc-900 transition-colors">
-            Support
-          </Link>
-          <a
-            href="https://github.com/malookshah4"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-zinc-900 transition-colors"
-          >
-            GitHub
-          </a>
-        </nav>
+        <div
+          className="mt-14 flex flex-wrap justify-between gap-6 pt-6"
+          style={{ borderTop: "1px solid var(--line)", fontFamily: "var(--font-mono-stack)", fontSize: 11 }}
+        >
+          <span>© {new Date().getFullYear()} thecodebage</span>
+          <span>support@thecodebage.com · dl.thecodebage.com</span>
+        </div>
       </div>
     </footer>
   );

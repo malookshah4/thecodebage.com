@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { ANDROID_APPS, WINDOWS_APPS, appHref } from "@/lib/apps";
 
 export const dynamic = "force-static";
 
@@ -6,6 +7,13 @@ const SITE = "https://thecodebage.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
+  const appUrls: MetadataRoute.Sitemap = [...ANDROID_APPS, ...WINDOWS_APPS].map((a) => ({
+    url: `${SITE}${appHref(a)}`,
+    lastModified,
+    changeFrequency: "monthly",
+    priority: a.featured ? 0.9 : 0.7,
+  }));
+
   return [
     {
       url: `${SITE}/`,
@@ -14,11 +22,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${SITE}/apps/remote-mouse-pro/`,
+      url: `${SITE}/apps/`,
       lastModified,
       changeFrequency: "monthly",
-      priority: 0.9,
+      priority: 0.8,
     },
+    {
+      url: `${SITE}/apps/android/`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${SITE}/apps/windows/`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    ...appUrls,
     {
       url: `${SITE}/apps/remote-mouse-pro/privacy/`,
       lastModified,

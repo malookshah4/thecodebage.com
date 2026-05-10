@@ -1,102 +1,207 @@
 import Link from "next/link";
-import Image from "next/image";
-import { buttonVariants } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { cn } from "@/lib/utils";
+import { ANDROID_APPS, WINDOWS_APPS, appHref } from "@/lib/apps";
+import { AppCard } from "@/components/site/app-card";
+import { AppIcon } from "@/components/site/app-icon";
+import { Stars } from "@/components/site/stars";
+import { PhoneShot } from "@/components/site/shots";
 
 export default function Home() {
+  const featured = ANDROID_APPS.find((a) => a.featured) ?? ANDROID_APPS[0];
+  const others = ANDROID_APPS.filter((a) => a.slug !== featured.slug).slice(0, 6);
+  const winApp = WINDOWS_APPS[0];
+
   return (
     <>
-      {/* Hero */}
-      <section className="border-b border-zinc-200/80">
-        <div className="mx-auto max-w-5xl px-6 py-24 sm:py-32 lg:py-40">
-          <div className="flex flex-col items-start gap-6">
-            <Badge variant="secondary" className="rounded-full px-3 py-1 text-xs font-medium">
-              Software utilities for everyday computing
-            </Badge>
-            <h1 className="max-w-3xl text-balance text-5xl font-semibold leading-[1.05] tracking-tight text-zinc-900 sm:text-6xl lg:text-7xl">
-              Utilities that respect your time.
-            </h1>
-            <p className="max-w-2xl text-lg leading-relaxed text-zinc-600 sm:text-xl">
-              We build small, focused tools that do one thing well. No analytics, no
-              tracking, no upsells. Buy once, own forever — or pay a fair monthly fee
-              when it makes sense.
-            </p>
-            <div className="mt-2 flex flex-col gap-3 sm:flex-row">
-              <Link
-                href="/apps/remote-mouse-pro/"
-                className={cn(buttonVariants({ size: "lg" }))}
-              >
-                See Remote Mouse Pro
-              </Link>
-              <Link
-                href="/support/"
-                className={cn(buttonVariants({ size: "lg", variant: "outline" }))}
-              >
-                Contact us
-              </Link>
+      {/* Hero — constellation variant */}
+      <section className="mx-auto max-w-[1240px] px-8 pt-18 pb-12">
+        <div
+          className="hub-mono"
+          style={{ fontSize: 12, color: "var(--ink-muted)", textTransform: "uppercase" }}
+        >
+          ↳ thecodebage · est. 2024 · two platforms · solo studio
+        </div>
+        <h1
+          className="hub-display"
+          style={{
+            fontSize: "clamp(48px, 7.6vw, 108px)",
+            lineHeight: 0.96,
+            margin: "16px 0 0",
+          }}
+        >
+          A shelf of <em>quiet</em> tools
+          <br />
+          for everyday computing.
+        </h1>
+        <p
+          style={{
+            color: "var(--ink-muted)",
+            fontSize: "clamp(16px, 1.4vw, 19px)",
+            margin: "22px 0 0",
+            maxWidth: 580,
+            lineHeight: 1.55,
+          }}
+        >
+          A small studio publishing privacy-first utilities for Android and Windows.
+          LAN-only by default. No accounts unless required. Built in spare hours;
+          released when they earn the version number.
+        </p>
+        <div className="mt-8 flex flex-wrap gap-3">
+          <Link
+            href="/apps/android/"
+            className="inline-flex items-center gap-2 rounded-full bg-[color:var(--ink)] px-5 py-3.5 text-[15px] font-medium text-[color:var(--paper)] transition-transform hover:-translate-y-px"
+          >
+            Browse Android <span aria-hidden>→</span>
+          </Link>
+          <Link
+            href="/apps/windows/"
+            className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-5 py-3.5 text-[15px] font-medium hover:bg-[color:var(--chip-bg)]"
+          >
+            Windows downloads
+          </Link>
+        </div>
+
+        {/* Constellation */}
+        <div className="hero-art-grid" style={{ marginTop: 56 }}>
+          {ANDROID_APPS.slice(0, 8).map((a) => (
+            <div key={a.slug} className="hero-art-tile">
+              <AppIcon title={a.title} tint={a.accentTint} size={56} />
             </div>
+          ))}
+          {/* Padding placeholder tiles when catalog is small */}
+          {Array.from({ length: Math.max(0, 8 - ANDROID_APPS.length) }).map((_, i) => (
+            <div
+              key={`empty-${i}`}
+              className="hero-art-tile"
+              style={{ opacity: 0.5, fontFamily: "var(--font-mono-stack)", fontSize: 11, color: "var(--ink-muted)" }}
+            >
+              soon
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Featured app */}
+      <section className="mx-auto max-w-[1240px] px-8 py-20">
+        <div className="mb-8 flex items-end justify-between gap-8">
+          <div>
+            <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
+              Featured · {featured.featured ? "flagship" : "this month"}
+            </div>
+            <h2 className="hub-display" style={{ fontSize: "clamp(28px, 3.6vw, 44px)", marginTop: 6 }}>
+              {featured.title}
+            </h2>
+          </div>
+          <p className="max-w-[460px] text-[15px] text-[color:var(--ink-muted)]">
+            The tool the studio is best known for. Front-and-center on the homepage; equal-footed in the catalog.
+          </p>
+        </div>
+        <div className="featured-hero">
+          <div className="featured-hero-text">
+            <div>
+              <AppIcon title={featured.title} tint={featured.accentTint} size={72} />
+              <h3
+                className="hub-display"
+                style={{ fontSize: 36, lineHeight: 1.05, margin: "20px 0 8px" }}
+              >
+                {featured.summary}
+              </h3>
+              <p style={{ color: "var(--ink-muted)", maxWidth: "44ch", lineHeight: 1.55 }}>
+                Trackpad, keyboard, voice macros, OCR scan, snippet manager, file transfer.
+                All over your local Wi-Fi. No internet round-trip.
+              </p>
+            </div>
+            <div className="flex flex-wrap items-center gap-2.5">
+              <Link
+                href={appHref(featured)}
+                className="inline-flex items-center gap-2 rounded-full bg-[color:var(--hub-accent)] px-5 py-2.5 text-[14px] font-medium text-white"
+              >
+                See the page <span aria-hidden>→</span>
+              </Link>
+              {featured.score !== undefined && featured.ratings !== undefined && (
+                <span className="hub-chip">
+                  <Stars value={featured.score} /> &nbsp;{featured.score.toFixed(1)} ·{" "}
+                  {featured.ratings.toLocaleString()} ratings
+                </span>
+              )}
+            </div>
+          </div>
+          <div className="featured-hero-art">
+            <PhoneShot tint={featured.accentTint} title={featured.title} />
           </div>
         </div>
       </section>
 
-      {/* Apps grid */}
-      <section className="bg-zinc-50/50">
-        <div className="mx-auto max-w-5xl px-6 py-20 sm:py-28">
-          <div className="mb-10 flex items-end justify-between gap-4">
+      {/* Android grid teaser */}
+      {others.length > 0 && (
+        <section className="mx-auto max-w-[1240px] px-8 py-20">
+          <div className="mb-8 flex items-end justify-between gap-8">
             <div>
-              <h2 className="text-3xl font-semibold tracking-tight text-zinc-900 sm:text-4xl">
-                Apps
+              <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
+                Android · Google Play
+              </div>
+              <h2 className="hub-display" style={{ fontSize: "clamp(28px, 3.6vw, 44px)", marginTop: 6 }}>
+                On your phone
               </h2>
-              <p className="mt-2 text-zinc-600">
-                What we&rsquo;re shipping right now.
-              </p>
             </div>
-          </div>
-
-          <div className="grid gap-6 sm:grid-cols-2">
-            <Link href="/apps/remote-mouse-pro/" className="group">
-              <Card className="h-full border-zinc-200 transition-all hover:border-zinc-300 hover:shadow-md">
-                <CardHeader>
-                  <div className="flex items-center gap-3">
-                    <Image
-                      src="/favicon.png"
-                      alt=""
-                      width={48}
-                      height={48}
-                      className="rounded-xl"
-                    />
-                    <div>
-                      <CardTitle className="text-xl">Remote Mouse Pro</CardTitle>
-                      <CardDescription>Phone → PC remote control</CardDescription>
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-zinc-600 leading-relaxed">
-                    Turn your phone into a wireless trackpad, keyboard, voice macro pad,
-                    OCR scanner, and snippet manager for your Windows PC. Works over
-                    your local Wi-Fi — nothing leaves your network.
-                  </p>
-                  <div className="mt-4 flex flex-wrap gap-2 text-xs">
-                    <Badge variant="outline">Android</Badge>
-                    <Badge variant="outline">Windows</Badge>
-                    <Badge variant="outline">LAN-only</Badge>
-                  </div>
-                  <div className="mt-6 inline-flex items-center text-sm font-medium text-primary group-hover:underline">
-                    Learn more →
-                  </div>
-                </CardContent>
-              </Card>
+            <Link
+              href="/apps/android/"
+              className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-5 py-2.5 text-sm font-medium hover:bg-[color:var(--chip-bg)]"
+            >
+              All {ANDROID_APPS.length} Android app{ANDROID_APPS.length === 1 ? "" : "s"}{" "}
+              <span aria-hidden>→</span>
             </Link>
+          </div>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {others.slice(0, 6).map((a) => (
+              <AppCard key={a.slug} app={a} />
+            ))}
+          </div>
+        </section>
+      )}
 
-            <Card className="h-full border-dashed border-zinc-200 bg-transparent">
-              <CardHeader>
-                <CardTitle className="text-xl text-zinc-400">More on the way</CardTitle>
-                <CardDescription>We ship slow on purpose. Quality over volume.</CardDescription>
-              </CardHeader>
-            </Card>
+      {/* Windows row */}
+      <section className="mx-auto max-w-[1240px] px-8 py-20">
+        <div className="mb-8 flex items-end justify-between gap-8">
+          <div>
+            <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
+              Windows · Direct download
+            </div>
+            <h2 className="hub-display" style={{ fontSize: "clamp(28px, 3.6vw, 44px)", marginTop: 6 }}>
+              On your PC
+            </h2>
+          </div>
+          <Link
+            href="/apps/windows/"
+            className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-5 py-2.5 text-sm font-medium hover:bg-[color:var(--chip-bg)]"
+          >
+            All Windows app{WINDOWS_APPS.length === 1 ? "" : "s"} <span aria-hidden>→</span>
+          </Link>
+        </div>
+        {winApp && (
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <AppCard app={winApp} />
+          </div>
+        )}
+      </section>
+
+      {/* Manifesto strip */}
+      <section className="mx-auto max-w-[1240px] px-8 py-20">
+        <div
+          className="grid gap-12 py-14 md:grid-cols-[200px_1fr]"
+          style={{ borderTop: "1px solid var(--line)", borderBottom: "1px solid var(--line)" }}
+        >
+          <div className="hub-mono self-start text-[11px] uppercase text-[color:var(--ink-muted)]">
+            Operating principles
+          </div>
+          <div>
+            <p
+              className="hub-display m-0"
+              style={{ fontSize: 28, lineHeight: 1.3, maxWidth: "28ch" }}
+            >
+              Local first. Tiny by default. No telemetry, no accounts unless the feature
+              literally requires one, no dark patterns,
+              <em style={{ color: "var(--hub-accent)" }}> ever.</em>
+            </p>
           </div>
         </div>
       </section>
