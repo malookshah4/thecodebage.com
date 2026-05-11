@@ -23,8 +23,10 @@ export default function Home() {
         <h1
           className="hub-display"
           style={{
+            fontFamily: "var(--font-fraunces), Georgia, serif",
             fontSize: "clamp(48px, 7.6vw, 108px)",
             lineHeight: 0.96,
+            letterSpacing: "-0.025em",
             margin: "16px 0 0",
           }}
         >
@@ -45,39 +47,6 @@ export default function Home() {
           LAN-only by default. No accounts unless required. Built in spare hours;
           released when they earn the version number.
         </p>
-        <div className="mt-8 flex flex-wrap gap-3">
-          <Link
-            href="/apps/android/"
-            className="inline-flex items-center gap-2 rounded-full bg-[color:var(--ink)] px-5 py-3.5 text-[15px] font-medium text-[color:var(--paper)] transition-transform hover:-translate-y-px"
-          >
-            Browse Android <span aria-hidden>→</span>
-          </Link>
-          <Link
-            href="/apps/windows/"
-            className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-5 py-3.5 text-[15px] font-medium hover:bg-[color:var(--chip-bg)]"
-          >
-            Windows downloads
-          </Link>
-        </div>
-
-        {/* Constellation */}
-        <div className="hero-art-grid" style={{ marginTop: 56 }}>
-          {ANDROID_APPS.slice(0, 8).map((a) => (
-            <div key={a.slug} className="hero-art-tile">
-              <AppIcon title={a.title} tint={a.accentTint} size={56} />
-            </div>
-          ))}
-          {/* Padding placeholder tiles when catalog is small */}
-          {Array.from({ length: Math.max(0, 8 - ANDROID_APPS.length) }).map((_, i) => (
-            <div
-              key={`empty-${i}`}
-              className="hero-art-tile"
-              style={{ opacity: 0.5, fontFamily: "var(--font-mono-stack)", fontSize: 11, color: "var(--ink-muted)" }}
-            >
-              soon
-            </div>
-          ))}
-        </div>
       </section>
 
       {/* Featured app */}
