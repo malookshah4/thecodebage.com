@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { AccentTint } from "@/lib/apps";
 
 interface AppIconProps {
@@ -5,6 +6,7 @@ interface AppIconProps {
   tint: AccentTint;
   size?: number;
   className?: string;
+  iconUrl?: string;
 }
 
 function initials(title: string): string {
@@ -17,9 +19,31 @@ function initials(title: string): string {
     .toUpperCase();
 }
 
-export function AppIcon({ title, tint, size = 64, className }: AppIconProps) {
+export function AppIcon({ title, tint, size = 64, className, iconUrl }: AppIconProps) {
   const fontSize = Math.round(size * 0.42);
   const radius = Math.round(size * 0.28);
+  if (iconUrl) {
+    return (
+      <div
+        className={`appcard-icon${className ? ` ${className}` : ""}`}
+        style={{
+          width: size,
+          height: size,
+          borderRadius: radius,
+          overflow: "hidden",
+          position: "relative",
+        }}
+      >
+        <Image
+          src={iconUrl}
+          alt={title}
+          fill
+          sizes={`${size}px`}
+          style={{ objectFit: "cover" }}
+        />
+      </div>
+    );
+  }
   return (
     <div
       className={`appcard-icon tint-${tint}${className ? ` ${className}` : ""}`}

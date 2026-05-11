@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Stars } from "./stars";
 import { PhoneShot, DesktopShot } from "./shots";
@@ -24,6 +25,8 @@ export function AppDetail({ app }: AppDetailProps) {
   const carouselStep = isAndroid ? 256 : 496;
   const features = app.features ?? [];
   const reviews = app.recentReviews ?? [];
+  const screenshots = app.screenshots ?? [];
+  const hasRealShots = isAndroid && screenshots.length > 0;
   const totalApps = ANDROID_APPS.length + WINDOWS_APPS.length;
 
   return (
@@ -45,22 +48,44 @@ export function AppDetail({ app }: AppDetailProps) {
         {/* Hero */}
         <section className="grid items-center gap-14 py-14 md:grid-cols-2">
           <div>
-            <div
-              className={`tint-${app.accentTint}`}
-              style={{
-                width: 88,
-                height: 88,
-                borderRadius: 22,
-                display: "grid",
-                placeItems: "center",
-                color: "white",
-                fontFamily: "var(--font-display)",
-                fontSize: 38,
-                boxShadow: "var(--shadow-2)",
-              }}
-            >
-              {initials(app.title)}
-            </div>
+            {app.iconUrl ? (
+              <div
+                style={{
+                  width: 88,
+                  height: 88,
+                  borderRadius: 22,
+                  overflow: "hidden",
+                  position: "relative",
+                  boxShadow: "var(--shadow-2)",
+                }}
+              >
+                <Image
+                  src={app.iconUrl}
+                  alt={app.title}
+                  fill
+                  sizes="88px"
+                  style={{ objectFit: "cover" }}
+                  priority
+                />
+              </div>
+            ) : (
+              <div
+                className={`tint-${app.accentTint}`}
+                style={{
+                  width: 88,
+                  height: 88,
+                  borderRadius: 22,
+                  display: "grid",
+                  placeItems: "center",
+                  color: "white",
+                  fontFamily: "var(--font-display)",
+                  fontSize: 38,
+                  boxShadow: "var(--shadow-2)",
+                }}
+              >
+                {initials(app.title)}
+              </div>
+            )}
             <h1
               className="hub-display"
               style={{
@@ -138,13 +163,24 @@ export function AppDetail({ app }: AppDetailProps) {
             <div className="mt-7 flex flex-wrap gap-3">
               {isAndroid ? (
                 <>
-                  <button
-                    type="button"
-                    disabled
-                    className="inline-flex items-center gap-2 rounded-full bg-[color:var(--hub-accent)] px-5 py-3 text-[15px] font-medium text-white opacity-80 cursor-not-allowed"
-                  >
-                    Coming to Google Play →
-                  </button>
+                  {app.storeUrl ? (
+                    <a
+                      href={app.storeUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 rounded-full bg-[color:var(--hub-accent)] px-5 py-3 text-[15px] font-medium text-white"
+                    >
+                      Get on Google Play →
+                    </a>
+                  ) : (
+                    <button
+                      type="button"
+                      disabled
+                      className="inline-flex items-center gap-2 rounded-full bg-[color:var(--hub-accent)] px-5 py-3 text-[15px] font-medium text-white opacity-80 cursor-not-allowed"
+                    >
+                      Coming to Google Play →
+                    </button>
+                  )}
                   {app.paid && <span className="hub-chip hub-chip-accent">{app.paid}</span>}
                 </>
               ) : (
@@ -160,7 +196,30 @@ export function AppDetail({ app }: AppDetailProps) {
             </div>
           </div>
           <div className="flex justify-center md:justify-end">
-            <Shot tint={app.accentTint} title={app.title} />
+            {hasRealShots ? (
+              <div
+                style={{
+                  width: 280,
+                  aspectRatio: "9/19",
+                  borderRadius: 36,
+                  overflow: "hidden",
+                  position: "relative",
+                  boxShadow: "var(--shadow-2)",
+                  background: "#111",
+                }}
+              >
+                <Image
+                  src={screenshots[0]}
+                  alt={`${app.title} screenshot`}
+                  fill
+                  sizes="280px"
+                  style={{ objectFit: "cover" }}
+                  priority
+                />
+              </div>
+            ) : (
+              <Shot tint={app.accentTint} title={app.title} />
+            )}
           </div>
         </section>
 
@@ -177,9 +236,33 @@ export function AppDetail({ app }: AppDetailProps) {
             </div>
           </div>
           <DetailCarousel step={carouselStep}>
-            {[0, 1, 2, 3, 4, 5].map((i) => (
-              <Shot key={i} tint={app.accentTint} title={app.title} />
-            ))}
+            {hasRealShots
+              ? screenshots.map((src, i) => (
+                  <div
+                    key={i}
+                    style={{
+                      flex: "0 0 auto",
+                      width: 240,
+                      aspectRatio: "9/19",
+                      borderRadius: 24,
+                      overflow: "hidden",
+                      position: "relative",
+                      background: "#111",
+                      boxShadow: "var(--shadow-1)",
+                    }}
+                  >
+                    <Image
+                      src={src}
+                      alt={`${app.title} screenshot ${i + 1}`}
+                      fill
+                      sizes="240px"
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
+                ))
+              : [0, 1, 2, 3, 4, 5].map((i) => (
+                  <Shot key={i} tint={app.accentTint} title={app.title} />
+                ))}
           </DetailCarousel>
         </section>
 

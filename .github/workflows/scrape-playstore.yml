@@ -1,0 +1,43 @@
+name: Scrape Play Store
+
+on:
+  schedule:
+    # Daily at 03:00 UTC (≈ 08:30 IST)
+    - cron: '0 3 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Run scraper
+        run: node scripts/scrape-playstore.mjs
+        env:
+          DEV_ID: codeBage
+          COUNTRY: us
+          LANG: en
+
+      - name: Commit updated data + assets
+        run: |
+          git config user.name "codebage-bot"
+          git config user.email "bot@thecodebage.com"
+          git add data/playstore.json public/apps
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore(data): refresh Play Store data"
+            git push
+          fi

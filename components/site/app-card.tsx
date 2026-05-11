@@ -19,7 +19,12 @@ export function AppCard({ app, featured = false }: AppCardProps) {
       </div>
       <div className="appcard-icon-wrap">
         <span className="appcard-icon-halo" />
-        <AppIcon title={app.title} tint={app.accentTint} size={featured ? 72 : 56} />
+        <AppIcon
+          title={app.title}
+          tint={app.accentTint}
+          size={featured ? 72 : 56}
+          iconUrl={app.iconUrl}
+        />
       </div>
       <div>
         <h3 className="appcard-title">{app.title}</h3>

@@ -1,3 +1,5 @@
+import { PLAYSTORE_APPS } from "./playstore";
+
 export type Platform = "android" | "windows";
 
 export type AccentTint =
@@ -15,6 +17,7 @@ export interface AppReview {
   score: number;
   text: string;
   date: string;
+  authorImage?: string;
 }
 
 export interface AppEntry {
@@ -33,6 +36,8 @@ export interface AppEntry {
   ratings?: number;
   installs?: string;
   genre?: string;
+  storeUrl?: string;
+  description?: string;
 
   /** Windows-only */
   sizeMb?: number;
@@ -47,38 +52,45 @@ export interface AppEntry {
   features?: string[];
   recentChanges?: string;
   recentReviews?: AppReview[];
+  /** Local public path or remote URL — used when present in place of initials avatar */
+  iconUrl?: string;
+  /** Local public paths or remote URLs — phone screenshots */
+  screenshots?: string[];
 }
 
+const REMOTE_MOUSE_PRO: AppEntry = {
+  slug: "remote-mouse-pro",
+  platform: "android",
+  customPath: "/apps/remote-mouse-pro/",
+  title: "Remote Mouse Pro",
+  summary:
+    "Use your full PC from your phone. Trackpad, keyboard, voice macros, OCR, snippets.",
+  accentTint: "amber",
+  featured: true,
+  free: true,
+  paid: "Pro $1.99/mo",
+  score: 4.8,
+  ratings: 1240,
+  installs: "10K+",
+  genre: "Productivity",
+  version: "0.1.0",
+  released: "Mar 2025",
+  updatedDate: "Apr 22, 2026",
+  features: [
+    "Multi-touch trackpad with two-finger scroll",
+    "Full keyboard with modifier chord support",
+    "Voice macros — long-press to fire keystrokes",
+    "OCR text scan from camera, on-device",
+    "Snippet manager for frequent paste blocks",
+    "File transfer phone ↔ PC over LAN",
+  ],
+  recentChanges:
+    "0.1.0 — first public build. Voice macros stabilised. OCR now handles low-contrast print. Pair-by-PIN UI tightened.",
+};
+
 export const ANDROID_APPS: AppEntry[] = [
-  {
-    slug: "remote-mouse-pro",
-    platform: "android",
-    customPath: "/apps/remote-mouse-pro/",
-    title: "Remote Mouse Pro",
-    summary:
-      "Use your full PC from your phone. Trackpad, keyboard, voice macros, OCR, snippets.",
-    accentTint: "amber",
-    featured: true,
-    free: true,
-    paid: "Pro $1.99/mo",
-    score: 4.8,
-    ratings: 1240,
-    installs: "10K+",
-    genre: "Productivity",
-    version: "0.1.0",
-    released: "Mar 2025",
-    updatedDate: "Apr 22, 2026",
-    features: [
-      "Multi-touch trackpad with two-finger scroll",
-      "Full keyboard with modifier chord support",
-      "Voice macros — long-press to fire keystrokes",
-      "OCR text scan from camera, on-device",
-      "Snippet manager for frequent paste blocks",
-      "File transfer phone ↔ PC over LAN",
-    ],
-    recentChanges:
-      "0.1.0 — first public build. Voice macros stabilised. OCR now handles low-contrast print. Pair-by-PIN UI tightened.",
-  },
+  REMOTE_MOUSE_PRO,
+  ...PLAYSTORE_APPS.filter((a) => a.slug !== REMOTE_MOUSE_PRO.slug),
 ];
 
 export const WINDOWS_APPS: AppEntry[] = [
