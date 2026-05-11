@@ -111,8 +111,23 @@ export default function RemoteMouseProPage() {
             </div>
             <p className="text-xs text-zinc-500">
               Windows server is required and free. Phone app handles control + Pro
-              features. Pro trial is 2 days, billed by Google Play.
+              features. Pro trial is 3 days, billed by Google Play.
             </p>
+            <div className="mt-3 rounded-lg border border-amber-200 bg-amber-50/60 px-3 py-2.5 text-xs leading-relaxed text-amber-900">
+              <strong className="font-semibold">First-time install heads-up.</strong>{" "}
+              Windows shows <em>&ldquo;Windows protected your PC&rdquo;</em> and
+              Chrome may scan the file — we&rsquo;re not code-signed yet. Click
+              <strong> More info → Run anyway</strong> on the Windows dialog. The
+              installer is identical to what you see on Cloudflare R2; verify the
+              SHA-256 on the{" "}
+              <Link
+                href="/apps/windows/remote-mouse-pro-server/"
+                className="underline underline-offset-2"
+              >
+                server page
+              </Link>{" "}
+              if you want to be sure.
+            </div>
           </div>
 
           <div className="flex justify-center lg:justify-end">
