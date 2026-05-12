@@ -6,7 +6,7 @@ import { ANDROID_APPS, WINDOWS_APPS } from "@/lib/apps";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Malook Shah — solo developer behind thecodebage. Privacy-first utilities for Android and Windows.",
+    "Malook Shah — solo developer behind codeBage. Privacy-first utilities for Android and Windows.",
 };
 
 export default function AboutPage() {
@@ -57,7 +57,7 @@ export default function AboutPage() {
               }}
             >
               Solo developer based in Pakistan. I build small, privacy-first utilities for
-              Android and Windows under the banner <b>thecodebage</b>. Everything ships from
+              Android and Windows under the banner <b>codeBage</b>. Everything ships from
               a one-person studio — design, code, store listings, support.
             </p>
             <div
@@ -115,7 +115,7 @@ export default function AboutPage() {
                 Most software has gotten loud, hungry, and entitled — full of accounts,
                 trackers, ads, and dark patterns.{" "}
                 <em style={{ color: "var(--hub-accent)" }}>
-                  thecodebage is the opposite of that.
+                  codeBage is the opposite of that.
                 </em>
               </p>
               <p
@@ -229,11 +229,29 @@ export default function AboutPage() {
             <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
               Stack
             </div>
-            <div className="flex flex-wrap gap-2.5">
-              {STACK.map((s) => (
-                <span key={s} className="hub-chip">
-                  {s}
-                </span>
+            <div className="flex flex-col gap-8">
+              {STACK.map((g) => (
+                <div key={g.group}>
+                  <div
+                    className="hub-mono"
+                    style={{
+                      fontSize: 11,
+                      textTransform: "uppercase",
+                      letterSpacing: "0.04em",
+                      color: "var(--ink-muted)",
+                      marginBottom: 10,
+                    }}
+                  >
+                    {g.group}
+                  </div>
+                  <div className="flex flex-wrap gap-2.5">
+                    {g.items.map((s) => (
+                      <span key={s} className="hub-chip">
+                        {s}
+                      </span>
+                    ))}
+                  </div>
+                </div>
               ))}
             </div>
           </div>
@@ -286,15 +304,86 @@ const PRINCIPLES = [
   "Built by hand. No vibe-coded slop, no AI-generated app spam. Every line reviewed.",
 ];
 
-const STACK = [
-  "Flutter",
-  "Kotlin",
-  "Go",
-  "Next.js",
-  "TypeScript",
-  "PowerShell",
-  "Cloudflare Pages",
-  "Google Play Console",
+const STACK: { group: string; items: string[] }[] = [
+  {
+    group: "Android",
+    items: [
+      "Kotlin",
+      "Java",
+      "Jetpack Compose",
+      "XML layouts",
+      "Android SDK",
+      "Gradle",
+      "Material 3",
+      "Room",
+      "WorkManager",
+      "Coroutines",
+      "Flutter",
+      "Dart",
+    ],
+  },
+  {
+    group: "Game dev",
+    items: [
+      "Unity",
+      "C#",
+      "URP",
+      "Shader Graph",
+      "DOTween",
+      "Addressables",
+      "Unity Ads",
+      "IAP",
+    ],
+  },
+  {
+    group: "Backend & scripting",
+    items: [
+      "Go",
+      "Python",
+      "PowerShell",
+      "Bash",
+      "REST APIs",
+      "WebSockets",
+      "SQLite",
+      "FastAPI",
+    ],
+  },
+  {
+    group: "AI & automation",
+    items: [
+      "Claude",
+      "GPT",
+      "Gemini",
+      "LangChain",
+      "n8n",
+      "Agent pipelines",
+      "RAG",
+      "Prompt engineering",
+    ],
+  },
+  {
+    group: "Web",
+    items: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind",
+      "Node.js",
+      "Cloudflare Pages",
+      "Vercel",
+      "shadcn/ui",
+    ],
+  },
+  {
+    group: "Ship & sign",
+    items: [
+      "Google Play Console",
+      "Code signing",
+      "GitHub Actions",
+      "Inno Setup",
+      "Figma",
+    ],
+  },
 ];
 
 function Dot() {

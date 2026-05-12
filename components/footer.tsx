@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -13,19 +14,15 @@ export function Footer() {
       <div className="mx-auto max-w-[1480px] px-8">
         <div className="flex flex-wrap items-start justify-between gap-6">
           <div>
-            <div className="flex items-center gap-2.5 font-semibold tracking-tight">
-              <span
-                className="grid h-[22px] w-[22px] place-items-center rounded-full"
-                style={{ background: "var(--ink)" }}
-                aria-hidden
-              >
-                <span
-                  className="block h-[9px] w-[9px] rounded-full"
-                  style={{ background: "var(--hub-accent)" }}
-                />
-              </span>
-              <span style={{ color: "var(--ink)" }}>thecodebage</span>
-            </div>
+            <Link href="/" aria-label="codeBage — home" className="inline-flex items-center">
+              <Image
+                src="/header.png"
+                alt="codeBage"
+                width={944}
+                height={265}
+                className="h-6 w-auto sm:h-7"
+              />
+            </Link>
             <p className="mt-3 max-w-[360px] text-[13px] leading-relaxed">
               Small utilities for everyday computing. LAN-only by default. Privacy by design.
               Made in spare hours, shipped when ready.
@@ -58,7 +55,7 @@ export function Footer() {
           className="mt-14 flex flex-wrap justify-between gap-6 pt-6"
           style={{ borderTop: "1px solid var(--line)", fontFamily: "var(--font-mono-stack)", fontSize: 11 }}
         >
-          <span>© {new Date().getFullYear()} thecodebage</span>
+          <span>© {new Date().getFullYear()} codeBage</span>
           <span>support@thecodebage.com · dl.thecodebage.com</span>
         </div>
       </div>

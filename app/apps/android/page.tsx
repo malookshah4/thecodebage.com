@@ -5,7 +5,7 @@ import { AppCard } from "@/components/site/app-card";
 export const metadata: Metadata = {
   title: "Android apps",
   description:
-    "Every app published under the thecodebage developer account on Google Play.",
+    "Every app published under the codeBage developer account on Google Play.",
 };
 
 export default function AndroidGridPage() {
@@ -34,7 +34,7 @@ export default function AndroidGridPage() {
             lineHeight: 1.55,
           }}
         >
-          Every app published under the thecodebage developer account. Auto-generated
+          Every app published under the codeBage developer account. Auto-generated
           from a build-time scrape — ratings, install counts, and recent reviews refresh
           on every deploy.
         </p>

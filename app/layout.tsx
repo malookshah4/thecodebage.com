@@ -32,11 +32,11 @@ const SITE_URL = "https://thecodebage.com";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "thecodebage — Utilities that respect your time",
-    template: "%s · thecodebage",
+    default: "codeBage — Utilities that respect your time",
+    template: "%s · codeBage",
   },
   description:
-    "Software utilities built with care. Maker of Remote Mouse Pro — turn your phone into a wireless trackpad, keyboard, and OCR scanner for your PC.",
+    "codeBage — software utilities built with care. Maker of Remote Mouse Pro — turn your phone into a wireless trackpad, keyboard, and OCR scanner for your PC.",
   icons: {
     icon: [
       { url: "/favicon.png", type: "image/png" },
@@ -47,8 +47,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: SITE_URL,
-    siteName: "thecodebage",
-    title: "thecodebage — Utilities that respect your time",
+    siteName: "codeBage",
+    title: "codeBage — Utilities that respect your time",
     description:
       "Maker of Remote Mouse Pro. LAN-only, privacy-first utilities for everyday computing.",
     images: [
@@ -56,13 +56,13 @@ export const metadata: Metadata = {
         url: "/og.jpeg",
         width: 1200,
         height: 630,
-        alt: "thecodebage",
+        alt: "codeBage",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "thecodebage — Utilities that respect your time",
+    title: "codeBage — Utilities that respect your time",
     description:
       "Maker of Remote Mouse Pro. LAN-only, privacy-first utilities for everyday computing.",
     images: ["/og.jpeg"],

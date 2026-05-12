@@ -363,7 +363,7 @@ export function AppDetail({ app }: AppDetailProps) {
                 className="m-0 max-w-[56ch] text-[18px] leading-[1.55]"
                 style={{ color: "var(--ink-2)" }}
               >
-                <b>thecodebage</b> is a one-person studio. {app.title} is one of {totalApps}{" "}
+                <b>codeBage</b> is a one-person studio. {app.title} is one of {totalApps}{" "}
                 utilit{totalApps === 1 ? "y" : "ies"} built around the same operating principle:{" "}
                 <em style={{ color: "var(--hub-accent)" }}>
                   local-first, calm, no telemetry, no accounts unless the feature literally

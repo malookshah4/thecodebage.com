@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   title: "Remote Mouse Pro — Use your full PC from your phone",
   description:
-    "Turn your Android phone into a wireless trackpad, keyboard, voice macro pad, OCR scanner, and snippet manager for your Windows PC. LAN-only. Privacy-first. By thecodebage.",
+    "Turn your Android phone into a wireless trackpad, keyboard, voice macro pad, OCR scanner, and snippet manager for your Windows PC. LAN-only. Privacy-first. By codeBage.",
 };
 
 const APP_VERSION = "0.1.0";
@@ -88,7 +88,7 @@ export default function RemoteMouseProPage() {
         <div className="mx-auto grid max-w-6xl gap-12 px-6 py-20 sm:py-28 lg:grid-cols-2 lg:items-center lg:gap-16">
           <div className="flex flex-col items-start gap-6">
             <Badge variant="secondary" className="rounded-full px-3 py-1 text-xs font-medium">
-              By thecodebage · v{APP_VERSION}
+              By codeBage · v{APP_VERSION}
             </Badge>
             <h1 className="text-balance text-5xl font-semibold leading-[1.05] tracking-tight text-zinc-900 sm:text-6xl">
               Use your full PC from your phone.
