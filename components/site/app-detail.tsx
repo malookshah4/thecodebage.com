@@ -372,7 +372,7 @@ export function AppDetail({ app }: AppDetailProps) {
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link
-                  href="/apps/"
+                  href={isAndroid ? "/apps/android/" : "/apps/windows/"}
                   className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-5 py-2.5 text-sm font-medium hover:bg-[color:var(--chip-bg)]"
                 >
                   Browse all apps →
