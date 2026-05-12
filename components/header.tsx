@@ -12,7 +12,7 @@ export function Header() {
         borderBottom: "1px solid var(--line)",
       }}
     >
-      <div className="mx-auto flex h-16 max-w-[1240px] items-center justify-between px-8">
+      <div className="mx-auto flex h-16 max-w-[1480px] items-center justify-between px-8">
         <Link href="/" aria-label="codeBage — home" className="flex items-center">
           <Image
             src="/header.png"

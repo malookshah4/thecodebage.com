@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       {/* Hero — constellation variant */}
-      <section className="mx-auto max-w-[1240px] px-8 pt-18 pb-12">
+      <section className="mx-auto max-w-[1480px] px-8 pt-18 pb-12">
         <div
           className="hub-mono"
           style={{ fontSize: 12, color: "var(--ink-muted)", textTransform: "uppercase" }}
@@ -50,7 +50,7 @@ export default function Home() {
       </section>
 
       {/* Featured app */}
-      <section className="mx-auto max-w-[1240px] px-8 py-20">
+      <section className="mx-auto max-w-[1480px] px-8 py-20">
         <div className="mb-8 flex items-end justify-between gap-8">
           <div>
             <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
@@ -102,7 +102,7 @@ export default function Home() {
 
       {/* Android grid teaser */}
       {others.length > 0 && (
-        <section className="mx-auto max-w-[1240px] px-8 py-20">
+        <section className="mx-auto max-w-[1480px] px-8 py-20">
           <div className="mb-8 flex items-end justify-between gap-8">
             <div>
               <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
@@ -129,7 +129,7 @@ export default function Home() {
       )}
 
       {/* Windows row */}
-      <section className="mx-auto max-w-[1240px] px-8 py-20">
+      <section className="mx-auto max-w-[1480px] px-8 py-20">
         <div className="mb-8 flex items-end justify-between gap-8">
           <div>
             <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
@@ -154,7 +154,7 @@ export default function Home() {
       </section>
 
       {/* Manifesto strip */}
-      <section className="mx-auto max-w-[1240px] px-8 py-20">
+      <section className="mx-auto max-w-[1480px] px-8 py-20">
         <div
           className="grid gap-12 py-14 md:grid-cols-[200px_1fr]"
           style={{ borderTop: "1px solid var(--line)", borderBottom: "1px solid var(--line)" }}

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function AppsHubPage() {
   return (
     <main>
-      <section className="mx-auto max-w-[1240px] px-8 pt-18 pb-12">
+      <section className="mx-auto max-w-[1480px] px-8 pt-18 pb-12">
         <div
           className="hub-mono"
           style={{ fontSize: 12, color: "var(--ink-muted)", textTransform: "uppercase" }}
@@ -50,7 +50,7 @@ export default function AppsHubPage() {
         </p>
       </section>
 
-      <section className="mx-auto max-w-[1240px] px-8 platform-pick">
+      <section className="mx-auto max-w-[1480px] px-8 platform-pick">
         <Link href="/apps/android/" className="platform-card">
           <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
             01 / Android

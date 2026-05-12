@@ -12,7 +12,7 @@ export default function WindowsGridPage() {
   const apps = WINDOWS_APPS;
   return (
     <main>
-      <section className="mx-auto max-w-[1240px] px-8 pt-18 pb-12">
+      <section className="mx-auto max-w-[1480px] px-8 pt-18 pb-12">
         <div
           className="hub-mono"
           style={{ fontSize: 12, color: "var(--ink-muted)", textTransform: "uppercase" }}
@@ -45,7 +45,7 @@ export default function WindowsGridPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-[1240px] px-8 py-20">
+      <section className="mx-auto max-w-[1480px] px-8 py-20">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {apps.map((a) => (
             <AppCard key={a.slug} app={a} />

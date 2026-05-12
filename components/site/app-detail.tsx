@@ -31,7 +31,7 @@ export function AppDetail({ app }: AppDetailProps) {
 
   return (
     <main>
-      <div className="mx-auto max-w-[1240px] px-8">
+      <div className="mx-auto max-w-[1480px] px-8">
         <nav
           style={{
             paddingTop: 28,

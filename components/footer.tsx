@@ -10,7 +10,7 @@ export function Footer() {
         color: "var(--ink-muted)",
       }}
     >
-      <div className="mx-auto max-w-[1240px] px-8">
+      <div className="mx-auto max-w-[1480px] px-8">
         <div className="flex flex-wrap items-start justify-between gap-6">
           <div>
             <div className="flex items-center gap-2.5 font-semibold tracking-tight">
