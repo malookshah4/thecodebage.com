@@ -37,9 +37,9 @@ export default function Home() {
         <p
           style={{
             color: "var(--ink-muted)",
-            fontSize: "clamp(16px, 1.4vw, 19px)",
+            fontSize: "clamp(13px, 1vw, 15px)",
             margin: "22px 0 0",
-            maxWidth: 580,
+            maxWidth: 520,
             lineHeight: 1.55,
           }}
         >

@@ -12,18 +12,18 @@ export function Header() {
         borderBottom: "1px solid var(--line)",
       }}
     >
-      <div className="mx-auto flex h-16 max-w-[1480px] items-center justify-between px-8">
-        <Link href="/" aria-label="codeBage — home" className="flex items-center">
+      <div className="mx-auto flex h-14 max-w-[1480px] items-center justify-between gap-3 px-4 sm:h-16 sm:px-6 md:px-8">
+        <Link href="/" aria-label="codeBage — home" className="flex shrink-0 items-center">
           <Image
             src="/header.png"
             alt="codeBage"
             width={944}
             height={265}
             priority
-            style={{ height: 32, width: "auto" }}
+            className="h-5 w-auto sm:h-6 md:h-8"
           />
         </Link>
-        <nav className="flex items-center gap-1 text-sm">
+        <nav className="flex items-center gap-0.5 text-[13px] sm:gap-1 sm:text-sm">
           <NavLink href="/apps/">Apps</NavLink>
           <NavLink href="/apps/android/">Android</NavLink>
           <NavLink href="/apps/windows/">Windows</NavLink>
@@ -38,7 +38,7 @@ function NavLink({ href, children }: { href: string; children: React.ReactNode }
   return (
     <Link
       href={href}
-      className="rounded-full px-3 py-2 transition-colors"
+      className="rounded-full px-2 py-2 transition-colors sm:px-3"
       style={{ color: "var(--ink-muted)" }}
     >
       {children}
