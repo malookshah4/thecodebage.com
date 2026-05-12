@@ -12,41 +12,69 @@ export default function Home() {
 
   return (
     <>
-      {/* Hero — constellation variant */}
+      {/* Hero — shelf variant */}
       <section className="mx-auto max-w-[1240px] px-8 pt-18 pb-12">
-        <div
-          className="hub-mono"
-          style={{ fontSize: 12, color: "var(--ink-muted)", textTransform: "uppercase" }}
-        >
-          ↳ thecodebage · est. 2024 · two platforms · solo studio
+        <div className="grid items-center gap-12 md:grid-cols-[1.05fr_0.95fr]">
+          <div>
+            <div
+              className="hub-mono"
+              style={{ fontSize: 12, color: "var(--ink-muted)", textTransform: "uppercase" }}
+            >
+              ↳ thecodebage · est. 2024 · two platforms · solo studio
+            </div>
+            <h1
+              className="hub-display"
+              style={{
+                fontFamily: "var(--font-fraunces), Georgia, serif",
+                fontSize: "clamp(48px, 6.4vw, 92px)",
+                lineHeight: 0.98,
+                letterSpacing: "-0.025em",
+                margin: "16px 0 0",
+              }}
+            >
+              A shelf of <em>quiet</em> tools
+              <br />
+              for everyday computing.
+            </h1>
+            <p
+              style={{
+                color: "var(--ink-muted)",
+                fontSize: "clamp(16px, 1.4vw, 19px)",
+                margin: "22px 0 0",
+                maxWidth: 560,
+                lineHeight: 1.55,
+              }}
+            >
+              A small studio publishing privacy-first utilities for Android and Windows.
+              LAN-only by default. No accounts unless required. Built in spare hours;
+              released when they earn the version number.
+            </p>
+          </div>
+          <div className="hero-shelf hidden md:block" aria-hidden>
+            {[0, 1, 2].map((row) => {
+              const slice = ANDROID_APPS.slice(row * 3, row * 3 + 3);
+              if (slice.length === 0) return null;
+              return (
+                <div key={row} className="hero-shelf-row">
+                  <div className="hero-shelf-items">
+                    {slice.map((a) => (
+                      <div key={a.slug} className="hero-shelf-item">
+                        <AppIcon
+                          title={a.title}
+                          tint={a.accentTint}
+                          size={56}
+                          iconUrl={a.iconUrl}
+                        />
+                        <span className="hero-shelf-label">{a.title}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <span className="hero-shelf-plank" />
+                </div>
+              );
+            })}
+          </div>
         </div>
-        <h1
-          className="hub-display"
-          style={{
-            fontFamily: "var(--font-fraunces), Georgia, serif",
-            fontSize: "clamp(48px, 7.6vw, 108px)",
-            lineHeight: 0.96,
-            letterSpacing: "-0.025em",
-            margin: "16px 0 0",
-          }}
-        >
-          A shelf of <em>quiet</em> tools
-          <br />
-          for everyday computing.
-        </h1>
-        <p
-          style={{
-            color: "var(--ink-muted)",
-            fontSize: "clamp(16px, 1.4vw, 19px)",
-            margin: "22px 0 0",
-            maxWidth: 580,
-            lineHeight: 1.55,
-          }}
-        >
-          A small studio publishing privacy-first utilities for Android and Windows.
-          LAN-only by default. No accounts unless required. Built in spare hours;
-          released when they earn the version number.
-        </p>
       </section>
 
       {/* Featured app */}
