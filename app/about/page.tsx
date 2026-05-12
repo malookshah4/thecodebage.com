@@ -72,7 +72,7 @@ export default function AboutPage() {
                 <b style={{ color: "var(--ink-2)" }}>{totalApps}</b> apps shipped
               </span>
               <Dot />
-              <span>est. 2024</span>
+              <span>est. 2017</span>
               <Dot />
               <span>solo studio</span>
             </div>

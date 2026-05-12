@@ -18,7 +18,7 @@ export default function Home() {
           className="hub-mono"
           style={{ fontSize: 12, color: "var(--ink-muted)", textTransform: "uppercase" }}
         >
-          ↳ codeBage · est. 2024 · two platforms · solo studio
+          ↳ codeBage · est. 2017 · two platforms · solo studio
         </div>
         <h1
           className="hub-display"
