@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Header() {
   return (
@@ -12,18 +13,15 @@ export function Header() {
       }}
     >
       <div className="mx-auto flex h-16 max-w-[1240px] items-center justify-between px-8">
-        <Link href="/" className="flex items-center gap-2.5 font-semibold tracking-tight">
-          <span
-            className="grid h-[22px] w-[22px] place-items-center rounded-full"
-            style={{ background: "var(--ink)" }}
-            aria-hidden
-          >
-            <span
-              className="block h-[9px] w-[9px] rounded-full"
-              style={{ background: "var(--hub-accent)" }}
-            />
-          </span>
-          <span style={{ color: "var(--ink)" }}>thecodebage</span>
+        <Link href="/" aria-label="codeBage — home" className="flex items-center">
+          <Image
+            src="/header.png"
+            alt="codeBage"
+            width={944}
+            height={265}
+            priority
+            style={{ height: 32, width: "auto" }}
+          />
         </Link>
         <nav className="flex items-center gap-1 text-sm">
           <NavLink href="/apps/">Apps</NavLink>
