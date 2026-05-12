@@ -372,16 +372,16 @@ export function AppDetail({ app }: AppDetailProps) {
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link
+                  href="/about/"
+                  className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-5 py-2.5 text-sm font-medium hover:bg-[color:var(--chip-bg)]"
+                >
+                  About the developer →
+                </Link>
+                <Link
                   href={isAndroid ? "/apps/android/" : "/apps/windows/"}
                   className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-5 py-2.5 text-sm font-medium hover:bg-[color:var(--chip-bg)]"
                 >
                   Browse all apps →
-                </Link>
-                <Link
-                  href="/support/"
-                  className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-5 py-2.5 text-sm font-medium hover:bg-[color:var(--chip-bg)]"
-                >
-                  support@thecodebage.com
                 </Link>
               </div>
             </div>

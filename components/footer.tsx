@@ -32,6 +32,9 @@ export function Footer() {
             </p>
           </div>
           <nav className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+            <Link href="/about/" className="hover:text-[color:var(--ink)]">
+              About
+            </Link>
             <Link href="/privacy/" className="hover:text-[color:var(--ink)]">
               Privacy
             </Link>
