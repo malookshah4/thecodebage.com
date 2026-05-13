@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.54,
     "scoreText": "4.5",
-    "ratings": 58564,
+    "ratings": 58570,
     "reviews": 129,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,14 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "0a0b73ae-895e-41d5-b00c-02946c68f3c4",
+        "userName": "Muhammad Faisal",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLjfBJdOJ6M4Meg4n8ThUyLVyzNIIe5PQ_Evo_hhZwzduCQ0A=mo",
+        "date": "2026-05-11T07:15:13.277Z",
+        "score": 3,
+        "text": "very well"
+      },
       {
         "id": "11a7de4b-d14b-4246-9472-4bd668fd5766",
         "userName": "Khun Lemon",
@@ -133,14 +141,6 @@
         "date": "2026-03-30T11:16:11.183Z",
         "score": 5,
         "text": "my video 📸"
-      },
-      {
-        "id": "c6b4bf58-c5d9-4acc-80ca-36c990746e35",
-        "userName": "Liza Liza",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJoWrHKDQdJyQSatneDaL0J0iLW0ddUM_XA0WQQaSZcHbT2aw=mo",
-        "date": "2026-03-29T00:08:31.517Z",
-        "score": 5,
-        "text": "for you ❤️❤️❤️ my anjily"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 3.74,
     "scoreText": "3.7",
-    "ratings": 4244,
+    "ratings": 4250,
     "reviews": 113,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -477,7 +477,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 2118,
+    "maxInstalls": 2254,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -592,11 +592,12 @@
     ],
     "video": null,
     "score": 0,
+    "scoreText": "0.0",
     "ratings": 0,
     "reviews": 0,
     "installs": "500+",
     "minInstalls": 500,
-    "maxInstalls": 735,
+    "maxInstalls": 789,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -626,6 +627,14 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
+      {
+        "id": "031fb1c5-2073-4974-9d66-421b11587699",
+        "userName": "Cardinal Jay",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI97840g3Gfehax1XF0K3hE6pw4YvW5ZlxT-1URW6p2LShbG7fr=mo",
+        "date": "2026-05-11T18:02:32.841Z",
+        "score": 3,
+        "text": "Still buggy as usual. (1) When using a stabilizer, it doesn't select until you press the pencil setting and then turn it off, and you can see the stabilizer selected. I have to repeat this again whenever I test stabilizer. (2) When I zoom in on canvas, the sketches I do buzz out of view, and I have to return back to view to see the whole canvas + sketches. (3) When using stabilizer, the entire writing is turned from normal to thin, while in low stabilizer, nothing happens."
+      },
       {
         "id": "9d35836f-5860-4c02-8f62-38d04d623d17",
         "userName": "Moun Uddin",
@@ -809,7 +818,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 350,
+    "maxInstalls": 351,
     "price": 0,
     "free": true,
     "currency": "USD",
