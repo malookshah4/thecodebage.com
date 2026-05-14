@@ -72,7 +72,12 @@ export default function Home() {
         <div className="featured-hero">
           <div className="featured-hero-text">
             <div>
-              <AppIcon title={featured.title} tint={featured.accentTint} size={72} />
+              <AppIcon
+                title={featured.title}
+                tint={featured.accentTint}
+                size={72}
+                iconUrl={featured.iconUrl}
+              />
               <h3
                 className="hub-display"
                 style={{ fontSize: 36, lineHeight: 1.05, margin: "20px 0 8px" }}
@@ -100,7 +105,11 @@ export default function Home() {
             </div>
           </div>
           <div className="featured-hero-art">
-            <PhoneShot tint={featured.accentTint} title={featured.title} />
+            <PhoneShot
+              tint={featured.accentTint}
+              title={featured.title}
+              screenshotUrl={featured.screenshots?.[0]}
+            />
           </div>
         </div>
       </section>

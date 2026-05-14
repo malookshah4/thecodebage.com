@@ -6,6 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/lib/utils";
+import { getApp } from "@/lib/apps";
 import {
   Accordion,
   AccordionContent,
@@ -84,6 +85,9 @@ const FAQ = [
 ];
 
 export default function RemoteMouseProPage() {
+  const app = getApp("android", "remote-mouse-pro");
+  const iconSrc = app?.iconUrl ?? "/favicon.png";
+  const heroScreenshot = app?.screenshots?.[0];
   return (
     <>
       {/* Hero */}
@@ -139,20 +143,33 @@ export default function RemoteMouseProPage() {
           </div>
 
           <div className="flex justify-center lg:justify-end">
-            <div className="relative aspect-[3/4] w-full max-w-sm rounded-3xl border border-zinc-200 bg-gradient-to-b from-zinc-50 to-white p-8 shadow-sm">
-              <div className="flex h-full flex-col items-center justify-center text-center">
+            {heroScreenshot ? (
+              <div className="relative aspect-[9/19.5] w-full max-w-[320px] overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-50 shadow-md">
                 <Image
-                  src="/favicon.png"
-                  alt="Remote Mouse Pro"
-                  width={120}
-                  height={120}
-                  className="rounded-3xl shadow-md"
+                  src={heroScreenshot}
+                  alt="Remote Mouse Pro — phone app"
+                  fill
+                  sizes="(min-width: 1024px) 320px, 80vw"
+                  style={{ objectFit: "cover" }}
                   priority
                 />
-                <p className="mt-6 text-sm font-medium text-zinc-900">Remote Mouse Pro</p>
-                <p className="mt-1 text-xs text-zinc-500">v{APP_VERSION}</p>
               </div>
-            </div>
+            ) : (
+              <div className="relative aspect-[3/4] w-full max-w-sm rounded-3xl border border-zinc-200 bg-gradient-to-b from-zinc-50 to-white p-8 shadow-sm">
+                <div className="flex h-full flex-col items-center justify-center text-center">
+                  <Image
+                    src={iconSrc}
+                    alt="Remote Mouse Pro"
+                    width={120}
+                    height={120}
+                    className="rounded-3xl shadow-md"
+                    priority
+                  />
+                  <p className="mt-6 text-sm font-medium text-zinc-900">Remote Mouse Pro</p>
+                  <p className="mt-1 text-xs text-zinc-500">v{APP_VERSION}</p>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </section>

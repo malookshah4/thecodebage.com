@@ -1,11 +1,33 @@
+import Image from "next/image";
 import type { AccentTint } from "@/lib/apps";
 
 interface ShotProps {
   tint: AccentTint;
   title: string;
+  screenshotUrl?: string;
 }
 
-export function PhoneShot({ tint, title }: ShotProps) {
+export function PhoneShot({ tint, title, screenshotUrl }: ShotProps) {
+  if (screenshotUrl) {
+    return (
+      <div
+        className={`hub-shot tint-${tint}`}
+        style={{
+          position: "relative",
+          overflow: "hidden",
+          aspectRatio: "9 / 19.5",
+        }}
+      >
+        <Image
+          src={screenshotUrl}
+          alt={`${title} screenshot`}
+          fill
+          sizes="(min-width: 1024px) 380px, 80vw"
+          style={{ objectFit: "cover" }}
+        />
+      </div>
+    );
+  }
   return (
     <div className={`hub-shot tint-${tint}`}>
       <div
