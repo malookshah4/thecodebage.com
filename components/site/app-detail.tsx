@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Stars } from "./stars";
 import { PhoneShot, DesktopShot } from "./shots";
+import { PhoneSlider } from "./phone-slider";
 import { DetailCarousel } from "./detail-carousel";
 import { ANDROID_APPS, WINDOWS_APPS, type AppEntry } from "@/lib/apps";
 
@@ -26,6 +27,10 @@ export function AppDetail({ app }: AppDetailProps) {
   const features = app.features ?? [];
   const reviews = app.recentReviews ?? [];
   const screenshots = app.screenshots ?? [];
+  // Drop the first scraped image if there are more — Play Store often
+  // returns a wide feature banner as screenshots[0].
+  const phoneShotsForHero =
+    isAndroid && screenshots.length > 1 ? screenshots.slice(1) : screenshots;
   const hasRealShots = isAndroid && screenshots.length > 0;
   const totalApps = ANDROID_APPS.length + WINDOWS_APPS.length;
 
@@ -208,13 +213,10 @@ export function AppDetail({ app }: AppDetailProps) {
                   background: "#111",
                 }}
               >
-                <Image
-                  src={screenshots[0]}
-                  alt={`${app.title} screenshot`}
-                  fill
+                <PhoneSlider
+                  screenshots={phoneShotsForHero}
+                  alt={app.title}
                   sizes="280px"
-                  style={{ objectFit: "cover" }}
-                  priority
                 />
               </div>
             ) : (

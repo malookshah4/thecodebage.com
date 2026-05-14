@@ -1,14 +1,20 @@
-import Image from "next/image";
 import type { AccentTint } from "@/lib/apps";
+import { PhoneSlider } from "./phone-slider";
 
 interface ShotProps {
   tint: AccentTint;
   title: string;
   screenshotUrl?: string;
+  screenshots?: string[];
 }
 
-export function PhoneShot({ tint, title, screenshotUrl }: ShotProps) {
-  if (screenshotUrl) {
+export function PhoneShot({ tint, title, screenshotUrl, screenshots }: ShotProps) {
+  const list = screenshots && screenshots.length > 0
+    ? screenshots
+    : screenshotUrl
+      ? [screenshotUrl]
+      : null;
+  if (list) {
     return (
       <div
         className={`hub-shot tint-${tint}`}
@@ -19,13 +25,7 @@ export function PhoneShot({ tint, title, screenshotUrl }: ShotProps) {
           background: "#0d0d12",
         }}
       >
-        <Image
-          src={screenshotUrl}
-          alt={`${title} screenshot`}
-          fill
-          sizes="(min-width: 1024px) 380px, 80vw"
-          style={{ objectFit: "contain" }}
-        />
+        <PhoneSlider screenshots={list} alt={title} />
       </div>
     );
   }

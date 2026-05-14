@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import { PhoneSlider } from "@/components/site/phone-slider";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -87,10 +88,10 @@ const FAQ = [
 export default function RemoteMouseProPage() {
   const app = getApp("android", "remote-mouse-pro");
   const iconSrc = app?.iconUrl ?? "/favicon.png";
-  // Play scraper returns a wide feature/banner image at index 0 — skip it
-  // when there are real phone shots after it.
-  const shots = app?.screenshots ?? [];
-  const heroScreenshot = shots.length > 1 ? shots[1] : shots[0];
+  // Play scraper returns a wide feature/banner image at index 0 — drop it
+  // when real phone shots follow.
+  const allShots = app?.screenshots ?? [];
+  const phoneShots = allShots.length > 1 ? allShots.slice(1) : allShots;
   return (
     <>
       {/* Hero */}
@@ -146,15 +147,12 @@ export default function RemoteMouseProPage() {
           </div>
 
           <div className="flex justify-center lg:justify-end">
-            {heroScreenshot ? (
+            {phoneShots.length > 0 ? (
               <div className="relative aspect-[9/19.5] w-full max-w-[320px] overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-900 shadow-md">
-                <Image
-                  src={heroScreenshot}
-                  alt="Remote Mouse Pro — phone app"
-                  fill
+                <PhoneSlider
+                  screenshots={phoneShots}
+                  alt="Remote Mouse Pro"
                   sizes="(min-width: 1024px) 320px, 80vw"
-                  style={{ objectFit: "contain" }}
-                  priority
                 />
               </div>
             ) : (
