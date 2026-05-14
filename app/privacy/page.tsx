@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
     "Privacy policy for the thecodebage.com website. This site is hosted on Cloudflare with no analytics, no tracking, and no third-party scripts. Each app has its own privacy policy.",
+  alternates: { canonical: "/privacy/" },
 };
 
 const LAST_UPDATED = "May 10, 2026";

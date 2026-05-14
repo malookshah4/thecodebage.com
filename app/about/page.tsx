@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "About",
   description:
     "Malook Shah — solo developer behind codeBage. Privacy-first utilities for Android and Windows.",
+  alternates: { canonical: "/about/" },
 };
 
 export default function AboutPage() {

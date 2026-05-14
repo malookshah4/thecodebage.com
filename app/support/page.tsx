@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: "Support",
   description:
     "Help, troubleshooting, and FAQ for Remote Mouse Pro. Pairing issues, mDNS discovery, certificate warnings, subscription help.",
+  alternates: { canonical: "/support/" },
 };
 
 const FAQS: { q: string; a: string }[] = [

@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: app.title,
     description: app.summary,
+    alternates: { canonical: `/apps/windows/${slug}/` },
   };
 }
 

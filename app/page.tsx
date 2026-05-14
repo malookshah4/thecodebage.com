@@ -1,9 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ANDROID_APPS, WINDOWS_APPS, appHref } from "@/lib/apps";
 import { AppCard } from "@/components/site/app-card";
 import { AppIcon } from "@/components/site/app-icon";
 import { Stars } from "@/components/site/stars";
 import { PhoneShot } from "@/components/site/shots";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
   const featured = ANDROID_APPS.find((a) => a.featured) ?? ANDROID_APPS[0];

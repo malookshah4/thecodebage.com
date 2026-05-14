@@ -22,10 +22,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
-      url: `${SITE}/apps/`,
+      url: `${SITE}/about/`,
       lastModified,
       changeFrequency: "monthly",
-      priority: 0.8,
+      priority: 0.7,
     },
     {
       url: `${SITE}/apps/android/`,

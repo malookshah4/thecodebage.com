@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   title: "Remote Mouse Pro — Use your full PC from your phone",
   description:
     "Turn your Android phone into a wireless trackpad, keyboard, voice macro pad, OCR scanner, and snippet manager for your Windows PC. LAN-only. Privacy-first. By codeBage.",
+  alternates: { canonical: "/apps/remote-mouse-pro/" },
 };
 
 const APP_VERSION = "0.1.0";

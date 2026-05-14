@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Android apps",
   description:
     "Every app published under the codeBage developer account on Google Play.",
+  alternates: { canonical: "/apps/android/" },
 };
 
 export default function AndroidGridPage() {

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "Terms of service for thecodebage and Remote Mouse Pro.",
+  alternates: { canonical: "/terms/" },
 };
 
 const LAST_UPDATED = "May 10, 2026";

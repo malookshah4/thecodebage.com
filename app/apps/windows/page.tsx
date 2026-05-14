@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Windows apps",
   description:
     "Every Windows utility we ship. Signed installers served from dl.thecodebage.com.",
+  alternates: { canonical: "/apps/windows/" },
 };
 
 export default function WindowsGridPage() {

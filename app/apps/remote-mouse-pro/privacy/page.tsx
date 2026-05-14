@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy — Remote Mouse Pro",
   description:
     "Privacy policy for the Remote Mouse Pro Android application. LAN-only operation, no analytics, on-device OCR and voice processing, no third-party SDKs.",
+  alternates: { canonical: "/apps/remote-mouse-pro/privacy/" },
 };
 
 const LAST_UPDATED = "May 10, 2026";
