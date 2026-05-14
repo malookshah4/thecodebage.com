@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
@@ -22,6 +22,8 @@ export const metadata: Metadata = {
 
 const APP_VERSION = "0.1.0";
 const EXE_URL = `https://dl.thecodebage.com/remot-mouse-pro/v${APP_VERSION}/RemotMouseSetup.exe`;
+const PLAY_URL =
+  "https://play.google.com/store/apps/details?id=com.codebage.remotemousepro";
 
 const FEATURES = [
   {
@@ -100,9 +102,14 @@ export default function RemoteMouseProPage() {
               Privacy by design.
             </p>
             <div className="mt-2 flex flex-col gap-3 sm:flex-row">
-              <Button size="lg" disabled>
-                Coming to Google Play
-              </Button>
+              <a
+                href={PLAY_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={cn(buttonVariants({ size: "lg" }))}
+              >
+                Get on Google Play
+              </a>
               <a
                 href={EXE_URL}
                 className={cn(buttonVariants({ size: "lg", variant: "outline" }))}
@@ -328,9 +335,14 @@ export default function RemoteMouseProPage() {
             Ready to get your phone working as hard as your PC?
           </h2>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <Button size="lg" disabled>
-              Coming to Google Play
-            </Button>
+            <a
+              href={PLAY_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={cn(buttonVariants({ size: "lg" }))}
+            >
+              Get on Google Play
+            </a>
             <a
               href={EXE_URL}
               className={cn(buttonVariants({ size: "lg", variant: "outline" }))}

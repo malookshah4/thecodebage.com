@@ -58,6 +58,14 @@ export interface AppEntry {
   screenshots?: string[];
 }
 
+// Scraper writes a slug like "remote-mouse-pro-use-full-pc" — match by prefix
+// so future renames don't break the merge. Real Play Store data (icon,
+// screenshots, version, ratings) overrides the hard-coded placeholders.
+const SCRAPED_RMP = PLAYSTORE_APPS.find((a) => a.slug.startsWith("remote-mouse-pro"));
+
+const hasRealRatings = (SCRAPED_RMP?.ratings ?? 0) > 0;
+const hasRealInstalls = !!SCRAPED_RMP?.installs && SCRAPED_RMP.installs !== "0+";
+
 const REMOTE_MOUSE_PRO: AppEntry = {
   slug: "remote-mouse-pro",
   platform: "android",
@@ -69,13 +77,16 @@ const REMOTE_MOUSE_PRO: AppEntry = {
   featured: true,
   free: true,
   paid: "Pro $1.99/mo",
-  score: 4.8,
-  ratings: 1240,
-  installs: "10K+",
-  genre: "Productivity",
-  version: "0.1.0",
-  released: "Mar 2025",
-  updatedDate: "Apr 22, 2026",
+  score: hasRealRatings ? SCRAPED_RMP?.score : undefined,
+  ratings: hasRealRatings ? SCRAPED_RMP?.ratings : undefined,
+  installs: hasRealInstalls ? SCRAPED_RMP?.installs : undefined,
+  genre: SCRAPED_RMP?.genre ?? "Productivity",
+  storeUrl: SCRAPED_RMP?.storeUrl,
+  iconUrl: SCRAPED_RMP?.iconUrl,
+  screenshots: SCRAPED_RMP?.screenshots?.length ? SCRAPED_RMP.screenshots : undefined,
+  version: SCRAPED_RMP?.version ?? "0.1.0",
+  released: SCRAPED_RMP?.released ?? "May 2026",
+  updatedDate: SCRAPED_RMP?.updatedDate ?? "May 10, 2026",
   features: [
     "Multi-touch trackpad with two-finger scroll",
     "Full keyboard with modifier chord support",
@@ -85,12 +96,14 @@ const REMOTE_MOUSE_PRO: AppEntry = {
     "File transfer phone ↔ PC over LAN",
   ],
   recentChanges:
+    SCRAPED_RMP?.recentChanges ||
     "0.1.0 — first public build. Voice macros stabilised. OCR now handles low-contrast print. Pair-by-PIN UI tightened.",
+  recentReviews: SCRAPED_RMP?.recentReviews,
 };
 
 export const ANDROID_APPS: AppEntry[] = [
   REMOTE_MOUSE_PRO,
-  ...PLAYSTORE_APPS.filter((a) => a.slug !== REMOTE_MOUSE_PRO.slug),
+  ...PLAYSTORE_APPS.filter((a) => !a.slug.startsWith("remote-mouse-pro")),
 ];
 
 export const WINDOWS_APPS: AppEntry[] = [
