@@ -16,6 +16,7 @@ export function PhoneShot({ tint, title, screenshotUrl }: ShotProps) {
           position: "relative",
           overflow: "hidden",
           aspectRatio: "9 / 19.5",
+          background: "#0d0d12",
         }}
       >
         <Image
@@ -23,7 +24,7 @@ export function PhoneShot({ tint, title, screenshotUrl }: ShotProps) {
           alt={`${title} screenshot`}
           fill
           sizes="(min-width: 1024px) 380px, 80vw"
-          style={{ objectFit: "cover" }}
+          style={{ objectFit: "contain" }}
         />
       </div>
     );

@@ -87,7 +87,10 @@ const FAQ = [
 export default function RemoteMouseProPage() {
   const app = getApp("android", "remote-mouse-pro");
   const iconSrc = app?.iconUrl ?? "/favicon.png";
-  const heroScreenshot = app?.screenshots?.[0];
+  // Play scraper returns a wide feature/banner image at index 0 — skip it
+  // when there are real phone shots after it.
+  const shots = app?.screenshots ?? [];
+  const heroScreenshot = shots.length > 1 ? shots[1] : shots[0];
   return (
     <>
       {/* Hero */}
@@ -144,13 +147,13 @@ export default function RemoteMouseProPage() {
 
           <div className="flex justify-center lg:justify-end">
             {heroScreenshot ? (
-              <div className="relative aspect-[9/19.5] w-full max-w-[320px] overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-50 shadow-md">
+              <div className="relative aspect-[9/19.5] w-full max-w-[320px] overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-900 shadow-md">
                 <Image
                   src={heroScreenshot}
                   alt="Remote Mouse Pro — phone app"
                   fill
                   sizes="(min-width: 1024px) 320px, 80vw"
-                  style={{ objectFit: "cover" }}
+                  style={{ objectFit: "contain" }}
                   priority
                 />
               </div>

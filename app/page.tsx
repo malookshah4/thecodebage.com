@@ -10,10 +10,18 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
+// Play Store often returns a wide feature/banner image as screenshots[0]
+// before the portrait phone shots; skip it when other shots exist.
+function firstPhoneShot(shots?: string[]): string | undefined {
+  if (!shots || shots.length === 0) return undefined;
+  return shots.length > 1 ? shots[1] : shots[0];
+}
+
 export default function Home() {
   const featured = ANDROID_APPS.find((a) => a.featured) ?? ANDROID_APPS[0];
   const others = ANDROID_APPS.filter((a) => a.slug !== featured.slug).slice(0, 6);
   const winApp = WINDOWS_APPS[0];
+  const featuredScreenshot = firstPhoneShot(featured.screenshots);
 
   return (
     <>
@@ -108,7 +116,7 @@ export default function Home() {
             <PhoneShot
               tint={featured.accentTint}
               title={featured.title}
-              screenshotUrl={featured.screenshots?.[0]}
+              screenshotUrl={featuredScreenshot}
             />
           </div>
         </div>
