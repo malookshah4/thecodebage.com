@@ -22,8 +22,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/apps/remote-mouse-pro/" },
 };
 
-const APP_VERSION = "0.1.0";
-const EXE_URL = `https://dl.thecodebage.com/remot-mouse-pro/v${APP_VERSION}/RemotMouseSetup.exe`;
+const APP_VERSION = "0.2.0";
+const EXE_URL = `https://github.com/malookshah4/remotmouse/releases/download/v${APP_VERSION}/RemotMouseSetup.exe`;
 const PLAY_URL =
   "https://play.google.com/store/apps/details?id=com.codebage.remotemousepro";
 
