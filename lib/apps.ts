@@ -110,6 +110,7 @@ export const WINDOWS_APPS: AppEntry[] = [
   {
     slug: "remote-mouse-pro-server",
     platform: "windows",
+    customPath: "/apps/remote-mouse-pro/",
     title: "Remote Mouse Pro · Server",
     summary:
       "The PC half of Remote Mouse Pro. Lives in your tray, broadcasts on your LAN.",

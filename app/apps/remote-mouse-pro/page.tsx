@@ -134,15 +134,8 @@ export default function RemoteMouseProPage() {
               Windows shows <em>&ldquo;Windows protected your PC&rdquo;</em> and
               Chrome may scan the file — we&rsquo;re not code-signed yet. Click
               <strong> More info → Run anyway</strong> on the Windows dialog. The
-              installer is identical to what you see on Cloudflare R2; verify the
-              SHA-256 on the{" "}
-              <Link
-                href="/apps/windows/remote-mouse-pro-server/"
-                className="underline underline-offset-2"
-              >
-                server page
-              </Link>{" "}
-              if you want to be sure.
+              installer is the exact file linked above from the GitHub release —
+              SHA-256 starts with <code className="rounded bg-amber-100 px-1">b0468234…</code>.
             </div>
           </div>
 
@@ -201,6 +194,66 @@ export default function RemoteMouseProPage() {
                 </CardContent>
               </Card>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Desktop server preview */}
+      <section className="border-t border-zinc-200/80 bg-zinc-50/40">
+        <div className="mx-auto grid max-w-6xl gap-12 px-6 py-20 sm:py-28 lg:grid-cols-[1fr_1.1fr] lg:items-center lg:gap-16">
+          <div>
+            <Badge variant="secondary" className="rounded-full px-3 py-1 text-xs font-medium">
+              Windows · v{APP_VERSION}
+            </Badge>
+            <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-zinc-900 sm:text-4xl">
+              Lives in your tray. Stays out of the way.
+            </h2>
+            <p className="mt-4 text-zinc-600 leading-relaxed">
+              First launch opens a small companion window — a QR for the Android
+              app, install steps, and a live pair-PIN that lights up the moment
+              your phone touches the server. Auto-closes 3 seconds after the
+              first connect. After that, just a tray icon.
+            </p>
+            <ul className="mt-6 space-y-3 text-sm text-zinc-600">
+              <li className="flex items-start gap-2.5">
+                <span className="mt-1.5 inline-block size-1.5 shrink-0 rounded-full bg-primary" />
+                <span>Tray-resident. Near-zero CPU at idle.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="mt-1.5 inline-block size-1.5 shrink-0 rounded-full bg-primary" />
+                <span>Auto-discovery on your LAN — phone finds the PC by itself.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="mt-1.5 inline-block size-1.5 shrink-0 rounded-full bg-primary" />
+                <span>Pair-by-PIN once. No accounts, no cloud, no telemetry.</span>
+              </li>
+              <li className="flex items-start gap-2.5">
+                <span className="mt-1.5 inline-block size-1.5 shrink-0 rounded-full bg-primary" />
+                <span>All input goes through native Windows APIs.</span>
+              </li>
+            </ul>
+            <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+              <a
+                href={EXE_URL}
+                className={cn(buttonVariants({ size: "lg" }))}
+              >
+                Download for Windows
+              </a>
+              <span className="self-center text-xs text-zinc-500">
+                Windows 10 / 11 · 64-bit · ~7.2 MB
+              </span>
+            </div>
+          </div>
+          <div className="flex justify-center lg:justify-end">
+            <div className="relative w-full max-w-[480px] overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-md">
+              <Image
+                src="/screenshots/server-onboarding.png"
+                alt="Remote Mouse Pro server — first-run companion window"
+                width={1280}
+                height={1720}
+                className="h-auto w-full"
+              />
+            </div>
           </div>
         </div>
       </section>
