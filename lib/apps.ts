@@ -116,22 +116,23 @@ export const WINDOWS_APPS: AppEntry[] = [
     accentTint: "amber",
     featured: true,
     free: true,
-    version: "0.1.0",
-    updatedDate: "May 10, 2026",
-    sizeMb: 6.96,
-    sha256: "091dbab762c69f4124a202a1643dbac49c3cdf020deea0e259fa15544e63a795",
+    version: "0.2.0",
+    updatedDate: "May 15, 2026",
+    sizeMb: 7.21,
+    sha256: "b04682347e0e038c280213df11e1f064b9be3700fe2c614b36317a889331e6dc",
     requirements: "Windows 10 or later · 64-bit",
     downloadUrl:
-      "https://dl.thecodebage.com/remot-mouse-pro/v0.1.0/RemotMouseSetup.exe",
+      "https://github.com/malookshah4/remotmouse/releases/download/v0.2.0/RemotMouseSetup.exe",
     features: [
       "Tray-resident server, near-zero CPU at idle",
+      "First-run companion window with Play Store QR + live pair-PIN",
       "Auto-discovery on your local network",
       "Pair-by-PIN handshake — no account, no cloud",
       "All input is delivered through native Windows APIs",
       "Logs stay on disk; nothing leaves your machine",
     ],
     recentChanges:
-      "0.1.0 — initial public build. Pairing UI redesigned. Tray menu now exposes a network probe.",
+      "0.2.0 — new first-run onboarding window with Play Store QR and a live pair-PIN that lights up the moment your phone touches the server. codeBage branding across version-info and installer. Multi-monitor + DPI awareness, foreground-window tracking, file pull, snippet capture, voice macros under the hood.",
   },
 ];
 
