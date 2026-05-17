@@ -64,5 +64,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.6,
     },
+    {
+      url: `${SITE}/lifeos/`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${SITE}/lifeos/privacy/`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.5,
+    },
+    {
+      url: `${SITE}/lifeos/terms/`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.5,
+    },
   ];
 }
