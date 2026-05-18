@@ -59,10 +59,12 @@ export function LifeOSFooter() {
               Terms
             </Link>
             <a
-              href="/support/"
+              href="https://thecodebage.com/support/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-[color:var(--ink)]"
             >
-              Support
+              Support ↗
             </a>
             <a
               href="https://github.com/malookshah4/LifeOS"
