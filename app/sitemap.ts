@@ -7,12 +7,16 @@ const SITE = "https://thecodebage.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
-  const appUrls: MetadataRoute.Sitemap = [...ANDROID_APPS, ...WINDOWS_APPS].map((a) => ({
-    url: `${SITE}${appHref(a)}`,
-    lastModified,
-    changeFrequency: "monthly",
-    priority: a.featured ? 0.9 : 0.7,
-  }));
+  const appUrls: MetadataRoute.Sitemap = [...ANDROID_APPS, ...WINDOWS_APPS].map((a) => {
+    const href = appHref(a);
+    const url = href.startsWith("http") ? href : `${SITE}${href}`;
+    return {
+      url,
+      lastModified,
+      changeFrequency: "monthly" as const,
+      priority: a.featured ? 0.9 : 0.7,
+    };
+  });
 
   return [
     {
@@ -65,19 +69,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.6,
     },
     {
-      url: `${SITE}/lifeos/`,
-      lastModified,
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: `${SITE}/lifeos/privacy/`,
+      url: "https://lifeos.thecodebage.com/privacy/",
       lastModified,
       changeFrequency: "yearly",
       priority: 0.5,
     },
     {
-      url: `${SITE}/lifeos/terms/`,
+      url: "https://lifeos.thecodebage.com/terms/",
       lastModified,
       changeFrequency: "yearly",
       priority: 0.5,

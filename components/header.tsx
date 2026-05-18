@@ -1,7 +1,13 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 export function Header() {
+  const pathname = usePathname();
+  if (pathname?.startsWith("/lifeos")) return null;
+
   return (
     <header
       className="sticky top-0 z-50 w-full"

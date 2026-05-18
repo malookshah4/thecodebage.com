@@ -20,7 +20,7 @@ function phoneShots(shots?: string[]): string[] {
 export default function Home() {
   const featured = ANDROID_APPS.find((a) => a.featured) ?? ANDROID_APPS[0];
   const others = ANDROID_APPS.filter((a) => a.slug !== featured.slug).slice(0, 6);
-  const winApp = WINDOWS_APPS[0];
+  const winApps = WINDOWS_APPS;
   const featuredScreenshots = phoneShots(featured.screenshots);
 
   return (
@@ -168,9 +168,11 @@ export default function Home() {
             All Windows app{WINDOWS_APPS.length === 1 ? "" : "s"} <span aria-hidden>→</span>
           </Link>
         </div>
-        {winApp && (
+        {winApps.length > 0 && (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            <AppCard app={winApp} />
+            {winApps.map((a) => (
+              <AppCard key={a.slug} app={a} />
+            ))}
           </div>
         )}
       </section>

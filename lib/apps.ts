@@ -108,6 +108,35 @@ export const ANDROID_APPS: AppEntry[] = [
 
 export const WINDOWS_APPS: AppEntry[] = [
   {
+    slug: "lifeos",
+    platform: "windows",
+    customPath: "https://lifeos.thecodebage.com/",
+    title: "LifeOS",
+    summary:
+      "Your second brain — fully local. Quietly captures your screen, mic, and audio, OCR + transcribes it, lets you ask anything across your memory.",
+    accentTint: "indigo",
+    featured: true,
+    free: false,
+    paid: "$49.99 one-time",
+    iconUrl: "/lifeos/logo-256.png",
+    version: "0.1.0",
+    updatedDate: "May 18, 2026",
+    sizeMb: 180,
+    requirements: "Windows 10 (1903+) or Windows 11 · 64-bit",
+    downloadUrl:
+      "https://github.com/malookshah4/LifeOS/releases/latest/download/LifeOS-Setup.exe",
+    features: [
+      "Always-on capture — screen, mic, system audio",
+      "OCR + Whisper transcription, fully on-device",
+      "Local LLM Q&A across your captured memory",
+      "Air-gap mode — one toggle blocks all outbound traffic",
+      "SQLite store you can open, delete, or wipe",
+      "7-day free trial, 14-day refund, 2-device license",
+    ],
+    recentChanges:
+      "0.1.0 — first public build. Trefoil knot identity, dark themed marketing site at lifeos.thecodebage.com. Polar checkout, license re-check every 7 days, 14-day offline grace.",
+  },
+  {
     slug: "remote-mouse-pro-server",
     platform: "windows",
     customPath: "/apps/remote-mouse-pro/",

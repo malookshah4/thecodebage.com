@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 
 const PURCHASE_URL =
   "https://buy.polar.sh/polar_cl_nc0qTMzy8xpUjOSeFRhF1LzgmOjRfrCCSoJgE05GDii";
@@ -25,27 +24,60 @@ export const metadata: Metadata = {
   },
 };
 
-const FEATURES: { title: string; body: string }[] = [
+const FEATURES: { title: string; body: string; glyph: string }[] = [
   {
     title: "Always-on capture",
     body: "Screen, microphone, and system audio. Tiny ring buffer; nothing leaves your machine.",
+    glyph: "◐",
   },
   {
     title: "OCR + Whisper transcription",
     body: "Every word on your screen, every word you say or hear — indexed and searchable.",
+    glyph: "⟁",
   },
   {
     title: "Ask anything",
     body: "Local LLM answers questions across your captured memory. Daily digest, mood timeline, patterns.",
+    glyph: "✦",
   },
   {
     title: "Air-gap mode",
     body: "One toggle blocks all outbound traffic except license re-check. Verify in the network log.",
+    glyph: "◇",
   },
 ];
 
-const PRICE_POINTS: { label: string; body: string }[] = [
-  { label: "$49.99 one-time", body: "Lifetime license. No subscription. No renewals." },
+// Update captions below to match what each screenshot actually shows.
+const SCREENSHOTS: { n: string; caption: string; alt: string }[] = [
+  {
+    n: "01",
+    caption: "Capture · screen, mic, and system audio quietly indexed.",
+    alt: "LifeOS main capture view showing live indexing",
+  },
+  {
+    n: "02",
+    caption: "Ask · local LLM answers across your captured memory.",
+    alt: "LifeOS Ask interface — question and answer over captured snippets",
+  },
+  {
+    n: "03",
+    caption: "Timeline · scrub your day. Every frame, every word, every window.",
+    alt: "LifeOS timeline of captured memory entries",
+  },
+  {
+    n: "04",
+    caption: "Network log · every outbound byte, listed with timestamp.",
+    alt: "LifeOS Settings → Network log showing privacy verification",
+  },
+  {
+    n: "05",
+    caption: "Settings · license, storage, air-gap mode — all local.",
+    alt: "LifeOS Settings panel with license and storage controls",
+  },
+];
+
+const PRICE_POINTS: { label: string; body: string; featured?: boolean }[] = [
+  { label: "$49.99 one-time", body: "Lifetime license. No subscription. No renewals.", featured: true },
   { label: "2 devices", body: "Use on your laptop + desktop. Swap any time via Deactivate." },
   { label: "7-day free trial", body: "Full Pro features. No card. After trial, capture + AI lock until activated." },
   { label: "14-day offline grace", body: "App rechecks license every 7 days online; works fine offline for 2 weeks." },
@@ -55,88 +87,150 @@ export default function LifeOSPage() {
   return (
     <>
       {/* Hero */}
-      <section className="mx-auto max-w-[1200px] px-6 pt-16 pb-12 sm:px-8 sm:pt-24">
+      <section className="mx-auto max-w-[1200px] px-6 pt-20 pb-16 sm:px-8 sm:pt-28">
+        <div className="lifeos-hero-logo mb-8">
+          <img src="/lifeos/logo-256.png" alt="LifeOS logo" />
+        </div>
+
         <div
           className="hub-mono"
-          style={{ fontSize: 12, color: "var(--ink-muted)", textTransform: "uppercase" }}
+          style={{
+            fontSize: 11,
+            color: "var(--ink-muted)",
+            textTransform: "uppercase",
+            letterSpacing: "0.14em",
+          }}
         >
-          ↳ codeBage · LifeOS · Windows · local-first
+          ◦ Windows · local-first · 2026
         </div>
+
         <h1
-          className="hub-display"
           style={{
             fontFamily: "var(--font-fraunces), Georgia, serif",
-            fontSize: "clamp(40px, 6.4vw, 88px)",
+            fontSize: "clamp(44px, 7vw, 96px)",
             lineHeight: 0.98,
-            letterSpacing: "-0.025em",
-            margin: "16px 0 0",
+            letterSpacing: "-0.03em",
+            margin: "20px 0 0",
+            fontWeight: 400,
+            color: "var(--ink)",
           }}
         >
           Your second brain,
           <br />
-          <em>fully local.</em>
+          <em
+            style={{
+              backgroundImage:
+                "linear-gradient(135deg, #F59E0B 0%, #FCD34D 60%, #FBBF24 100%)",
+              WebkitBackgroundClip: "text",
+              backgroundClip: "text",
+              color: "transparent",
+              fontStyle: "italic",
+            }}
+          >
+            fully local.
+          </em>
         </h1>
+
         <p
           style={{
             color: "var(--ink-muted)",
-            fontSize: "clamp(15px, 1.1vw, 18px)",
-            margin: "24px 0 0",
-            maxWidth: 620,
-            lineHeight: 1.55,
+            fontSize: "clamp(16px, 1.15vw, 19px)",
+            margin: "28px 0 0",
+            maxWidth: 640,
+            lineHeight: 1.6,
           }}
         >
           LifeOS quietly captures your screen, mic, and system audio on Windows.
-          It OCRs every frame and transcribes every word — then lets you ask anything
-          across your own memory. Nothing leaves your PC. Pay once, use forever.
+          It OCRs every frame and transcribes every word — then lets you ask
+          anything across your own memory. Nothing leaves your PC. Pay once,
+          use forever.
         </p>
 
-        <div className="mt-9 flex flex-wrap items-center gap-3">
+        <div className="mt-10 flex flex-wrap items-center gap-3">
           <a
             href={PURCHASE_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-[color:var(--hub-accent)] px-6 py-3 text-[15px] font-medium text-white"
+            className="lifeos-btn-primary inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-[15px]"
           >
             Buy — $49.99 <span aria-hidden>→</span>
           </a>
           <a
             href="#download"
-            className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-6 py-3 text-[15px] font-medium hover:bg-[color:var(--chip-bg)]"
+            className="lifeos-btn-ghost inline-flex items-center gap-2 rounded-full px-6 py-3.5 text-[15px] font-medium"
           >
             Download trial
           </a>
-          <span className="hub-chip">
+          <span className="lifeos-chip">
             Windows 10/11 · ~180 MB · no account
           </span>
         </div>
       </section>
 
       {/* Features */}
-      <section className="mx-auto max-w-[1200px] px-6 py-20 sm:px-8">
-        <div className="mb-10 flex items-end justify-between gap-8">
-          <div>
-            <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
-              What it does
-            </div>
-            <h2
-              className="hub-display"
-              style={{ fontSize: "clamp(28px, 3.6vw, 44px)", marginTop: 6 }}
-            >
-              Capture. Transcribe. Recall.
-            </h2>
+      <section
+        id="features"
+        className="mx-auto max-w-[1200px] px-6 py-24 sm:px-8 scroll-mt-20"
+      >
+        <div className="mb-12">
+          <div
+            className="hub-mono"
+            style={{
+              fontSize: 11,
+              color: "var(--ink-muted)",
+              textTransform: "uppercase",
+              letterSpacing: "0.14em",
+            }}
+          >
+            ◦ What it does
           </div>
+          <h2
+            style={{
+              fontFamily: "var(--font-fraunces), Georgia, serif",
+              fontSize: "clamp(32px, 4vw, 52px)",
+              letterSpacing: "-0.025em",
+              marginTop: 8,
+              fontWeight: 400,
+              color: "var(--ink)",
+            }}
+          >
+            Capture. Transcribe. <em style={{ color: "var(--hub-accent)" }}>Recall.</em>
+          </h2>
         </div>
-        <div className="grid gap-6 sm:grid-cols-2">
+        <div className="grid gap-5 sm:grid-cols-2">
           {FEATURES.map((f) => (
-            <div
-              key={f.title}
-              className="rounded-2xl border border-[color:var(--line)] p-6"
-              style={{ background: "color-mix(in oklab, var(--paper) 96%, transparent)" }}
-            >
-              <h3 className="hub-display" style={{ fontSize: 20, margin: 0 }}>
+            <div key={f.title} className="lifeos-card p-7">
+              <div
+                style={{
+                  fontSize: 28,
+                  lineHeight: 1,
+                  color: "var(--hub-accent)",
+                  marginBottom: 14,
+                }}
+                aria-hidden
+              >
+                {f.glyph}
+              </div>
+              <h3
+                style={{
+                  fontFamily: "var(--font-fraunces), Georgia, serif",
+                  fontSize: 22,
+                  letterSpacing: "-0.01em",
+                  color: "var(--ink)",
+                  margin: 0,
+                  fontWeight: 500,
+                }}
+              >
                 {f.title}
               </h3>
-              <p style={{ marginTop: 10, color: "var(--ink-muted)", lineHeight: 1.6 }}>
+              <p
+                style={{
+                  marginTop: 10,
+                  color: "var(--ink-muted)",
+                  lineHeight: 1.65,
+                  fontSize: 15,
+                }}
+              >
                 {f.body}
               </p>
             </div>
@@ -144,43 +238,141 @@ export default function LifeOSPage() {
         </div>
       </section>
 
+      <div className="mx-auto max-w-[1200px] px-6 sm:px-8">
+        <div className="lifeos-divider" />
+      </div>
+
+      {/* Screenshots */}
+      <section
+        id="screenshots"
+        className="py-24 scroll-mt-20"
+      >
+        <div className="mx-auto max-w-[1200px] px-6 sm:px-8">
+          <div className="mb-12">
+            <div
+              className="hub-mono"
+              style={{
+                fontSize: 11,
+                color: "var(--ink-muted)",
+                textTransform: "uppercase",
+                letterSpacing: "0.14em",
+              }}
+            >
+              ◦ Inside the app
+            </div>
+            <h2
+              style={{
+                fontFamily: "var(--font-fraunces), Georgia, serif",
+                fontSize: "clamp(32px, 4vw, 52px)",
+                letterSpacing: "-0.025em",
+                marginTop: 8,
+                fontWeight: 400,
+                color: "var(--ink)",
+              }}
+            >
+              See it <em style={{ color: "var(--hub-accent)" }}>in action.</em>
+            </h2>
+          </div>
+        </div>
+
+        <div className="lifeos-shot-carousel">
+          {SCREENSHOTS.map((s) => (
+            <figure key={s.n} className="lifeos-shot">
+              <div className="lifeos-shot-frame">
+                <picture>
+                  <source
+                    srcSet={`/lifeos/screenshots/screenshot-${s.n}.webp`}
+                    type="image/webp"
+                  />
+                  <img
+                    src={`/lifeos/screenshots/screenshot-${s.n}.png`}
+                    alt={s.alt}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </picture>
+              </div>
+              <figcaption className="lifeos-shot-caption">
+                <span className="lifeos-shot-num">{s.n}</span>
+                {s.caption}
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </section>
+
+      <div className="mx-auto max-w-[1200px] px-6 sm:px-8">
+        <div className="lifeos-divider" />
+      </div>
+
       {/* Pricing */}
-      <section className="mx-auto max-w-[1200px] px-6 py-20 sm:px-8">
-        <div className="mb-10">
-          <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
-            Pricing
+      <section
+        id="pricing"
+        className="mx-auto max-w-[1200px] px-6 py-24 sm:px-8 scroll-mt-20"
+      >
+        <div className="mb-12">
+          <div
+            className="hub-mono"
+            style={{
+              fontSize: 11,
+              color: "var(--ink-muted)",
+              textTransform: "uppercase",
+              letterSpacing: "0.14em",
+            }}
+          >
+            ◦ Pricing
           </div>
           <h2
-            className="hub-display"
-            style={{ fontSize: "clamp(28px, 3.6vw, 44px)", marginTop: 6 }}
+            style={{
+              fontFamily: "var(--font-fraunces), Georgia, serif",
+              fontSize: "clamp(32px, 4vw, 52px)",
+              letterSpacing: "-0.025em",
+              marginTop: 8,
+              fontWeight: 400,
+              color: "var(--ink)",
+            }}
           >
-            One price. Forever.
+            One price. <em style={{ color: "var(--hub-accent)" }}>Forever.</em>
           </h2>
         </div>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {PRICE_POINTS.map((p) => (
             <div
               key={p.label}
-              className="rounded-2xl border border-[color:var(--line)] p-6"
+              className={p.featured ? "lifeos-card-accent p-7" : "lifeos-card p-7"}
             >
               <div
-                className="hub-display"
-                style={{ fontSize: 22, lineHeight: 1.1, margin: 0 }}
+                style={{
+                  fontFamily: "var(--font-fraunces), Georgia, serif",
+                  fontSize: 22,
+                  lineHeight: 1.15,
+                  letterSpacing: "-0.01em",
+                  margin: 0,
+                  color: p.featured ? "var(--hub-accent)" : "var(--ink)",
+                  fontWeight: 500,
+                }}
               >
                 {p.label}
               </div>
-              <p style={{ marginTop: 10, color: "var(--ink-muted)", lineHeight: 1.5, fontSize: 14 }}>
+              <p
+                style={{
+                  marginTop: 12,
+                  color: "var(--ink-muted)",
+                  lineHeight: 1.55,
+                  fontSize: 14,
+                }}
+              >
                 {p.body}
               </p>
             </div>
           ))}
         </div>
-        <div className="mt-10 flex flex-wrap items-center gap-3">
+        <div className="mt-12 flex flex-wrap items-center gap-4">
           <a
             href={PURCHASE_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-[color:var(--hub-accent)] px-6 py-3 text-[15px] font-medium text-white"
+            className="lifeos-btn-primary inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-[15px]"
           >
             Unlock LifeOS Pro — $49.99
           </a>
@@ -190,34 +382,70 @@ export default function LifeOSPage() {
         </div>
       </section>
 
+      <div className="mx-auto max-w-[1200px] px-6 sm:px-8">
+        <div className="lifeos-divider" />
+      </div>
+
       {/* Download */}
-      <section id="download" className="mx-auto max-w-[1200px] px-6 py-20 sm:px-8 scroll-mt-20">
-        <div className="mb-8">
-          <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
-            Download · 7-day free trial
+      <section
+        id="download"
+        className="mx-auto max-w-[1200px] px-6 py-24 sm:px-8 scroll-mt-20"
+      >
+        <div className="mb-10">
+          <div
+            className="hub-mono"
+            style={{
+              fontSize: 11,
+              color: "var(--ink-muted)",
+              textTransform: "uppercase",
+              letterSpacing: "0.14em",
+            }}
+          >
+            ◦ Download · 7-day free trial
           </div>
           <h2
-            className="hub-display"
-            style={{ fontSize: "clamp(28px, 3.6vw, 44px)", marginTop: 6 }}
+            style={{
+              fontFamily: "var(--font-fraunces), Georgia, serif",
+              fontSize: "clamp(32px, 4vw, 52px)",
+              letterSpacing: "-0.025em",
+              marginTop: 8,
+              fontWeight: 400,
+              color: "var(--ink)",
+            }}
           >
-            Get the installer.
+            Get the <em style={{ color: "var(--hub-accent)" }}>installer.</em>
           </h2>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-[1fr_320px]">
-          <div className="rounded-2xl border border-[color:var(--line)] p-6">
-            <div className="hub-display" style={{ fontSize: 22, margin: 0 }}>
+        <div className="grid gap-5 sm:grid-cols-[1fr_320px]">
+          <div className="lifeos-card p-7">
+            <div
+              style={{
+                fontFamily: "var(--font-fraunces), Georgia, serif",
+                fontSize: 24,
+                color: "var(--ink)",
+                margin: 0,
+                fontWeight: 500,
+              }}
+            >
               LifeOS for Windows
             </div>
-            <p style={{ marginTop: 10, color: "var(--ink-muted)", lineHeight: 1.6, fontSize: 14 }}>
+            <p
+              style={{
+                marginTop: 12,
+                color: "var(--ink-muted)",
+                lineHeight: 1.65,
+                fontSize: 15,
+              }}
+            >
               Trial unlocks all Pro features for 7 days. No card, no account.
-              After trial, capture &amp; AI lock until you activate a license — your
-              captured data stays accessible either way.
+              After trial, capture &amp; AI lock until you activate a license —
+              your captured data stays accessible either way.
             </p>
-            <div className="mt-6 flex flex-wrap items-center gap-3">
+            <div className="mt-7 flex flex-wrap items-center gap-3">
               <a
                 href={DOWNLOAD_URL}
-                className="inline-flex items-center gap-2 rounded-full bg-[color:var(--hub-accent)] px-6 py-3 text-[15px] font-medium text-white"
+                className="lifeos-btn-primary inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-[15px]"
               >
                 Download LifeOS-Setup.exe
               </a>
@@ -225,28 +453,35 @@ export default function LifeOSPage() {
                 href={RELEASES_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-5 py-3 text-[14px] font-medium hover:bg-[color:var(--chip-bg)]"
+                className="lifeos-btn-ghost inline-flex items-center gap-2 rounded-full px-5 py-3 text-[14px] font-medium"
               >
                 All releases ↗
               </a>
-              <span className="hub-chip">x64 · ~180 MB · signed</span>
+              <span className="lifeos-chip">x64 · ~180 MB · signed</span>
             </div>
             <div
               style={{
-                marginTop: 16,
+                marginTop: 18,
                 fontFamily: "var(--font-mono-stack)",
                 fontSize: 11,
-                color: "var(--ink-muted)",
-                wordBreak: "break-all",
+                color: "var(--ink-muted-2)",
               }}
             >
               SHA-256 + changelog published on the GitHub release page above.
             </div>
           </div>
 
-          <div className="rounded-2xl border border-[color:var(--line)] p-6">
-            <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
-              Requirements
+          <div className="lifeos-card p-7">
+            <div
+              className="hub-mono"
+              style={{
+                fontSize: 11,
+                color: "var(--ink-muted)",
+                textTransform: "uppercase",
+                letterSpacing: "0.14em",
+              }}
+            >
+              ◦ Requirements
             </div>
             <ul
               className="mt-3 list-disc pl-5 text-sm leading-relaxed"
@@ -261,51 +496,45 @@ export default function LifeOSPage() {
         </div>
       </section>
 
-      {/* How it stays private */}
-      <section className="mx-auto max-w-[1200px] px-6 py-20 sm:px-8">
-        <div
-          className="grid gap-12 py-14 md:grid-cols-[200px_1fr]"
-          style={{ borderTop: "1px solid var(--line)", borderBottom: "1px solid var(--line)" }}
-        >
-          <div className="hub-mono self-start text-[11px] uppercase text-[color:var(--ink-muted)]">
-            Privacy stance
-          </div>
-          <div>
-            <p
-              className="hub-display m-0"
-              style={{ fontSize: 24, lineHeight: 1.35, maxWidth: "44ch" }}
-            >
-              Capture data stays on your machine — in a SQLite file you can open,
-              delete, or wipe. The only outbound traffic is a license re-check
-              every 7 days, listed in <em>Settings → Network</em> with timestamp
-              and byte count.
-              <em style={{ color: "var(--hub-accent)" }}> No telemetry. No account.</em>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Footer-ish links */}
-      <section className="mx-auto max-w-[1200px] px-6 pb-20 sm:px-8">
-        <div className="flex flex-wrap gap-5 text-sm" style={{ color: "var(--ink-muted)" }}>
-          <a href="#download" className="hover:text-[color:var(--ink)]">
-            Download
-          </a>
-          <Link href="/lifeos/privacy/" className="hover:text-[color:var(--ink)]">
-            Privacy
-          </Link>
-          <Link href="/lifeos/terms/" className="hover:text-[color:var(--ink)]">
-            Terms
-          </Link>
-          <Link href="/support/" className="hover:text-[color:var(--ink)]">
-            Support
-          </Link>
-          <a
-            href="mailto:lifeos@thecodebage.com"
-            className="hover:text-[color:var(--ink)]"
+      {/* Privacy stance */}
+      <section className="mx-auto max-w-[1200px] px-6 pb-24 sm:px-8">
+        <div className="lifeos-card-accent p-10 sm:p-14">
+          <div
+            className="hub-mono"
+            style={{
+              fontSize: 11,
+              color: "var(--hub-accent)",
+              textTransform: "uppercase",
+              letterSpacing: "0.14em",
+            }}
           >
-            lifeos@thecodebage.com
-          </a>
+            ◦ Privacy stance
+          </div>
+          <p
+            style={{
+              fontFamily: "var(--font-fraunces), Georgia, serif",
+              fontSize: "clamp(20px, 2vw, 28px)",
+              lineHeight: 1.45,
+              maxWidth: "52ch",
+              marginTop: 14,
+              color: "var(--ink)",
+              fontWeight: 400,
+            }}
+          >
+            Capture data stays on your machine — in a SQLite file you can open,
+            delete, or wipe. The only outbound traffic is a license re-check
+            every 7 days, listed in <em style={{ color: "var(--hub-accent)" }}>Settings → Network</em> with timestamp and byte count.
+            <em
+              style={{
+                color: "var(--hub-accent)",
+                fontStyle: "italic",
+                display: "block",
+                marginTop: 12,
+              }}
+            >
+              No telemetry. No account. No cloud.
+            </em>
+          </p>
         </div>
       </section>
     </>
