@@ -21,11 +21,11 @@
     "video": null,
     "score": 4.54,
     "scoreText": "4.5",
-    "ratings": 58587,
+    "ratings": 58593,
     "reviews": 129,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
-    "maxInstalls": 1939581,
+    "maxInstalls": 1939867,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -47,12 +47,20 @@
     "features": [],
     "recentReviews": [
       {
-        "id": "5bd0c5d8-30c9-4851-a231-2c1ad53e3f21",
-        "userName": "Salar Khan",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJ0V97VSRiJHtNweiCl9ndA_EC2jB8j2UrLXe724yXlqrCC=mo",
-        "date": "2026-05-14T10:24:02.623Z",
+        "id": "e02319a0-98eb-42ff-8910-47f7d1f72c2f",
+        "userName": "Ali Shanawer",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXrjacFqcbA4B8Eqdu6hNGe4qwbD6DkH-CLJgYT0LIsRo89HvY",
+        "date": "2026-05-16T13:55:42.894Z",
         "score": 5,
-        "text": "TikTok for you 10k like 1m views"
+        "text": "nice app"
+      },
+      {
+        "id": "5cbef617-f0d2-4615-8b7e-6c9d2b7593cf",
+        "userName": "Kpk Boy",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJvggYHX2ypc7ifx6bxZkLd0Nav3lyI_g5b3QGUhOu5ESurAQ=mo",
+        "date": "2026-05-16T10:00:46.160Z",
+        "score": 5,
+        "text": "nicely"
       },
       {
         "id": "db10bf24-3a66-459a-a815-84e0765a7085",
@@ -133,14 +141,6 @@
         "date": "2026-04-02T10:39:03.730Z",
         "score": 5,
         "text": "FOR you TikTok option"
-      },
-      {
-        "id": "446edfb2-3882-48c5-9e0d-3fc7d6268b56",
-        "userName": "Saboor saboor Hassan1",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVh8xOWYIDg7dlgFGp01T1Wq9GuZFcI4RhgafuwGhdBrEaSRMty",
-        "date": "2026-04-02T09:19:49.270Z",
-        "score": 5,
-        "text": "perfect"
       }
     ]
   },
@@ -164,11 +164,11 @@
     "video": null,
     "score": 3.74,
     "scoreText": "3.7",
-    "ratings": 4294,
+    "ratings": 4310,
     "reviews": 113,
     "installs": "500,000+",
     "minInstalls": 500000,
-    "maxInstalls": 615840,
+    "maxInstalls": 616436,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -192,7 +192,7 @@
       {
         "id": "2d2bab31-b24a-4aa6-b8b1-d1fee77900f8",
         "userName": "Peter Baraka",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXAR_YPH70Hd81jx2LhqklugbwoFb0vz3TtTktiRxgrdBDMNF1lRw",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXE1GjoP0y3SiuOUB_nsS7koFW5dLwYwEKM0eN62Zmi-b-f3QQD3A",
         "date": "2026-05-08T08:53:38.235Z",
         "score": 4,
         "text": "prefect solution for campus comrades in Kenya 🇰🇪"
@@ -568,7 +568,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 2822,
+    "maxInstalls": 2951,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -631,7 +631,7 @@
     "reviews": 0,
     "installs": "500+",
     "minInstalls": 500,
-    "maxInstalls": 630,
+    "maxInstalls": 656,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -687,7 +687,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 364,
+    "maxInstalls": 373,
     "price": 0,
     "free": true,
     "currency": "USD",
