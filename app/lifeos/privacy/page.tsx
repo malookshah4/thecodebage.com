@@ -102,7 +102,6 @@ export default function LifeOSPrivacyPage() {
         <h2>5. Email contact</h2>
         <p>
           When you email{" "}
-          <a href="mailto:support@thecodebage.com">support@thecodebage.com</a> or{" "}
           <a href="mailto:support@thecodebage.com">support@thecodebage.com</a>,
           your message is forwarded by Cloudflare Email Routing to an inbox we
           monitor. We use the contents only to respond and to improve the
