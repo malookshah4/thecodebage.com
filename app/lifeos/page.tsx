@@ -153,7 +153,7 @@ export default function LifeOSPage() {
             rel="noopener noreferrer"
             className="lifeos-btn-primary inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-[15px]"
           >
-            Buy — $49.99 <span aria-hidden>→</span>
+            Buy license key
           </a>
           <a
             href="#download"
@@ -162,7 +162,7 @@ export default function LifeOSPage() {
             Download trial
           </a>
           <span className="lifeos-chip">
-            Windows 10/11 · ~180 MB · no account
+            $49.99 one-time · Windows 10/11 · no account
           </span>
         </div>
       </section>
@@ -374,7 +374,7 @@ export default function LifeOSPage() {
             rel="noopener noreferrer"
             className="lifeos-btn-primary inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-[15px]"
           >
-            Unlock LifeOS Pro — $49.99
+            Buy license key
           </a>
           <span style={{ color: "var(--ink-muted)", fontSize: 13 }}>
             Polar checkout · cards / Apple Pay / Google Pay · refund within 14 days

@@ -118,7 +118,7 @@ export const WINDOWS_APPS: AppEntry[] = [
     featured: true,
     free: false,
     paid: "$49.99 one-time",
-    iconUrl: "/lifeos/logo-256.png",
+    iconUrl: "/lifeos/icon-card.png",
     version: "0.1.0",
     updatedDate: "May 18, 2026",
     sizeMb: 180,
