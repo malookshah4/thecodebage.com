@@ -52,16 +52,16 @@ export default function LifeOSTermsPage() {
         <p>
           LifeOS includes a <strong>7-day free trial</strong> with all Pro
           features unlocked. No payment information is required to start the
-          trial. After the trial period ends, capture and AI features lock until
-          you activate a Pro license; data captured during the trial remains
+          trial. After the trial period ends, indexing and AI features lock until
+          you activate a Pro license; data indexed during the trial remains
           accessible.
         </p>
 
         <h2>3. Acceptable use</h2>
         <p>You agree not to:</p>
         <ul>
-          <li>Use LifeOS to capture screen or audio from devices you do not own or do not have explicit permission to record</li>
-          <li>Use LifeOS to capture content where local law requires consent from other parties you have not obtained consent from</li>
+          <li>Use LifeOS to index screen or audio on devices you do not own or do not have explicit permission to use</li>
+          <li>Use LifeOS to index content where local law requires consent from other parties you have not obtained consent from</li>
           <li>Reverse-engineer, decompile, or disassemble LifeOS, except where applicable law expressly permits it</li>
           <li>Resell, redistribute, sublicense, or commercially host LifeOS or any license key without written permission</li>
           <li>Bypass or attempt to bypass the license verification, device-limit, or update mechanisms</li>
@@ -78,18 +78,18 @@ export default function LifeOSTermsPage() {
           purchase, for any reason, by emailing{" "}
           <a href="mailto:support@thecodebage.com">support@thecodebage.com</a> with
           your Polar order ID. Upon refund, your license key is revoked and Pro
-          features lock on next re-check; your local captured data is not
+          features lock on next re-check; your local indexed data is not
           touched.
         </p>
 
-        <h2>5. Recording, consent, and your responsibility</h2>
+        <h2>5. Consent and your responsibility</h2>
         <p>
-          LifeOS captures audio and screen content on your machine at your
-          direction. <strong>You are solely responsible</strong> for complying
-          with all laws in your jurisdiction regarding recording consent,
-          workplace monitoring, employee privacy, and the rights of any third
-          parties whose voice or likeness may be captured. We provide the tool;
-          how you use it is on you.
+          LifeOS indexes audio and screen content on your own machine at your
+          direction, for your own personal recall. <strong>You are solely
+          responsible</strong> for complying with all laws in your jurisdiction
+          regarding consent of any third parties whose voice or likeness may be
+          incidentally indexed, employee privacy, and any applicable
+          workplace policies. We provide the tool; how you use it is on you.
         </p>
 
         <h2>6. Updates and feature changes</h2>
@@ -134,7 +134,7 @@ export default function LifeOSTermsPage() {
           claims, liabilities, damages, losses, and expenses (including reasonable
           attorneys&rsquo; fees) arising out of your misuse of LifeOS or
           violation of these Terms — including any claim arising from your
-          recording of third parties without lawful basis.
+          indexing of third parties without lawful basis.
         </p>
 
         <h2>11. Termination</h2>
@@ -143,7 +143,7 @@ export default function LifeOSTermsPage() {
           suspend or revoke your license at any time, with or without notice, if
           we reasonably believe you have violated these Terms or for security or
           legal reasons. Upon termination you must uninstall LifeOS; your local
-          captured data remains under your control.
+          indexed data remains under your control.
         </p>
 
         <h2>12. Changes to these Terms</h2>

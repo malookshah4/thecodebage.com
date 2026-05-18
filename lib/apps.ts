@@ -113,7 +113,7 @@ export const WINDOWS_APPS: AppEntry[] = [
     customPath: "https://lifeos.thecodebage.com/",
     title: "LifeOS",
     summary:
-      "Your second brain — fully local. Quietly captures your screen, mic, and audio, OCR + transcribes it, lets you ask anything across your memory.",
+      "Your second brain — fully local. Quietly indexes your own screen, voice, and audio, OCR + transcribes it, lets you ask anything across your memory.",
     accentTint: "indigo",
     featured: true,
     free: false,
@@ -126,9 +126,9 @@ export const WINDOWS_APPS: AppEntry[] = [
     downloadUrl:
       "https://github.com/malookshah4/LifeOS/releases/latest/download/LifeOS-Setup.exe",
     features: [
-      "Always-on capture — screen, mic, system audio",
+      "Always-on memory — screen, voice, system audio indexed locally",
       "OCR + Whisper transcription, fully on-device",
-      "Local LLM Q&A across your captured memory",
+      "Local LLM Q&A across your indexed memory",
       "Air-gap mode — one toggle blocks all outbound traffic",
       "SQLite store you can open, delete, or wipe",
       "7-day free trial, 14-day refund, 2-device license",

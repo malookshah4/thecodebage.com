@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "LifeOS — Privacy Policy",
   description:
-    "Privacy policy for the LifeOS Windows app. Capture data stays local; only outbound traffic is license re-check and optional version check.",
+    "Privacy policy for the LifeOS Windows app. Indexed data stays local on your PC; only outbound traffic is license re-check and optional version check.",
   alternates: { canonical: "https://lifeos.thecodebage.com/privacy/" },
 };
 
@@ -30,16 +30,16 @@ export default function LifeOSPrivacyPage() {
         <p>
           This policy describes how <strong>LifeOS</strong>, the Windows desktop
           app published by <strong>thecodebage</strong>, handles your information.
-          LifeOS is designed local-first: it captures, indexes, and answers questions
-          across your own screen, microphone, and system audio — entirely on your
-          PC.
+          LifeOS is designed local-first: it indexes and answers questions
+          across your own screen, voice, and system audio — entirely on your
+          PC. You control what is indexed; you can pause or wipe at any time.
         </p>
 
-        <h2>1. What LifeOS captures on your machine</h2>
-        <p>When you grant the relevant Windows permissions, LifeOS may capture:</p>
+        <h2>1. What LifeOS indexes on your machine</h2>
+        <p>When you grant the relevant Windows permissions, LifeOS may read and index, locally:</p>
         <ul>
-          <li>Screenshots of your display (used for OCR text extraction)</li>
-          <li>Microphone audio (used for Whisper transcription)</li>
+          <li>Frames of your own display (used for OCR text extraction)</li>
+          <li>Your microphone input (used for Whisper transcription)</li>
           <li>System / loopback audio (used for Whisper transcription)</li>
           <li>Active window title and process name (used for tagging memory snippets)</li>
         </ul>
@@ -103,9 +103,9 @@ export default function LifeOSPrivacyPage() {
         <p>
           When you email{" "}
           <a href="mailto:support@thecodebage.com">support@thecodebage.com</a>,
-          your message is forwarded by Cloudflare Email Routing to an inbox we
-          monitor. We use the contents only to respond and to improve the
-          product. We do not add your email to any marketing list.
+          your message is forwarded by Cloudflare Email Routing to a private
+          inbox we read. We use the contents only to respond and to improve
+          the product. We do not add your email to any marketing list.
         </p>
 
         <h2>6. Crash reports and telemetry</h2>

@@ -12,7 +12,7 @@ const RELEASES_URL = "https://github.com/malookshah4/LifeOS/releases";
 export const metadata: Metadata = {
   title: "LifeOS — Your second brain, fully local",
   description:
-    "Windows app that quietly captures your screen, mic, and system audio, OCR + transcribes it, and lets you ask anything across your memory. Local-first. $49.99 one-time, 7-day trial.",
+    "Windows productivity app that quietly indexes your screen, voice, and system audio, OCR + transcribes it, and lets you ask anything across your own memory. Local-first. $49.99 one-time, 7-day trial.",
   alternates: { canonical: "https://lifeos.thecodebage.com/" },
   openGraph: {
     type: "website",
@@ -20,14 +20,14 @@ export const metadata: Metadata = {
     siteName: "LifeOS",
     title: "LifeOS — Your second brain, fully local",
     description:
-      "Capture, transcribe, recall. Runs entirely on your PC. $49.99 one-time, 7-day trial.",
+      "Index, transcribe, recall. Runs entirely on your PC. $49.99 one-time, 7-day trial.",
   },
 };
 
 const FEATURES: { title: string; body: string; glyph: string }[] = [
   {
-    title: "Always-on capture",
-    body: "Screen, microphone, and system audio. Tiny ring buffer; nothing leaves your machine.",
+    title: "Always-on memory",
+    body: "Indexes your screen, voice, and system audio locally. Tiny ring buffer; nothing leaves your machine.",
     glyph: "◐",
   },
   {
@@ -37,7 +37,7 @@ const FEATURES: { title: string; body: string; glyph: string }[] = [
   },
   {
     title: "Ask anything",
-    body: "Local LLM answers questions across your captured memory. Daily digest, mood timeline, patterns.",
+    body: "Local LLM answers questions across your indexed memory. Daily digest, mood timeline, patterns.",
     glyph: "✦",
   },
   {
@@ -51,18 +51,18 @@ const FEATURES: { title: string; body: string; glyph: string }[] = [
 const SCREENSHOTS: { n: string; caption: string; alt: string }[] = [
   {
     n: "01",
-    caption: "Capture · screen, mic, and system audio quietly indexed.",
-    alt: "LifeOS main capture view showing live indexing",
+    caption: "Memory · screen, voice, and system audio quietly indexed.",
+    alt: "LifeOS main memory view showing live indexing",
   },
   {
     n: "02",
-    caption: "Ask · local LLM answers across your captured memory.",
-    alt: "LifeOS Ask interface — question and answer over captured snippets",
+    caption: "Ask · local LLM answers across your indexed memory.",
+    alt: "LifeOS Ask interface — question and answer over indexed snippets",
   },
   {
     n: "03",
     caption: "Timeline · scrub your day. Every frame, every word, every window.",
-    alt: "LifeOS timeline of captured memory entries",
+    alt: "LifeOS timeline of indexed memory entries",
   },
   {
     n: "04",
@@ -79,7 +79,7 @@ const SCREENSHOTS: { n: string; caption: string; alt: string }[] = [
 const PRICE_POINTS: { label: string; body: string; featured?: boolean }[] = [
   { label: "$49.99 one-time", body: "Lifetime license. No subscription. No renewals.", featured: true },
   { label: "2 devices", body: "Use on your laptop + desktop. Swap any time via Deactivate." },
-  { label: "7-day free trial", body: "Full Pro features. No card. After trial, capture + AI lock until activated." },
+  { label: "7-day free trial", body: "Full Pro features. No card. After trial, indexing + AI lock until activated." },
   { label: "14-day offline grace", body: "App rechecks license every 7 days online; works fine offline for 2 weeks." },
 ];
 
@@ -140,10 +140,10 @@ export default function LifeOSPage() {
             lineHeight: 1.6,
           }}
         >
-          LifeOS quietly captures your screen, mic, and system audio on Windows.
-          It OCRs every frame and transcribes every word — then lets you ask
-          anything across your own memory. Nothing leaves your PC. Pay once,
-          use forever.
+          LifeOS quietly indexes your own screen, voice, and system audio on
+          Windows. It OCRs every frame and transcribes every word — then lets
+          you ask anything across your own memory. Nothing leaves your PC.
+          Pay once, use forever.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center gap-3">
@@ -194,7 +194,7 @@ export default function LifeOSPage() {
               color: "var(--ink)",
             }}
           >
-            Capture. Transcribe. <em style={{ color: "var(--hub-accent)" }}>Recall.</em>
+            Index. Transcribe. <em style={{ color: "var(--hub-accent)" }}>Recall.</em>
           </h2>
         </div>
         <div className="grid gap-5 sm:grid-cols-2">
@@ -439,8 +439,8 @@ export default function LifeOSPage() {
               }}
             >
               Trial unlocks all Pro features for 7 days. No card, no account.
-              After trial, capture &amp; AI lock until you activate a license —
-              your captured data stays accessible either way.
+              After trial, indexing &amp; AI lock until you activate a license —
+              your indexed data stays accessible either way.
             </p>
             <div className="mt-7 flex flex-wrap items-center gap-3">
               <a
@@ -490,7 +490,7 @@ export default function LifeOSPage() {
               <li>Windows 10 (1903+) or Windows 11</li>
               <li>x64 CPU · 8 GB RAM recommended</li>
               <li>~2 GB free disk for index + bundled model</li>
-              <li>Microphone + screen-capture permission</li>
+              <li>Microphone + screen access permission</li>
             </ul>
           </div>
         </div>
@@ -521,7 +521,7 @@ export default function LifeOSPage() {
               fontWeight: 400,
             }}
           >
-            Capture data stays on your machine — in a SQLite file you can open,
+            Indexed data stays on your machine — in a SQLite file you can open,
             delete, or wipe. The only outbound traffic is a license re-check
             every 7 days, listed in <em style={{ color: "var(--hub-accent)" }}>Settings → Network</em> with timestamp and byte count.
             <em

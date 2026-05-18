@@ -30,7 +30,7 @@ export function LifeOSFooter() {
               </span>
             </Link>
             <p className="mt-4 max-w-[380px] text-[13px] leading-relaxed">
-              Your second brain — fully local. Capture, transcribe, recall.
+              Your second brain — fully local. Index, transcribe, recall.
               Runs entirely on your Windows PC. Made by{" "}
               <a
                 href="https://thecodebage.com"
