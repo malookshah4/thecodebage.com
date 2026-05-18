@@ -102,7 +102,7 @@ export default function LifeOSPrivacyPage() {
         <h2>5. Email contact</h2>
         <p>
           When you email{" "}
-          <a href="mailto:lifeos@thecodebage.com">lifeos@thecodebage.com</a> or{" "}
+          <a href="mailto:support@thecodebage.com">support@thecodebage.com</a> or{" "}
           <a href="mailto:support@thecodebage.com">support@thecodebage.com</a>,
           your message is forwarded by Cloudflare Email Routing to an inbox we
           monitor. We use the contents only to respond and to improve the
@@ -129,7 +129,7 @@ export default function LifeOSPrivacyPage() {
           control: open the SQLite file, export, delete, or wipe entirely. For data
           we do hold (license records on the Polar side, support emails on our
           side), contact us at{" "}
-          <a href="mailto:lifeos@thecodebage.com">lifeos@thecodebage.com</a> for
+          <a href="mailto:support@thecodebage.com">support@thecodebage.com</a> for
           access, correction, or deletion under GDPR / CCPA / equivalent law. We
           respond within 30 days.
         </p>
@@ -143,7 +143,7 @@ export default function LifeOSPrivacyPage() {
         <h2>10. Contact</h2>
         <p>
           Privacy questions:{" "}
-          <a href="mailto:lifeos@thecodebage.com">lifeos@thecodebage.com</a>.
+          <a href="mailto:support@thecodebage.com">support@thecodebage.com</a>.
         </p>
 
         <p className="mt-12 text-sm text-zinc-500">

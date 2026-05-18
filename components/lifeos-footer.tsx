@@ -85,7 +85,7 @@ export function LifeOSFooter() {
           }}
         >
           <span>© {new Date().getFullYear()} codeBage · LifeOS</span>
-          <span>lifeos@thecodebage.com</span>
+          <span>support@thecodebage.com</span>
         </div>
       </div>
     </footer>

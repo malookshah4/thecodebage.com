@@ -76,10 +76,10 @@ export default function ThanksPage() {
             No email after 10 minutes, or activation throws an error? Forward your Polar
             receipt to{" "}
             <a
-              href="mailto:lifeos@thecodebage.com"
+              href="mailto:support@thecodebage.com"
               className="text-primary underline underline-offset-2"
             >
-              lifeos@thecodebage.com
+              support@thecodebage.com
             </a>
             {" "}and I&rsquo;ll sort it out same day.
           </p>

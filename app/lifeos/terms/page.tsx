@@ -76,7 +76,7 @@ export default function LifeOSTermsPage() {
         <p>
           You may request a full refund within <strong>14 days</strong> of
           purchase, for any reason, by emailing{" "}
-          <a href="mailto:lifeos@thecodebage.com">lifeos@thecodebage.com</a> with
+          <a href="mailto:support@thecodebage.com">support@thecodebage.com</a> with
           your Polar order ID. Upon refund, your license key is revoked and Pro
           features lock on next re-check; your local captured data is not
           touched.
@@ -165,7 +165,7 @@ export default function LifeOSTermsPage() {
         <h2>14. Contact</h2>
         <p>
           Questions about these Terms?{" "}
-          <a href="mailto:lifeos@thecodebage.com">lifeos@thecodebage.com</a>.
+          <a href="mailto:support@thecodebage.com">support@thecodebage.com</a>.
         </p>
 
         <p className="mt-12 text-sm text-zinc-500">
