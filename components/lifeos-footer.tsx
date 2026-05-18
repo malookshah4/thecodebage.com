@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+const LIFEOS = "https://lifeos.thecodebage.com";
+
 export function LifeOSFooter() {
   return (
     <footer
@@ -13,7 +15,7 @@ export function LifeOSFooter() {
       <div className="mx-auto max-w-[1480px] px-6 sm:px-8">
         <div className="flex flex-wrap items-start justify-between gap-8">
           <div>
-            <Link href="/lifeos/" aria-label="LifeOS — home" className="inline-flex items-center gap-2.5">
+            <Link href={`${LIFEOS}/`} aria-label="LifeOS — home" className="inline-flex items-center gap-2.5">
               <img src="/lifeos/logo-64.png" alt="" width={28} height={28} className="h-7 w-7" />
               <span
                 style={{
@@ -43,19 +45,19 @@ export function LifeOSFooter() {
             </p>
           </div>
           <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
-            <Link href="/lifeos/#features" className="hover:text-[color:var(--ink)]">
+            <Link href={`${LIFEOS}/#features`} className="hover:text-[color:var(--ink)]">
               Features
             </Link>
-            <Link href="/lifeos/#pricing" className="hover:text-[color:var(--ink)]">
+            <Link href={`${LIFEOS}/#pricing`} className="hover:text-[color:var(--ink)]">
               Pricing
             </Link>
-            <Link href="/lifeos/#download" className="hover:text-[color:var(--ink)]">
+            <Link href={`${LIFEOS}/#download`} className="hover:text-[color:var(--ink)]">
               Download
             </Link>
-            <Link href="/lifeos/privacy/" className="hover:text-[color:var(--ink)]">
+            <Link href={`${LIFEOS}/privacy/`} className="hover:text-[color:var(--ink)]">
               Privacy
             </Link>
-            <Link href="/lifeos/terms/" className="hover:text-[color:var(--ink)]">
+            <Link href={`${LIFEOS}/terms/`} className="hover:text-[color:var(--ink)]">
               Terms
             </Link>
             <a

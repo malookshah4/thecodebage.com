@@ -1,15 +1,10 @@
-"use client";
-
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
 
 export function Footer() {
-  const pathname = usePathname();
-  if (pathname?.startsWith("/lifeos")) return null;
-
   return (
     <footer
+      data-codebage-chrome
       style={{
         borderTop: "1px solid var(--line)",
         padding: "56px 0 32px",

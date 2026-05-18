@@ -46,7 +46,7 @@ export default function ThanksPage() {
           </p>
           <div className="mt-5">
             <Link
-              href="/lifeos/#download"
+              href="https://lifeos.thecodebage.com/#download"
               className="inline-flex items-center gap-2 rounded-full bg-[color:var(--hub-accent)] px-6 py-3 text-[15px] font-medium text-white"
             >
               Download LifeOS for Windows
@@ -95,7 +95,7 @@ export default function ThanksPage() {
             Support &amp; FAQ ↗
           </a>
           <Link
-            href="/lifeos/"
+            href="https://lifeos.thecodebage.com/"
             className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-5 py-2.5 text-sm font-medium hover:bg-[color:var(--chip-bg)]"
           >
             Back to LifeOS

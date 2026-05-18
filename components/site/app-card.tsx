@@ -10,8 +10,22 @@ interface AppCardProps {
 
 export function AppCard({ app, featured = false }: AppCardProps) {
   const isAndroid = app.platform === "android";
+  const href = appHref(app);
+  const isExternal = /^https?:\/\//.test(href);
+  const className = `appcard${featured ? " featured" : ""}`;
+  const Wrapper = ({ children }: { children: React.ReactNode }) =>
+    isExternal ? (
+      <a href={href} target="_blank" rel="noopener noreferrer" className={className}>
+        {children}
+      </a>
+    ) : (
+      <Link href={href} className={className}>
+        {children}
+      </Link>
+    );
+
   return (
-    <Link href={appHref(app)} className={`appcard${featured ? " featured" : ""}`}>
+    <Wrapper>
       <div className="appcard-platform">
         <span className="hub-chip hub-chip-platform">
           {isAndroid ? "Android" : "Windows"}
@@ -66,6 +80,6 @@ export function AppCard({ app, featured = false }: AppCardProps) {
           </span>
         </span>
       </div>
-    </Link>
+    </Wrapper>
   );
 }

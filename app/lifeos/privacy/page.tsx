@@ -146,8 +146,8 @@ export default function LifeOSPrivacyPage() {
         </p>
 
         <p className="mt-12 text-sm text-zinc-500">
-          See also: <Link href="/lifeos/terms/">LifeOS Terms of Service</Link> ·{" "}
-          <Link href="/privacy/">Website-wide privacy policy</Link>.
+          See also: <Link href="https://lifeos.thecodebage.com/terms/">LifeOS Terms of Service</Link> ·{" "}
+          <Link href="https://thecodebage.com/privacy/">Website-wide privacy policy</Link>.
         </p>
       </div>
     </article>

@@ -169,7 +169,7 @@ export default function LifeOSTermsPage() {
         </p>
 
         <p className="mt-12 text-sm text-zinc-500">
-          See also: <Link href="/lifeos/privacy/">LifeOS Privacy Policy</Link>.
+          See also: <Link href="https://lifeos.thecodebage.com/privacy/">LifeOS Privacy Policy</Link>.
         </p>
       </div>
     </article>

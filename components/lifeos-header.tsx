@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+const LIFEOS = "https://lifeos.thecodebage.com";
+
 export function LifeOSHeader() {
   return (
     <header
@@ -13,7 +15,7 @@ export function LifeOSHeader() {
     >
       <div className="mx-auto flex h-14 max-w-[1480px] items-center justify-between gap-3 px-4 sm:h-16 sm:px-6 md:px-8">
         <Link
-          href="/lifeos/"
+          href={`${LIFEOS}/`}
           aria-label="LifeOS — home"
           className="flex shrink-0 items-center gap-2.5"
         >
@@ -31,9 +33,9 @@ export function LifeOSHeader() {
           </span>
         </Link>
         <nav className="flex items-center gap-0.5 text-[13px] sm:gap-1 sm:text-sm">
-          <NavLink href="/lifeos/#features">Features</NavLink>
-          <NavLink href="/lifeos/#pricing">Pricing</NavLink>
-          <NavLink href="/lifeos/#download">Download</NavLink>
+          <NavLink href={`${LIFEOS}/#features`}>Features</NavLink>
+          <NavLink href={`${LIFEOS}/#pricing`}>Pricing</NavLink>
+          <NavLink href={`${LIFEOS}/#download`}>Download</NavLink>
           <NavLink href="https://thecodebage.com" external>
             codeBage ↗
           </NavLink>
