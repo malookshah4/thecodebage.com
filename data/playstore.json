@@ -21,11 +21,11 @@
     "video": null,
     "score": 4.54,
     "scoreText": "4.5",
-    "ratings": 58600,
+    "ratings": 58609,
     "reviews": 129,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
-    "maxInstalls": 1940234,
+    "maxInstalls": 1940237,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -46,6 +46,22 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "078e768e-36ee-44c5-bac8-883d769bb086",
+        "userName": "Muhammad Wajid Lala",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUnw8Mt2Dh__EEMwFow3VLPTou0XP_SKZjlTIyOMh4V5rOrkzmE",
+        "date": "2026-05-18T20:49:50.289Z",
+        "score": 5,
+        "text": "for you 2026 optional"
+      },
+      {
+        "id": "bfcbbbd9-2710-4a23-ad1c-5fcbcbae42ff",
+        "userName": "Vivo Y11",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUtD3gZ0cfl9q8hEaNQ0Ax5kOZV1p126jRu1G8xDyFxpjy56Ys",
+        "date": "2026-05-18T07:16:48.114Z",
+        "score": 5,
+        "text": "for you option"
+      },
       {
         "id": "0ff9a265-175a-44ad-b3d7-c4e23458e17a",
         "userName": "Sher Nawab Khan",
@@ -125,22 +141,6 @@
         "date": "2026-04-12T12:14:41.335Z",
         "score": 5,
         "text": "Adil msd"
-      },
-      {
-        "id": "9a160599-cfa5-49c2-b885-7d7f4290d513",
-        "userName": "Hamid Rehman",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJOP0_S78_QT4mC08usdQDX6BjyXgHiZVC5Eh2oXFXQnHiKLQ=mo",
-        "date": "2026-04-06T07:58:14.800Z",
-        "score": 5,
-        "text": "Hamid Rehman804 very nice and very beautiful and Wazeristan"
-      },
-      {
-        "id": "4c6023f9-f8da-457a-ab85-68b7146a85c2",
-        "userName": "Rizwan Ali",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK2u5QB4U2rd-1QlycSKJ9HDDulO0yTXztBUwkK_UM7dZ1wOg=mo",
-        "date": "2026-04-03T19:53:57.466Z",
-        "score": 1,
-        "text": "for you ❣️"
       }
     ]
   },
@@ -164,11 +164,11 @@
     "video": null,
     "score": 3.74,
     "scoreText": "3.7",
-    "ratings": 4322,
+    "ratings": 4334,
     "reviews": 113,
     "installs": "500,000+",
     "minInstalls": 500000,
-    "maxInstalls": 616930,
+    "maxInstalls": 617332,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -314,7 +314,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1095,
+    "maxInstalls": 1100,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -568,7 +568,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 3185,
+    "maxInstalls": 3191,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -631,7 +631,7 @@
     "reviews": 0,
     "installs": "500+",
     "minInstalls": 500,
-    "maxInstalls": 685,
+    "maxInstalls": 697,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -639,10 +639,10 @@
     "genreId": "TOOLS",
     "contentRating": "Everyone",
     "released": "Feb 19, 2026",
-    "updated": 1777007857000,
-    "updatedDate": "Apr 24, 2026",
-    "version": "5.0.0",
-    "recentChanges": "GoViral AI v5.0.0 — AI-powered video creator toolkit!<br><br>• Upgraded AI engine to Gemini 2.5 Flash — faster, smarter analysis<br>• In-app updates so you never miss a new version<br>• Reliability &amp; performance improvements<br>",
+    "updated": 1779124290000,
+    "updatedDate": "May 18, 2026",
+    "version": "5.0.1",
+    "recentChanges": "What&#39;s new in 5.0.1<br><br>• Smart Cover Picker — AI picks your best thumbnail<br>• 7-Day Content Plan, saved between sessions<br>• Compare A/B with history<br>• Competitor Mode for TK URLs<br>• Hooks in 6 languages including Urdu<br>• Live Trend Radar + trend alerts<br>• Weekly plan reminders<br>• Refreshed UI and many fixes",
     "url": "https://play.google.com/store/apps/details?id=com.codebage.goviralai&hl=en&gl=us",
     "developer": "codeBage",
     "developerId": "codeBage",
@@ -659,7 +659,16 @@
       "Hook Generator — attention-grabbing opening lines",
       "Hashtag Generator — optimized hashtags for maximum reach"
     ],
-    "recentReviews": []
+    "recentReviews": [
+      {
+        "id": "e4a767d6-b81a-460b-8373-cbce0fedf28b",
+        "userName": "Kpk Boy",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJvggYHX2ypc7ifx6bxZkLd0Nav3lyI_g5b3QGUhOu5ESurAQ=mo",
+        "date": "2026-05-18T07:36:49.350Z",
+        "score": 5,
+        "text": "very nice"
+      }
+    ]
   },
   {
     "appId": "com.codebage.facereactionrecorder",
@@ -930,7 +939,7 @@
     "reviews": 0,
     "installs": "50+",
     "minInstalls": 50,
-    "maxInstalls": 89,
+    "maxInstalls": 91,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -987,7 +996,7 @@
     "reviews": 0,
     "installs": "10+",
     "minInstalls": 10,
-    "maxInstalls": 41,
+    "maxInstalls": 45,
     "price": 0,
     "free": true,
     "currency": "USD",
