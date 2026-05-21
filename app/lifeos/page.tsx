@@ -1,18 +1,16 @@
 import type { Metadata } from "next";
 
-const PURCHASE_URL =
-  "https://buy.polar.sh/polar_cl_nc0qTMzy8xpUjOSeFRhF1LzgmOjRfrCCSoJgE05GDii";
-
 // Always points at the latest GitHub Release asset.
 // Make sure the release uploads an asset literally named LifeOS-Setup.exe.
 const DOWNLOAD_URL =
   "https://github.com/malookshah4/LifeOS/releases/latest/download/LifeOS-Setup.exe";
 const RELEASES_URL = "https://github.com/malookshah4/LifeOS/releases";
+const SOURCE_URL = "https://github.com/malookshah4/LifeOS";
 
 export const metadata: Metadata = {
   title: "LifeOS — Your second brain, fully local",
   description:
-    "Windows productivity app that quietly indexes your screen, voice, and system audio, OCR + transcribes it, and lets you ask anything across your own memory. Local-first. $49.99 one-time, 7-day trial.",
+    "Free, local-first Windows app. Quietly indexes your screen, voice, and system audio, OCR + transcribes it, and lets you ask anything across your own memory. Open-source.",
   alternates: { canonical: "https://lifeos.thecodebage.com/" },
   openGraph: {
     type: "website",
@@ -20,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "LifeOS",
     title: "LifeOS — Your second brain, fully local",
     description:
-      "Index, transcribe, recall. Runs entirely on your PC. $49.99 one-time, 7-day trial.",
+      "Index, transcribe, recall. Free, local-first, open-source.",
   },
 };
 
@@ -42,12 +40,11 @@ const FEATURES: { title: string; body: string; glyph: string }[] = [
   },
   {
     title: "Air-gap mode",
-    body: "One toggle blocks all outbound traffic except license re-check. Verify in the network log.",
+    body: "One toggle blocks every outbound byte. Verify in the live network log.",
     glyph: "◇",
   },
 ];
 
-// Update captions below to match what each screenshot actually shows.
 const SCREENSHOTS: { n: string; caption: string; alt: string }[] = [
   {
     n: "01",
@@ -71,16 +68,16 @@ const SCREENSHOTS: { n: string; caption: string; alt: string }[] = [
   },
   {
     n: "05",
-    caption: "Settings · license, storage, air-gap mode — all local.",
-    alt: "LifeOS Settings panel with license and storage controls",
+    caption: "Settings · storage, air-gap mode, AI endpoint — all local.",
+    alt: "LifeOS Settings panel with storage and network controls",
   },
 ];
 
-const PRICE_POINTS: { label: string; body: string; featured?: boolean }[] = [
-  { label: "$49.99 one-time", body: "Lifetime license. No subscription. No renewals.", featured: true },
-  { label: "2 devices", body: "Use on your laptop + desktop. Swap any time via Deactivate." },
-  { label: "7-day free trial", body: "Full Pro features. No card. After trial, indexing + AI lock until activated." },
-  { label: "14-day offline grace", body: "App rechecks license every 7 days online; works fine offline for 2 weeks." },
+const VALUES: { label: string; body: string; featured?: boolean }[] = [
+  { label: "Free, forever", body: "No license. No trial. No account. Download and run.", featured: true },
+  { label: "Local-first", body: "Everything indexes and stays on your own PC. No cloud, no upload." },
+  { label: "Open source", body: "Full source on GitHub. The build that ships is the build you can read." },
+  { label: "No telemetry", body: "Zero analytics, zero phone-home. Air-gap mode kills every outbound byte." },
 ];
 
 export default function LifeOSPage() {
@@ -101,7 +98,7 @@ export default function LifeOSPage() {
             letterSpacing: "0.14em",
           }}
         >
-          ◦ Windows · local-first · 2026
+          ◦ Windows · local-first · open-source · 2026
         </div>
 
         <h1
@@ -142,27 +139,27 @@ export default function LifeOSPage() {
         >
           LifeOS quietly indexes your own screen, voice, and system audio on
           Windows. It OCRs every frame and transcribes every word — then lets
-          you ask anything across your own memory. Nothing leaves your PC.
-          Pay once, use forever.
+          you ask anything across your own memory. Free. Open-source. Nothing
+          leaves your PC.
         </p>
 
         <div className="mt-10 flex flex-wrap items-center gap-3">
           <a
-            href={PURCHASE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={DOWNLOAD_URL}
             className="lifeos-btn-primary inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-[15px]"
           >
-            Buy license key
+            Download free
           </a>
           <a
-            href="#download"
+            href={SOURCE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="lifeos-btn-ghost inline-flex items-center gap-2 rounded-full px-6 py-3.5 text-[15px] font-medium"
           >
-            Download trial
+            Source on GitHub ↗
           </a>
           <span className="lifeos-chip">
-            $49.99 one-time · Windows 10/11 · no account
+            Free · Windows 10/11 · no account
           </span>
         </div>
       </section>
@@ -305,9 +302,9 @@ export default function LifeOSPage() {
         <div className="lifeos-divider" />
       </div>
 
-      {/* Pricing */}
+      {/* Values (replaces pricing) */}
       <section
-        id="pricing"
+        id="values"
         className="mx-auto max-w-[1200px] px-6 py-24 sm:px-8 scroll-mt-20"
       >
         <div className="mb-12">
@@ -320,7 +317,7 @@ export default function LifeOSPage() {
               letterSpacing: "0.14em",
             }}
           >
-            ◦ Pricing
+            ◦ What you get
           </div>
           <h2
             style={{
@@ -332,11 +329,11 @@ export default function LifeOSPage() {
               color: "var(--ink)",
             }}
           >
-            One price. <em style={{ color: "var(--hub-accent)" }}>Forever.</em>
+            Free. <em style={{ color: "var(--hub-accent)" }}>Open. Yours.</em>
           </h2>
         </div>
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {PRICE_POINTS.map((p) => (
+          {VALUES.map((p) => (
             <div
               key={p.label}
               className={p.featured ? "lifeos-card-accent p-7" : "lifeos-card p-7"}
@@ -367,19 +364,6 @@ export default function LifeOSPage() {
             </div>
           ))}
         </div>
-        <div className="mt-12 flex flex-wrap items-center gap-4">
-          <a
-            href={PURCHASE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="lifeos-btn-primary inline-flex items-center gap-2 rounded-full px-7 py-3.5 text-[15px]"
-          >
-            Buy license key
-          </a>
-          <span style={{ color: "var(--ink-muted)", fontSize: 13 }}>
-            Polar checkout · cards / Apple Pay / Google Pay · refund within 14 days
-          </span>
-        </div>
       </section>
 
       <div className="mx-auto max-w-[1200px] px-6 sm:px-8">
@@ -401,7 +385,7 @@ export default function LifeOSPage() {
               letterSpacing: "0.14em",
             }}
           >
-            ◦ Download · 7-day free trial
+            ◦ Download · free
           </div>
           <h2
             style={{
@@ -438,9 +422,8 @@ export default function LifeOSPage() {
                 fontSize: 15,
               }}
             >
-              Trial unlocks all Pro features for 7 days. No card, no account.
-              After trial, indexing &amp; AI lock until you activate a license —
-              your indexed data stays accessible either way.
+              All features unlocked, forever. No license, no trial, no account.
+              Free and open-source.
             </p>
             <div className="mt-7 flex flex-wrap items-center gap-3">
               <a
@@ -522,8 +505,8 @@ export default function LifeOSPage() {
             }}
           >
             Indexed data stays on your machine — in a SQLite file you can open,
-            delete, or wipe. The only outbound traffic is a license re-check
-            every 7 days, listed in <em style={{ color: "var(--hub-accent)" }}>Settings → Network</em> with timestamp and byte count.
+            delete, or wipe. Zero mandatory outbound traffic. Every byte that
+            does leave (only if you point it at an LLM) is listed in <em style={{ color: "var(--hub-accent)" }}>Settings → Network</em> with timestamp and byte count.
             <em
               style={{
                 color: "var(--hub-accent)",

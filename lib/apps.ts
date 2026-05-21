@@ -113,14 +113,13 @@ export const WINDOWS_APPS: AppEntry[] = [
     customPath: "https://lifeos.thecodebage.com/",
     title: "LifeOS",
     summary:
-      "Your second brain — fully local. Quietly indexes your own screen, voice, and audio, OCR + transcribes it, lets you ask anything across your memory.",
+      "Your second brain — fully local. Quietly indexes your own screen, voice, and audio, OCR + transcribes it, lets you ask anything across your memory. Free + open-source.",
     accentTint: "indigo",
     featured: true,
-    free: false,
-    paid: "$49.99 one-time",
+    free: true,
     iconUrl: "/lifeos/icon-card.png",
     version: "0.1.0",
-    updatedDate: "May 18, 2026",
+    updatedDate: "May 21, 2026",
     sizeMb: 180,
     requirements: "Windows 10 (1903+) or Windows 11 · 64-bit",
     downloadUrl:
@@ -131,10 +130,10 @@ export const WINDOWS_APPS: AppEntry[] = [
       "Local LLM Q&A across your indexed memory",
       "Air-gap mode — one toggle blocks all outbound traffic",
       "SQLite store you can open, delete, or wipe",
-      "7-day free trial, 14-day refund, 2-device license",
+      "Free, no account, no telemetry, open-source on GitHub",
     ],
     recentChanges:
-      "0.1.0 — first public build. Trefoil knot identity, dark themed marketing site at lifeos.thecodebage.com. Polar checkout, license re-check every 7 days, 14-day offline grace.",
+      "0.1.0 — first public build. Trefoil knot identity, dark themed marketing site at lifeos.thecodebage.com. Free and open-source — no license, no trial, no phone-home.",
   },
   {
     slug: "remote-mouse-pro-server",

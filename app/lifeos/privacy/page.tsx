@@ -4,12 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "LifeOS — Privacy Policy",
   description:
-    "Privacy policy for the LifeOS Windows app. Indexed data stays local on your PC; only outbound traffic is license re-check and optional version check.",
+    "Privacy policy for the LifeOS Windows app. Free, local-first. Indexed data stays on your PC; no mandatory outbound traffic, no telemetry, no account.",
   alternates: { canonical: "https://lifeos.thecodebage.com/privacy/" },
 };
 
-const LAST_UPDATED = "May 17, 2026";
-const EFFECTIVE = "May 17, 2026";
+const LAST_UPDATED = "May 21, 2026";
+const EFFECTIVE = "May 21, 2026";
 
 export default function LifeOSPrivacyPage() {
   return (
@@ -28,11 +28,12 @@ export default function LifeOSPrivacyPage() {
 
       <div className="prose prose-zinc max-w-none text-zinc-700 [&_h2]:mt-12 [&_h2]:text-2xl [&_h2]:font-semibold [&_h2]:tracking-tight [&_h2]:text-zinc-900 [&_p]:mt-4 [&_p]:leading-relaxed [&_ul]:mt-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2 [&_li]:leading-relaxed [&_a]:text-primary [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:text-primary/80 [&_strong]:font-semibold [&_strong]:text-zinc-900">
         <p>
-          This policy describes how <strong>LifeOS</strong>, the Windows desktop
-          app published by <strong>thecodebage</strong>, handles your information.
-          LifeOS is designed local-first: it indexes and answers questions
-          across your own screen, voice, and system audio — entirely on your
-          PC. You control what is indexed; you can pause or wipe at any time.
+          This policy describes how <strong>LifeOS</strong>, the free,
+          open-source Windows desktop app published by <strong>thecodebage</strong>,
+          handles your information. LifeOS is designed local-first: it indexes
+          and answers questions across your own screen, voice, and system audio —
+          entirely on your PC. You control what is indexed; you can pause or
+          wipe at any time.
         </p>
 
         <h2>1. What LifeOS indexes on your machine</h2>
@@ -52,54 +53,32 @@ export default function LifeOSPrivacyPage() {
 
         <h2>2. What leaves your machine</h2>
         <p>
-          By default, LifeOS makes outbound network calls only to the following
-          endpoints. Every call is recorded in <em>Settings → Network</em> with
-          timestamp, host, and byte count so you can verify yourself.
+          <strong>Nothing, by default.</strong> LifeOS makes zero mandatory
+          outbound network calls. No license server, no update server, no
+          telemetry endpoint. Every call that does happen is recorded in{" "}
+          <em>Settings → Network</em> with timestamp, host, and byte count so
+          you can verify yourself.
         </p>
-        <ul>
-          <li>
-            <strong>License server</strong> (<span className="font-mono">api.polar.sh</span>) —
-            on activation, on re-validation every 7 days, and on deactivation. The
-            request includes a hashed machine identifier and your license key.
-          </li>
-          <li>
-            <strong>Update check</strong> (optional, <span className="font-mono">thecodebage.com</span>) —
-            sends only the app version number. Off by default; turn on in
-            <em> Settings → Updates</em>.
-          </li>
-          <li>
-            <strong>External AI endpoint</strong> (optional) — only if you
-            explicitly configure one (e.g., your own local Ollama or a remote
-            OpenAI-compatible URL) in <em>Settings → AI</em>. We never default to
-            any external AI service.
-          </li>
-        </ul>
+        <p>
+          The only outbound traffic LifeOS can make is to an{" "}
+          <strong>AI endpoint you explicitly configure</strong> (e.g., your own
+          local Ollama at <span className="font-mono">127.0.0.1</span>, or a remote
+          OpenAI-compatible URL) in <em>Settings → AI</em>. We never default to
+          any external AI service.
+        </p>
         <p>
           The <strong>Air-gap mode</strong> toggle (<em>Settings → Network</em>) blocks
-          everything except the license re-check, which remains allowed so that
-          license revocations propagate.
+          every outbound byte unconditionally.
         </p>
 
-        <h2>3. The hashed machine identifier</h2>
+        <h2>3. No account, no identifier</h2>
         <p>
-          To enforce the device limit on your license (default: 2 devices), LifeOS
-          sends a stable but privacy-preserving identifier to the license server.
-          We derive it as SHA-256 of your Windows MachineGuid plus an internal
-          salt, then truncate. We never send your raw MachineGuid, computer name,
-          MAC address, IP address, or any directly identifying hardware data.
+          LifeOS does not require an account, email address, or any signup. It
+          does not send a hardware identifier, machine ID, MAC address, or IP
+          address anywhere — because it does not phone home at all.
         </p>
 
-        <h2>4. Payment processing</h2>
-        <p>
-          Payments are processed by <strong>Polar Software Inc.</strong> (
-          <a href="https://polar.sh/legal/privacy">Polar privacy policy</a>).
-          When you purchase LifeOS Pro, your name, email, billing country, and
-          payment details are handled by Polar (and Polar&rsquo;s payment processor,
-          typically Stripe). We receive a notification of purchase and your
-          license key; we do not receive or store your card details.
-        </p>
-
-        <h2>5. Email contact</h2>
+        <h2>4. Email contact</h2>
         <p>
           When you email{" "}
           <a href="mailto:support@thecodebage.com">support@thecodebage.com</a>,
@@ -108,7 +87,7 @@ export default function LifeOSPrivacyPage() {
           the product. We do not add your email to any marketing list.
         </p>
 
-        <h2>6. Crash reports and telemetry</h2>
+        <h2>5. Crash reports and telemetry</h2>
         <p>
           LifeOS does <strong>not</strong> send crash reports, usage analytics,
           performance traces, or any kind of background telemetry. If you choose
@@ -116,30 +95,29 @@ export default function LifeOSPrivacyPage() {
           one-time.
         </p>
 
-        <h2>7. Children</h2>
+        <h2>6. Children</h2>
         <p>
           LifeOS is not directed to children under 13. We do not knowingly collect
           personal information from children.
         </p>
 
-        <h2>8. Your rights</h2>
+        <h2>7. Your rights</h2>
         <p>
           Because virtually all your data stays on your machine, you have direct
-          control: open the SQLite file, export, delete, or wipe entirely. For data
-          we do hold (license records on the Polar side, support emails on our
-          side), contact us at{" "}
+          control: open the SQLite file, export, delete, or wipe entirely. For
+          any data we do hold (support emails on our side), contact us at{" "}
           <a href="mailto:support@thecodebage.com">support@thecodebage.com</a> for
           access, correction, or deletion under GDPR / CCPA / equivalent law. We
           respond within 30 days.
         </p>
 
-        <h2>9. Changes to this policy</h2>
+        <h2>8. Changes to this policy</h2>
         <p>
           If we change this policy in a meaningful way, we will update the
           &ldquo;Last updated&rdquo; date and post the change on this page.
         </p>
 
-        <h2>10. Contact</h2>
+        <h2>9. Contact</h2>
         <p>
           Privacy questions:{" "}
           <a href="mailto:support@thecodebage.com">support@thecodebage.com</a>.

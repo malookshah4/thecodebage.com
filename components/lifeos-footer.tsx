@@ -48,9 +48,6 @@ export function LifeOSFooter() {
             <Link href={`${LIFEOS}/#features`} className="hover:text-[color:var(--ink)]">
               Features
             </Link>
-            <Link href={`${LIFEOS}/#pricing`} className="hover:text-[color:var(--ink)]">
-              Pricing
-            </Link>
             <Link href={`${LIFEOS}/#download`} className="hover:text-[color:var(--ink)]">
               Download
             </Link>

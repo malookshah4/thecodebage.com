@@ -34,8 +34,8 @@ export function LifeOSHeader() {
         </Link>
         <nav className="flex items-center gap-0.5 text-[13px] sm:gap-1 sm:text-sm">
           <NavLink href={`${LIFEOS}/#features`}>Features</NavLink>
-          <NavLink href={`${LIFEOS}/#pricing`}>Pricing</NavLink>
           <NavLink href={`${LIFEOS}/#download`}>Download</NavLink>
+          <NavLink href="https://github.com/malookshah4/LifeOS" external>GitHub ↗</NavLink>
           <NavLink href="https://thecodebage.com" external>
             codeBage ↗
           </NavLink>
