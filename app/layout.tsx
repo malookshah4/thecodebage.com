@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Geist, Instrument_Serif, JetBrains_Mono, Fraunces } from "next/font/google";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
@@ -81,12 +80,10 @@ export default function RootLayout({
       className={`${geist.variable} ${instrumentSerif.variable} ${jetbrainsMono.variable} ${fraunces.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Script
-          id="adsbygoogle-init"
+        <script
           async
-          strategy="afterInteractive"
-          crossOrigin="anonymous"
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8131498444237348"
+          crossOrigin="anonymous"
         />
         <Header />
         <main className="flex-1">{children}</main>
