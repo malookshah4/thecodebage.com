@@ -21,11 +21,11 @@
     "video": null,
     "score": 4.54,
     "scoreText": "4.5",
-    "ratings": 58658,
+    "ratings": 58664,
     "reviews": 129,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
-    "maxInstalls": 1941905,
+    "maxInstalls": 1942049,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -46,6 +46,30 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "5d252a5c-30dd-49b7-8f0d-3d1b6faaba80",
+        "userName": "Mughal nazeer 152",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUflRhVOdJ3jUYBAmC5aLa10DXhHOH6lubO3a75VsPPfjIpAi4",
+        "date": "2026-05-28T06:54:51.365Z",
+        "score": 2,
+        "text": "my like ba"
+      },
+      {
+        "id": "c305dce4-abaa-4ff3-b8e1-4c4491650f12",
+        "userName": "Shahaid Shahaid",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLxj_yrzW_drMcc7GKxivJN8dQvwRpajIsRkQsAzCfTdkI4EA=mo",
+        "date": "2026-05-28T05:16:55.920Z",
+        "score": 5,
+        "text": "Shahid zero"
+      },
+      {
+        "id": "4479648e-d861-4909-8fec-cbbddf0b4e02",
+        "userName": "Raju Chaudhary",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLVyseLLBN15gMhriFv5fVRd06cp_WiynksFDPAktRe0sDB_A=mo",
+        "date": "2026-05-27T15:47:23.993Z",
+        "score": 5,
+        "text": "Dear, respector i know this aap is 100% making for you also making to viral video thanks......."
+      },
       {
         "id": "b2b40eee-47e2-42fa-af5e-2d5909490438",
         "userName": "Rajzeeshon Rajapoot",
@@ -117,30 +141,6 @@
         "date": "2026-05-16T13:55:42.894Z",
         "score": 5,
         "text": "nice app"
-      },
-      {
-        "id": "5cbef617-f0d2-4615-8b7e-6c9d2b7593cf",
-        "userName": "Kpk Boy",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJvggYHX2ypc7ifx6bxZkLd0Nav3lyI_g5b3QGUhOu5ESurAQ=mo",
-        "date": "2026-05-16T10:00:46.160Z",
-        "score": 5,
-        "text": "nicely"
-      },
-      {
-        "id": "db10bf24-3a66-459a-a815-84e0765a7085",
-        "userName": "Naimat Ullah",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocItyx7UtZWVm4USDZoAEIaZQ7OlaMlAJ_wUzN2bgmSI_lchlQ=mo",
-        "date": "2026-05-14T04:49:44.765Z",
-        "score": 5,
-        "text": "good app"
-      },
-      {
-        "id": "0a0b73ae-895e-41d5-b00c-02946c68f3c4",
-        "userName": "Muhammad Faisal",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLjfBJdOJ6M4Meg4n8ThUyLVyzNIIe5PQ_Evo_hhZwzduCQ0A=mo",
-        "date": "2026-05-11T07:15:13.277Z",
-        "score": 3,
-        "text": "very well"
       }
     ]
   },
@@ -164,11 +164,11 @@
     "video": null,
     "score": 3.78,
     "scoreText": "3.8",
-    "ratings": 4436,
+    "ratings": 4449,
     "reviews": 113,
     "installs": "500,000+",
     "minInstalls": 500000,
-    "maxInstalls": 621499,
+    "maxInstalls": 621977,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "308ae9ad-b3b4-4a5d-8819-e7445cfee045",
+        "userName": "Fidel Katet bombe",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX9XMb_dOpphwFVX0vmMO8SaBBxST0d23CjzBYFAVwZQgwiKC8F",
+        "date": "2026-05-27T17:04:32.899Z",
+        "score": 5,
+        "text": "Effective"
+      },
       {
         "id": "fc86eee3-372f-4401-8852-7d1bb72efc7e",
         "userName": "Bernard Oligario",
@@ -276,14 +284,6 @@
         "date": "2026-04-02T06:50:18.309Z",
         "score": 5,
         "text": "I love the new look"
-      },
-      {
-        "id": "7c5928e1-b8fc-4d5e-ada3-d993470f0422",
-        "userName": "Habib",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXLHiyBXJ17njQkYYtN96Zk1XK_mQ4AOSFpznrb0OEFB6951vgq",
-        "date": "2026-03-25T17:41:03.731Z",
-        "score": 3,
-        "text": "SIM1 Or SIM2 Not Showing always SIM1"
       }
     ]
   },
@@ -314,7 +314,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1383,
+    "maxInstalls": 1445,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -344,6 +344,14 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
+      {
+        "id": "0ef9aded-37d7-47ed-bfba-32b617d52bc8",
+        "userName": "Solomon ukoh",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK8RN6TWexanhJTED89IT3F6Av6JHJyuTIY6_3J8YpmDHvBPw=mo",
+        "date": "2026-05-28T01:00:21.609Z",
+        "score": 1,
+        "text": "kindly upgrade It and look in to flipaclip and use some of there tools okay"
+      },
       {
         "id": "031fb1c5-2073-4974-9d66-421b11587699",
         "userName": "Cardinal Jay",
@@ -485,69 +493,6 @@
     ]
   },
   {
-    "appId": "com.codebage.fakehackercreen",
-    "slug": "hacker-screen-prank-app",
-    "title": "Hacker Screen - Prank App",
-    "summary": "Fake hacker simulator with realistic terminal animations. Prank your friends!",
-    "description": "Transform your phone into a realistic hacker terminal! Impress your friends with authentic-looking hacking animations and sound effects.\n\nFEATURES:\n- 8 built-in hack scenarios: Security Camera, Messenger, WiFi, Social Media, Phone Gallery, Vault System, Satellite Feed, Secret Database\n- Create your own custom hack types with custom commands and input fields\n- Realistic matrix rain background animation\n- Auto-scrolling terminal with color-coded commands\n- Set hack duration (30s, 1min, 2min, 5min)\n- Pick any photo or video from your gallery to reveal as the \"hacked\" result\n- Boot-up animation with proxy chain routing\n- Hacker sound effects and haptic feedback\n- Sound and vibration toggle in settings\n- Dark hacker theme with green terminal aesthetic\n- Works in portrait and landscape\n\nHOW TO USE:\n1. Choose a hack scenario or create your own\n2. Pick a photo/video that will be shown as the \"hacked\" result\n3. Set the hack duration\n4. Show your friends the realistic hacking animation\n5. When the timer ends - \"ACCESS GRANTED\" reveals your chosen media!\n\nPerfect for:\n- Pranking friends and family\n- Making fun TikTok & Instagram content\n- Movie night entertainment\n- Party games\n- Just looking cool!\n\nDISCLAIMER: This app is for ENTERTAINMENT purposes only. No real hacking, data interception, or unauthorized access is performed. All terminal commands, IP addresses, and outputs are completely FAKE and randomly generated. This app does not access any real networks, devices, or accounts.",
-    "descriptionHTML": "Transform your phone into a realistic hacker terminal! Impress your friends with authentic-looking hacking animations and sound effects.<br><br>FEATURES:<br>- 8 built-in hack scenarios: Security Camera, Messenger, WiFi, Social Media, Phone Gallery, Vault System, Satellite Feed, Secret Database<br>- Create your own custom hack types with custom commands and input fields<br>- Realistic matrix rain background animation<br>- Auto-scrolling terminal with color-coded commands<br>- Set hack duration (30s, 1min, 2min, 5min)<br>- Pick any photo or video from your gallery to reveal as the &quot;hacked&quot; result<br>- Boot-up animation with proxy chain routing<br>- Hacker sound effects and haptic feedback<br>- Sound and vibration toggle in settings<br>- Dark hacker theme with green terminal aesthetic<br>- Works in portrait and landscape<br><br>HOW TO USE:<br>1. Choose a hack scenario or create your own<br>2. Pick a photo/video that will be shown as the &quot;hacked&quot; result<br>3. Set the hack duration<br>4. Show your friends the realistic hacking animation<br>5. When the timer ends - &quot;ACCESS GRANTED&quot; reveals your chosen media!<br><br>Perfect for:<br>- Pranking friends and family<br>- Making fun TikTok &amp; Instagram content<br>- Movie night entertainment<br>- Party games<br>- Just looking cool!<br><br>DISCLAIMER: This app is for ENTERTAINMENT purposes only. No real hacking, data interception, or unauthorized access is performed. All terminal commands, IP addresses, and outputs are completely FAKE and randomly generated. This app does not access any real networks, devices, or accounts.",
-    "icon": "/apps/hacker-screen-prank-app/icon.jpg",
-    "iconRemote": "https://play-lh.googleusercontent.com/IFaVzloepQsf7GPiKlAlYa5-tZeGkxVzJrnlHT8npokzEFqF-0ACFcZSYmcESIpo5g0uh6Jui2A5X9KBQp4F7Q",
-    "headerImage": "/apps/hacker-screen-prank-app/header.jpg",
-    "screenshots": [
-      "/apps/hacker-screen-prank-app/screenshot-1.jpg",
-      "/apps/hacker-screen-prank-app/screenshot-2.jpg",
-      "/apps/hacker-screen-prank-app/screenshot-3.jpg",
-      "/apps/hacker-screen-prank-app/screenshot-4.jpg"
-    ],
-    "video": null,
-    "score": 0,
-    "scoreText": "0.0",
-    "ratings": 0,
-    "reviews": 0,
-    "installs": "1,000+",
-    "minInstalls": 1000,
-    "maxInstalls": 4132,
-    "price": 0,
-    "free": true,
-    "currency": "USD",
-    "genre": "Entertainment",
-    "genreId": "ENTERTAINMENT",
-    "contentRating": "Everyone",
-    "released": "Mar 19, 2026",
-    "updated": 1774262960000,
-    "updatedDate": "Mar 23, 2026",
-    "version": "1.0.1",
-    "recentChanges": "",
-    "url": "https://play.google.com/store/apps/details?id=com.codebage.fakehackercreen&hl=en&gl=us",
-    "developer": "codeBage",
-    "developerId": "codeBage",
-    "developerWebsite": "https://kf8ebaa43.app-ads-txt.com",
-    "developerEmail": "codewithhacker@gmail.com",
-    "privacyPolicy": "https://sites.google.com/view/hacker-screen-privacy-policy/home",
-    "androidVersion": "7.0",
-    "features": [
-      "built-in hack scenarios: Security Camera, Messenger, WiFi, Social Media, Phone Gallery, Vault System, Satellite Feed, Secret Database",
-      "Create your own custom hack types with custom commands and input fields",
-      "Realistic matrix rain background animation",
-      "Auto-scrolling terminal with color-coded commands",
-      "Set hack duration (30s, 1min, 2min, 5min)",
-      "Pick any photo or video from your gallery to reveal as the \"hacked\" result",
-      "Boot-up animation with proxy chain routing",
-      "Hacker sound effects and haptic feedback"
-    ],
-    "recentReviews": [
-      {
-        "id": "6828279a-e617-47fc-9bae-c3b56c09dc0b",
-        "userName": "Nelop Kloep",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLF110_fhaV_u8MThxP_EYxzh1Qeea7W6iRZb9nnGQ9kplkMg=mo",
-        "date": "2026-04-04T22:41:29.787Z",
-        "score": 5,
-        "text": "5 star: Ok I changed my attitude now, so I am sorry because I didn't know that they fixed it."
-      }
-    ]
-  },
-  {
     "appId": "com.codebage.nosave",
     "slug": "send-direct-message-w-o-saving",
     "title": "Send Direct Message w/o Saving",
@@ -610,6 +555,68 @@
     ]
   },
   {
+    "appId": "com.codebage.fakehackercreen",
+    "slug": "hacker-screen-prank-app",
+    "title": "Hacker Screen - Prank App",
+    "summary": "Fake hacker simulator with realistic terminal animations. Prank your friends!",
+    "description": "Transform your phone into a realistic hacker terminal! Impress your friends with authentic-looking hacking animations and sound effects.\n\nFEATURES:\n- 8 built-in hack scenarios: Security Camera, Messenger, WiFi, Social Media, Phone Gallery, Vault System, Satellite Feed, Secret Database\n- Create your own custom hack types with custom commands and input fields\n- Realistic matrix rain background animation\n- Auto-scrolling terminal with color-coded commands\n- Set hack duration (30s, 1min, 2min, 5min)\n- Pick any photo or video from your gallery to reveal as the \"hacked\" result\n- Boot-up animation with proxy chain routing\n- Hacker sound effects and haptic feedback\n- Sound and vibration toggle in settings\n- Dark hacker theme with green terminal aesthetic\n- Works in portrait and landscape\n\nHOW TO USE:\n1. Choose a hack scenario or create your own\n2. Pick a photo/video that will be shown as the \"hacked\" result\n3. Set the hack duration\n4. Show your friends the realistic hacking animation\n5. When the timer ends - \"ACCESS GRANTED\" reveals your chosen media!\n\nPerfect for:\n- Pranking friends and family\n- Making fun TikTok & Instagram content\n- Movie night entertainment\n- Party games\n- Just looking cool!\n\nDISCLAIMER: This app is for ENTERTAINMENT purposes only. No real hacking, data interception, or unauthorized access is performed. All terminal commands, IP addresses, and outputs are completely FAKE and randomly generated. This app does not access any real networks, devices, or accounts.",
+    "descriptionHTML": "Transform your phone into a realistic hacker terminal! Impress your friends with authentic-looking hacking animations and sound effects.<br><br>FEATURES:<br>- 8 built-in hack scenarios: Security Camera, Messenger, WiFi, Social Media, Phone Gallery, Vault System, Satellite Feed, Secret Database<br>- Create your own custom hack types with custom commands and input fields<br>- Realistic matrix rain background animation<br>- Auto-scrolling terminal with color-coded commands<br>- Set hack duration (30s, 1min, 2min, 5min)<br>- Pick any photo or video from your gallery to reveal as the &quot;hacked&quot; result<br>- Boot-up animation with proxy chain routing<br>- Hacker sound effects and haptic feedback<br>- Sound and vibration toggle in settings<br>- Dark hacker theme with green terminal aesthetic<br>- Works in portrait and landscape<br><br>HOW TO USE:<br>1. Choose a hack scenario or create your own<br>2. Pick a photo/video that will be shown as the &quot;hacked&quot; result<br>3. Set the hack duration<br>4. Show your friends the realistic hacking animation<br>5. When the timer ends - &quot;ACCESS GRANTED&quot; reveals your chosen media!<br><br>Perfect for:<br>- Pranking friends and family<br>- Making fun TikTok &amp; Instagram content<br>- Movie night entertainment<br>- Party games<br>- Just looking cool!<br><br>DISCLAIMER: This app is for ENTERTAINMENT purposes only. No real hacking, data interception, or unauthorized access is performed. All terminal commands, IP addresses, and outputs are completely FAKE and randomly generated. This app does not access any real networks, devices, or accounts.",
+    "icon": "/apps/hacker-screen-prank-app/icon.jpg",
+    "iconRemote": "https://play-lh.googleusercontent.com/IFaVzloepQsf7GPiKlAlYa5-tZeGkxVzJrnlHT8npokzEFqF-0ACFcZSYmcESIpo5g0uh6Jui2A5X9KBQp4F7Q",
+    "headerImage": "/apps/hacker-screen-prank-app/header.jpg",
+    "screenshots": [
+      "/apps/hacker-screen-prank-app/screenshot-1.jpg",
+      "/apps/hacker-screen-prank-app/screenshot-2.jpg",
+      "/apps/hacker-screen-prank-app/screenshot-3.jpg",
+      "/apps/hacker-screen-prank-app/screenshot-4.jpg"
+    ],
+    "video": null,
+    "score": 0,
+    "ratings": 0,
+    "reviews": 0,
+    "installs": "1,000+",
+    "minInstalls": 1000,
+    "maxInstalls": 4261,
+    "price": 0,
+    "free": true,
+    "currency": "USD",
+    "genre": "Entertainment",
+    "genreId": "ENTERTAINMENT",
+    "contentRating": "Everyone",
+    "released": "Mar 19, 2026",
+    "updated": 1774262960000,
+    "updatedDate": "Mar 23, 2026",
+    "version": "1.0.1",
+    "recentChanges": "",
+    "url": "https://play.google.com/store/apps/details?id=com.codebage.fakehackercreen&hl=en&gl=us",
+    "developer": "codeBage",
+    "developerId": "codeBage",
+    "developerWebsite": "https://kf8ebaa43.app-ads-txt.com",
+    "developerEmail": "codewithhacker@gmail.com",
+    "privacyPolicy": "https://sites.google.com/view/hacker-screen-privacy-policy/home",
+    "androidVersion": "7.0",
+    "features": [
+      "built-in hack scenarios: Security Camera, Messenger, WiFi, Social Media, Phone Gallery, Vault System, Satellite Feed, Secret Database",
+      "Create your own custom hack types with custom commands and input fields",
+      "Realistic matrix rain background animation",
+      "Auto-scrolling terminal with color-coded commands",
+      "Set hack duration (30s, 1min, 2min, 5min)",
+      "Pick any photo or video from your gallery to reveal as the \"hacked\" result",
+      "Boot-up animation with proxy chain routing",
+      "Hacker sound effects and haptic feedback"
+    ],
+    "recentReviews": [
+      {
+        "id": "6828279a-e617-47fc-9bae-c3b56c09dc0b",
+        "userName": "Nelop Kloep",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLF110_fhaV_u8MThxP_EYxzh1Qeea7W6iRZb9nnGQ9kplkMg=mo",
+        "date": "2026-04-04T22:41:29.787Z",
+        "score": 5,
+        "text": "5 star: Ok I changed my attitude now, so I am sorry because I didn't know that they fixed it."
+      }
+    ]
+  },
+  {
     "appId": "com.codebage.goviralai",
     "slug": "go-viral-ai-get-more-views",
     "title": "Go Viral AI - Get more views",
@@ -636,7 +643,7 @@
     "reviews": 0,
     "installs": "500+",
     "minInstalls": 500,
-    "maxInstalls": 859,
+    "maxInstalls": 884,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -791,7 +798,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 313,
+    "maxInstalls": 316,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -848,7 +855,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 356,
+    "maxInstalls": 357,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -903,7 +910,7 @@
     "reviews": 0,
     "installs": "50+",
     "minInstalls": 50,
-    "maxInstalls": 95,
+    "maxInstalls": 96,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -960,7 +967,7 @@
     "reviews": 0,
     "installs": "50+",
     "minInstalls": 50,
-    "maxInstalls": 69,
+    "maxInstalls": 71,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1017,7 +1024,7 @@
     "reviews": 0,
     "installs": "50+",
     "minInstalls": 50,
-    "maxInstalls": 70,
+    "maxInstalls": 79,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1071,7 +1078,7 @@
     "reviews": 0,
     "installs": "10+",
     "minInstalls": 10,
-    "maxInstalls": 15,
+    "maxInstalls": 18,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1128,7 +1135,7 @@
     "reviews": 0,
     "installs": "10+",
     "minInstalls": 10,
-    "maxInstalls": 33,
+    "maxInstalls": 35,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1183,7 +1190,7 @@
     "reviews": 0,
     "installs": "5+",
     "minInstalls": 5,
-    "maxInstalls": 6,
+    "maxInstalls": 8,
     "price": 0,
     "free": true,
     "currency": "USD",
