@@ -21,11 +21,11 @@
     "video": null,
     "score": 4.54,
     "scoreText": "4.5",
-    "ratings": 58664,
+    "ratings": 58669,
     "reviews": 129,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
-    "maxInstalls": 1942049,
+    "maxInstalls": 1942050,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -164,7 +164,7 @@
     "video": null,
     "score": 3.78,
     "scoreText": "3.8",
-    "ratings": 4449,
+    "ratings": 4460,
     "reviews": 113,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -189,6 +189,22 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "67254bdb-40c2-4953-8c3a-593433f031c0",
+        "userName": "Derick Nyarenchi",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKmW2xqyHCQZI4DjhEvboNYerLIr16bzn4458HLST3dvA2rKA=mo",
+        "date": "2026-05-28T15:10:25.680Z",
+        "score": 5,
+        "text": "Great"
+      },
+      {
+        "id": "74d088df-9195-4143-8f79-8dceaa9ef1b5",
+        "userName": "Kingvim 1",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKn46hIr0kCLNwK2D8D1IT8cUD9nCHobZ-cjGE6U1qbBOML-A=mo",
+        "date": "2026-05-28T07:43:44.212Z",
+        "score": 5,
+        "text": "this is the best"
+      },
       {
         "id": "308ae9ad-b3b4-4a5d-8819-e7445cfee045",
         "userName": "Fidel Katet bombe",
@@ -268,22 +284,6 @@
         "date": "2026-04-09T14:06:13.450Z",
         "score": 5,
         "text": "nice"
-      },
-      {
-        "id": "a0c5f8e7-b101-41f5-a023-a5177d99b8bc",
-        "userName": "Azad RØY",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLmPj-iL52FSG_ZVHCy1mZzE_MJvo0bQXxzocJ_1Z2z0kYYbJk=mo",
-        "date": "2026-04-05T07:31:26.870Z",
-        "score": 1,
-        "text": "worst application, not sending any message, waste of time"
-      },
-      {
-        "id": "00a20ef5-17b2-4a1c-8cd2-bc3b7cb61a2f",
-        "userName": "Cid Rate",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK8GPAcrjRQTaoF-jhtm3VcK--QZ6iMxBIPw5SAZdZnNEGY3Q=mo",
-        "date": "2026-04-02T06:50:18.309Z",
-        "score": 5,
-        "text": "I love the new look"
       }
     ]
   },
@@ -314,7 +314,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1445,
+    "maxInstalls": 1450,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -344,6 +344,22 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
+      {
+        "id": "57f239d2-27ef-42d6-b654-ee6aedae0cb6",
+        "userName": "zara eika",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV_nkE-c2YZnFDxtA7-p12s-5-IRn4a2hVLpRELmgXoMSfVGWg",
+        "date": "2026-05-28T17:46:01.630Z",
+        "score": 4,
+        "text": "this is very great app! but it's just a problem 1.small opinion for brush 2.no way you can do a gradient drawing 3.hard to panning and zooming 4.there no blending mode for layers 5.it's was hard to choose you layers.....That's all,hope this app improves🙏"
+      },
+      {
+        "id": "3eb16f3e-65b5-4625-8c65-4caa357369ac",
+        "userName": "Mohammad Kaiser Malik",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLdAUOXvGuX6lP_WuszhR2wIpvdBq9G99d8lFrCmmiFj4rxtA=mo",
+        "date": "2026-05-28T11:14:10.540Z",
+        "score": 3,
+        "text": "Mid but OK lvl"
+      },
       {
         "id": "0ef9aded-37d7-47ed-bfba-32b617d52bc8",
         "userName": "Solomon ukoh",
@@ -493,6 +509,68 @@
     ]
   },
   {
+    "appId": "com.codebage.fakehackercreen",
+    "slug": "hacker-screen-prank-app",
+    "title": "Hacker Screen - Prank App",
+    "summary": "Fake hacker simulator with realistic terminal animations. Prank your friends!",
+    "description": "Transform your phone into a realistic hacker terminal! Impress your friends with authentic-looking hacking animations and sound effects.\n\nFEATURES:\n- 8 built-in hack scenarios: Security Camera, Messenger, WiFi, Social Media, Phone Gallery, Vault System, Satellite Feed, Secret Database\n- Create your own custom hack types with custom commands and input fields\n- Realistic matrix rain background animation\n- Auto-scrolling terminal with color-coded commands\n- Set hack duration (30s, 1min, 2min, 5min)\n- Pick any photo or video from your gallery to reveal as the \"hacked\" result\n- Boot-up animation with proxy chain routing\n- Hacker sound effects and haptic feedback\n- Sound and vibration toggle in settings\n- Dark hacker theme with green terminal aesthetic\n- Works in portrait and landscape\n\nHOW TO USE:\n1. Choose a hack scenario or create your own\n2. Pick a photo/video that will be shown as the \"hacked\" result\n3. Set the hack duration\n4. Show your friends the realistic hacking animation\n5. When the timer ends - \"ACCESS GRANTED\" reveals your chosen media!\n\nPerfect for:\n- Pranking friends and family\n- Making fun TikTok & Instagram content\n- Movie night entertainment\n- Party games\n- Just looking cool!\n\nDISCLAIMER: This app is for ENTERTAINMENT purposes only. No real hacking, data interception, or unauthorized access is performed. All terminal commands, IP addresses, and outputs are completely FAKE and randomly generated. This app does not access any real networks, devices, or accounts.",
+    "descriptionHTML": "Transform your phone into a realistic hacker terminal! Impress your friends with authentic-looking hacking animations and sound effects.<br><br>FEATURES:<br>- 8 built-in hack scenarios: Security Camera, Messenger, WiFi, Social Media, Phone Gallery, Vault System, Satellite Feed, Secret Database<br>- Create your own custom hack types with custom commands and input fields<br>- Realistic matrix rain background animation<br>- Auto-scrolling terminal with color-coded commands<br>- Set hack duration (30s, 1min, 2min, 5min)<br>- Pick any photo or video from your gallery to reveal as the &quot;hacked&quot; result<br>- Boot-up animation with proxy chain routing<br>- Hacker sound effects and haptic feedback<br>- Sound and vibration toggle in settings<br>- Dark hacker theme with green terminal aesthetic<br>- Works in portrait and landscape<br><br>HOW TO USE:<br>1. Choose a hack scenario or create your own<br>2. Pick a photo/video that will be shown as the &quot;hacked&quot; result<br>3. Set the hack duration<br>4. Show your friends the realistic hacking animation<br>5. When the timer ends - &quot;ACCESS GRANTED&quot; reveals your chosen media!<br><br>Perfect for:<br>- Pranking friends and family<br>- Making fun TikTok &amp; Instagram content<br>- Movie night entertainment<br>- Party games<br>- Just looking cool!<br><br>DISCLAIMER: This app is for ENTERTAINMENT purposes only. No real hacking, data interception, or unauthorized access is performed. All terminal commands, IP addresses, and outputs are completely FAKE and randomly generated. This app does not access any real networks, devices, or accounts.",
+    "icon": "/apps/hacker-screen-prank-app/icon.jpg",
+    "iconRemote": "https://play-lh.googleusercontent.com/IFaVzloepQsf7GPiKlAlYa5-tZeGkxVzJrnlHT8npokzEFqF-0ACFcZSYmcESIpo5g0uh6Jui2A5X9KBQp4F7Q",
+    "headerImage": "/apps/hacker-screen-prank-app/header.jpg",
+    "screenshots": [
+      "/apps/hacker-screen-prank-app/screenshot-1.jpg",
+      "/apps/hacker-screen-prank-app/screenshot-2.jpg",
+      "/apps/hacker-screen-prank-app/screenshot-3.jpg",
+      "/apps/hacker-screen-prank-app/screenshot-4.jpg"
+    ],
+    "video": null,
+    "score": 0,
+    "ratings": 0,
+    "reviews": 0,
+    "installs": "1,000+",
+    "minInstalls": 1000,
+    "maxInstalls": 4266,
+    "price": 0,
+    "free": true,
+    "currency": "USD",
+    "genre": "Entertainment",
+    "genreId": "ENTERTAINMENT",
+    "contentRating": "Everyone",
+    "released": "Mar 19, 2026",
+    "updated": 1774262960000,
+    "updatedDate": "Mar 23, 2026",
+    "version": "1.0.1",
+    "recentChanges": "",
+    "url": "https://play.google.com/store/apps/details?id=com.codebage.fakehackercreen&hl=en&gl=us",
+    "developer": "codeBage",
+    "developerId": "codeBage",
+    "developerWebsite": "https://kf8ebaa43.app-ads-txt.com",
+    "developerEmail": "codewithhacker@gmail.com",
+    "privacyPolicy": "https://sites.google.com/view/hacker-screen-privacy-policy/home",
+    "androidVersion": "7.0",
+    "features": [
+      "built-in hack scenarios: Security Camera, Messenger, WiFi, Social Media, Phone Gallery, Vault System, Satellite Feed, Secret Database",
+      "Create your own custom hack types with custom commands and input fields",
+      "Realistic matrix rain background animation",
+      "Auto-scrolling terminal with color-coded commands",
+      "Set hack duration (30s, 1min, 2min, 5min)",
+      "Pick any photo or video from your gallery to reveal as the \"hacked\" result",
+      "Boot-up animation with proxy chain routing",
+      "Hacker sound effects and haptic feedback"
+    ],
+    "recentReviews": [
+      {
+        "id": "6828279a-e617-47fc-9bae-c3b56c09dc0b",
+        "userName": "Nelop Kloep",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLF110_fhaV_u8MThxP_EYxzh1Qeea7W6iRZb9nnGQ9kplkMg=mo",
+        "date": "2026-04-04T22:41:29.787Z",
+        "score": 5,
+        "text": "5 star: Ok I changed my attitude now, so I am sorry because I didn't know that they fixed it."
+      }
+    ]
+  },
+  {
     "appId": "com.codebage.nosave",
     "slug": "send-direct-message-w-o-saving",
     "title": "Send Direct Message w/o Saving",
@@ -551,68 +629,6 @@
         "date": "2023-03-07T12:40:51.390Z",
         "score": 5,
         "text": "Excellent application. Very easy to use."
-      }
-    ]
-  },
-  {
-    "appId": "com.codebage.fakehackercreen",
-    "slug": "hacker-screen-prank-app",
-    "title": "Hacker Screen - Prank App",
-    "summary": "Fake hacker simulator with realistic terminal animations. Prank your friends!",
-    "description": "Transform your phone into a realistic hacker terminal! Impress your friends with authentic-looking hacking animations and sound effects.\n\nFEATURES:\n- 8 built-in hack scenarios: Security Camera, Messenger, WiFi, Social Media, Phone Gallery, Vault System, Satellite Feed, Secret Database\n- Create your own custom hack types with custom commands and input fields\n- Realistic matrix rain background animation\n- Auto-scrolling terminal with color-coded commands\n- Set hack duration (30s, 1min, 2min, 5min)\n- Pick any photo or video from your gallery to reveal as the \"hacked\" result\n- Boot-up animation with proxy chain routing\n- Hacker sound effects and haptic feedback\n- Sound and vibration toggle in settings\n- Dark hacker theme with green terminal aesthetic\n- Works in portrait and landscape\n\nHOW TO USE:\n1. Choose a hack scenario or create your own\n2. Pick a photo/video that will be shown as the \"hacked\" result\n3. Set the hack duration\n4. Show your friends the realistic hacking animation\n5. When the timer ends - \"ACCESS GRANTED\" reveals your chosen media!\n\nPerfect for:\n- Pranking friends and family\n- Making fun TikTok & Instagram content\n- Movie night entertainment\n- Party games\n- Just looking cool!\n\nDISCLAIMER: This app is for ENTERTAINMENT purposes only. No real hacking, data interception, or unauthorized access is performed. All terminal commands, IP addresses, and outputs are completely FAKE and randomly generated. This app does not access any real networks, devices, or accounts.",
-    "descriptionHTML": "Transform your phone into a realistic hacker terminal! Impress your friends with authentic-looking hacking animations and sound effects.<br><br>FEATURES:<br>- 8 built-in hack scenarios: Security Camera, Messenger, WiFi, Social Media, Phone Gallery, Vault System, Satellite Feed, Secret Database<br>- Create your own custom hack types with custom commands and input fields<br>- Realistic matrix rain background animation<br>- Auto-scrolling terminal with color-coded commands<br>- Set hack duration (30s, 1min, 2min, 5min)<br>- Pick any photo or video from your gallery to reveal as the &quot;hacked&quot; result<br>- Boot-up animation with proxy chain routing<br>- Hacker sound effects and haptic feedback<br>- Sound and vibration toggle in settings<br>- Dark hacker theme with green terminal aesthetic<br>- Works in portrait and landscape<br><br>HOW TO USE:<br>1. Choose a hack scenario or create your own<br>2. Pick a photo/video that will be shown as the &quot;hacked&quot; result<br>3. Set the hack duration<br>4. Show your friends the realistic hacking animation<br>5. When the timer ends - &quot;ACCESS GRANTED&quot; reveals your chosen media!<br><br>Perfect for:<br>- Pranking friends and family<br>- Making fun TikTok &amp; Instagram content<br>- Movie night entertainment<br>- Party games<br>- Just looking cool!<br><br>DISCLAIMER: This app is for ENTERTAINMENT purposes only. No real hacking, data interception, or unauthorized access is performed. All terminal commands, IP addresses, and outputs are completely FAKE and randomly generated. This app does not access any real networks, devices, or accounts.",
-    "icon": "/apps/hacker-screen-prank-app/icon.jpg",
-    "iconRemote": "https://play-lh.googleusercontent.com/IFaVzloepQsf7GPiKlAlYa5-tZeGkxVzJrnlHT8npokzEFqF-0ACFcZSYmcESIpo5g0uh6Jui2A5X9KBQp4F7Q",
-    "headerImage": "/apps/hacker-screen-prank-app/header.jpg",
-    "screenshots": [
-      "/apps/hacker-screen-prank-app/screenshot-1.jpg",
-      "/apps/hacker-screen-prank-app/screenshot-2.jpg",
-      "/apps/hacker-screen-prank-app/screenshot-3.jpg",
-      "/apps/hacker-screen-prank-app/screenshot-4.jpg"
-    ],
-    "video": null,
-    "score": 0,
-    "ratings": 0,
-    "reviews": 0,
-    "installs": "1,000+",
-    "minInstalls": 1000,
-    "maxInstalls": 4261,
-    "price": 0,
-    "free": true,
-    "currency": "USD",
-    "genre": "Entertainment",
-    "genreId": "ENTERTAINMENT",
-    "contentRating": "Everyone",
-    "released": "Mar 19, 2026",
-    "updated": 1774262960000,
-    "updatedDate": "Mar 23, 2026",
-    "version": "1.0.1",
-    "recentChanges": "",
-    "url": "https://play.google.com/store/apps/details?id=com.codebage.fakehackercreen&hl=en&gl=us",
-    "developer": "codeBage",
-    "developerId": "codeBage",
-    "developerWebsite": "https://kf8ebaa43.app-ads-txt.com",
-    "developerEmail": "codewithhacker@gmail.com",
-    "privacyPolicy": "https://sites.google.com/view/hacker-screen-privacy-policy/home",
-    "androidVersion": "7.0",
-    "features": [
-      "built-in hack scenarios: Security Camera, Messenger, WiFi, Social Media, Phone Gallery, Vault System, Satellite Feed, Secret Database",
-      "Create your own custom hack types with custom commands and input fields",
-      "Realistic matrix rain background animation",
-      "Auto-scrolling terminal with color-coded commands",
-      "Set hack duration (30s, 1min, 2min, 5min)",
-      "Pick any photo or video from your gallery to reveal as the \"hacked\" result",
-      "Boot-up animation with proxy chain routing",
-      "Hacker sound effects and haptic feedback"
-    ],
-    "recentReviews": [
-      {
-        "id": "6828279a-e617-47fc-9bae-c3b56c09dc0b",
-        "userName": "Nelop Kloep",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLF110_fhaV_u8MThxP_EYxzh1Qeea7W6iRZb9nnGQ9kplkMg=mo",
-        "date": "2026-04-04T22:41:29.787Z",
-        "score": 5,
-        "text": "5 star: Ok I changed my attitude now, so I am sorry because I didn't know that they fixed it."
       }
     ]
   },
@@ -708,7 +724,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 432,
+    "maxInstalls": 439,
     "price": 0,
     "free": true,
     "currency": "USD",
