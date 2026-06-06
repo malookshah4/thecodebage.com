@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.54,
     "scoreText": "4.5",
-    "ratings": 58683,
+    "ratings": 58686,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,22 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "452bd44a-c454-4de4-a28d-f30f8c1ebebf",
+        "userName": "Ging khan King khan",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI0WtJ6LHx3oYqnk2zIsx87vgOdC0JlLvrsF8Zv6p_7Cmb0v-c=mo",
+        "date": "2026-06-05T02:52:32.325Z",
+        "score": 5,
+        "text": "imranwazir"
+      },
+      {
+        "id": "df958919-b81e-40cd-9cb8-5dc76db2e42f",
+        "userName": "ABRAR HUJANO",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLZlu1peBAzsXRuDgDNsHi0es8Q8l9Muw5L_RFL9OQX9CrYQA=mo",
+        "date": "2026-06-04T17:09:01.103Z",
+        "score": 5,
+        "text": "Ak"
+      },
       {
         "id": "b2cd8fcf-4318-452c-880f-bd7a5e3f2afd",
         "userName": "Princekumarsahani",
@@ -77,14 +93,6 @@
         "date": "2026-05-29T12:18:11.928Z",
         "score": 5,
         "text": "furyou"
-      },
-      {
-        "id": "34e88782-0f3e-41c2-b58f-12bba05d6c35",
-        "userName": "Kashif Ali",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKOFl_ketJMvatO7pW_lHNasGNbYiHZw6-Bk_MJu2j2bhBSlH4=mo",
-        "date": "2026-05-29T07:47:32.705Z",
-        "score": 5,
-        "text": "Malik Kashif Ali Glotar 202"
       },
       {
         "id": "5d252a5c-30dd-49b7-8f0d-3d1b6faaba80",
@@ -133,14 +141,6 @@
         "date": "2026-05-21T20:40:15.190Z",
         "score": 5,
         "text": "good"
-      },
-      {
-        "id": "727c730d-c4a1-4cf3-ae55-33c4a710e3c5",
-        "userName": "Usama Ch",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIR6c2m7CqBYyJ9vZZfws6OhN92T6FsqIujQ6jMv5rtZa4PZw=mo",
-        "date": "2026-05-21T19:36:23.339Z",
-        "score": 5,
-        "text": "very good performance"
       }
     ]
   },
@@ -164,11 +164,11 @@
     "video": null,
     "score": 3.78,
     "scoreText": "3.8",
-    "ratings": 4517,
+    "ratings": 4523,
     "reviews": 113,
     "installs": "500,000+",
     "minInstalls": 500000,
-    "maxInstalls": 625676,
+    "maxInstalls": 626337,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -384,7 +384,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1096,
+    "maxInstalls": 1132,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -450,7 +450,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1691,
+    "maxInstalls": 1733,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -822,7 +822,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 345,
+    "maxInstalls": 352,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -991,7 +991,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 105,
+    "maxInstalls": 106,
     "price": 0,
     "free": true,
     "currency": "USD",
