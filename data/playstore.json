@@ -21,11 +21,11 @@
     "video": null,
     "score": 4.54,
     "scoreText": "4.5",
-    "ratings": 58697,
+    "ratings": 58707,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
-    "maxInstalls": 1943694,
+    "maxInstalls": 1944126,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -46,6 +46,30 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "b98b947c-1083-426b-aef4-9f1f3161d6e7",
+        "userName": "Amanullah Amanullah",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVhnqeEhh_8qSZrLaOd38xybGpE8ToQIJIT7eRlXA8PDb-f0cxEaA",
+        "date": "2026-06-07T07:05:10.694Z",
+        "score": 5,
+        "text": "Awais"
+      },
+      {
+        "id": "f9872f48-75d5-49bf-b513-db4bbd1d5d5b",
+        "userName": "Shakeeljunejo Shakeeljunejo",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIttd_G2IFgA2Rko7G6x_W5OEvDmLaQg18PwPoWrcUSGW0z6g=mo",
+        "date": "2026-06-07T01:28:04.461Z",
+        "score": 5,
+        "text": "shakeeljunejo 47"
+      },
+      {
+        "id": "1cba04c2-0303-402d-905f-ec1c11c2cf29",
+        "userName": "Sameer Lala",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLLAAVtOFjuDx5qdTU_-d8S2x0MGAs-o_SskioQz7EAkgcAYA=mo",
+        "date": "2026-06-06T21:16:08.431Z",
+        "score": 5,
+        "text": "bast app For You app like this"
+      },
       {
         "id": "49cd5973-b374-424b-ae7a-9509d2a20c32",
         "userName": "Sunil Sunar",
@@ -117,30 +141,6 @@
         "date": "2026-05-29T12:18:11.928Z",
         "score": 5,
         "text": "furyou"
-      },
-      {
-        "id": "5d252a5c-30dd-49b7-8f0d-3d1b6faaba80",
-        "userName": "Mughal nazeer 152",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUflRhVOdJ3jUYBAmC5aLa10DXhHOH6lubO3a75VsPPfjIpAi4",
-        "date": "2026-05-28T06:54:51.365Z",
-        "score": 2,
-        "text": "my like ba"
-      },
-      {
-        "id": "c305dce4-abaa-4ff3-b8e1-4c4491650f12",
-        "userName": "Shahaid Shahaid",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLxj_yrzW_drMcc7GKxivJN8dQvwRpajIsRkQsAzCfTdkI4EA=mo",
-        "date": "2026-05-28T05:16:55.920Z",
-        "score": 5,
-        "text": "Shahid zero"
-      },
-      {
-        "id": "b2b40eee-47e2-42fa-af5e-2d5909490438",
-        "userName": "Rajzeeshon Rajapoot",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJDuEFBhSGkOg0YmNakdIPp4tT7VcwvRma9ZbnQzNSvlsPHQw=mo",
-        "date": "2026-05-26T19:23:58.227Z",
-        "score": 5,
-        "text": "zeeshonrajapuut"
       }
     ]
   },
@@ -164,11 +164,11 @@
     "video": null,
     "score": 3.79,
     "scoreText": "3.8",
-    "ratings": 4536,
+    "ratings": 4547,
     "reviews": 113,
     "installs": "500,000+",
     "minInstalls": 500000,
-    "maxInstalls": 626337,
+    "maxInstalls": 627553,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "993ccbe5-cf1f-4679-b5c3-57d661757921",
+        "userName": "Evalyne Wanja",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWrWEBrdnyUN4XROsD4pLM6YW2cJlJIzIHEbxBDT7Q1l2_AQQr9",
+        "date": "2026-06-06T16:56:30.314Z",
+        "score": 5,
+        "text": "best"
+      },
       {
         "id": "67254bdb-40c2-4953-8c3a-593433f031c0",
         "userName": "Derick Nyarenchi",
@@ -276,14 +284,6 @@
         "date": "2026-04-09T16:58:08.446Z",
         "score": 1,
         "text": "very bad"
-      },
-      {
-        "id": "86b0ae91-1889-4bac-a576-fadc9bbd837b",
-        "userName": "Md Mdkhan",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKqcbWFXVqXV7LN8v-AmTxtigk9Bh-SeNsx5st_Gkc9YLsd=mo",
-        "date": "2026-04-09T14:06:13.450Z",
-        "score": 5,
-        "text": "nice"
       }
     ]
   },
@@ -305,11 +305,12 @@
     ],
     "video": null,
     "score": 0,
+    "scoreText": "0.0",
     "ratings": 0,
     "reviews": 0,
     "installs": "5,000+",
     "minInstalls": 5000,
-    "maxInstalls": 5324,
+    "maxInstalls": 5645,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -339,6 +340,14 @@
       "Hacker sound effects and haptic feedback"
     ],
     "recentReviews": [
+      {
+        "id": "cfd01c91-86a5-4747-829b-73c44b216288",
+        "userName": "Keshun",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV4TAyB-Xw-yWcD30vQEJcZt_R3tF1U2qDya-PUz4Y7qjN7xRp-",
+        "date": "2026-06-06T22:37:07.641Z",
+        "score": 3,
+        "text": "honestly I don't think you would be hacking into stuff I thought it would be similar to have something to do with root not hacking into security cameras honestly that sounds like something you would do in some sort of action cartoon movie"
+      },
       {
         "id": "8b14d4cb-f9c2-4ee4-9f52-0f9073bb334e",
         "userName": "LeBron James",
@@ -384,7 +393,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1132,
+    "maxInstalls": 1197,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -450,7 +459,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1766,
+    "maxInstalls": 1802,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -480,14 +489,6 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
-      {
-        "id": "57f239d2-27ef-42d6-b654-ee6aedae0cb6",
-        "userName": "zara eika",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV_nkE-c2YZnFDxtA7-p12s-5-IRn4a2hVLpRELmgXoMSfVGWg",
-        "date": "2026-05-31T02:25:29.920Z",
-        "score": 4,
-        "text": "this is very great app! but it's just a problem 1.small opinion for brush 2.no way you can do a gradient drawing 3.hard to panning and zooming 4.there no blending mode for layers 5.it's was hard to choose you layers 6. there also don't have two fingers tap undo.....That's all,hope this app improves🙏"
-      },
       {
         "id": "3eb16f3e-65b5-4625-8c65-4caa357369ac",
         "userName": "Mohammad Kaiser Malik",
@@ -667,7 +668,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1417,
+    "maxInstalls": 1420,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -730,9 +731,9 @@
     "scoreText": "0.0",
     "ratings": 0,
     "reviews": 0,
-    "installs": "100+",
-    "minInstalls": 100,
-    "maxInstalls": 491,
+    "installs": "500+",
+    "minInstalls": 500,
+    "maxInstalls": 506,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -822,7 +823,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 352,
+    "maxInstalls": 359,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -993,7 +994,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 118,
+    "maxInstalls": 119,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1048,7 +1049,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 106,
+    "maxInstalls": 108,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1105,7 +1106,7 @@
     "reviews": 0,
     "installs": "50+",
     "minInstalls": 50,
-    "maxInstalls": 75,
+    "maxInstalls": 76,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1159,7 +1160,7 @@
     "reviews": 0,
     "installs": "10+",
     "minInstalls": 10,
-    "maxInstalls": 19,
+    "maxInstalls": 20,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1212,9 +1213,9 @@
     "score": 0,
     "ratings": 0,
     "reviews": 0,
-    "installs": "5+",
-    "minInstalls": 5,
-    "maxInstalls": 9,
+    "installs": "10+",
+    "minInstalls": 10,
+    "maxInstalls": 11,
     "price": 0,
     "free": true,
     "currency": "USD",
