@@ -2,15 +2,12 @@
 
 import { useState, type FormEvent } from "react";
 
-const APPS = [
-  "Remote Mouse Pro",
-  "LifeOS",
-  "Real or AI",
-  "Other / not listed",
-];
+interface DeletionFormProps {
+  apps: string[];
+}
 
-export function DeletionForm() {
-  const [app, setApp] = useState(APPS[0]);
+export function DeletionForm({ apps }: DeletionFormProps) {
+  const [app, setApp] = useState(apps[0]);
   const [email, setEmail] = useState("");
   const [accountId, setAccountId] = useState("");
   const [reason, setReason] = useState("");
@@ -61,7 +58,7 @@ export function DeletionForm() {
           className={inputCls}
           required
         >
-          {APPS.map((a) => (
+          {apps.map((a) => (
             <option key={a} value={a}>
               {a}
             </option>
