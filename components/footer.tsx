@@ -42,6 +42,9 @@ export function Footer() {
             <Link href="/support/" className="hover:text-[color:var(--ink)]">
               Support
             </Link>
+            <Link href="/account-deletion/" className="hover:text-[color:var(--ink)]">
+              Account deletion
+            </Link>
             <a
               href="https://github.com/malookshah4"
               target="_blank"
