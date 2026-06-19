@@ -145,13 +145,13 @@ export const WINDOWS_APPS: AppEntry[] = [
     accentTint: "amber",
     featured: true,
     free: true,
-    version: "0.2.0",
-    updatedDate: "May 15, 2026",
-    sizeMb: 7.21,
-    sha256: "b04682347e0e038c280213df11e1f064b9be3700fe2c614b36317a889331e6dc",
+    version: "0.2.1",
+    updatedDate: "Jun 19, 2026",
+    sizeMb: 8.53,
+    sha256: "736247f83c734fb200131afc14ab70fb21f280967438388c25e838a3ce0e553f",
     requirements: "Windows 10 or later · 64-bit",
     downloadUrl:
-      "https://github.com/malookshah4/remotmouse/releases/download/v0.2.0/RemotMouseSetup.exe",
+      "https://github.com/malookshah4/remotmouse/releases/latest/download/RemotMouseSetup.exe",
     features: [
       "Tray-resident server, near-zero CPU at idle",
       "First-run companion window with Play Store QR + live pair-PIN",
