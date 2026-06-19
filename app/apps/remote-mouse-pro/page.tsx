@@ -136,7 +136,7 @@ export default function RemoteMouseProPage() {
               Chrome may scan the file â€” we&rsquo;re not code-signed yet. Click
               <strong> More info â†’ Run anyway</strong> on the Windows dialog. The
               installer is the exact file linked above from the GitHub release â€”
-              SHA-256 starts with <code className="rounded bg-amber-100 px-1">b0468234â€¦</code>.
+              SHA-256 starts with <code className="rounded bg-amber-100 px-1">736247f8â€¦</code>.
             </div>
           </div>
 
