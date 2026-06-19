@@ -241,7 +241,7 @@ export default function RemoteMouseProPage() {
                 Download Windows server
               </a>
               <span className="self-center text-xs text-zinc-500">
-                Windows 10 / 11 Â· 64-bit Â· ~7.2 MB
+                Windows 10 / 11 Â· 64-bit Â· ~8.5 MB
               </span>
             </div>
           </div>
