@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.54,
     "scoreText": "4.5",
-    "ratings": 58777,
+    "ratings": 58781,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,14 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "1b1b534b-c6bb-426f-ab86-55bdab3c06e0",
+        "userName": "Nawal Kumar",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU4kgYU089Phq70S9cSsSx804bfezfgNgvU7_8lGn2Sl8G1M5L2",
+        "date": "2026-06-22T17:27:57.920Z",
+        "score": 3,
+        "text": "nawalkamr"
+      },
       {
         "id": "e4dc85c1-918d-443d-8eea-18b406b7be08",
         "userName": "zeeshan ahmed",
@@ -127,14 +135,6 @@
         "text": "furyou"
       },
       {
-        "id": "5d252a5c-30dd-49b7-8f0d-3d1b6faaba80",
-        "userName": "Mughal nazeer 152",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUflRhVOdJ3jUYBAmC5aLa10DXhHOH6lubO3a75VsPPfjIpAi4",
-        "date": "2026-05-28T06:54:51.365Z",
-        "score": 2,
-        "text": "my like ba"
-      },
-      {
         "id": "c305dce4-abaa-4ff3-b8e1-4c4491650f12",
         "userName": "Shahaid Shahaid",
         "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLxj_yrzW_drMcc7GKxivJN8dQvwRpajIsRkQsAzCfTdkI4EA=mo",
@@ -164,7 +164,7 @@
     "video": null,
     "score": 3.82,
     "scoreText": "3.8",
-    "ratings": 4656,
+    "ratings": 4666,
     "reviews": 114,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "3240dfd0-dcbd-42e2-92e3-78b185d4d4a2",
+        "userName": "Elvis Kaya",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUaBLprpRf4rEOkMVyvt8HXPAvVJLnHkerkLoMKe6XP-7BSSX1v",
+        "date": "2026-06-23T05:20:46.787Z",
+        "score": 5,
+        "text": "Good and easy to use."
+      },
       {
         "id": "efb0d2b4-1d1c-43bd-84c4-9396f74cb1bc",
         "userName": "Brittany Edwards",
@@ -276,14 +284,6 @@
         "date": "2026-05-04T05:07:08.890Z",
         "score": 3,
         "text": "Requires to actually replace the real SMS app. Either I misunderstood the purpose of the app, or it's working different from other fake SMS apps. I just don't see the point in replacing your real SMS app with a fake. Otherwise seems ok."
-      },
-      {
-        "id": "6d1a1981-01c5-4356-9a0a-48273e11199d",
-        "userName": "Craysleer",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXkrHnkj7RMwdlO5UGE82tgclY0OVYcfuaP9BQG72cNQeTAIU8",
-        "date": "2026-04-30T09:26:19.833Z",
-        "score": 1,
-        "text": "App with out any use"
       }
     ]
   },
@@ -498,6 +498,14 @@
     ],
     "recentReviews": [
       {
+        "id": "3c896d6e-e211-4465-b013-99de29b99a2a",
+        "userName": "Apollos Eloho",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLE8okxZNAVaDPAV8qFq5QOB3-6yQd0sbwNF_bWC8xNZEaLyQ=mo",
+        "date": "2026-06-22T09:00:03.378Z",
+        "score": 5,
+        "text": "I love this app, using it feels like I am using a P.C software. And it's storage system is lightweight compare to other 2D animation app on Android phone"
+      },
+      {
         "id": "59031388-577c-4c3f-9d52-58d01d1c25e6",
         "userName": "Muhammad Aizaz Ullah Khan",
         "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLLIaG_V1OgbGCTHj4r0Dm0IrfS1Cid_TokANN1kdfjmZd6CQ=mo",
@@ -531,7 +539,7 @@
       },
       {
         "id": "b5c2d1d0-2631-47b9-96e0-dae8d6d0facb",
-        "userName": "Remy",
+        "userName": "Edward Bell",
         "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXOresSDd3tsCd0yCboO-NSRvtOATZrBB9qrXIahHbyrGoGddsI",
         "date": "2026-06-08T09:45:39.929Z",
         "score": 4,
@@ -584,14 +592,6 @@
         "date": "2026-04-15T09:40:47.984Z",
         "score": 5,
         "text": "thinks for fixing some of the issues although you should test the bone animation again it's not perfect, best animation app I have seen in a while, hope you get more downloads I will share it."
-      },
-      {
-        "id": "c3468bb4-fbfa-470d-9954-1a0be74dab9a",
-        "userName": "Chishimba Nkole",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUlXK4NuL9vFyqjjyEh0_0P86PzCPoQVJ1r8vsfSw_wnJ_Yud_Z",
-        "date": "2026-04-04T09:14:19.179Z",
-        "score": 5,
-        "text": "Nice"
       }
     ]
   },
