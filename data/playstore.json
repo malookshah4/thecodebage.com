@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.54,
     "scoreText": "4.5",
-    "ratings": 58781,
+    "ratings": 58783,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -69,14 +69,6 @@
         "date": "2026-06-18T08:27:54.317Z",
         "score": 4,
         "text": "2.3MViews"
-      },
-      {
-        "id": "436e45e4-3341-489c-9ad5-38711ada198f",
-        "userName": "Turgut King74",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJJfIkyieSgk2cz3N3AzsnTUfTuHO047zVVTUS04Uz2_Vu1pA=mo",
-        "date": "2026-06-17T17:18:11.902Z",
-        "score": 5,
-        "text": "best app"
       },
       {
         "id": "e9108e7b-7172-4b70-abca-2967e6426455",
@@ -141,6 +133,14 @@
         "date": "2026-05-28T05:16:55.920Z",
         "score": 5,
         "text": "Shahid zero"
+      },
+      {
+        "id": "01c0f4e5-1796-4dac-a2b8-ea93d4b50be2",
+        "userName": "Sabbir hossain Imran",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVTgFFIMaOGWDoyH3cI4lUjjPFV_rQSVgWs8OKtMthmW_G_WWXS",
+        "date": "2026-05-25T10:00:16.388Z",
+        "score": 5,
+        "text": "good"
       }
     ]
   },
@@ -162,9 +162,9 @@
       "/apps/fake-sms-fake-text-message/screenshot-5.jpg"
     ],
     "video": null,
-    "score": 3.82,
+    "score": 3.83,
     "scoreText": "3.8",
-    "ratings": 4666,
+    "ratings": 4674,
     "reviews": 114,
     "installs": "500,000+",
     "minInstalls": 500000,
