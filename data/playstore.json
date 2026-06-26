@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.54,
     "scoreText": "4.5",
-    "ratings": 58783,
+    "ratings": 58797,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -47,12 +47,28 @@
     "features": [],
     "recentReviews": [
       {
-        "id": "1b1b534b-c6bb-426f-ab86-55bdab3c06e0",
-        "userName": "Nawal Kumar",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU4kgYU089Phq70S9cSsSx804bfezfgNgvU7_8lGn2Sl8G1M5L2",
-        "date": "2026-06-22T17:27:57.920Z",
-        "score": 3,
-        "text": "nawalkamr"
+        "id": "5778dd2d-135c-4158-a92a-3a2c7698424d",
+        "userName": "Muhammad mudasir",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLxsgSClzTydeOc-6s0HKKwL_rqbamZ8saTFbB6tq1ulCQKCw=mo",
+        "date": "2026-06-24T16:12:44.000Z",
+        "score": 5,
+        "text": "for you tiktok"
+      },
+      {
+        "id": "85622eda-a5f2-4685-a3b2-3d571c6a9e21",
+        "userName": "arsho malik",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVR6mREkYrYjN6j-aFBR6My9YjwTYwIabusBooYH9mkaY5GWT74",
+        "date": "2026-06-24T14:40:33.981Z",
+        "score": 5,
+        "text": "good app"
+      },
+      {
+        "id": "7cbd2e5c-86c0-4125-a1cb-76c8fcc5f23d",
+        "userName": "Shahid Khan",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUSBmF8VF48dOQIg_GlZyH6Bi2yZYLvX0zt6ueVv-7J1BLKTGY",
+        "date": "2026-06-24T09:37:09.671Z",
+        "score": 5,
+        "text": "Viral account"
       },
       {
         "id": "e4dc85c1-918d-443d-8eea-18b406b7be08",
@@ -125,22 +141,6 @@
         "date": "2026-05-29T12:18:11.928Z",
         "score": 5,
         "text": "furyou"
-      },
-      {
-        "id": "c305dce4-abaa-4ff3-b8e1-4c4491650f12",
-        "userName": "Shahaid Shahaid",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLxj_yrzW_drMcc7GKxivJN8dQvwRpajIsRkQsAzCfTdkI4EA=mo",
-        "date": "2026-05-28T05:16:55.920Z",
-        "score": 5,
-        "text": "Shahid zero"
-      },
-      {
-        "id": "01c0f4e5-1796-4dac-a2b8-ea93d4b50be2",
-        "userName": "Sabbir hossain Imran",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVTgFFIMaOGWDoyH3cI4lUjjPFV_rQSVgWs8OKtMthmW_G_WWXS",
-        "date": "2026-05-25T10:00:16.388Z",
-        "score": 5,
-        "text": "good"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 3.83,
     "scoreText": "3.8",
-    "ratings": 4674,
+    "ratings": 4679,
     "reviews": 114,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -875,6 +875,7 @@
     ],
     "video": null,
     "score": 0,
+    "scoreText": "0.0",
     "ratings": 0,
     "reviews": 0,
     "installs": "100+",
@@ -908,7 +909,16 @@
       "Voiceover — Add AI-generated voice reading your subtitles",
       "Export & Share — Burn subtitles into video and share to Instagram, TikTok, YouTube, WhatsApp"
     ],
-    "recentReviews": []
+    "recentReviews": [
+      {
+        "id": "044937dd-bad2-4c57-895a-923f732d4157",
+        "userName": "Juan A Martinez O",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVhXKlN1Vbjm6cmDqbxaFqLd6j04qm0-sztXjzDzycianAMWwEk",
+        "date": "2026-06-24T21:28:53.744Z",
+        "score": 1,
+        "text": "It has bugs in the process, it stops and kicks me out, and I check data usage: 1.8GB. It's not processing what it should or how it should; it's a total disaster."
+      }
+    ]
   },
   {
     "appId": "com.codebage.remotemousepro",
@@ -964,6 +974,63 @@
       "Encrypted local-network connection with one-time pairing token",
       "OCR — point your phone camera at any text, instantly paste it into the active PC window",
       "Voice macros — speak commands and trigger keyboard shortcuts on your PC"
+    ],
+    "recentReviews": []
+  },
+  {
+    "appId": "com.codebage.flipify",
+    "slug": "flipify-ai-video-effects",
+    "title": "Flipify - AI Video Effects",
+    "summary": "Turn videos into flipbooks, body strings, galaxy silhouettes &amp; 50+ AI effects.",
+    "description": "Flipify — AI Video Effects\n\nTurn any short video into a hand-drawn flipbook, a glitching hologram, a galaxy silhouette, or a glowing skeleton — directly on your phone.\n\nFlipify gives you 50+ one-tap effects designed for vertical short videos like reels and shorts. Every effect runs fully on-device — no upload, no sign-in, no subscription required to start.\n\nWhat you can do\n• Pick any video from your gallery up to 30 seconds\n• Choose an effect — flipbook drawings, echo trails, AI cutouts, scanlines, holograms, plasma bodies, and many more\n• Watch the AI separate you from the background, then apply your effect\n• Preview the result, share, or save to your gallery\n\nEffect highlights\n• Flipbook — your video as a paper page-flip animation\n• Echo Trail — ghostly motion trails of your past frames\n• Hologram — cyan scanline projection with sweeping bars\n• Galaxy — your silhouette filled with stars and nebulae\n• Lightning — neon bolts crackle from your outline\n• Disintegrate — hold a pose, then scatter into ash\n• Pose Lightning — AI tracks your hands and feet, bolts crackle from each\n• Beat Sync — subject pulses in time with your audio\n• …and dozens more, each tuned for vertical video\n\nBuilt for creators\n• 720×1280 export, ready for vertical feeds\n• Source audio preserved\n• AI subject cutout powered by on-device machine learning — no internet needed\n• Fast renders on mid-range devices\n• No watermark on free exports\n\nIf you create vertical short videos, Flipify gives your clips a look most filter apps don't.",
+    "descriptionHTML": "Flipify — AI Video Effects<br><br>Turn any short video into a hand-drawn flipbook, a glitching hologram, a galaxy silhouette, or a glowing skeleton — directly on your phone.<br><br>Flipify gives you 50+ one-tap effects designed for vertical short videos like reels and shorts. Every effect runs fully on-device — no upload, no sign-in, no subscription required to start.<br><br>What you can do<br>• Pick any video from your gallery up to 30 seconds<br>• Choose an effect — flipbook drawings, echo trails, AI cutouts, scanlines, holograms, plasma bodies, and many more<br>• Watch the AI separate you from the background, then apply your effect<br>• Preview the result, share, or save to your gallery<br><br>Effect highlights<br>• Flipbook — your video as a paper page-flip animation<br>• Echo Trail — ghostly motion trails of your past frames<br>• Hologram — cyan scanline projection with sweeping bars<br>• Galaxy — your silhouette filled with stars and nebulae<br>• Lightning — neon bolts crackle from your outline<br>• Disintegrate — hold a pose, then scatter into ash<br>• Pose Lightning — AI tracks your hands and feet, bolts crackle from each<br>• Beat Sync — subject pulses in time with your audio<br>• …and dozens more, each tuned for vertical video<br><br>Built for creators<br>• 720×1280 export, ready for vertical feeds<br>• Source audio preserved<br>• AI subject cutout powered by on-device machine learning — no internet needed<br>• Fast renders on mid-range devices<br>• No watermark on free exports<br><br>If you create vertical short videos, Flipify gives your clips a look most filter apps don&#39;t.",
+    "icon": "/apps/flipify-ai-video-effects/icon.jpg",
+    "iconRemote": "https://play-lh.googleusercontent.com/JUcbE2jrhX2ncR4lvqHfBtYOXrkQTmcy_0rgOdkCahQxSk0xZ67rtQDO2x44ECpBaUNOB5wGNUL9W5pKGqUnvA",
+    "headerImage": "/apps/flipify-ai-video-effects/header.jpg",
+    "screenshots": [
+      "/apps/flipify-ai-video-effects/screenshot-1.jpg",
+      "/apps/flipify-ai-video-effects/screenshot-2.jpg",
+      "/apps/flipify-ai-video-effects/screenshot-3.jpg",
+      "/apps/flipify-ai-video-effects/screenshot-4.jpg",
+      "/apps/flipify-ai-video-effects/screenshot-5.jpg",
+      "/apps/flipify-ai-video-effects/screenshot-6.jpg",
+      "/apps/flipify-ai-video-effects/screenshot-7.jpg",
+      "/apps/flipify-ai-video-effects/screenshot-8.jpg"
+    ],
+    "video": null,
+    "score": 0,
+    "ratings": 0,
+    "reviews": 0,
+    "installs": "100+",
+    "minInstalls": 100,
+    "maxInstalls": 198,
+    "price": 0,
+    "free": true,
+    "currency": "USD",
+    "genre": "Video Players & Editors",
+    "genreId": "VIDEO_PLAYERS",
+    "contentRating": "Everyone",
+    "released": "Apr 26, 2026",
+    "updated": 1777531147000,
+    "updatedDate": "Apr 30, 2026",
+    "version": "1.0.4",
+    "recentChanges": "What&#39;s new in 1.0.4<br><br>• Exports now match your source — vertical clips stay vertical, horizontal clips stay horizontal.<br>• New effects: Body Strings, Light Strings, Hand Wires.<br>• Higher-quality output (AVC High profile, 15 Mbps).<br>• Fixed slideshow stutter on phone-camera HDR clips.<br>• Each effect now shows a &quot;best with&quot; tip on the configure screen.<br>• New About screen with social links.<br>• Smaller polish: cleaner export-done screen, report-an-issue link.<br>",
+    "url": "https://play.google.com/store/apps/details?id=com.codebage.flipify&hl=en&gl=us",
+    "developer": "codeBage",
+    "developerId": "codeBage",
+    "developerWebsite": "https://kf8ebaa43.app-ads-txt.com",
+    "developerEmail": "support.codebage@gmail.com",
+    "privacyPolicy": "https://sites.google.com/view/flipify-privacy-policy?usp=sharing",
+    "androidVersion": "8.0",
+    "features": [
+      "Pick any video from your gallery up to 30 seconds",
+      "Choose an effect — flipbook drawings, echo trails, AI cutouts, scanlines, holograms, plasma bodies, and many more",
+      "Watch the AI separate you from the background, then apply your effect",
+      "Preview the result, share, or save to your gallery",
+      "Flipbook — your video as a paper page-flip animation",
+      "Echo Trail — ghostly motion trails of your past frames",
+      "Hologram — cyan scanline projection with sweeping bars",
+      "Galaxy — your silhouette filled with stars and nebulae"
     ],
     "recentReviews": []
   },
@@ -1076,63 +1143,6 @@
       "Unlimited reply generation",
       "All 8 reply tones unlocked",
       "No ads — completely ad-free experience"
-    ],
-    "recentReviews": []
-  },
-  {
-    "appId": "com.codebage.flipify",
-    "slug": "flipify-ai-video-effects",
-    "title": "Flipify - AI Video Effects",
-    "summary": "Turn videos into flipbooks, body strings, galaxy silhouettes &amp; 50+ AI effects.",
-    "description": "Flipify — AI Video Effects\n\nTurn any short video into a hand-drawn flipbook, a glitching hologram, a galaxy silhouette, or a glowing skeleton — directly on your phone.\n\nFlipify gives you 50+ one-tap effects designed for vertical short videos like reels and shorts. Every effect runs fully on-device — no upload, no sign-in, no subscription required to start.\n\nWhat you can do\n• Pick any video from your gallery up to 30 seconds\n• Choose an effect — flipbook drawings, echo trails, AI cutouts, scanlines, holograms, plasma bodies, and many more\n• Watch the AI separate you from the background, then apply your effect\n• Preview the result, share, or save to your gallery\n\nEffect highlights\n• Flipbook — your video as a paper page-flip animation\n• Echo Trail — ghostly motion trails of your past frames\n• Hologram — cyan scanline projection with sweeping bars\n• Galaxy — your silhouette filled with stars and nebulae\n• Lightning — neon bolts crackle from your outline\n• Disintegrate — hold a pose, then scatter into ash\n• Pose Lightning — AI tracks your hands and feet, bolts crackle from each\n• Beat Sync — subject pulses in time with your audio\n• …and dozens more, each tuned for vertical video\n\nBuilt for creators\n• 720×1280 export, ready for vertical feeds\n• Source audio preserved\n• AI subject cutout powered by on-device machine learning — no internet needed\n• Fast renders on mid-range devices\n• No watermark on free exports\n\nIf you create vertical short videos, Flipify gives your clips a look most filter apps don't.",
-    "descriptionHTML": "Flipify — AI Video Effects<br><br>Turn any short video into a hand-drawn flipbook, a glitching hologram, a galaxy silhouette, or a glowing skeleton — directly on your phone.<br><br>Flipify gives you 50+ one-tap effects designed for vertical short videos like reels and shorts. Every effect runs fully on-device — no upload, no sign-in, no subscription required to start.<br><br>What you can do<br>• Pick any video from your gallery up to 30 seconds<br>• Choose an effect — flipbook drawings, echo trails, AI cutouts, scanlines, holograms, plasma bodies, and many more<br>• Watch the AI separate you from the background, then apply your effect<br>• Preview the result, share, or save to your gallery<br><br>Effect highlights<br>• Flipbook — your video as a paper page-flip animation<br>• Echo Trail — ghostly motion trails of your past frames<br>• Hologram — cyan scanline projection with sweeping bars<br>• Galaxy — your silhouette filled with stars and nebulae<br>• Lightning — neon bolts crackle from your outline<br>• Disintegrate — hold a pose, then scatter into ash<br>• Pose Lightning — AI tracks your hands and feet, bolts crackle from each<br>• Beat Sync — subject pulses in time with your audio<br>• …and dozens more, each tuned for vertical video<br><br>Built for creators<br>• 720×1280 export, ready for vertical feeds<br>• Source audio preserved<br>• AI subject cutout powered by on-device machine learning — no internet needed<br>• Fast renders on mid-range devices<br>• No watermark on free exports<br><br>If you create vertical short videos, Flipify gives your clips a look most filter apps don&#39;t.",
-    "icon": "/apps/flipify-ai-video-effects/icon.jpg",
-    "iconRemote": "https://play-lh.googleusercontent.com/JUcbE2jrhX2ncR4lvqHfBtYOXrkQTmcy_0rgOdkCahQxSk0xZ67rtQDO2x44ECpBaUNOB5wGNUL9W5pKGqUnvA",
-    "headerImage": "/apps/flipify-ai-video-effects/header.jpg",
-    "screenshots": [
-      "/apps/flipify-ai-video-effects/screenshot-1.jpg",
-      "/apps/flipify-ai-video-effects/screenshot-2.jpg",
-      "/apps/flipify-ai-video-effects/screenshot-3.jpg",
-      "/apps/flipify-ai-video-effects/screenshot-4.jpg",
-      "/apps/flipify-ai-video-effects/screenshot-5.jpg",
-      "/apps/flipify-ai-video-effects/screenshot-6.jpg",
-      "/apps/flipify-ai-video-effects/screenshot-7.jpg",
-      "/apps/flipify-ai-video-effects/screenshot-8.jpg"
-    ],
-    "video": null,
-    "score": 0,
-    "ratings": 0,
-    "reviews": 0,
-    "installs": "100+",
-    "minInstalls": 100,
-    "maxInstalls": 198,
-    "price": 0,
-    "free": true,
-    "currency": "USD",
-    "genre": "Video Players & Editors",
-    "genreId": "VIDEO_PLAYERS",
-    "contentRating": "Everyone",
-    "released": "Apr 26, 2026",
-    "updated": 1777531147000,
-    "updatedDate": "Apr 30, 2026",
-    "version": "1.0.4",
-    "recentChanges": "What&#39;s new in 1.0.4<br><br>• Exports now match your source — vertical clips stay vertical, horizontal clips stay horizontal.<br>• New effects: Body Strings, Light Strings, Hand Wires.<br>• Higher-quality output (AVC High profile, 15 Mbps).<br>• Fixed slideshow stutter on phone-camera HDR clips.<br>• Each effect now shows a &quot;best with&quot; tip on the configure screen.<br>• New About screen with social links.<br>• Smaller polish: cleaner export-done screen, report-an-issue link.<br>",
-    "url": "https://play.google.com/store/apps/details?id=com.codebage.flipify&hl=en&gl=us",
-    "developer": "codeBage",
-    "developerId": "codeBage",
-    "developerWebsite": "https://kf8ebaa43.app-ads-txt.com",
-    "developerEmail": "support.codebage@gmail.com",
-    "privacyPolicy": "https://sites.google.com/view/flipify-privacy-policy?usp=sharing",
-    "androidVersion": "8.0",
-    "features": [
-      "Pick any video from your gallery up to 30 seconds",
-      "Choose an effect — flipbook drawings, echo trails, AI cutouts, scanlines, holograms, plasma bodies, and many more",
-      "Watch the AI separate you from the background, then apply your effect",
-      "Preview the result, share, or save to your gallery",
-      "Flipbook — your video as a paper page-flip animation",
-      "Echo Trail — ghostly motion trails of your past frames",
-      "Hologram — cyan scanline projection with sweeping bars",
-      "Galaxy — your silhouette filled with stars and nebulae"
     ],
     "recentReviews": []
   },
