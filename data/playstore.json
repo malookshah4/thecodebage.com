@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.54,
     "scoreText": "4.5",
-    "ratings": 58824,
+    "ratings": 58819,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -119,28 +119,28 @@
         "text": "toe tok"
       },
       {
-        "id": "34e638fa-dcee-4681-a15a-04ba11653815",
-        "userName": "Yasir Yasir",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU5rCnRCMDVgDjgc-oBHizfm7j3BDcQBZputV5FH0rvTzJLQVA",
-        "date": "2026-06-26T03:56:28.167Z",
-        "score": 5,
-        "text": "for you"
-      },
-      {
-        "id": "5344f991-c573-48b3-a015-089c798779ad",
-        "userName": "Tayyab Gujjar",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKnx7_ZppmkWoOb1HJuSxN-rUKQtbOISEEDTDG_p_p_9_Hk5Q=mo",
-        "date": "2026-06-25T18:34:03.175Z",
-        "score": 5,
-        "text": "Karachi My Life"
-      },
-      {
         "id": "2a7e3dcb-e8ea-4023-94f2-097d71e0f97b",
         "userName": "Maya Waiba",
         "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLwaXfKBZtqxLsbUkDcyC2P1TMO-KDeyIriYVqLblrNQ10L=mo",
         "date": "2026-06-25T18:10:48.854Z",
         "score": 5,
         "text": "Maya WAIBA SYA DON"
+      },
+      {
+        "id": "c791fb66-bd30-4946-9d1e-c3532ae14aa4",
+        "userName": "Nizakat tanwari",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocICtrxSfBtcwLu3_AjjhKMjhp6L4Yxrc1Gtlxt_ugCtMsUOpg=mo",
+        "date": "2026-06-25T10:29:55.645Z",
+        "score": 1,
+        "text": "ya aap for you par nahe bhajta video ya jgoota ha"
+      },
+      {
+        "id": "5778dd2d-135c-4158-a92a-3a2c7698424d",
+        "userName": "Muhammad mudasir",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLxsgSClzTydeOc-6s0HKKwL_rqbamZ8saTFbB6tq1ulCQKCw=mo",
+        "date": "2026-06-24T16:12:44.000Z",
+        "score": 5,
+        "text": "for you tiktok"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 3.86,
     "scoreText": "3.9",
-    "ratings": 4725,
+    "ratings": 4736,
     "reviews": 114,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -461,7 +461,7 @@
     "video": null,
     "score": 4,
     "scoreText": "4.0",
-    "ratings": 31,
+    "ratings": 30,
     "reviews": 3,
     "installs": "1,000+",
     "minInstalls": 1000,
