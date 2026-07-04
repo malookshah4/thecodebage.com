@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.54,
     "scoreText": "4.5",
-    "ratings": 58819,
+    "ratings": 58825,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,22 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "3ea445a7-6ccf-4545-a514-4d04dcad804b",
+        "userName": "Nader Aqbl",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI4GTxoUxjZ7NWewN3mVqcLZH9pwCK7jLKEh7VE6zYxpUaKsQ=mo",
+        "date": "2026-07-02T18:49:48.309Z",
+        "score": 5,
+        "text": "good"
+      },
+      {
+        "id": "08237020-edcf-47ed-8735-498ad4368bf0",
+        "userName": "Ravi Singh",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVnAiFaySB75G91BFLH9AfhJD1m34EcE31khSsIjSnAH5CPFwI",
+        "date": "2026-07-02T13:17:59.604Z",
+        "score": 5,
+        "text": "go to viral"
+      },
       {
         "id": "ecb9b9a1-f60b-40ba-8a04-63a9c376435d",
         "userName": "Nabeel Khokhar",
@@ -125,22 +141,6 @@
         "date": "2026-06-25T18:10:48.854Z",
         "score": 5,
         "text": "Maya WAIBA SYA DON"
-      },
-      {
-        "id": "c791fb66-bd30-4946-9d1e-c3532ae14aa4",
-        "userName": "Nizakat tanwari",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocICtrxSfBtcwLu3_AjjhKMjhp6L4Yxrc1Gtlxt_ugCtMsUOpg=mo",
-        "date": "2026-06-25T10:29:55.645Z",
-        "score": 1,
-        "text": "ya aap for you par nahe bhajta video ya jgoota ha"
-      },
-      {
-        "id": "5778dd2d-135c-4158-a92a-3a2c7698424d",
-        "userName": "Muhammad mudasir",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLxsgSClzTydeOc-6s0HKKwL_rqbamZ8saTFbB6tq1ulCQKCw=mo",
-        "date": "2026-06-24T16:12:44.000Z",
-        "score": 5,
-        "text": "for you tiktok"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 3.86,
     "scoreText": "3.9",
-    "ratings": 4736,
+    "ratings": 4744,
     "reviews": 114,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -309,7 +309,7 @@
     "reviews": 0,
     "installs": "5,000+",
     "minInstalls": 5000,
-    "maxInstalls": 8187,
+    "maxInstalls": 8199,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -391,7 +391,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1861,
+    "maxInstalls": 1867,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -461,11 +461,11 @@
     "video": null,
     "score": 4,
     "scoreText": "4.0",
-    "ratings": 30,
+    "ratings": 31,
     "reviews": 3,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 2544,
+    "maxInstalls": 2546,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -495,6 +495,14 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
+      {
+        "id": "c3e3dd97-f8c7-484c-b6d7-7de50f0f7ed1",
+        "userName": "Kamal Pun",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX5hJ7rWtk4_l7E2iNdAKWHFlnwQD8J4w6OXupD6GK_fGevwP5D",
+        "date": "2026-07-02T08:56:39.755Z",
+        "score": 5,
+        "text": "i loved it 😍😍"
+      },
       {
         "id": "3c896d6e-e211-4465-b013-99de29b99a2a",
         "userName": "Apollos Eloho",
@@ -582,14 +590,6 @@
         "date": "2026-04-16T09:22:33.679Z",
         "score": 5,
         "text": "good app"
-      },
-      {
-        "id": "ccf9a0f8-b378-44c8-9083-0459788deb87",
-        "userName": "Suleiman Kibagendi",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUy32c58qjRajIKAaV2duGTPvQIPlZeYhuSf2IvG_OVwdzWLf0r",
-        "date": "2026-04-15T09:40:47.984Z",
-        "score": 5,
-        "text": "thinks for fixing some of the issues although you should test the bone animation again it's not perfect, best animation app I have seen in a while, hope you get more downloads I will share it."
       }
     ]
   },
@@ -721,7 +721,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1423,
+    "maxInstalls": 1424,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -785,7 +785,7 @@
     "reviews": 0,
     "installs": "500+",
     "minInstalls": 500,
-    "maxInstalls": 680,
+    "maxInstalls": 683,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -875,7 +875,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 226,
+    "maxInstalls": 231,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -932,7 +932,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 419,
+    "maxInstalls": 422,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -998,7 +998,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 220,
+    "maxInstalls": 223,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1161,7 +1161,7 @@
     "reviews": 0,
     "installs": "50+",
     "minInstalls": 50,
-    "maxInstalls": 59,
+    "maxInstalls": 68,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1272,7 +1272,7 @@
     "reviews": 0,
     "installs": "10+",
     "minInstalls": 10,
-    "maxInstalls": 34,
+    "maxInstalls": 36,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1327,7 +1327,7 @@
     "reviews": 0,
     "installs": "10+",
     "minInstalls": 10,
-    "maxInstalls": 20,
+    "maxInstalls": 22,
     "price": 0,
     "free": true,
     "currency": "USD",
