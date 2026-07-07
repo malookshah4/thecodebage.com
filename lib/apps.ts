@@ -45,6 +45,9 @@ export interface AppEntry {
   requirements?: string;
   downloadUrl?: string;
 
+  /** iOS App Store link — same app on Apple. Pinned in IOS_LINKS, not scraped. */
+  appStoreUrl?: string;
+
   /** Shared */
   version: string;
   released?: string;
@@ -101,12 +104,28 @@ const REMOTE_MOUSE_PRO: AppEntry = {
   recentReviews: SCRAPED_RMP?.recentReviews,
 };
 
+// Manually curated App Store links, keyed by slug prefix. Play Store data is
+// re-scraped on every build (overwriting data/playstore.json), so iOS links
+// can't live in the JSON — they're pinned here and merged onto matching apps.
+// Add a new app: paste its App Store URL against the Play Store slug prefix.
+const IOS_LINKS: Array<{ prefix: string; url: string }> = [
+  {
+    prefix: "go-viral-ai",
+    url: "https://apps.apple.com/us/app/go-viral-ai-get-more-views/id6784648543",
+  },
+];
+
+function withIosLink(app: AppEntry): AppEntry {
+  const url = IOS_LINKS.find((l) => app.slug.startsWith(l.prefix))?.url;
+  return url ? { ...app, appStoreUrl: url } : app;
+}
+
 export const ANDROID_APPS: AppEntry[] = [
   REMOTE_MOUSE_PRO,
   ...PLAYSTORE_APPS.filter((a) => !a.slug.startsWith("remote-mouse-pro")),
-];
+].map(withIosLink);
 
-export const WINDOWS_APPS: AppEntry[] = [
+export const WINDOWS_APPS: AppEntry[] = ([
   {
     slug: "lifeos",
     platform: "windows",
@@ -163,7 +182,7 @@ export const WINDOWS_APPS: AppEntry[] = [
     recentChanges:
       "0.2.0 — new first-run onboarding window with Play Store QR and a live pair-PIN that lights up the moment your phone touches the server. codeBage branding across version-info and installer. Multi-monitor + DPI awareness, foreground-window tracking, file pull, snippet capture, voice macros under the hood.",
   },
-];
+] as AppEntry[]).map(withIosLink);
 
 export function getApp(platform: Platform, slug: string): AppEntry | undefined {
   const list = platform === "android" ? ANDROID_APPS : WINDOWS_APPS;

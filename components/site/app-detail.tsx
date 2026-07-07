@@ -198,6 +198,16 @@ export function AppDetail({ app }: AppDetailProps) {
                   </a>
                 </>
               )}
+              {app.appStoreUrl && (
+                <a
+                  href={app.appStoreUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-5 py-3 text-[15px] font-medium hover:bg-[color:var(--chip-bg)]"
+                >
+                  Also on App Store →
+                </a>
+              )}
             </div>
           </div>
           <div className="flex justify-center md:justify-end">

@@ -69,6 +69,7 @@ export function AppCard({ app, featured = false }: AppCardProps) {
         ) : (
           <span className="hub-chip">Free</span>
         )}
+        {app.appStoreUrl && <span className="hub-chip">+ iOS</span>}
       </div>
       <div className="appcard-cta">
         <span className="appcard-cta-text">
