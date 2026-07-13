@@ -189,6 +189,26 @@
   position: absolute;
   top: 14px;
   right: 14px;
+  display: flex;
+  gap: 6px;
+}
+/* Card body is an <article>; this link stretches over it so the whole card
+   stays clickable while real controls (iOS button) can sit above it. */
+.appcard-stretch {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.appcard-ios-btn {
+  position: relative;
+  z-index: 2;
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+  transition: background .2s, border-color .2s;
+}
+.appcard-ios-btn:hover {
+  background: var(--paper-2);
+  border-color: var(--ink-muted);
 }
 .appcard-icon-wrap {
   position: relative;
@@ -261,6 +281,9 @@
   font-weight: 500;
 }
 .appcard-cta-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-family: var(--font-mono-stack);
   font-size: 11px;
   color: var(--ink-muted);

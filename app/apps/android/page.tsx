@@ -3,9 +3,9 @@ import { ANDROID_APPS } from "@/lib/apps";
 import { AppCard } from "@/components/site/app-card";
 
 export const metadata: Metadata = {
-  title: "Android apps",
+  title: "Mobile apps",
   description:
-    "Every app published under the codeBage developer account on Google Play.",
+    "Every app published under the codeBage developer account on Google Play — several also available for iPhone on the App Store.",
   alternates: { canonical: "/apps/android/" },
 };
 
@@ -37,7 +37,7 @@ export default function AndroidGridPage() {
         >
           Every app published under the codeBage developer account. Auto-generated
           from a build-time scrape — ratings, install counts, and recent reviews refresh
-          on every deploy.
+          on every deploy. Apps marked iPhone are also on the App Store.
         </p>
         <div className="mt-6 flex flex-wrap gap-2.5">
           <span className="hub-chip">

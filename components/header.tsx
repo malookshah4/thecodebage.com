@@ -25,7 +25,7 @@ export function Header() {
           />
         </Link>
         <nav className="flex items-center gap-0.5 text-[13px] sm:gap-1 sm:text-sm">
-          <NavLink href="/apps/android/">Android</NavLink>
+          <NavLink href="/apps/android/">Mobile apps</NavLink>
           <NavLink href="/apps/windows/">Windows</NavLink>
           <NavLink href="/about/">About</NavLink>
           <NavLink href="/support/">Support</NavLink>

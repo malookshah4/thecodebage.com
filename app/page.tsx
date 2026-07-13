@@ -56,7 +56,7 @@ export default function Home() {
             lineHeight: 1.55,
           }}
         >
-          A small studio publishing privacy-first utilities for Android and Windows.
+          A small studio publishing privacy-first utilities for Android, iPhone, and Windows.
           LAN-only by default. No accounts unless required. Built in spare hours;
           released when they earn the version number.
         </p>
@@ -122,13 +122,13 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Android grid teaser */}
+      {/* Mobile grid teaser */}
       {others.length > 0 && (
         <section className="mx-auto max-w-[1480px] px-8 py-20">
           <div className="mb-8 flex items-end justify-between gap-8">
             <div>
               <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
-                Android · Google Play
+                Mobile · Google Play + App Store
               </div>
               <h2 className="hub-display" style={{ fontSize: "clamp(28px, 3.6vw, 44px)", marginTop: 6 }}>
                 On your phone
@@ -138,7 +138,7 @@ export default function Home() {
               href="/apps/android/"
               className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-5 py-2.5 text-sm font-medium hover:bg-[color:var(--chip-bg)]"
             >
-              All {ANDROID_APPS.length} Android app{ANDROID_APPS.length === 1 ? "" : "s"}{" "}
+              All {ANDROID_APPS.length} mobile app{ANDROID_APPS.length === 1 ? "" : "s"}{" "}
               <span aria-hidden>→</span>
             </Link>
           </div>

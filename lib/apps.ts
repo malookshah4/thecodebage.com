@@ -113,6 +113,14 @@ const IOS_LINKS: Array<{ prefix: string; url: string }> = [
     prefix: "go-viral-ai",
     url: "https://apps.apple.com/us/app/go-viral-ai-get-more-views/id6784648543",
   },
+  {
+    prefix: "truecheck",
+    url: "https://apps.apple.com/us/app/truecheck-ai-verify-fact/id6785342221",
+  },
+  {
+    prefix: "real-or-ai",
+    url: "https://apps.apple.com/us/app/real-or-ai-ai-detector/id6786508103",
+  },
 ];
 
 function withIosLink(app: AppEntry): AppEntry {

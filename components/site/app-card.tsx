@@ -12,24 +12,28 @@ export function AppCard({ app, featured = false }: AppCardProps) {
   const isAndroid = app.platform === "android";
   const href = appHref(app);
   const isExternal = /^https?:\/\//.test(href);
-  const className = `appcard${featured ? " featured" : ""}`;
-  const Wrapper = ({ children }: { children: React.ReactNode }) =>
-    isExternal ? (
-      <a href={href} target="_blank" rel="noopener noreferrer" className={className}>
-        {children}
-      </a>
-    ) : (
-      <Link href={href} className={className}>
-        {children}
-      </Link>
-    );
 
   return (
-    <Wrapper>
+    <article className={`appcard${featured ? " featured" : ""}`}>
+      {/* Stretched link — covers the card; the iOS button sits above it */}
+      {isExternal ? (
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="appcard-stretch"
+          aria-label={app.title}
+        />
+      ) : (
+        <Link href={href} className="appcard-stretch" aria-label={app.title} />
+      )}
       <div className="appcard-platform">
         <span className="hub-chip hub-chip-platform">
           {isAndroid ? "Android" : "Windows"}
         </span>
+        {app.appStoreUrl && (
+          <span className="hub-chip hub-chip-platform">iPhone</span>
+        )}
       </div>
       <div className="appcard-icon-wrap">
         <span className="appcard-icon-halo" />
@@ -69,18 +73,27 @@ export function AppCard({ app, featured = false }: AppCardProps) {
         ) : (
           <span className="hub-chip">Free</span>
         )}
-        {app.appStoreUrl && <span className="hub-chip">+ iOS</span>}
       </div>
       <div className="appcard-cta">
         <span className="appcard-cta-text">
           {isAndroid ? "Get on Google Play" : "Download for Windows"}
         </span>
         <span className="appcard-cta-meta">
+          {app.appStoreUrl && (
+            <a
+              href={app.appStoreUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hub-chip appcard-ios-btn"
+            >
+              iPhone ↗
+            </a>
+          )}
           <span className="appcard-go" aria-hidden>
             →
           </span>
         </span>
       </div>
-    </Wrapper>
+    </article>
   );
 }
