@@ -24,7 +24,7 @@ export default function AndroidGridPage() {
           className="hub-display"
           style={{ fontSize: "clamp(48px, 7.6vw, 108px)", lineHeight: 0.96, margin: "16px 0 0" }}
         >
-          On Google Play.
+          On your phone.
         </h1>
         <p
           style={{
@@ -35,14 +35,16 @@ export default function AndroidGridPage() {
             lineHeight: 1.55,
           }}
         >
-          Every app published under the codeBage developer account. Auto-generated
-          from a build-time scrape — ratings, install counts, and recent reviews refresh
-          on every deploy. Apps marked iPhone are also on the App Store.
+          Every app published under the codeBage developer account — on Google Play,
+          with a growing number also on the App Store for iPhone. Ratings, install
+          counts, and recent reviews auto-refresh from a build-time scrape on every
+          deploy. Apps marked iPhone are on both stores.
         </p>
         <div className="mt-6 flex flex-wrap gap-2.5">
           <span className="hub-chip">
             {apps.length} {apps.length === 1 ? "app" : "apps"}
           </span>
+          <span className="hub-chip">Google Play + App Store</span>
           <span className="hub-chip">Sorted by recency</span>
         </div>
       </section>
