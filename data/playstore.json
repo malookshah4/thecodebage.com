@@ -25,7 +25,7 @@
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
-    "maxInstalls": 1951189,
+    "maxInstalls": 1951368,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -46,6 +46,14 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "c1a14728-7c18-4e8e-8518-03cf2d6b6c6a",
+        "userName": "Awalzada",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJD0GDSkfFKwbyIWz5yLTh1JgjQ3H3G4Zuhd3JJREA3nn2_og=mo",
+        "date": "2026-07-16T15:14:38.503Z",
+        "score": 5,
+        "text": "for you All brathers follow me"
+      },
       {
         "id": "86406308-b9b6-4caf-8505-38c45d321b65",
         "userName": "Mine Z Non",
@@ -133,14 +141,6 @@
         "date": "2026-07-02T18:49:48.309Z",
         "score": 5,
         "text": "good"
-      },
-      {
-        "id": "08237020-edcf-47ed-8735-498ad4368bf0",
-        "userName": "Ravi Singh",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVnAiFaySB75G91BFLH9AfhJD1m34EcE31khSsIjSnAH5CPFwI",
-        "date": "2026-07-02T13:17:59.604Z",
-        "score": 5,
-        "text": "go to viral"
       }
     ]
   },
@@ -164,11 +164,11 @@
     "video": null,
     "score": 3.92,
     "scoreText": "3.9",
-    "ratings": 4872,
+    "ratings": 4881,
     "reviews": 114,
     "installs": "500,000+",
     "minInstalls": 500000,
-    "maxInstalls": 648495,
+    "maxInstalls": 649078,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "bb867b17-f63e-45e1-b01d-04b24865a793",
+        "userName": "Uwel Baldonado",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVSyA13L4AwqlCaMGTbtka5dLFk_v6mHb9yj6cRBSg2qEHXsRKdSg",
+        "date": "2026-07-17T03:25:30.636Z",
+        "score": 5,
+        "text": "good"
+      },
       {
         "id": "3382c75a-ed48-4597-973d-8f364b5baa85",
         "userName": "Muhammad Shahid",
@@ -276,14 +284,6 @@
         "date": "2026-05-28T07:43:44.212Z",
         "score": 5,
         "text": "this is the best"
-      },
-      {
-        "id": "308ae9ad-b3b4-4a5d-8819-e7445cfee045",
-        "userName": "Fidel Katet bombe",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX9XMb_dOpphwFVX0vmMO8SaBBxST0d23CjzBYFAVwZQgwiKC8F",
-        "date": "2026-05-27T17:04:32.899Z",
-        "score": 5,
-        "text": "Effective"
       }
     ]
   },
@@ -391,7 +391,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 2510,
+    "maxInstalls": 2562,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -461,7 +461,7 @@
     "video": null,
     "score": 4.17,
     "scoreText": "4.2",
-    "ratings": 40,
+    "ratings": 41,
     "reviews": 4,
     "installs": "1,000+",
     "minInstalls": 1000,
@@ -850,6 +850,72 @@
     ]
   },
   {
+    "appId": "com.codebage.subreach",
+    "slug": "captio-ai-subtitle-caption",
+    "title": "Captio - AI Subtitle & Caption",
+    "summary": "Auto subtitle generator with AI translation, 10 pro styles &amp; karaoke effects",
+    "description": "Captio - AI Subtitle & Caption Generator\n\nGenerate accurate subtitles automatically with AI, translate to 60+ languages, and export with professional styling.\n\n✨ FEATURES:\n★ Auto-Generate Subtitles — Pick any video and get accurate subtitles powered by Whisper AI\n★ AI Translation — Translate subtitles to 60+ languages with Gemini AI for natural, context-aware translations\n★ 10 Pro Subtitle Styles — Hormozi, MrBeast, Cinematic, Neon Karaoke, Comic, Typewriter & more\n★ Karaoke Word Highlighting — Words light up as they're spoken\n★ Custom Style Editor — Choose fonts, colors, backgrounds, sizes and positions\n★ Video Trimming — Trim your video before processing\n★ Voiceover — Add AI-generated voice reading your subtitles\n★ Export & Share — Burn subtitles into video and share to Instagram, TikTok, YouTube, WhatsApp\n\n🆓 FREE FEATURES:\n• Subtitle generation (runs on your phone)\n• All 10 subtitle styles with karaoke effects\n• Custom style editor with color picker\n• Video export with burned-in subtitles\n• SRT/VTT subtitle file export\n• Video trimming\n• AI translation\n\n⚡ CAPTIO PRO:\n• 10x faster transcription with Cloud AI\n• No large model download needed\n• Priority cloud processing\n\n🌍 LANGUAGES:\nSupports English, Spanish, French, German, Italian, Portuguese, Arabic, Hindi, Urdu, Chinese, Japanese, Korean, Turkish, Russian, and 50+ more languages.\n\nPerfect for content creators, YouTubers, social media managers, students, and anyone who needs subtitles on their videos.\n\nDownload Captio now and start creating professional subtitles in seconds!",
+    "descriptionHTML": "Captio - AI Subtitle &amp; Caption Generator<br><br>Generate accurate subtitles automatically with AI, translate to 60+ languages, and export with professional styling.<br><br>✨ FEATURES:<br>★ Auto-Generate Subtitles — Pick any video and get accurate subtitles powered by Whisper AI<br>★ AI Translation — Translate subtitles to 60+ languages with Gemini AI for natural, context-aware translations<br>★ 10 Pro Subtitle Styles — Hormozi, MrBeast, Cinematic, Neon Karaoke, Comic, Typewriter &amp; more<br>★ Karaoke Word Highlighting — Words light up as they&#39;re spoken<br>★ Custom Style Editor — Choose fonts, colors, backgrounds, sizes and positions<br>★ Video Trimming — Trim your video before processing<br>★ Voiceover — Add AI-generated voice reading your subtitles<br>★ Export &amp; Share — Burn subtitles into video and share to Instagram, TikTok, YouTube, WhatsApp<br><br>🆓 FREE FEATURES:<br>• Subtitle generation (runs on your phone)<br>• All 10 subtitle styles with karaoke effects<br>• Custom style editor with color picker<br>• Video export with burned-in subtitles<br>• SRT/VTT subtitle file export<br>• Video trimming<br>• AI translation<br><br>⚡ CAPTIO PRO:<br>• 10x faster transcription with Cloud AI<br>• No large model download needed<br>• Priority cloud processing<br><br>🌍 LANGUAGES:<br>Supports English, Spanish, French, German, Italian, Portuguese, Arabic, Hindi, Urdu, Chinese, Japanese, Korean, Turkish, Russian, and 50+ more languages.<br><br>Perfect for content creators, YouTubers, social media managers, students, and anyone who needs subtitles on their videos.<br><br>Download Captio now and start creating professional subtitles in seconds!",
+    "icon": "/apps/captio-ai-subtitle-caption/icon.jpg",
+    "iconRemote": "https://play-lh.googleusercontent.com/Y_D8imrJQdQqMZEoSuh73Y9LokvM6-b5fcLQkLXBkhGz1g4TdavYTyuOmLAd2-Smht7BrbpqXKrGVlkmJaFyJ_8",
+    "headerImage": "/apps/captio-ai-subtitle-caption/header.jpg",
+    "screenshots": [
+      "/apps/captio-ai-subtitle-caption/screenshot-1.jpg",
+      "/apps/captio-ai-subtitle-caption/screenshot-2.jpg",
+      "/apps/captio-ai-subtitle-caption/screenshot-3.jpg",
+      "/apps/captio-ai-subtitle-caption/screenshot-4.jpg",
+      "/apps/captio-ai-subtitle-caption/screenshot-5.jpg",
+      "/apps/captio-ai-subtitle-caption/screenshot-6.jpg",
+      "/apps/captio-ai-subtitle-caption/screenshot-7.jpg",
+      "/apps/captio-ai-subtitle-caption/screenshot-8.jpg"
+    ],
+    "video": null,
+    "score": 0,
+    "ratings": 0,
+    "reviews": 0,
+    "installs": "500+",
+    "minInstalls": 500,
+    "maxInstalls": 504,
+    "price": 0,
+    "free": true,
+    "currency": "USD",
+    "genre": "Video Players & Editors",
+    "genreId": "VIDEO_PLAYERS",
+    "contentRating": "Everyone",
+    "released": "Apr 6, 2026",
+    "updated": 1777009675000,
+    "updatedDate": "Apr 24, 2026",
+    "version": "2.0.1",
+    "recentChanges": "• Improved Cloud AI stability &amp; security<br>• Upgraded translation engine (faster + better quality)<br>• Fixed recurring review prompt bug<br>• Performance improvements<br>",
+    "url": "https://play.google.com/store/apps/details?id=com.codebage.subreach&hl=en&gl=us",
+    "developer": "codeBage",
+    "developerId": "codeBage",
+    "developerWebsite": "https://kf8ebaa43.app-ads-txt.com",
+    "developerEmail": "codewithhacker@gmail.com",
+    "privacyPolicy": "https://sites.google.com/view/captio-privacypolicy?usp=sharing",
+    "androidVersion": "8.0",
+    "features": [
+      "Auto-Generate Subtitles — Pick any video and get accurate subtitles powered by Whisper AI",
+      "AI Translation — Translate subtitles to 60+ languages with Gemini AI for natural, context-aware translations",
+      "Pro Subtitle Styles — Hormozi, MrBeast, Cinematic, Neon Karaoke, Comic, Typewriter & more",
+      "Karaoke Word Highlighting — Words light up as they're spoken",
+      "Custom Style Editor — Choose fonts, colors, backgrounds, sizes and positions",
+      "Video Trimming — Trim your video before processing",
+      "Voiceover — Add AI-generated voice reading your subtitles",
+      "Export & Share — Burn subtitles into video and share to Instagram, TikTok, YouTube, WhatsApp"
+    ],
+    "recentReviews": [
+      {
+        "id": "044937dd-bad2-4c57-895a-923f732d4157",
+        "userName": "Juan A Martinez O",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVhXKlN1Vbjm6cmDqbxaFqLd6j04qm0-sztXjzDzycianAMWwEk",
+        "date": "2026-06-24T21:28:53.744Z",
+        "score": 1,
+        "text": "It has bugs in the process, it stops and kicks me out, and I check data usage: 1.8GB. It's not processing what it should or how it should; it's a total disaster."
+      }
+    ]
+  },
+  {
     "appId": "com.codebage.remotemousepro",
     "slug": "remote-mouse-pro-use-full-pc",
     "title": "Remote Mouse Pro - Use full PC",
@@ -973,72 +1039,6 @@
     ]
   },
   {
-    "appId": "com.codebage.subreach",
-    "slug": "captio-ai-subtitle-caption",
-    "title": "Captio - AI Subtitle & Caption",
-    "summary": "Auto subtitle generator with AI translation, 10 pro styles &amp; karaoke effects",
-    "description": "Captio - AI Subtitle & Caption Generator\n\nGenerate accurate subtitles automatically with AI, translate to 60+ languages, and export with professional styling.\n\n✨ FEATURES:\n★ Auto-Generate Subtitles — Pick any video and get accurate subtitles powered by Whisper AI\n★ AI Translation — Translate subtitles to 60+ languages with Gemini AI for natural, context-aware translations\n★ 10 Pro Subtitle Styles — Hormozi, MrBeast, Cinematic, Neon Karaoke, Comic, Typewriter & more\n★ Karaoke Word Highlighting — Words light up as they're spoken\n★ Custom Style Editor — Choose fonts, colors, backgrounds, sizes and positions\n★ Video Trimming — Trim your video before processing\n★ Voiceover — Add AI-generated voice reading your subtitles\n★ Export & Share — Burn subtitles into video and share to Instagram, TikTok, YouTube, WhatsApp\n\n🆓 FREE FEATURES:\n• Subtitle generation (runs on your phone)\n• All 10 subtitle styles with karaoke effects\n• Custom style editor with color picker\n• Video export with burned-in subtitles\n• SRT/VTT subtitle file export\n• Video trimming\n• AI translation\n\n⚡ CAPTIO PRO:\n• 10x faster transcription with Cloud AI\n• No large model download needed\n• Priority cloud processing\n\n🌍 LANGUAGES:\nSupports English, Spanish, French, German, Italian, Portuguese, Arabic, Hindi, Urdu, Chinese, Japanese, Korean, Turkish, Russian, and 50+ more languages.\n\nPerfect for content creators, YouTubers, social media managers, students, and anyone who needs subtitles on their videos.\n\nDownload Captio now and start creating professional subtitles in seconds!",
-    "descriptionHTML": "Captio - AI Subtitle &amp; Caption Generator<br><br>Generate accurate subtitles automatically with AI, translate to 60+ languages, and export with professional styling.<br><br>✨ FEATURES:<br>★ Auto-Generate Subtitles — Pick any video and get accurate subtitles powered by Whisper AI<br>★ AI Translation — Translate subtitles to 60+ languages with Gemini AI for natural, context-aware translations<br>★ 10 Pro Subtitle Styles — Hormozi, MrBeast, Cinematic, Neon Karaoke, Comic, Typewriter &amp; more<br>★ Karaoke Word Highlighting — Words light up as they&#39;re spoken<br>★ Custom Style Editor — Choose fonts, colors, backgrounds, sizes and positions<br>★ Video Trimming — Trim your video before processing<br>★ Voiceover — Add AI-generated voice reading your subtitles<br>★ Export &amp; Share — Burn subtitles into video and share to Instagram, TikTok, YouTube, WhatsApp<br><br>🆓 FREE FEATURES:<br>• Subtitle generation (runs on your phone)<br>• All 10 subtitle styles with karaoke effects<br>• Custom style editor with color picker<br>• Video export with burned-in subtitles<br>• SRT/VTT subtitle file export<br>• Video trimming<br>• AI translation<br><br>⚡ CAPTIO PRO:<br>• 10x faster transcription with Cloud AI<br>• No large model download needed<br>• Priority cloud processing<br><br>🌍 LANGUAGES:<br>Supports English, Spanish, French, German, Italian, Portuguese, Arabic, Hindi, Urdu, Chinese, Japanese, Korean, Turkish, Russian, and 50+ more languages.<br><br>Perfect for content creators, YouTubers, social media managers, students, and anyone who needs subtitles on their videos.<br><br>Download Captio now and start creating professional subtitles in seconds!",
-    "icon": "/apps/captio-ai-subtitle-caption/icon.jpg",
-    "iconRemote": "https://play-lh.googleusercontent.com/Y_D8imrJQdQqMZEoSuh73Y9LokvM6-b5fcLQkLXBkhGz1g4TdavYTyuOmLAd2-Smht7BrbpqXKrGVlkmJaFyJ_8",
-    "headerImage": "/apps/captio-ai-subtitle-caption/header.jpg",
-    "screenshots": [
-      "/apps/captio-ai-subtitle-caption/screenshot-1.jpg",
-      "/apps/captio-ai-subtitle-caption/screenshot-2.jpg",
-      "/apps/captio-ai-subtitle-caption/screenshot-3.jpg",
-      "/apps/captio-ai-subtitle-caption/screenshot-4.jpg",
-      "/apps/captio-ai-subtitle-caption/screenshot-5.jpg",
-      "/apps/captio-ai-subtitle-caption/screenshot-6.jpg",
-      "/apps/captio-ai-subtitle-caption/screenshot-7.jpg",
-      "/apps/captio-ai-subtitle-caption/screenshot-8.jpg"
-    ],
-    "video": null,
-    "score": 0,
-    "ratings": 0,
-    "reviews": 0,
-    "installs": "100+",
-    "minInstalls": 100,
-    "maxInstalls": 497,
-    "price": 0,
-    "free": true,
-    "currency": "USD",
-    "genre": "Video Players & Editors",
-    "genreId": "VIDEO_PLAYERS",
-    "contentRating": "Everyone",
-    "released": "Apr 6, 2026",
-    "updated": 1777009675000,
-    "updatedDate": "Apr 24, 2026",
-    "version": "2.0.1",
-    "recentChanges": "• Improved Cloud AI stability &amp; security<br>• Upgraded translation engine (faster + better quality)<br>• Fixed recurring review prompt bug<br>• Performance improvements<br>",
-    "url": "https://play.google.com/store/apps/details?id=com.codebage.subreach&hl=en&gl=us",
-    "developer": "codeBage",
-    "developerId": "codeBage",
-    "developerWebsite": "https://kf8ebaa43.app-ads-txt.com",
-    "developerEmail": "codewithhacker@gmail.com",
-    "privacyPolicy": "https://sites.google.com/view/captio-privacypolicy?usp=sharing",
-    "androidVersion": "8.0",
-    "features": [
-      "Auto-Generate Subtitles — Pick any video and get accurate subtitles powered by Whisper AI",
-      "AI Translation — Translate subtitles to 60+ languages with Gemini AI for natural, context-aware translations",
-      "Pro Subtitle Styles — Hormozi, MrBeast, Cinematic, Neon Karaoke, Comic, Typewriter & more",
-      "Karaoke Word Highlighting — Words light up as they're spoken",
-      "Custom Style Editor — Choose fonts, colors, backgrounds, sizes and positions",
-      "Video Trimming — Trim your video before processing",
-      "Voiceover — Add AI-generated voice reading your subtitles",
-      "Export & Share — Burn subtitles into video and share to Instagram, TikTok, YouTube, WhatsApp"
-    ],
-    "recentReviews": [
-      {
-        "id": "044937dd-bad2-4c57-895a-923f732d4157",
-        "userName": "Juan A Martinez O",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVhXKlN1Vbjm6cmDqbxaFqLd6j04qm0-sztXjzDzycianAMWwEk",
-        "date": "2026-06-24T21:28:53.744Z",
-        "score": 1,
-        "text": "It has bugs in the process, it stops and kicks me out, and I check data usage: 1.8GB. It's not processing what it should or how it should; it's a total disaster."
-      }
-    ]
-  },
-  {
     "appId": "com.codebage.replyai",
     "slug": "reply-ai-smart-comment-reply",
     "title": "Reply AI - Smart Comment Reply",
@@ -1119,7 +1119,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 371,
+    "maxInstalls": 372,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1439,9 +1439,9 @@
     "score": 0,
     "ratings": 0,
     "reviews": 0,
-    "installs": "0+",
-    "minInstalls": 0,
-    "maxInstalls": 0,
+    "installs": "1+",
+    "minInstalls": 1,
+    "maxInstalls": 1,
     "price": 0,
     "free": true,
     "currency": "USD",
