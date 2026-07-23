@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.54,
     "scoreText": "4.5",
-    "ratings": 58859,
+    "ratings": 58865,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,14 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "1417b688-dac1-453b-90a4-e028ffedb561",
+        "userName": "Faizen",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIAH2kLPBSMeFDQYSw8ot6eyvTC4wTexCTyqDeLl_vZuucSzA=mo",
+        "date": "2026-07-22T03:21:50.394Z",
+        "score": 5,
+        "text": "taktok foryou"
+      },
       {
         "id": "f5eddf91-5a92-4756-88ff-e710868c8687",
         "userName": "Kodhan Brother",
@@ -133,14 +141,6 @@
         "date": "2026-07-10T08:05:21.924Z",
         "score": 5,
         "text": "thank you"
-      },
-      {
-        "id": "a00c69f9-e5a0-4c0c-9bae-e6bf171d5bae",
-        "userName": "Amna Bibi",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXA69s5dmosC0ICnos3BHnvUVWzohOQrlDpiQxYko44Jplg4uc",
-        "date": "2026-07-10T05:09:19.630Z",
-        "score": 5,
-        "text": "yossssssssss"
       }
     ]
   },
@@ -162,9 +162,9 @@
       "/apps/fake-sms-fake-text-message/screenshot-5.jpg"
     ],
     "video": null,
-    "score": 3.96,
+    "score": 3.95,
     "scoreText": "4.0",
-    "ratings": 4908,
+    "ratings": 4914,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "3d2a37b0-5bc0-4c10-83e0-5342939e0328",
+        "userName": "Gerald Young",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJrWaQT5jlBYIQvfVicz6ql_S6K7eAvsNvncxHRyu1kiS9c_Q=mo",
+        "date": "2026-07-22T02:01:50.393Z",
+        "score": 4,
+        "text": "nice"
+      },
       {
         "id": "bb867b17-f63e-45e1-b01d-04b24865a793",
         "userName": "Uwel Baldonado",
@@ -276,14 +284,6 @@
         "date": "2026-05-28T15:10:25.680Z",
         "score": 5,
         "text": "Great"
-      },
-      {
-        "id": "74d088df-9195-4143-8f79-8dceaa9ef1b5",
-        "userName": "Kingvim 1",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKn46hIr0kCLNwK2D8D1IT8cUD9nCHobZ-cjGE6U1qbBOML-A=mo",
-        "date": "2026-05-28T07:43:44.212Z",
-        "score": 5,
-        "text": "this is the best"
       }
     ]
   },
@@ -309,7 +309,7 @@
     "reviews": 0,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 10996,
+    "maxInstalls": 10998,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -391,7 +391,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 2754,
+    "maxInstalls": 2755,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -465,7 +465,7 @@
     "reviews": 4,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 3743,
+    "maxInstalls": 3747,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -785,7 +785,7 @@
     "reviews": 0,
     "installs": "500+",
     "minInstalls": 500,
-    "maxInstalls": 914,
+    "maxInstalls": 916,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -949,7 +949,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 368,
+    "maxInstalls": 370,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1070,7 +1070,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 157,
+    "maxInstalls": 159,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1178,7 +1178,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 289,
+    "maxInstalls": 299,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1395,9 +1395,9 @@
     "score": 0,
     "ratings": 0,
     "reviews": 0,
-    "installs": "1+",
-    "minInstalls": 1,
-    "maxInstalls": 4,
+    "installs": "5+",
+    "minInstalls": 5,
+    "maxInstalls": 5,
     "price": 0,
     "free": true,
     "currency": "USD",
