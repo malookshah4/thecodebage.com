@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.54,
     "scoreText": "4.5",
-    "ratings": 58861,
+    "ratings": 58860,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -95,14 +95,6 @@
         "text": "Waseem ahmed786"
       },
       {
-        "id": "13bc69e0-3578-47d5-8355-470071f9abec",
-        "userName": "Taloot Khan",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIGI_UdSOUpTo0p0T9u8Eh8GuscrfOb3ki75h6pdqv7ZABr9w=mo",
-        "date": "2026-07-19T18:28:13.514Z",
-        "score": 5,
-        "text": "for you pages"
-      },
-      {
         "id": "beef4438-a202-409a-9ad1-a23b3c5af9fd",
         "userName": "Qari Naveed",
         "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKoNf0U7oD9iKL6rwUzqj-0KqYL8OjzVYp0gIxIwfclIsm3Rw=mo",
@@ -141,6 +133,14 @@
         "date": "2026-07-13T01:18:02.900Z",
         "score": 5,
         "text": "اصلی گل حسن بھیاااااا"
+      },
+      {
+        "id": "12415d36-2eef-4407-9ee5-21a5ffc04aa9",
+        "userName": "Ram Babu",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJ8wIdt-d5pJ1atLeX1Jk1TFbc5A3jxmigajhNolrpqB84i=mo",
+        "date": "2026-07-12T06:16:29.573Z",
+        "score": 5,
+        "text": "my video public"
       }
     ]
   },
@@ -164,11 +164,11 @@
     "video": null,
     "score": 3.99,
     "scoreText": "4.0",
-    "ratings": 4942,
+    "ratings": 4948,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
-    "maxInstalls": 653686,
+    "maxInstalls": 655493,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -309,7 +309,7 @@
     "reviews": 0,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 11359,
+    "maxInstalls": 11362,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -391,7 +391,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 2851,
+    "maxInstalls": 2953,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -399,10 +399,10 @@
     "genreId": "TOOLS",
     "contentRating": "Everyone",
     "released": "Feb 19, 2026",
-    "updated": 1783231059000,
-    "updatedDate": "Jul 5, 2026",
-    "version": "5.3.0",
-    "recentChanges": "NEW — Comment Oracle: see your comment section, swipe rate &amp; sentiment BEFORE you post.<br>Also added:<br>• Retention Curve — spot where viewers drop off<br>• Originality Guard — demonetization-risk check<br>• Media Kit — win brand deals<br>• Best Time to Post<br>• Content Queue — schedule posts + reminders<br>• Repurpose videos for any platform<br>• &quot;Recently Used&quot; tools on Home<br><br>Plus fixes &amp; polish. Keep going viral!",
+    "updated": 1784952619000,
+    "updatedDate": "Jul 25, 2026",
+    "version": "5.3.1",
+    "recentChanges": "• Updated for Android 17 (latest OS) — smoother, more reliable on new devices<br>• Upgraded our subscription &amp; billing system for a faster, safer checkout<br>• Refreshed core libraries for better performance and stability<br>• Behind-the-scenes fixes and improvements<br>",
     "url": "https://play.google.com/store/apps/details?id=com.codebage.goviralai&hl=en&gl=us",
     "developer": "codeBage",
     "developerId": "codeBage",
@@ -461,7 +461,7 @@
     "video": null,
     "score": 4.17,
     "scoreText": "4.2",
-    "ratings": 44,
+    "ratings": 45,
     "reviews": 4,
     "installs": "1,000+",
     "minInstalls": 1000,
@@ -495,6 +495,14 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
+      {
+        "id": "4022b953-49fa-4d59-a652-68d41b86e0b3",
+        "userName": "Milsha Campbell",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKl9yeqdbLwIyIFIohE6IjiUWu9k430d9gXewSpwqnzm8dRtw=mo",
+        "date": "2026-07-26T05:38:39.404Z",
+        "score": 5,
+        "text": "It's an amazing app. There are so many tools you can use, and it's for free, too. unfortunately, my only problem so far is the brush option. When you click on a brush, it doesn't change, I click on the pencil brush, and it still looks like I didn't change it. Please fix this."
+      },
       {
         "id": "ec0ad2af-2eb3-42ad-9375-ea33c6b82599",
         "userName": "Haswel Kunyenje",
@@ -582,14 +590,6 @@
         "date": "2026-06-08T20:12:00.642Z",
         "score": 5,
         "text": "it's a good animator!"
-      },
-      {
-        "id": "b5c2d1d0-2631-47b9-96e0-dae8d6d0facb",
-        "userName": "Edward Bell",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVPXNLQPCRejEywZ-uiZNbXpGhglIXN_g0hpgPclRv2q2zNlBnX",
-        "date": "2026-06-08T09:45:39.929Z",
-        "score": 4,
-        "text": "So it has alot of cool features I think that's very cool but it is very glitchy... I understand though because it's pretty new but sometimes when I draw a line it goes under where my finger is and sometimes it's just in general laggy but that might be my device idk. despite the bugs I do have hope in this app it looks really promising like it could be really awesome, it just needs a bit of troubleshooting ❤️"
       }
     ]
   },
@@ -785,7 +785,7 @@
     "reviews": 0,
     "installs": "500+",
     "minInstalls": 500,
-    "maxInstalls": 948,
+    "maxInstalls": 949,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -883,7 +883,7 @@
     "reviews": 0,
     "installs": "500+",
     "minInstalls": 500,
-    "maxInstalls": 544,
+    "maxInstalls": 545,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1070,7 +1070,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 166,
+    "maxInstalls": 167,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1127,7 +1127,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 373,
+    "maxInstalls": 374,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1178,7 +1178,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 311,
+    "maxInstalls": 315,
     "price": 0,
     "free": true,
     "currency": "USD",
