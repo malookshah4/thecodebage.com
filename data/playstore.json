@@ -25,7 +25,7 @@
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
-    "maxInstalls": 1953702,
+    "maxInstalls": 1953713,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -46,6 +46,22 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "be3fb6ec-57b8-4f3d-9c89-f784e0e14029",
+        "userName": "Asad Rafaqat",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKPNVCliPAqM2N_74SgTRHvRVB9DDjX2qjh1ekXK-4VMxY4uGE=mo",
+        "date": "2026-08-04T02:28:05.882Z",
+        "score": 5,
+        "text": "It's Very Nice 🙂👍"
+      },
+      {
+        "id": "c8dfe519-5c7d-4c7c-9177-e4c71e8e3f97",
+        "userName": "Mian Kashif",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKueuyRoXOn7M0LnHK6ULtCvSilOgrxQ65WPxEFc1BLIt7R0g=mo",
+        "date": "2026-08-03T07:53:23.547Z",
+        "score": 5,
+        "text": "good"
+      },
       {
         "id": "574a1eb1-020f-4c67-b10c-36a096382265",
         "userName": "Tanveer Tanveer",
@@ -125,22 +141,6 @@
         "date": "2026-07-13T17:29:55.481Z",
         "score": 5,
         "text": "excellent"
-      },
-      {
-        "id": "f620692c-7bc2-40f4-8c3f-d8367309055c",
-        "userName": "Anas Afridi",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLH7onkgxIQKHonz5kGoHDIkkUdfttdGi7TU_l2yA8IWvGctw=mo",
-        "date": "2026-07-13T16:52:58.388Z",
-        "score": 1,
-        "text": "TikTok viral"
-      },
-      {
-        "id": "054de0a6-9863-4fbb-b3b7-f579147b80dc",
-        "userName": "Sohail Ahmad",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLO-EKjVm9Qv-q43TihpYOfns9tToHmzF-sJ27AudiwjA0mug=mo",
-        "date": "2026-07-13T01:18:02.900Z",
-        "score": 5,
-        "text": "اصلی گل حسن بھیاااااا"
       }
     ]
   },
@@ -164,11 +164,11 @@
     "video": null,
     "score": 3.99,
     "scoreText": "4.0",
-    "ratings": 5011,
+    "ratings": 5020,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
-    "maxInstalls": 658563,
+    "maxInstalls": 658596,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "a6a5c756-fa70-4b06-b665-768530ec61bb",
+        "userName": "Juma Mwai",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJawBNnddVAneIKJDPktwXdzehPJ5YVUZ49LUeu1B7hfK0LoA=mo",
+        "date": "2026-08-03T16:22:19.211Z",
+        "score": 5,
+        "text": "just too awesome"
+      },
       {
         "id": "339db8ca-eb5e-413f-92c6-bd1ef0df4a5a",
         "userName": "Joker Macinas",
@@ -276,14 +284,6 @@
         "date": "2026-06-09T19:38:31.959Z",
         "score": 4,
         "text": "nice"
-      },
-      {
-        "id": "993ccbe5-cf1f-4679-b5c3-57d661757921",
-        "userName": "Evalyne Wanja",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWrWEBrdnyUN4XROsD4pLM6YW2cJlJIzIHEbxBDT7Q1l2_AQQr9",
-        "date": "2026-06-06T16:56:30.314Z",
-        "score": 5,
-        "text": "best"
       }
     ]
   },
@@ -309,7 +309,7 @@
     "reviews": 0,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 12562,
+    "maxInstalls": 12580,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -459,9 +459,9 @@
       "/apps/artanimator-animation-maker/screenshot-8.jpg"
     ],
     "video": null,
-    "score": 4.29,
-    "scoreText": "4.3",
-    "ratings": 46,
+    "score": 4,
+    "scoreText": "4.0",
+    "ratings": 47,
     "reviews": 5,
     "installs": "1,000+",
     "minInstalls": 1000,
@@ -826,10 +826,10 @@
     "genreId": "TOOLS",
     "contentRating": "Everyone",
     "released": "Mar 6, 2023",
-    "updated": 1751454615000,
-    "updatedDate": "Jul 2, 2025",
-    "version": "6.0",
-    "recentChanges": "",
+    "updated": 1785894375000,
+    "updatedDate": "Aug 5, 2026",
+    "version": "7.0",
+    "recentChanges": "Fix bugs",
     "url": "https://play.google.com/store/apps/details?id=com.codebage.nosave&hl=en&gl=us",
     "developer": "codeBage",
     "developerId": "codeBage",
@@ -1178,7 +1178,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 356,
+    "maxInstalls": 358,
     "price": 0,
     "free": true,
     "currency": "USD",
