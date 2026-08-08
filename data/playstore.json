@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.51,
     "scoreText": "4.5",
-    "ratings": 58893,
+    "ratings": 58900,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.01,
     "scoreText": "4.0",
-    "ratings": 5039,
+    "ratings": 5047,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -461,7 +461,7 @@
     "video": null,
     "score": 4,
     "scoreText": "4.0",
-    "ratings": 47,
+    "ratings": 48,
     "reviews": 5,
     "installs": "1,000+",
     "minInstalls": 1000,
@@ -495,6 +495,14 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
+      {
+        "id": "8f1b37f0-19c2-40c0-b7d9-4c225be92b4b",
+        "userName": "Wileom Luba",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUpbfiHSPtqc4_wh3ft_kVqer3jYvldyq82IHe0t8a41c9nn8U",
+        "date": "2026-08-06T08:37:36.120Z",
+        "score": 5,
+        "text": "this is the best animation software I have used today and there are so many options, btw keep updating it, it was awesome"
+      },
       {
         "id": "7230500d-7881-44ac-8790-8fb85c77381f",
         "userName": "Brighteyes Shedletsky",
@@ -582,14 +590,6 @@
         "date": "2026-06-10T18:56:35.913Z",
         "score": 2,
         "text": "A very powerful app... if only it worked properly. The number of different tools is large and useful, but half of them simply don't work. No matter which brush you choose, it will only be visible after exporting. For some reason, the export itself only works in GIF mode. These are the most basic functions that work poorly... It has huge potential, and I would be happy to see this app work properly."
-      },
-      {
-        "id": "cf0bb4d8-7cb9-407b-b48b-1a91198b6700",
-        "userName": "Tahir Taous",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU8JEAj2LHPH8li3Js86AL6gl5HinRWL62v-tup_r2vFSgbYemPmQ",
-        "date": "2026-06-09T00:20:21.460Z",
-        "score": 2,
-        "text": "11100 annually is not affordable for everyone"
       }
     ]
   },
@@ -618,7 +618,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1048,
+    "maxInstalls": 1086,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1070,7 +1070,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 177,
+    "maxInstalls": 179,
     "price": 0,
     "free": true,
     "currency": "USD",
