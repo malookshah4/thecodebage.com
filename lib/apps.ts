@@ -85,7 +85,7 @@ const REMOTE_MOUSE_PRO: AppEntry = {
   installs: hasRealInstalls ? SCRAPED_RMP?.installs : undefined,
   genre: SCRAPED_RMP?.genre ?? "Productivity",
   storeUrl: SCRAPED_RMP?.storeUrl,
-  iconUrl: SCRAPED_RMP?.iconUrl,
+  iconUrl: SCRAPED_RMP?.iconUrl ?? "/phone-mouse-icon.png",
   screenshots: SCRAPED_RMP?.screenshots?.length ? SCRAPED_RMP.screenshots : undefined,
   version: SCRAPED_RMP?.version ?? "0.1.0",
   released: SCRAPED_RMP?.released ?? "May 2026",
