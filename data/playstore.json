@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.51,
     "scoreText": "4.5",
-    "ratings": 58916,
+    "ratings": 58923,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.01,
     "scoreText": "4.0",
-    "ratings": 5073,
+    "ratings": 5085,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -366,6 +366,161 @@
     ]
   },
   {
+    "appId": "com.codebage.artanimator",
+    "slug": "artanimator-animation-maker",
+    "title": "ArtAnimator - Animation Maker",
+    "summary": "Frame by frame, bring it to life. Draw, animate &amp; export MP4, GIF with ease.",
+    "description": "ArtAnimator is a powerful frame-by-frame animation app that lets you create stunning 2D animations right on your phone. Whether you're a beginner or a professional animator, ArtAnimator gives you all the tools you need to bring your ideas to life.\n\nDRAWING TOOLS\n• 24+ professional brushes including Pen, Pencil, Airbrush, Crayon, Calligraphy, Marker, and more\n• Shape tools: Line, Rectangle, Circle with fill options\n• Color picker with full palette and custom colors\n• Adjustable brush size and opacity\n• Eraser and flood fill tools\n• Text tool with multiple fonts\n\nANIMATION\n• Intuitive frame-by-frame timeline\n• Onion skin overlay to see previous and next frames\n• Add, duplicate, and reorder frames easily\n• Adjustable FPS for smooth playback\n• Ghost trail for motion visualization\n\nLAYERS\n• Multi-layer support for each frame\n• Layer visibility, opacity, and reorder controls\n• Merge layers for easy organization\n\nAUDIO\n• Record audio directly with your microphone\n• Import audio files from your device\n• Multiple audio tracks with volume control\n• Sync audio with your animation playback\n\nEXPORT & SHARE\n• Export as MP4 video in HD quality\n• Export as GIF animation\n• Export as PNG image sequence\n• Share your animations directly to social media\n\nCANVAS OPTIONS\n• Multiple canvas presets: YouTube 1080p, TikTok, Instagram, and custom sizes\n• Grid overlay for precise drawing\n• Zoom and pan for detailed work\n• Reference image import for tracing\n\nADDITIONAL FEATURES\n• Undo and redo support\n• Copy, paste, and cut frames\n• Select and transform drawn objects\n• Mirror and symmetry drawing mode\n• Demo project included to get started\n• Clean, intuitive white interface\n\nCreate professional-quality animations with ArtAnimator. Download now and start animating!",
+    "descriptionHTML": "ArtAnimator is a powerful frame-by-frame animation app that lets you create stunning 2D animations right on your phone. Whether you&#39;re a beginner or a professional animator, ArtAnimator gives you all the tools you need to bring your ideas to life.<br><br>DRAWING TOOLS<br>• 24+ professional brushes including Pen, Pencil, Airbrush, Crayon, Calligraphy, Marker, and more<br>• Shape tools: Line, Rectangle, Circle with fill options<br>• Color picker with full palette and custom colors<br>• Adjustable brush size and opacity<br>• Eraser and flood fill tools<br>• Text tool with multiple fonts<br><br>ANIMATION<br>• Intuitive frame-by-frame timeline<br>• Onion skin overlay to see previous and next frames<br>• Add, duplicate, and reorder frames easily<br>• Adjustable FPS for smooth playback<br>• Ghost trail for motion visualization<br><br>LAYERS<br>• Multi-layer support for each frame<br>• Layer visibility, opacity, and reorder controls<br>• Merge layers for easy organization<br><br>AUDIO<br>• Record audio directly with your microphone<br>• Import audio files from your device<br>• Multiple audio tracks with volume control<br>• Sync audio with your animation playback<br><br>EXPORT &amp; SHARE<br>• Export as MP4 video in HD quality<br>• Export as GIF animation<br>• Export as PNG image sequence<br>• Share your animations directly to social media<br><br>CANVAS OPTIONS<br>• Multiple canvas presets: YouTube 1080p, TikTok, Instagram, and custom sizes<br>• Grid overlay for precise drawing<br>• Zoom and pan for detailed work<br>• Reference image import for tracing<br><br>ADDITIONAL FEATURES<br>• Undo and redo support<br>• Copy, paste, and cut frames<br>• Select and transform drawn objects<br>• Mirror and symmetry drawing mode<br>• Demo project included to get started<br>• Clean, intuitive white interface<br><br>Create professional-quality animations with ArtAnimator. Download now and start animating!",
+    "icon": "/apps/artanimator-animation-maker/icon.jpg",
+    "iconRemote": "https://play-lh.googleusercontent.com/QzZcHiAptWxtiImnO1UgJp4qgIcwCnSQbkGjRWY-rvy8ZDufwOvznVM8mGUwY0rJx5UxsQl-oCtGeklKcxjXwcM",
+    "headerImage": "/apps/artanimator-animation-maker/header.jpg",
+    "screenshots": [
+      "/apps/artanimator-animation-maker/screenshot-1.jpg",
+      "/apps/artanimator-animation-maker/screenshot-2.jpg",
+      "/apps/artanimator-animation-maker/screenshot-3.jpg",
+      "/apps/artanimator-animation-maker/screenshot-4.jpg",
+      "/apps/artanimator-animation-maker/screenshot-5.jpg",
+      "/apps/artanimator-animation-maker/screenshot-6.jpg",
+      "/apps/artanimator-animation-maker/screenshot-7.jpg",
+      "/apps/artanimator-animation-maker/screenshot-8.jpg"
+    ],
+    "video": null,
+    "score": 4,
+    "scoreText": "4.0",
+    "ratings": 50,
+    "reviews": 6,
+    "installs": "5,000+",
+    "minInstalls": 5000,
+    "maxInstalls": 5059,
+    "price": 0,
+    "free": true,
+    "currency": "USD",
+    "genre": "Art & Design",
+    "genreId": "ART_AND_DESIGN",
+    "contentRating": "Everyone",
+    "released": "Mar 17, 2026",
+    "updated": 1785039916000,
+    "updatedDate": "Jul 26, 2026",
+    "version": "6.0.0",
+    "recentChanges": "• Fixed video export failing on some devices — MP4 now saves reliably and plays at the right speed<br>• Rebuilt pinch zoom: it follows your fingers properly, and you can zoom out to see the whole canvas<br>• New: rotate the canvas with a two-finger twist<br>• Triple-tap to redo (double-tap still undoes)<br>• Large projects use far less memory, especially with rotoscope video<br>• Toolbars no longer auto-hide on tablets<br>• Fixed a crash in Italian and Hindi",
+    "url": "https://play.google.com/store/apps/details?id=com.codebage.artanimator&hl=en&gl=us",
+    "developer": "codeBage",
+    "developerId": "codeBage",
+    "developerWebsite": "https://kf8ebaa43.app-ads-txt.com",
+    "developerEmail": "support.codebage@gmail.com",
+    "privacyPolicy": "https://docs.google.com/document/d/e/2PACX-1vSY9AKW2vzxU9xAeReM2wmIhrUf8j-M08R6iEy_d-rPK-NfFbIacZdSS14_ZqNVlTGbQGBeZ1SCKPxi/pub",
+    "androidVersion": "7.0",
+    "features": [
+      "professional brushes including Pen, Pencil, Airbrush, Crayon, Calligraphy, Marker, and more",
+      "Shape tools: Line, Rectangle, Circle with fill options",
+      "Color picker with full palette and custom colors",
+      "Adjustable brush size and opacity",
+      "Eraser and flood fill tools",
+      "Text tool with multiple fonts",
+      "Intuitive frame-by-frame timeline",
+      "Onion skin overlay to see previous and next frames"
+    ],
+    "recentReviews": [
+      {
+        "id": "8c89e983-c9ea-481f-a9b7-7f5145fa348c",
+        "userName": "Anna Yeboah",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK6CC3qywR_L2jOUpAC-L-vfHRaIKV0gZkYo1ezeeD_z0BQ-QU=mo",
+        "date": "2026-08-10T22:21:09.854Z",
+        "score": 5,
+        "text": "but I like this app but the ui is on customizable and I will be greate is like more of the popups and toolbars could be closed and also I have problems zooming in or out but this app gets 4.4 out of 5 for me nice work I"
+      },
+      {
+        "id": "058fd316-f9c1-4352-b75f-677f9bcdbca1",
+        "userName": "Abdulrahaman Ayomide",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLeThcnjW3-xQB81kNMvPgsQ3TlKSq_j5fkauZwmh0JkzFcQw=mo",
+        "date": "2026-08-09T20:10:15.499Z",
+        "score": 4,
+        "text": "“MP4 export still fails on my Android 9 device with Permission Denial ... WRITE_EXTERNAL_STORAGE. Storage permission is already allowed.”"
+      },
+      {
+        "id": "8f1b37f0-19c2-40c0-b7d9-4c225be92b4b",
+        "userName": "Wileom Luba",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUpbfiHSPtqc4_wh3ft_kVqer3jYvldyq82IHe0t8a41c9nn8U",
+        "date": "2026-08-06T08:37:36.120Z",
+        "score": 5,
+        "text": "this is the best animation software I have used today and there are so many options, btw keep updating it, it was awesome"
+      },
+      {
+        "id": "7230500d-7881-44ac-8790-8fb85c77381f",
+        "userName": "Brighteyes Shedletsky",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLFmdRTA6CGMub6ve_mYYONEKS4F_n08adXZaoYU0kl4G0YCw=mo",
+        "date": "2026-07-29T16:20:56.365Z",
+        "score": 5,
+        "text": "its a fun cool app i like how its offline ! :3"
+      },
+      {
+        "id": "4022b953-49fa-4d59-a652-68d41b86e0b3",
+        "userName": "Milsha Campbell",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKl9yeqdbLwIyIFIohE6IjiUWu9k430d9gXewSpwqnzm8dRtw=mo",
+        "date": "2026-07-26T05:38:39.404Z",
+        "score": 5,
+        "text": "It's an amazing app. There are so many tools you can use, and it's for free, too. unfortunately, my only problem so far is the brush option. When you click on a brush, it doesn't change, I click on the pencil brush, and it still looks like I didn't change it. Please fix this."
+      },
+      {
+        "id": "ec0ad2af-2eb3-42ad-9375-ea33c6b82599",
+        "userName": "Haswel Kunyenje",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU2j29Ki_ZG6irZZYz17k4wo7W1irk7IRT0cvHOI9ewwMBS05J2",
+        "date": "2026-07-22T21:47:47.776Z",
+        "score": 4,
+        "text": "Far much better than many animation apps."
+      },
+      {
+        "id": "d190f8d4-c205-41e7-ac3a-806352291ab6",
+        "userName": "Klondike Ninovium",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXE656NOOJ9xVtJlr0on3fNT-0urHhHBSkcGntHMtv_qouwJeg",
+        "date": "2026-07-22T15:45:56.588Z",
+        "score": 3,
+        "text": "i personally love the app cuz unlike flipaclip u can like pretty much do everything, some stuff requires ads but thats ok. the problem is exporting. i cant export a single thing. i want to transfer to this app but theres so many icks like with how some windows automatically close if u aint using them like??? just keep it open until i actually wanna close it idk how to explainnn"
+      },
+      {
+        "id": "927a96c1-e851-4572-bfd0-93e7e19bd0c6",
+        "userName": "Amit Shadow",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXDpGJg6QtPSMRz6AwboeA-Yq1e02Sv8BRLU0k5bN5eHTYbNPk",
+        "date": "2026-07-18T16:29:46.339Z",
+        "score": 4,
+        "text": "Is it possible if you guys could make it so it works better on mobile?, the apps nice and has good features, but the zoom is quite janky and barely usable imo. is it possible if you could redo the zoom and also ad double tap and triple tap so undo and redo?"
+      },
+      {
+        "id": "b042eff1-36c6-4f5f-80ea-1a4e85601908",
+        "userName": "Devon Alden Barrete",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWONi618UcY5jun_UHG8Bedr4TYuY-pgdGJ9gFUZC8-Dlmbri6b",
+        "date": "2026-07-12T10:52:34.912Z",
+        "score": 5,
+        "text": "PLEASE THIS APP WOULD BE MORE ENJOYABLE IF YOU ADD A MOVABLE CANVAS LIKE IBISPAINT AND FLIPACLIP! IT WOULD BE MORE AMAZING PLEASE PLEASE PLEASE!🥹🥹😭😭 this is the most simple and BEST animating app in my opinion! this will be 100 TIMES BETTER if you add a movable and rotatable canvas! 5 stars!🥹🫴 ⭐⭐⭐⭐⭐"
+      },
+      {
+        "id": "a3e20ac5-28a9-4d35-94d1-a423bfa29b08",
+        "userName": "Mariyah Camarena",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWYQxSXF05j8vDLbI3JsPS6TLUxa7Iyd__Exs6hWwKciZwwYTH1qQ",
+        "date": "2026-07-05T11:02:29.155Z",
+        "score": 5,
+        "text": "This is super incredible, It has everything and is so much better than flipaclip, quick question though, does this app have key frames? Just wondering"
+      },
+      {
+        "id": "8d3a98e3-2357-4664-9f36-538561dbfae8",
+        "userName": "Althea",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJGuakGCxp2ED-1LLMRNYJr0UjIKAP1vMDcdWZqtyyiZGAQsg=mo",
+        "date": "2026-07-05T05:20:28.435Z",
+        "score": 5,
+        "text": "I decided to test this app out, and honestly so far the experience was impressive since it has a lot of features that are free. I like loop thingy, my only problem was that image camera thing and whenever I draw the brushes are always delayed despite not having pressed any buttons from the three dots, And I wished there was timelines here or at least in each frame it can have a separate speed/fps. Overall I'd say it's pretty damn good probably a 7.8/10 for me"
+      },
+      {
+        "id": "3c896d6e-e211-4465-b013-99de29b99a2a",
+        "userName": "Apollos Eloho",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLE8okxZNAVaDPAV8qFq5QOB3-6yQd0sbwNF_bWC8xNZEaLyQ=mo",
+        "date": "2026-06-22T09:00:03.378Z",
+        "score": 5,
+        "text": "I love this app, using it feels like I am using a P.C software. And it's storage system is lightweight compare to other 2D animation app on Android phone"
+      }
+    ]
+  },
+  {
     "appId": "com.codebage.goviralai",
     "slug": "go-viral-ai-get-more-views",
     "title": "Go Viral AI - Get more views",
@@ -540,161 +695,6 @@
         "date": "2026-04-16T23:34:04.402Z",
         "score": 1,
         "text": "so many ads, never to use, also failed export"
-      }
-    ]
-  },
-  {
-    "appId": "com.codebage.artanimator",
-    "slug": "artanimator-animation-maker",
-    "title": "ArtAnimator - Animation Maker",
-    "summary": "Frame by frame, bring it to life. Draw, animate &amp; export MP4, GIF with ease.",
-    "description": "ArtAnimator is a powerful frame-by-frame animation app that lets you create stunning 2D animations right on your phone. Whether you're a beginner or a professional animator, ArtAnimator gives you all the tools you need to bring your ideas to life.\n\nDRAWING TOOLS\n• 24+ professional brushes including Pen, Pencil, Airbrush, Crayon, Calligraphy, Marker, and more\n• Shape tools: Line, Rectangle, Circle with fill options\n• Color picker with full palette and custom colors\n• Adjustable brush size and opacity\n• Eraser and flood fill tools\n• Text tool with multiple fonts\n\nANIMATION\n• Intuitive frame-by-frame timeline\n• Onion skin overlay to see previous and next frames\n• Add, duplicate, and reorder frames easily\n• Adjustable FPS for smooth playback\n• Ghost trail for motion visualization\n\nLAYERS\n• Multi-layer support for each frame\n• Layer visibility, opacity, and reorder controls\n• Merge layers for easy organization\n\nAUDIO\n• Record audio directly with your microphone\n• Import audio files from your device\n• Multiple audio tracks with volume control\n• Sync audio with your animation playback\n\nEXPORT & SHARE\n• Export as MP4 video in HD quality\n• Export as GIF animation\n• Export as PNG image sequence\n• Share your animations directly to social media\n\nCANVAS OPTIONS\n• Multiple canvas presets: YouTube 1080p, TikTok, Instagram, and custom sizes\n• Grid overlay for precise drawing\n• Zoom and pan for detailed work\n• Reference image import for tracing\n\nADDITIONAL FEATURES\n• Undo and redo support\n• Copy, paste, and cut frames\n• Select and transform drawn objects\n• Mirror and symmetry drawing mode\n• Demo project included to get started\n• Clean, intuitive white interface\n\nCreate professional-quality animations with ArtAnimator. Download now and start animating!",
-    "descriptionHTML": "ArtAnimator is a powerful frame-by-frame animation app that lets you create stunning 2D animations right on your phone. Whether you&#39;re a beginner or a professional animator, ArtAnimator gives you all the tools you need to bring your ideas to life.<br><br>DRAWING TOOLS<br>• 24+ professional brushes including Pen, Pencil, Airbrush, Crayon, Calligraphy, Marker, and more<br>• Shape tools: Line, Rectangle, Circle with fill options<br>• Color picker with full palette and custom colors<br>• Adjustable brush size and opacity<br>• Eraser and flood fill tools<br>• Text tool with multiple fonts<br><br>ANIMATION<br>• Intuitive frame-by-frame timeline<br>• Onion skin overlay to see previous and next frames<br>• Add, duplicate, and reorder frames easily<br>• Adjustable FPS for smooth playback<br>• Ghost trail for motion visualization<br><br>LAYERS<br>• Multi-layer support for each frame<br>• Layer visibility, opacity, and reorder controls<br>• Merge layers for easy organization<br><br>AUDIO<br>• Record audio directly with your microphone<br>• Import audio files from your device<br>• Multiple audio tracks with volume control<br>• Sync audio with your animation playback<br><br>EXPORT &amp; SHARE<br>• Export as MP4 video in HD quality<br>• Export as GIF animation<br>• Export as PNG image sequence<br>• Share your animations directly to social media<br><br>CANVAS OPTIONS<br>• Multiple canvas presets: YouTube 1080p, TikTok, Instagram, and custom sizes<br>• Grid overlay for precise drawing<br>• Zoom and pan for detailed work<br>• Reference image import for tracing<br><br>ADDITIONAL FEATURES<br>• Undo and redo support<br>• Copy, paste, and cut frames<br>• Select and transform drawn objects<br>• Mirror and symmetry drawing mode<br>• Demo project included to get started<br>• Clean, intuitive white interface<br><br>Create professional-quality animations with ArtAnimator. Download now and start animating!",
-    "icon": "/apps/artanimator-animation-maker/icon.jpg",
-    "iconRemote": "https://play-lh.googleusercontent.com/QzZcHiAptWxtiImnO1UgJp4qgIcwCnSQbkGjRWY-rvy8ZDufwOvznVM8mGUwY0rJx5UxsQl-oCtGeklKcxjXwcM",
-    "headerImage": "/apps/artanimator-animation-maker/header.jpg",
-    "screenshots": [
-      "/apps/artanimator-animation-maker/screenshot-1.jpg",
-      "/apps/artanimator-animation-maker/screenshot-2.jpg",
-      "/apps/artanimator-animation-maker/screenshot-3.jpg",
-      "/apps/artanimator-animation-maker/screenshot-4.jpg",
-      "/apps/artanimator-animation-maker/screenshot-5.jpg",
-      "/apps/artanimator-animation-maker/screenshot-6.jpg",
-      "/apps/artanimator-animation-maker/screenshot-7.jpg",
-      "/apps/artanimator-animation-maker/screenshot-8.jpg"
-    ],
-    "video": null,
-    "score": 4,
-    "scoreText": "4.0",
-    "ratings": 49,
-    "reviews": 5,
-    "installs": "1,000+",
-    "minInstalls": 1000,
-    "maxInstalls": 4983,
-    "price": 0,
-    "free": true,
-    "currency": "USD",
-    "genre": "Art & Design",
-    "genreId": "ART_AND_DESIGN",
-    "contentRating": "Everyone",
-    "released": "Mar 17, 2026",
-    "updated": 1785039916000,
-    "updatedDate": "Jul 26, 2026",
-    "version": "6.0.0",
-    "recentChanges": "• Fixed video export failing on some devices — MP4 now saves reliably and plays at the right speed<br>• Rebuilt pinch zoom: it follows your fingers properly, and you can zoom out to see the whole canvas<br>• New: rotate the canvas with a two-finger twist<br>• Triple-tap to redo (double-tap still undoes)<br>• Large projects use far less memory, especially with rotoscope video<br>• Toolbars no longer auto-hide on tablets<br>• Fixed a crash in Italian and Hindi",
-    "url": "https://play.google.com/store/apps/details?id=com.codebage.artanimator&hl=en&gl=us",
-    "developer": "codeBage",
-    "developerId": "codeBage",
-    "developerWebsite": "https://kf8ebaa43.app-ads-txt.com",
-    "developerEmail": "support.codebage@gmail.com",
-    "privacyPolicy": "https://docs.google.com/document/d/e/2PACX-1vSY9AKW2vzxU9xAeReM2wmIhrUf8j-M08R6iEy_d-rPK-NfFbIacZdSS14_ZqNVlTGbQGBeZ1SCKPxi/pub",
-    "androidVersion": "7.0",
-    "features": [
-      "professional brushes including Pen, Pencil, Airbrush, Crayon, Calligraphy, Marker, and more",
-      "Shape tools: Line, Rectangle, Circle with fill options",
-      "Color picker with full palette and custom colors",
-      "Adjustable brush size and opacity",
-      "Eraser and flood fill tools",
-      "Text tool with multiple fonts",
-      "Intuitive frame-by-frame timeline",
-      "Onion skin overlay to see previous and next frames"
-    ],
-    "recentReviews": [
-      {
-        "id": "058fd316-f9c1-4352-b75f-677f9bcdbca1",
-        "userName": "Abdulrahaman Ayomide",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLeThcnjW3-xQB81kNMvPgsQ3TlKSq_j5fkauZwmh0JkzFcQw=mo",
-        "date": "2026-08-09T20:10:15.499Z",
-        "score": 4,
-        "text": "“MP4 export still fails on my Android 9 device with Permission Denial ... WRITE_EXTERNAL_STORAGE. Storage permission is already allowed.”"
-      },
-      {
-        "id": "8f1b37f0-19c2-40c0-b7d9-4c225be92b4b",
-        "userName": "Wileom Luba",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUpbfiHSPtqc4_wh3ft_kVqer3jYvldyq82IHe0t8a41c9nn8U",
-        "date": "2026-08-06T08:37:36.120Z",
-        "score": 5,
-        "text": "this is the best animation software I have used today and there are so many options, btw keep updating it, it was awesome"
-      },
-      {
-        "id": "7230500d-7881-44ac-8790-8fb85c77381f",
-        "userName": "Brighteyes Shedletsky",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLFmdRTA6CGMub6ve_mYYONEKS4F_n08adXZaoYU0kl4G0YCw=mo",
-        "date": "2026-07-29T16:20:56.365Z",
-        "score": 5,
-        "text": "its a fun cool app i like how its offline ! :3"
-      },
-      {
-        "id": "4022b953-49fa-4d59-a652-68d41b86e0b3",
-        "userName": "Milsha Campbell",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKl9yeqdbLwIyIFIohE6IjiUWu9k430d9gXewSpwqnzm8dRtw=mo",
-        "date": "2026-07-26T05:38:39.404Z",
-        "score": 5,
-        "text": "It's an amazing app. There are so many tools you can use, and it's for free, too. unfortunately, my only problem so far is the brush option. When you click on a brush, it doesn't change, I click on the pencil brush, and it still looks like I didn't change it. Please fix this."
-      },
-      {
-        "id": "ec0ad2af-2eb3-42ad-9375-ea33c6b82599",
-        "userName": "Haswel Kunyenje",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU2j29Ki_ZG6irZZYz17k4wo7W1irk7IRT0cvHOI9ewwMBS05J2",
-        "date": "2026-07-22T21:47:47.776Z",
-        "score": 4,
-        "text": "Far much better than many animation apps."
-      },
-      {
-        "id": "d190f8d4-c205-41e7-ac3a-806352291ab6",
-        "userName": "Klondike Ninovium",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXE656NOOJ9xVtJlr0on3fNT-0urHhHBSkcGntHMtv_qouwJeg",
-        "date": "2026-07-22T15:45:56.588Z",
-        "score": 3,
-        "text": "i personally love the app cuz unlike flipaclip u can like pretty much do everything, some stuff requires ads but thats ok. the problem is exporting. i cant export a single thing. i want to transfer to this app but theres so many icks like with how some windows automatically close if u aint using them like??? just keep it open until i actually wanna close it idk how to explainnn"
-      },
-      {
-        "id": "927a96c1-e851-4572-bfd0-93e7e19bd0c6",
-        "userName": "Amit Shadow",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXDpGJg6QtPSMRz6AwboeA-Yq1e02Sv8BRLU0k5bN5eHTYbNPk",
-        "date": "2026-07-18T16:29:46.339Z",
-        "score": 4,
-        "text": "Is it possible if you guys could make it so it works better on mobile?, the apps nice and has good features, but the zoom is quite janky and barely usable imo. is it possible if you could redo the zoom and also ad double tap and triple tap so undo and redo?"
-      },
-      {
-        "id": "b042eff1-36c6-4f5f-80ea-1a4e85601908",
-        "userName": "Devon Alden Barrete",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWONi618UcY5jun_UHG8Bedr4TYuY-pgdGJ9gFUZC8-Dlmbri6b",
-        "date": "2026-07-12T10:52:34.912Z",
-        "score": 5,
-        "text": "PLEASE THIS APP WOULD BE MORE ENJOYABLE IF YOU ADD A MOVABLE CANVAS LIKE IBISPAINT AND FLIPACLIP! IT WOULD BE MORE AMAZING PLEASE PLEASE PLEASE!🥹🥹😭😭 this is the most simple and BEST animating app in my opinion! this will be 100 TIMES BETTER if you add a movable and rotatable canvas! 5 stars!🥹🫴 ⭐⭐⭐⭐⭐"
-      },
-      {
-        "id": "a3e20ac5-28a9-4d35-94d1-a423bfa29b08",
-        "userName": "Mariyah Camarena",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWYQxSXF05j8vDLbI3JsPS6TLUxa7Iyd__Exs6hWwKciZwwYTH1qQ",
-        "date": "2026-07-05T11:02:29.155Z",
-        "score": 5,
-        "text": "This is super incredible, It has everything and is so much better than flipaclip, quick question though, does this app have key frames? Just wondering"
-      },
-      {
-        "id": "8d3a98e3-2357-4664-9f36-538561dbfae8",
-        "userName": "Althea",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJGuakGCxp2ED-1LLMRNYJr0UjIKAP1vMDcdWZqtyyiZGAQsg=mo",
-        "date": "2026-07-05T05:20:28.435Z",
-        "score": 5,
-        "text": "I decided to test this app out, and honestly so far the experience was impressive since it has a lot of features that are free. I like loop thingy, my only problem was that image camera thing and whenever I draw the brushes are always delayed despite not having pressed any buttons from the three dots, And I wished there was timelines here or at least in each frame it can have a separate speed/fps. Overall I'd say it's pretty damn good probably a 7.8/10 for me"
-      },
-      {
-        "id": "3c896d6e-e211-4465-b013-99de29b99a2a",
-        "userName": "Apollos Eloho",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLE8okxZNAVaDPAV8qFq5QOB3-6yQd0sbwNF_bWC8xNZEaLyQ=mo",
-        "date": "2026-06-22T09:00:03.378Z",
-        "score": 5,
-        "text": "I love this app, using it feels like I am using a P.C software. And it's storage system is lightweight compare to other 2D animation app on Android phone"
-      },
-      {
-        "id": "59031388-577c-4c3f-9d52-58d01d1c25e6",
-        "userName": "Muhammad Aizaz Ullah Khan",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLLIaG_V1OgbGCTHj4r0Dm0IrfS1Cid_TokANN1kdfjmZd6CQ=mo",
-        "date": "2026-06-18T12:09:42.550Z",
-        "score": 5,
-        "text": "frame by frame, you end up in a nice animation video. very easy to use and straight output oriented ux."
       }
     ]
   },
@@ -1240,7 +1240,7 @@
     "reviews": 0,
     "installs": "50+",
     "minInstalls": 50,
-    "maxInstalls": 55,
+    "maxInstalls": 56,
     "price": 0,
     "free": true,
     "currency": "USD",
