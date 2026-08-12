@@ -73,7 +73,7 @@ const REMOTE_MOUSE_PRO: AppEntry = {
   slug: "remote-mouse-pro",
   platform: "android",
   customPath: "/apps/remote-mouse-pro/",
-  title: "Remote Mouse Pro",
+  title: "Phone Mouse",
   summary:
     "Use your full PC from your phone. Trackpad, keyboard, voice macros, OCR, snippets.",
   accentTint: "amber",
@@ -166,16 +166,16 @@ export const WINDOWS_APPS: AppEntry[] = ([
     slug: "remote-mouse-pro-server",
     platform: "windows",
     customPath: "/apps/remote-mouse-pro/",
-    title: "Remote Mouse Pro · Server",
+    title: "Phone Mouse · Server",
     summary:
-      "The PC half of Remote Mouse Pro. Lives in your tray, broadcasts on your LAN.",
+      "The PC half of Phone Mouse. Lives in your tray, broadcasts on your LAN.",
     accentTint: "amber",
     featured: true,
     free: true,
-    version: "0.2.1",
-    updatedDate: "Jun 19, 2026",
+    version: "0.2.2",
+    updatedDate: "Aug 12, 2026",
     sizeMb: 8.53,
-    sha256: "736247f83c734fb200131afc14ab70fb21f280967438388c25e838a3ce0e553f",
+    sha256: "c238da68db0b43c5c582a2fdc443b0d7f786d4c7317dea79bddad127837a1295",
     requirements: "Windows 10 or later · 64-bit",
     downloadUrl:
       "https://github.com/malookshah4/remotmouse/releases/latest/download/RemotMouseSetup.exe",
@@ -188,7 +188,7 @@ export const WINDOWS_APPS: AppEntry[] = ([
       "Logs stay on disk; nothing leaves your machine",
     ],
     recentChanges:
-      "0.2.0 — new first-run onboarding window with Play Store QR and a live pair-PIN that lights up the moment your phone touches the server. codeBage branding across version-info and installer. Multi-monitor + DPI awareness, foreground-window tracking, file pull, snippet capture, voice macros under the hood.",
+      "0.2.2 — rebranded to Phone Mouse. Same LAN-only tray server: first-run onboarding with Play Store QR + live pair-PIN, multi-monitor + DPI awareness, foreground-window tracking, file pull, snippet capture, and voice macros under the hood.",
   },
 ] as AppEntry[]).map(withIosLink);
 

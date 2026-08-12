@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const LAST_UPDATED = "June 12, 2026";
 
 function buildAppList(): string[] {
-  const featured = ["Remote Mouse Pro", "LifeOS", "Real or AI"];
+  const featured = ["Phone Mouse", "LifeOS", "Real or AI"];
   const fromStore = ANDROID_APPS.map((a) => a.title).filter(
     (t) => !featured.includes(t)
   );

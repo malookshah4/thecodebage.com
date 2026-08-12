@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Remote Mouse Pro",
+  title: "Privacy Policy — Phone Mouse",
   description:
-    "Privacy policy for the Remote Mouse Pro Android application. LAN-only operation, no analytics, on-device OCR and voice processing, no third-party SDKs.",
+    "Privacy policy for the Phone Mouse Android application. LAN-only operation, no analytics, on-device OCR and voice processing, no third-party SDKs.",
   alternates: { canonical: "/apps/remote-mouse-pro/privacy/" },
 };
 
@@ -17,11 +17,11 @@ export default function RemoteMouseProPrivacyPage() {
       <header className="mb-12 border-b border-zinc-200 pb-8">
         <p className="text-sm font-medium text-primary">
           <Link href="/apps/remote-mouse-pro/" className="hover:underline">
-            ← Remote Mouse Pro
+            ← Phone Mouse
           </Link>
         </p>
         <h1 className="mt-4 text-4xl font-semibold tracking-tight text-zinc-900 sm:text-5xl">
-          Remote Mouse Pro — Privacy Policy
+          Phone Mouse — Privacy Policy
         </h1>
         <p className="mt-4 text-sm text-zinc-500">
           Effective date: {EFFECTIVE} · Last updated: {LAST_UPDATED}
@@ -32,14 +32,14 @@ export default function RemoteMouseProPrivacyPage() {
         <p>
           This Privacy Policy describes how <strong>thecodebage</strong> (&ldquo;we&rdquo;,
           &ldquo;us&rdquo;, &ldquo;our&rdquo;) handles information in connection with the{" "}
-          <strong>Remote Mouse Pro</strong> Android application and its accompanying
+          <strong>Phone Mouse</strong> Android application and its accompanying
           Windows server (collectively, the &ldquo;App&rdquo;). This policy is specific
-          to Remote Mouse Pro. For our umbrella website policy, see{" "}
+          to Phone Mouse. For our umbrella website policy, see{" "}
           <Link href="/privacy/">thecodebage.com/privacy</Link>.
         </p>
         <p>
           Our guiding principle is simple: we collect as little data as physically
-          possible. Remote Mouse Pro operates entirely over your local network. We do
+          possible. Phone Mouse operates entirely over your local network. We do
           not run analytics, advertising, tracking pixels, or third-party SDKs in the
           app.
         </p>
@@ -78,14 +78,14 @@ export default function RemoteMouseProPrivacyPage() {
           <li>Location data (precise or coarse)</li>
           <li>Contacts, calendar, photos, or other personal content from your device</li>
           <li>Crash logs, telemetry, or usage analytics</li>
-          <li>The content of anything you type, click, or speak through Remote Mouse Pro</li>
+          <li>The content of anything you type, click, or speak through Phone Mouse</li>
         </ul>
 
         <h2>3. Information processed locally on your device</h2>
 
         <h3>3.1 Camera (CAMERA permission)</h3>
         <p>
-          Remote Mouse Pro&rsquo;s OCR (Text Scan) feature uses your phone&rsquo;s camera
+          Phone Mouse&rsquo;s OCR (Text Scan) feature uses your phone&rsquo;s camera
           to capture images you point at, and Google&rsquo;s on-device ML Kit Text
           Recognition library to extract text from those images. The image and recognized
           text:
@@ -99,19 +99,19 @@ export default function RemoteMouseProPrivacyPage() {
 
         <h3>3.2 Microphone (RECORD_AUDIO permission)</h3>
         <p>
-          Remote Mouse Pro&rsquo;s Voice Macros feature uses Android&rsquo;s built-in
+          Phone Mouse&rsquo;s Voice Macros feature uses Android&rsquo;s built-in
           speech-to-text engine to listen for short voice commands. The audio:
         </p>
         <ul>
           <li>Is captured only while you hold the voice button</li>
           <li>Is processed by Android&rsquo;s on-device speech recognizer where supported by your device; on older devices Android may use Google&rsquo;s speech service to perform the conversion. We do not control or receive that audio — it is governed by Google&rsquo;s privacy policy</li>
-          <li>Is not stored or uploaded by Remote Mouse Pro</li>
+          <li>Is not stored or uploaded by Phone Mouse</li>
           <li>Only the resulting recognized text command is forwarded over your local network to your paired PC</li>
         </ul>
 
         <h3>3.3 Network access (INTERNET, ACCESS_NETWORK_STATE, ACCESS_WIFI_STATE)</h3>
         <p>
-          Remote Mouse Pro uses local network access to:
+          Phone Mouse uses local network access to:
         </p>
         <ul>
           <li>Discover your PC server via mDNS / Bonjour</li>
@@ -135,7 +135,7 @@ export default function RemoteMouseProPrivacyPage() {
 
         <h2>4. Subscriptions and billing</h2>
         <p>
-          Remote Mouse Pro offers an optional Pro subscription. All payments are
+          Phone Mouse offers an optional Pro subscription. All payments are
           processed by <strong>Google Play Billing</strong>. We never see your card,
           billing address, or any financial information. We only receive the
           subscription token Google Play hands the app, which we use to unlock Pro
@@ -171,7 +171,7 @@ export default function RemoteMouseProPrivacyPage() {
 
         <h2>6. Children</h2>
         <p>
-          Remote Mouse Pro is not directed to children under 13 (or the equivalent
+          Phone Mouse is not directed to children under 13 (or the equivalent
           minimum age in your jurisdiction). We do not knowingly collect personal
           information from children.
         </p>
@@ -195,7 +195,7 @@ export default function RemoteMouseProPrivacyPage() {
         <p>
           The phone-to-PC connection uses TLS over WebSocket on your local network with
           certificate pinning after the initial pairing. We strongly recommend running
-          Remote Mouse Pro only on a Wi-Fi network you trust.
+          Phone Mouse only on a Wi-Fi network you trust.
         </p>
 
         <h2>9. Changes to this policy</h2>

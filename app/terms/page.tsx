@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "Terms of service for thecodebage and Remote Mouse Pro.",
+  description: "Terms of service for thecodebage and Phone Mouse.",
   alternates: { canonical: "/terms/" },
 };
 
@@ -21,8 +21,8 @@ export default function TermsPage() {
       <div className="prose prose-zinc max-w-none text-zinc-700 [&_h2]:mt-12 [&_h2]:text-2xl [&_h2]:font-semibold [&_h2]:tracking-tight [&_h2]:text-zinc-900 [&_p]:mt-4 [&_p]:leading-relaxed [&_ul]:mt-4 [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2 [&_li]:leading-relaxed [&_a]:text-primary [&_a]:underline [&_a]:underline-offset-2 hover:[&_a]:text-primary/80 [&_strong]:font-semibold [&_strong]:text-zinc-900">
         <p>
           These Terms of Service (&ldquo;Terms&rdquo;) govern your use of the website at{" "}
-          <a href="https://thecodebage.com">thecodebage.com</a>, the Remote Mouse Pro
-          Android app, and the Remote Mouse Pro Windows server (collectively, the
+          <a href="https://thecodebage.com">thecodebage.com</a>, the Phone Mouse
+          Android app, and the Phone Mouse Windows server (collectively, the
           &ldquo;Service&rdquo;). By installing, opening, or using the Service you agree
           to these Terms. If you do not agree, do not use the Service.
         </p>
@@ -46,7 +46,7 @@ export default function TermsPage() {
 
         <h2>3. Subscriptions and billing</h2>
         <p>
-          Remote Mouse Pro offers an optional Pro subscription on a monthly or annual
+          Phone Mouse offers an optional Pro subscription on a monthly or annual
           basis. All payments, renewals, cancellations, and refunds are handled by{" "}
           <strong>Google Play Billing</strong>. Subscription prices, billing intervals,
           and free-trial terms shown on the Google Play listing at the time of purchase

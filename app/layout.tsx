@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     template: "%s · codeBage",
   },
   description:
-    "codeBage — software utilities built with care. Maker of Remote Mouse Pro — turn your phone into a wireless trackpad, keyboard, and OCR scanner for your PC.",
+    "codeBage — software utilities built with care. Maker of Phone Mouse — turn your phone into a wireless trackpad, keyboard, and OCR scanner for your PC.",
   icons: {
     icon: [
       { url: "/favicon.png", type: "image/png" },
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     siteName: "codeBage",
     title: "codeBage — Utilities that respect your time",
     description:
-      "Maker of Remote Mouse Pro. LAN-only, privacy-first utilities for everyday computing.",
+      "Maker of Phone Mouse. LAN-only, privacy-first utilities for everyday computing.",
     images: [
       {
         url: "/og.jpeg",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "codeBage — Utilities that respect your time",
     description:
-      "Maker of Remote Mouse Pro. LAN-only, privacy-first utilities for everyday computing.",
+      "Maker of Phone Mouse. LAN-only, privacy-first utilities for everyday computing.",
     images: ["/og.jpeg"],
   },
 };

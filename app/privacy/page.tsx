@@ -41,7 +41,7 @@ export default function PrivacyPage() {
         <ul>
           <li>
             <Link href="/apps/remote-mouse-pro/privacy/">
-              Remote Mouse Pro — Privacy Policy
+              Phone Mouse — Privacy Policy
             </Link>
           </li>
         </ul>

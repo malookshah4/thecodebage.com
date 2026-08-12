@@ -16,13 +16,13 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Remote Mouse Pro â€” Use your full PC from your phone",
+  title: "Phone Mouse â€” Use your full PC from your phone",
   description:
     "Turn your Android phone into a wireless trackpad, keyboard, voice macro pad, OCR scanner, and snippet manager for your Windows PC. LAN-only. Privacy-first. By codeBage.",
   alternates: { canonical: "/apps/remote-mouse-pro/" },
 };
 
-const APP_VERSION = "0.2.1"; // display only — download URL tracks latest release
+const APP_VERSION = "0.2.2"; // display only — download URL tracks latest release
 const EXE_URL =
   "https://github.com/malookshah4/remotmouse/releases/latest/download/RemotMouseSetup.exe";
 const PLAY_URL =
@@ -43,7 +43,7 @@ const FEATURES = [
   },
   {
     title: "OCR text scan",
-    body: "Point at any printed text â€” book page, screen, sticky note â€” and Remote Mouse Pro extracts it on-device and pastes it on your PC.",
+    body: "Point at any printed text â€” book page, screen, sticky note â€” and Phone Mouse extracts it on-device and pastes it on your PC.",
   },
   {
     title: "Snippet manager",
@@ -58,7 +58,7 @@ const FEATURES = [
 const FAQ = [
   {
     q: "Do I need an internet connection?",
-    a: "No. Remote Mouse Pro works entirely over your local Wi-Fi network. Nothing flows through our servers â€” we don't run any.",
+    a: "No. Phone Mouse works entirely over your local Wi-Fi network. Nothing flows through our servers â€” we don't run any.",
   },
   {
     q: "Is the connection secure?",
@@ -145,7 +145,7 @@ export default function RemoteMouseProPage() {
               <div className="relative aspect-[9/19.5] w-full max-w-[320px] overflow-hidden rounded-3xl border border-zinc-200 bg-zinc-900 shadow-md">
                 <PhoneSlider
                   screenshots={phoneShots}
-                  alt="Remote Mouse Pro"
+                  alt="Phone Mouse"
                   sizes="(min-width: 1024px) 320px, 80vw"
                 />
               </div>
@@ -154,13 +154,13 @@ export default function RemoteMouseProPage() {
                 <div className="flex h-full flex-col items-center justify-center text-center">
                   <Image
                     src={iconSrc}
-                    alt="Remote Mouse Pro"
+                    alt="Phone Mouse"
                     width={120}
                     height={120}
                     className="rounded-3xl shadow-md"
                     priority
                   />
-                  <p className="mt-6 text-sm font-medium text-zinc-900">Remote Mouse Pro</p>
+                  <p className="mt-6 text-sm font-medium text-zinc-900">Phone Mouse</p>
                   <p className="mt-1 text-xs text-zinc-500">v{APP_VERSION}</p>
                 </div>
               </div>
@@ -249,7 +249,7 @@ export default function RemoteMouseProPage() {
             <div className="relative w-full max-w-[480px] overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-md">
               <Image
                 src="/screenshots/server-onboarding.png"
-                alt="Remote Mouse Pro server â€” first-run companion window"
+                alt="Phone Mouse server â€” first-run companion window"
                 width={1280}
                 height={1720}
                 className="h-auto w-full"
@@ -282,7 +282,7 @@ export default function RemoteMouseProPage() {
                 Install the phone app
               </h3>
               <p className="mt-2 text-zinc-600 leading-relaxed">
-                Get Remote Mouse Pro from the Google Play Store. Open it on a phone that
+                Get Phone Mouse from the Google Play Store. Open it on a phone that
                 shares the same Wi-Fi network as your PC.
               </p>
             </div>

@@ -12,14 +12,14 @@ import { cn } from "@/lib/utils";
 export const metadata: Metadata = {
   title: "Support",
   description:
-    "Help, troubleshooting, and FAQ for Remote Mouse Pro. Pairing issues, mDNS discovery, certificate warnings, subscription help.",
+    "Help, troubleshooting, and FAQ for Phone Mouse. Pairing issues, mDNS discovery, certificate warnings, subscription help.",
   alternates: { canonical: "/support/" },
 };
 
 const FAQS: { q: string; a: string }[] = [
   {
     q: "My phone can't find my PC during pairing.",
-    a: "Make sure both devices are on the same Wi-Fi network and that mDNS is allowed by your router. On the PC side, ensure the Remote Mouse Pro server is running (its tray icon should be visible). Windows Firewall must allow the server — if you saw a firewall prompt during install, click Allow access. Some routers (especially mesh systems with client isolation enabled) block device-to-device discovery — disable client isolation or AP isolation in the router settings, or use the manual IP entry fallback inside the app.",
+    a: "Make sure both devices are on the same Wi-Fi network and that mDNS is allowed by your router. On the PC side, ensure the Phone Mouse server is running (its tray icon should be visible). Windows Firewall must allow the server — if you saw a firewall prompt during install, click Allow access. Some routers (especially mesh systems with client isolation enabled) block device-to-device discovery — disable client isolation or AP isolation in the router settings, or use the manual IP entry fallback inside the app.",
   },
   {
     q: "Pairing PIN keeps timing out.",
@@ -43,11 +43,11 @@ const FAQS: { q: string; a: string }[] = [
   },
   {
     q: "How do I cancel my Pro subscription?",
-    a: "All Pro subscriptions are billed by Google Play. Open the Google Play Store on your phone → tap your profile picture → Payments and subscriptions → Subscriptions → Remote Mouse Pro → Cancel. Your Pro features keep working until the end of the period you already paid for.",
+    a: "All Pro subscriptions are billed by Google Play. Open the Google Play Store on your phone → tap your profile picture → Payments and subscriptions → Subscriptions → Phone Mouse → Cancel. Your Pro features keep working until the end of the period you already paid for.",
   },
   {
     q: "I purchased Pro on one device — how do I restore it on another?",
-    a: "Sign in to the Google Play Store on the new device with the same Google account that purchased Pro. Open Remote Mouse Pro and tap Restore Purchases in the settings. Pro features unlock automatically once Google Play confirms your subscription.",
+    a: "Sign in to the Google Play Store on the new device with the same Google account that purchased Pro. Open Phone Mouse and tap Restore Purchases in the settings. Pro features unlock automatically once Google Play confirms your subscription.",
   },
   {
     q: "I want a refund.",
