@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { PhoneSlider } from "@/components/site/phone-slider";
@@ -16,7 +16,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Phone Mouse â€” Use your full PC from your phone",
+  title: "Phone Mouse — Use your full PC from your phone",
   description:
     "Turn your Android phone into a wireless trackpad, keyboard, voice macro pad, OCR scanner, and snippet manager for your Windows PC. LAN-only. Privacy-first. By codeBage.",
   alternates: { canonical: "/apps/remote-mouse-pro/" },
@@ -35,19 +35,19 @@ const FEATURES = [
   },
   {
     title: "Full keyboard",
-    body: "Type on your phone â€” keystrokes hit your PC instantly. Modifier chord support (Ctrl+Shift+T, Alt+F4, etc.) and a function-key strip.",
+    body: "Type on your phone — keystrokes hit your PC instantly. Modifier chord support (Ctrl+Shift+T, Alt+F4, etc.) and a function-key strip.",
   },
   {
     title: "Voice macros",
-    body: "Long-press a button and say a phrase to fire a custom keystroke combo. Speech is processed on-device â€” audio never leaves your phone.",
+    body: "Long-press a button and say a phrase to fire a custom keystroke combo. Speech is processed on-device — audio never leaves your phone.",
   },
   {
     title: "OCR text scan",
-    body: "Point at any printed text â€” book page, screen, sticky note â€” and Phone Mouse extracts it on-device and pastes it on your PC.",
+    body: "Point at any printed text — book page, screen, sticky note — and Phone Mouse extracts it on-device and pastes it on your PC.",
   },
   {
     title: "Snippet manager",
-    body: "Save frequently-used text â€” emails, addresses, code blocks â€” and paste them on your PC with one tap.",
+    body: "Save frequently-used text — emails, addresses, code blocks — and paste them on your PC with one tap.",
   },
   {
     title: "File transfer",
@@ -58,7 +58,7 @@ const FEATURES = [
 const FAQ = [
   {
     q: "Do I need an internet connection?",
-    a: "No. Phone Mouse works entirely over your local Wi-Fi network. Nothing flows through our servers â€” we don't run any.",
+    a: "No. Phone Mouse works entirely over your local Wi-Fi network. Nothing flows through our servers — we don't run any.",
   },
   {
     q: "Is the connection secure?",
@@ -78,7 +78,7 @@ const FAQ = [
   },
   {
     q: "Will I be charged after the trial?",
-    a: "Yes â€” unless you cancel before the trial ends. The first paid period kicks in automatically (monthly: $1.99, yearly: $14.99). Cancel from Google Play subscriptions and you keep Pro features through the end of the trial with no charge.",
+    a: "Yes — unless you cancel before the trial ends. The first paid period kicks in automatically (monthly: $1.99, yearly: $14.99). Cancel from Google Play subscriptions and you keep Pro features through the end of the trial with no charge.",
   },
   {
     q: "Can I use the free tier forever?",
@@ -89,7 +89,7 @@ const FAQ = [
 export default function RemoteMouseProPage() {
   const app = getApp("android", "remote-mouse-pro");
   const iconSrc = app?.iconUrl ?? "/phone-mouse-icon.png";
-  // Play scraper returns a wide feature/banner image at index 0 â€” drop it
+  // Play scraper returns a wide feature/banner image at index 0 — drop it
   // when real phone shots follow.
   const allShots = app?.screenshots ?? [];
   const phoneShots = allShots.length > 1 ? allShots.slice(1) : allShots;
@@ -100,13 +100,13 @@ export default function RemoteMouseProPage() {
         <div className="mx-auto grid max-w-6xl gap-12 px-6 py-20 sm:py-28 lg:grid-cols-2 lg:items-center lg:gap-16">
           <div className="flex flex-col items-start gap-6">
             <Badge variant="secondary" className="rounded-full px-3 py-1 text-xs font-medium">
-              By codeBage Â· v{APP_VERSION}
+              By codeBage · v{APP_VERSION}
             </Badge>
             <h1 className="text-balance text-5xl font-semibold leading-[1.05] tracking-tight text-zinc-900 sm:text-6xl">
               Use your full PC from your phone.
             </h1>
             <p className="max-w-xl text-lg leading-relaxed text-zinc-600 sm:text-xl">
-              Trackpad, keyboard, voice macros, OCR scanner, and snippet manager â€” all
+              Trackpad, keyboard, voice macros, OCR scanner, and snippet manager — all
               over your local Wi-Fi. No internet round-trip. No data collection.
               Privacy by design.
             </p>
@@ -133,10 +133,10 @@ export default function RemoteMouseProPage() {
             <div className="mt-3 rounded-lg border border-amber-200 bg-amber-50/60 px-3 py-2.5 text-xs leading-relaxed text-amber-900">
               <strong className="font-semibold">First-time install heads-up.</strong>{" "}
               Windows shows <em>&ldquo;Windows protected your PC&rdquo;</em> and
-              Chrome may scan the file â€” we&rsquo;re not code-signed yet. Click
-              <strong> More info â†’ Run anyway</strong> on the Windows dialog. The
-              installer is the exact file linked above from the GitHub release â€”
-              SHA-256 starts with <code className="rounded bg-amber-100 px-1">c238da68â€¦</code>.
+              Chrome may scan the file — we&rsquo;re not code-signed yet. Click
+              <strong> More info → Run anyway</strong> on the Windows dialog. The
+              installer is the exact file linked above from the GitHub release —
+              SHA-256 starts with <code className="rounded bg-amber-100 px-1">c238da68…</code>.
             </div>
           </div>
 
@@ -179,7 +179,7 @@ export default function RemoteMouseProPage() {
               Nothing you don&rsquo;t.
             </h2>
             <p className="mt-4 text-zinc-600">
-              Six focused tools that work together â€” each one designed to disappear into
+              Six focused tools that work together — each one designed to disappear into
               your workflow.
             </p>
           </div>
@@ -204,13 +204,13 @@ export default function RemoteMouseProPage() {
         <div className="mx-auto grid max-w-6xl gap-12 px-6 py-20 sm:py-28 lg:grid-cols-[1fr_1.1fr] lg:items-center lg:gap-16">
           <div>
             <Badge variant="secondary" className="rounded-full px-3 py-1 text-xs font-medium">
-              Windows Â· v{APP_VERSION}
+              Windows · v{APP_VERSION}
             </Badge>
             <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-zinc-900 sm:text-4xl">
               Lives in your tray. Stays out of the way.
             </h2>
             <p className="mt-4 text-zinc-600 leading-relaxed">
-              First launch opens a small companion window â€” a QR for the Android
+              First launch opens a small companion window — a QR for the Android
               app, install steps, and a live pair-PIN that lights up the moment
               your phone touches the server. Auto-closes 3 seconds after the
               first connect. After that, just a tray icon.
@@ -222,7 +222,7 @@ export default function RemoteMouseProPage() {
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="mt-1.5 inline-block size-1.5 shrink-0 rounded-full bg-primary" />
-                <span>Auto-discovery on your LAN â€” phone finds the PC by itself.</span>
+                <span>Auto-discovery on your LAN — phone finds the PC by itself.</span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="mt-1.5 inline-block size-1.5 shrink-0 rounded-full bg-primary" />
@@ -241,7 +241,7 @@ export default function RemoteMouseProPage() {
                 Download Windows server
               </a>
               <span className="self-center text-xs text-zinc-500">
-                Windows 10 / 11 Â· 64-bit Â· ~8.5 MB
+                Windows 10 / 11 · 64-bit · ~8.5 MB
               </span>
             </div>
           </div>
@@ -249,7 +249,7 @@ export default function RemoteMouseProPage() {
             <div className="relative w-full max-w-[480px] overflow-hidden rounded-2xl border border-zinc-200 bg-white shadow-md">
               <Image
                 src="/screenshots/server-onboarding.png"
-                alt="Phone Mouse server â€” first-run companion window"
+                alt="Phone Mouse server — first-run companion window"
                 width={1280}
                 height={1720}
                 className="h-auto w-full"
@@ -324,10 +324,10 @@ export default function RemoteMouseProPage() {
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-sm text-zinc-700">
-                  <li>âœ“ Touchpad with multi-touch</li>
-                  <li>âœ“ Full keyboard</li>
-                  <li>âœ“ Pair unlimited PCs</li>
-                  <li>âœ“ All updates</li>
+                  <li>✓ Touchpad with multi-touch</li>
+                  <li>✓ Full keyboard</li>
+                  <li>✓ Pair unlimited PCs</li>
+                  <li>✓ All updates</li>
                 </ul>
               </CardContent>
             </Card>
@@ -345,18 +345,18 @@ export default function RemoteMouseProPage() {
                     <span className="ml-2 text-zinc-500">/ month</span>
                   </div>
                   <div className="text-sm text-zinc-500">
-                    or <strong className="text-zinc-900">$14.99/year</strong> â€” save 37%
+                    or <strong className="text-zinc-900">$14.99/year</strong> — save 37%
                   </div>
                 </div>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-3 text-sm text-zinc-700">
-                  <li>âœ“ Everything in Free</li>
-                  <li>âœ“ Voice macros</li>
-                  <li>âœ“ OCR text scan</li>
-                  <li>âœ“ Snippet manager</li>
-                  <li>âœ“ File transfer</li>
-                  <li>âœ“ Priority support</li>
+                  <li>✓ Everything in Free</li>
+                  <li>✓ Voice macros</li>
+                  <li>✓ OCR text scan</li>
+                  <li>✓ Snippet manager</li>
+                  <li>✓ File transfer</li>
+                  <li>✓ Priority support</li>
                 </ul>
               </CardContent>
             </Card>
