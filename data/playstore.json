@@ -21,11 +21,11 @@
     "video": null,
     "score": 4.51,
     "scoreText": "4.5",
-    "ratings": 58923,
+    "ratings": 58917,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
-    "maxInstalls": 1955482,
+    "maxInstalls": 1955483,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -47,6 +47,14 @@
     "features": [],
     "recentReviews": [
       {
+        "id": "94391107-9ebc-4aeb-8f61-704933c176bb",
+        "userName": "Hamza Ashraf",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIN1mfUxwZXnFoD3qfWeixlDMY3pjPUWuCSqbBsHD7vixHtWg=mo",
+        "date": "2026-08-11T18:40:27.320Z",
+        "score": 5,
+        "text": "amazing 😍🤩"
+      },
+      {
         "id": "04463f91-04c1-4328-ae5b-7cb958297b5c",
         "userName": "Fayyaz Akhtar",
         "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI1kjYtxLZ3eCEmJONb7ILva5msHxkVSaApTau34qtPPMdCOQ=mo",
@@ -61,14 +69,6 @@
         "date": "2026-08-04T02:28:05.882Z",
         "score": 5,
         "text": "It's Very Nice 🙂👍"
-      },
-      {
-        "id": "c8dfe519-5c7d-4c7c-9177-e4c71e8e3f97",
-        "userName": "Mian Kashif",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKueuyRoXOn7M0LnHK6ULtCvSilOgrxQ65WPxEFc1BLIt7R0g=mo",
-        "date": "2026-08-03T07:53:23.547Z",
-        "score": 5,
-        "text": "good"
       },
       {
         "id": "574a1eb1-020f-4c67-b10c-36a096382265",
@@ -162,13 +162,13 @@
       "/apps/fake-sms-fake-text-message/screenshot-5.jpg"
     ],
     "video": null,
-    "score": 4.01,
+    "score": 4,
     "scoreText": "4.0",
-    "ratings": 5085,
+    "ratings": 5095,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
-    "maxInstalls": 663626,
+    "maxInstalls": 663629,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "df219478-ad41-42b9-9142-3ca7c6eaab59",
+        "userName": "Dismas Kirui",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJQF148uyKDOefJH9FFxbeC_q5146JX6x79xmOcsa5-RLXO0A=mo",
+        "date": "2026-08-11T14:58:55.167Z",
+        "score": 5,
+        "text": "good"
+      },
       {
         "id": "a6a5c756-fa70-4b06-b665-768530ec61bb",
         "userName": "Juma Mwai",
@@ -276,14 +284,6 @@
         "date": "2026-06-10T06:32:51.981Z",
         "score": 5,
         "text": "marvellous"
-      },
-      {
-        "id": "8ff1c8bf-ba30-47a2-b8bf-2057f8a35407",
-        "userName": "waziha fabiha",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKD6W-nX-j_jamqu_f0egMQ9T2xa2HHD4N0zAdLNtFxFFNOGw=mo",
-        "date": "2026-06-09T19:38:31.959Z",
-        "score": 4,
-        "text": "nice"
       }
     ]
   },
@@ -309,7 +309,7 @@
     "reviews": 0,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 13787,
+    "maxInstalls": 13801,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -388,7 +388,7 @@
     "video": null,
     "score": 4,
     "scoreText": "4.0",
-    "ratings": 50,
+    "ratings": 51,
     "reviews": 6,
     "installs": "5,000+",
     "minInstalls": 5000,
@@ -422,6 +422,14 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
+      {
+        "id": "0fb64ec0-5a0d-43fb-a142-c84e8c28bd80",
+        "userName": "maya me",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXFJQb9qbCJ0rwPrlyLRYUGMuw3vfwGJfPk0v3hl-YplF-qT78",
+        "date": "2026-08-12T04:11:18.743Z",
+        "score": 4,
+        "text": "Its really good (definitely replaces flipaclip), but please dont lock the quality behind a paywall... I would prefer to watch 3 ads for it instead."
+      },
       {
         "id": "8c89e983-c9ea-481f-a9b7-7f5145fa348c",
         "userName": "Anna Yeboah",
@@ -509,14 +517,6 @@
         "date": "2026-07-05T05:20:28.435Z",
         "score": 5,
         "text": "I decided to test this app out, and honestly so far the experience was impressive since it has a lot of features that are free. I like loop thingy, my only problem was that image camera thing and whenever I draw the brushes are always delayed despite not having pressed any buttons from the three dots, And I wished there was timelines here or at least in each frame it can have a separate speed/fps. Overall I'd say it's pretty damn good probably a 7.8/10 for me"
-      },
-      {
-        "id": "3c896d6e-e211-4465-b013-99de29b99a2a",
-        "userName": "Apollos Eloho",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLE8okxZNAVaDPAV8qFq5QOB3-6yQd0sbwNF_bWC8xNZEaLyQ=mo",
-        "date": "2026-06-22T09:00:03.378Z",
-        "score": 5,
-        "text": "I love this app, using it feels like I am using a P.C software. And it's storage system is lightweight compare to other 2D animation app on Android phone"
       }
     ]
   },
@@ -546,7 +546,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 3605,
+    "maxInstalls": 3655,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -618,7 +618,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1122,
+    "maxInstalls": 1123,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1021,7 +1021,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 185,
+    "maxInstalls": 188,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1129,7 +1129,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 393,
+    "maxInstalls": 395,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1248,9 +1248,9 @@
     "genreId": "TOOLS",
     "contentRating": "Everyone",
     "released": "Apr 9, 2026",
-    "updated": 1785203217000,
-    "updatedDate": "Jul 28, 2026",
-    "version": "1.0.0",
+    "updated": 1786509551000,
+    "updatedDate": "Aug 12, 2026",
+    "version": "2.0.1",
     "recentChanges": "Scout 1.0 — scan any product barcode and know in seconds whether it&#39;s worth flipping.<br><br>• Live Amazon pricing, BSR and seller counts<br>• Profit and FBA fee breakdown before you buy<br>• Haul history with CSV export and sharing<br>• Settings: set your US ZIP for accurate fee estimates<br>• Scout Pro — unlimited scans, no ads (weekly, monthly or yearly)<br>• Fresh app icon<br>• Full support for Android 17",
     "url": "https://play.google.com/store/apps/details?id=com.codebage.scout&hl=en&gl=us",
     "developer": "codeBage",
@@ -1348,7 +1348,7 @@
     "reviews": 0,
     "installs": "10+",
     "minInstalls": 10,
-    "maxInstalls": 36,
+    "maxInstalls": 37,
     "price": 0,
     "free": true,
     "currency": "USD",
