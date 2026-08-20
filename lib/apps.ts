@@ -121,6 +121,10 @@ const IOS_LINKS: Array<{ prefix: string; url: string }> = [
     prefix: "real-or-ai",
     url: "https://apps.apple.com/us/app/real-or-ai-ai-detector/id6786508103",
   },
+  {
+    prefix: "artanimator",
+    url: "https://apps.apple.com/us/app/art-animator/id6791156107",
+  },
 ];
 
 function withIosLink(app: AppEntry): AppEntry {
