@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.51,
     "scoreText": "4.5",
-    "ratings": 58994,
+    "ratings": 59004,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.04,
     "scoreText": "4.0",
-    "ratings": 5196,
+    "ratings": 5206,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "8be5d7b7-1ef3-40d0-a3d8-f609018a3278",
+        "userName": "Aoun Abbas",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVGgZOXGUUo5lcBd-AxFqlUPTQKDt1SLJngPGRXouNgabFFGj0",
+        "date": "2026-08-27T04:31:39.657Z",
+        "score": 5,
+        "text": "best app"
+      },
       {
         "id": "49c61244-60dc-4eaa-abd1-1c1c5cdc56c3",
         "userName": "Sitwell Kahilu",
@@ -276,14 +284,6 @@
         "date": "2026-07-05T02:34:50.960Z",
         "score": 4,
         "text": "App is very good but I saw a problem in this app that is when you will type message mean while you can't see message, if you want to see message first you have to hide keyboard on your phone."
-      },
-      {
-        "id": "82869ee3-0de1-483b-9af8-792d8ad4eb1f",
-        "userName": "Rico Rufino Regodon",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX7CZ0JQX5C6uvOfDlPg170xfuSZrpRGlW4UUjmAreqqXvM2uZN",
-        "date": "2026-06-25T12:27:09.614Z",
-        "score": 5,
-        "text": "ok"
       }
     ]
   },
@@ -625,7 +625,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1299,
+    "maxInstalls": 1317,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1152,7 +1152,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 470,
+    "maxInstalls": 475,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1371,7 +1371,7 @@
     "reviews": 0,
     "installs": "10+",
     "minInstalls": 10,
-    "maxInstalls": 41,
+    "maxInstalls": 42,
     "price": 0,
     "free": true,
     "currency": "USD",
