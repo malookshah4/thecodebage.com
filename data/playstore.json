@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.51,
     "scoreText": "4.5",
-    "ratings": 59026,
+    "ratings": 59033,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,14 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "86011ea4-6ef0-4693-b7e3-b1822156b7d6",
+        "userName": "شكيل احمد",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocITbHXrUABSZeXF6RpFp2yZw3yN01LJ9PLQSXiMzcPZ1Of2Kw=mo",
+        "date": "2026-09-02T12:06:59.254Z",
+        "score": 5,
+        "text": "from Yahoo"
+      },
       {
         "id": "72a01ec9-6f38-40d4-864c-019f65bb920b",
         "userName": "Mohammed Mushtaq Mohammad Mushtaq",
@@ -133,14 +141,6 @@
         "date": "2026-08-13T03:40:12.330Z",
         "score": 5,
         "text": "My video for you"
-      },
-      {
-        "id": "9d8b9321-5baa-4e1c-bfd7-1fc783c94f4e",
-        "userName": "Malik ishaq",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLnokbqIANLUzpsH33IUaV2q1KXzoVjaxxjC0GPZaJW-k4NKQ=mo",
-        "date": "2026-08-12T11:03:41.727Z",
-        "score": 5,
-        "text": "for you page viral video star ok"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.05,
     "scoreText": "4.1",
-    "ratings": 5245,
+    "ratings": 5250,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -387,11 +387,11 @@
     "video": null,
     "score": 4,
     "scoreText": "4.0",
-    "ratings": 54,
-    "reviews": 6,
+    "ratings": 56,
+    "reviews": 7,
     "installs": "5,000+",
     "minInstalls": 5000,
-    "maxInstalls": 6618,
+    "maxInstalls": 6626,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -399,10 +399,10 @@
     "genreId": "ART_AND_DESIGN",
     "contentRating": "Everyone",
     "released": "Mar 17, 2026",
-    "updated": 1787307707000,
-    "updatedDate": "Aug 21, 2026",
-    "version": "6.0.1",
-    "recentChanges": "NEW: Lip Sync<br><br>Draw six mouth shapes, pick an audio clip, and ArtAnimator matches your character&#39;s mouth to the voice across every frame — automatically.<br><br>Also in this update:<br>• Fixed crashes when opening or saving large projects<br>• Fixed a crash on the timeline while drawing<br>• Faster, lighter thumbnails and image imports<br>• No more freeze on startup on slower devices<br>• More Tools menu now scrolls, so every tool is reachable<br>",
+    "updated": 1788489606000,
+    "updatedDate": "Sep 4, 2026",
+    "version": "6.1.0",
+    "recentChanges": "What&#39;s new in 6.1.0<br>• Fixed the canvas shaking and glitching when you pinch-zoom or pan<br>• Strokes now land exactly under your finger at any zoom, pan or rotation<br>• Draw-offset pencil cursor now follows zoom, pan and rotation<br>• Smoother playback and onion skin in projects with imported images<br>• Smaller, faster app",
     "url": "https://play.google.com/store/apps/details?id=com.codebage.artanimator&hl=en&gl=us",
     "developer": "codeBage",
     "developerId": "codeBage",
@@ -421,6 +421,22 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
+      {
+        "id": "79f65995-2009-4d3d-8f30-25dc50ee0248",
+        "userName": "Altysaltymalty Kellyboy",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLqctx3E2F8kOLTM3ZvfHIwlZDiOUB1lh_pVuO26Z9WMXZz8A=mo",
+        "date": "2026-09-03T04:31:24.666Z",
+        "score": 3,
+        "text": "honestly a good app but they should fix the zooming features when I zoom in the canvas suddenly shakes please fix this"
+      },
+      {
+        "id": "14979000-422c-4596-8b97-3a12ac176bab",
+        "userName": "Aimee Sapotalo",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXjJ9sHK6bkjOHhvknGOzXXthaWbaSXGJ4cWvTALb3Uu4_7txw",
+        "date": "2026-09-03T01:13:37.822Z",
+        "score": 5,
+        "text": "I like it"
+      },
       {
         "id": "eddeb90b-ab6d-4b48-b280-ca7836792650",
         "userName": "Blazing Kai",
@@ -500,22 +516,6 @@
         "date": "2026-07-18T16:29:46.339Z",
         "score": 4,
         "text": "Is it possible if you guys could make it so it works better on mobile?, the apps nice and has good features, but the zoom is quite janky and barely usable imo. is it possible if you could redo the zoom and also ad double tap and triple tap so undo and redo?"
-      },
-      {
-        "id": "b042eff1-36c6-4f5f-80ea-1a4e85601908",
-        "userName": "Devon Alden Barrete",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWONi618UcY5jun_UHG8Bedr4TYuY-pgdGJ9gFUZC8-Dlmbri6b",
-        "date": "2026-07-12T10:52:34.912Z",
-        "score": 5,
-        "text": "PLEASE THIS APP WOULD BE MORE ENJOYABLE IF YOU ADD A MOVABLE CANVAS LIKE IBISPAINT AND FLIPACLIP! IT WOULD BE MORE AMAZING PLEASE PLEASE PLEASE!🥹🥹😭😭 this is the most simple and BEST animating app in my opinion! this will be 100 TIMES BETTER if you add a movable and rotatable canvas! 5 stars!🥹🫴 ⭐⭐⭐⭐⭐"
-      },
-      {
-        "id": "a3e20ac5-28a9-4d35-94d1-a423bfa29b08",
-        "userName": "Mariyah Camarena",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWYQxSXF05j8vDLbI3JsPS6TLUxa7Iyd__Exs6hWwKciZwwYTH1qQ",
-        "date": "2026-07-05T11:02:29.155Z",
-        "score": 5,
-        "text": "This is super incredible, It has everything and is so much better than flipaclip, quick question though, does this app have key frames? Just wondering"
       }
     ]
   },
