@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.51,
     "scoreText": "4.5",
-    "ratings": 59033,
+    "ratings": 59020,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.05,
     "scoreText": "4.1",
-    "ratings": 5250,
+    "ratings": 5257,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -422,6 +422,14 @@
     ],
     "recentReviews": [
       {
+        "id": "f916e0b6-b9d6-4697-9cc5-2dcf79db61ff",
+        "userName": "Teya",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjW5B1iFw0CeSQPALXwY3nsGPFq97fl8bVIpG6vw6ygeBNEdUu4",
+        "date": "2026-09-04T05:14:00.938Z",
+        "score": 4,
+        "text": "So far there are only 2 annoyances, the delay, and onion skinning only showing the previous frames and not the next frames. Aside from that, this app is awesome and doesn't lock features behind a paywall like a certain animation app *cough cough* Flipaclip *cough cough*"
+      },
+      {
         "id": "79f65995-2009-4d3d-8f30-25dc50ee0248",
         "userName": "Altysaltymalty Kellyboy",
         "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLqctx3E2F8kOLTM3ZvfHIwlZDiOUB1lh_pVuO26Z9WMXZz8A=mo",
@@ -436,14 +444,6 @@
         "date": "2026-09-03T01:13:37.822Z",
         "score": 5,
         "text": "I like it"
-      },
-      {
-        "id": "eddeb90b-ab6d-4b48-b280-ca7836792650",
-        "userName": "Blazing Kai",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjURVriKfg_SXXNFe8xQsz1FchQZdlfR7qUwxwlWAUAHrm89C6s",
-        "date": "2026-08-29T06:42:50.600Z",
-        "score": 3,
-        "text": "when I try to pan zoom my drawing it glitches out"
       },
       {
         "id": "0fb64ec0-5a0d-43fb-a142-c84e8c28bd80",
@@ -542,7 +542,7 @@
     "video": null,
     "score": 4.6,
     "scoreText": "4.6",
-    "ratings": 81,
+    "ratings": 85,
     "reviews": 1,
     "installs": "1,000+",
     "minInstalls": 1000,
@@ -575,6 +575,22 @@
       "Hook Generator — attention-grabbing openers"
     ],
     "recentReviews": [
+      {
+        "id": "370924d8-6fe8-4871-a0e9-20c1d0fbfb0e",
+        "userName": "Chinemerem Caroline",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIh1iwwtWxbjZGMZOihMhHEbtiv98nkJNkpD6pSQNQe-oBqRA=mo",
+        "date": "2026-09-04T05:48:43.280Z",
+        "score": 1,
+        "text": "why must I be made to pay before I can check how well my videos are doing"
+      },
+      {
+        "id": "a31503ee-4684-445e-9434-35616770ecd5",
+        "userName": "Thea Townshend",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVVyiBP1Ob2TtcNctbUpmCpgHTW3d0kUWjSrHPukD81MTiRoxnj",
+        "date": "2026-09-03T13:12:45.764Z",
+        "score": 4,
+        "text": "really good at first because I was tryna find one for free but no problems really I just wanted to find a free one because I dont have money to buy a subscription!"
+      },
       {
         "id": "cb4b0cf4-707a-4f91-9c67-5416e3aaef84",
         "userName": "Rochelle Jones",
