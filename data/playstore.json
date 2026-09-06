@@ -21,11 +21,11 @@
     "video": null,
     "score": 4.51,
     "scoreText": "4.5",
-    "ratings": 59020,
+    "ratings": 59022,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
-    "maxInstalls": 1960611,
+    "maxInstalls": 1960629,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -164,11 +164,11 @@
     "video": null,
     "score": 4.05,
     "scoreText": "4.1",
-    "ratings": 5257,
+    "ratings": 5264,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
-    "maxInstalls": 675930,
+    "maxInstalls": 675942,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -309,7 +309,7 @@
     "reviews": 0,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 17106,
+    "maxInstalls": 17114,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -387,7 +387,7 @@
     "video": null,
     "score": 4,
     "scoreText": "4.0",
-    "ratings": 56,
+    "ratings": 57,
     "reviews": 7,
     "installs": "5,000+",
     "minInstalls": 5000,
@@ -421,6 +421,14 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
+      {
+        "id": "eddeb90b-ab6d-4b48-b280-ca7836792650",
+        "userName": "Blazing Kai",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjURVriKfg_SXXNFe8xQsz1FchQZdlfR7qUwxwlWAUAHrm89C6s",
+        "date": "2026-09-04T17:13:34.751Z",
+        "score": 4,
+        "text": "when I try to pan zoom my drawing it glitches out edit::The bug has been removed and ill try to animate something and ill come back for a full review but thanks for lisnting 4 stars for now"
+      },
       {
         "id": "f916e0b6-b9d6-4697-9cc5-2dcf79db61ff",
         "userName": "Teya",
@@ -508,14 +516,6 @@
         "date": "2026-07-22T15:45:56.588Z",
         "score": 3,
         "text": "i personally love the app cuz unlike flipaclip u can like pretty much do everything, some stuff requires ads but thats ok. the problem is exporting. i cant export a single thing. i want to transfer to this app but theres so many icks like with how some windows automatically close if u aint using them like??? just keep it open until i actually wanna close it idk how to explainnn"
-      },
-      {
-        "id": "927a96c1-e851-4572-bfd0-93e7e19bd0c6",
-        "userName": "Amit Shadow",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXDpGJg6QtPSMRz6AwboeA-Yq1e02Sv8BRLU0k5bN5eHTYbNPk",
-        "date": "2026-07-18T16:29:46.339Z",
-        "score": 4,
-        "text": "Is it possible if you guys could make it so it works better on mobile?, the apps nice and has good features, but the zoom is quite janky and barely usable imo. is it possible if you could redo the zoom and also ad double tap and triple tap so undo and redo?"
       }
     ]
   },
@@ -542,11 +542,11 @@
     "video": null,
     "score": 4.6,
     "scoreText": "4.6",
-    "ratings": 85,
+    "ratings": 87,
     "reviews": 1,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 4982,
+    "maxInstalls": 4983,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -575,6 +575,14 @@
       "Hook Generator — attention-grabbing openers"
     ],
     "recentReviews": [
+      {
+        "id": "39c03e0f-1fe1-49c6-8a74-0876d88458fe",
+        "userName": "Malik Jan",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI7dtjWZ1kQc0XiNO2AKmbSVt1Nkt7HTZm8kb_P1dtWdkdEZw=mo",
+        "date": "2026-09-04T19:26:05.361Z",
+        "score": 5,
+        "text": "very good"
+      },
       {
         "id": "370924d8-6fe8-4871-a0e9-20c1d0fbfb0e",
         "userName": "Chinemerem Caroline",
@@ -642,7 +650,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1434,
+    "maxInstalls": 1435,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1440,7 +1448,7 @@
     "reviews": 0,
     "installs": "10+",
     "minInstalls": 10,
-    "maxInstalls": 36,
+    "maxInstalls": 37,
     "price": 0,
     "free": true,
     "currency": "USD",
