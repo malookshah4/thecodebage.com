@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.51,
     "scoreText": "4.5",
-    "ratings": 59022,
+    "ratings": 59021,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,14 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "f3bf15c3-cd5d-4a9c-a464-d0d0ebf83d89",
+        "userName": "TikTok Famous Try",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLZ9lNDVPvZzACtAoHCkMb5BrqCU1Lz24Un2uOq6L2LEQTCFw=mo",
+        "date": "2026-09-05T14:02:28.758Z",
+        "score": 5,
+        "text": "nice app"
+      },
       {
         "id": "86011ea4-6ef0-4693-b7e3-b1822156b7d6",
         "userName": "شكيل احمد",
@@ -133,14 +141,6 @@
         "date": "2026-08-13T16:06:17.950Z",
         "score": 3,
         "text": "public video viral 1Billion views"
-      },
-      {
-        "id": "82373db1-3666-4d30-9259-e713e8f13667",
-        "userName": "Kamal",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIIV_qL6ZeG4urCt6_VXu0qZgR89zi5niLpkiiu9-TkX3gzLw=mo",
-        "date": "2026-08-13T03:40:12.330Z",
-        "score": 5,
-        "text": "My video for you"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.05,
     "scoreText": "4.1",
-    "ratings": 5264,
+    "ratings": 5269,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
