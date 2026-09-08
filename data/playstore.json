@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.51,
     "scoreText": "4.5",
-    "ratings": 59021,
+    "ratings": 59024,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,14 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "2443e346-df19-4ce4-a959-21396ddcbd81",
+        "userName": "Rahmat ullah Rahmat",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK-T5kVIO5ZArwGQm7ru6HtVc00A0AkgGd7_1jgDo_iZ4raPg=mo",
+        "date": "2026-09-07T06:12:41.884Z",
+        "score": 5,
+        "text": "far you"
+      },
       {
         "id": "f3bf15c3-cd5d-4a9c-a464-d0d0ebf83d89",
         "userName": "TikTok Famous Try",
@@ -133,14 +141,6 @@
         "date": "2026-08-20T19:09:43.374Z",
         "score": 5,
         "text": "زما اکاونټ درسره فالو کړی ملتیا می غواړم ستاسو دملتیا په ھیله ستاسو ورور بارک افغان"
-      },
-      {
-        "id": "9d15199a-7378-4801-a05a-d3b5d7582567",
-        "userName": "Faizan Ali",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL5DjVOArq1eH80i9wp6t5fKU3PDtsqUvhIa_ka8f4zGF9zyg=mo",
-        "date": "2026-08-13T16:06:17.950Z",
-        "score": 3,
-        "text": "public video viral 1Billion views"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.05,
     "scoreText": "4.1",
-    "ratings": 5269,
+    "ratings": 5278,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -542,7 +542,7 @@
     "video": null,
     "score": 4.6,
     "scoreText": "4.6",
-    "ratings": 87,
+    "ratings": 89,
     "reviews": 1,
     "installs": "1,000+",
     "minInstalls": 1000,
