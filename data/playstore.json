@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.51,
     "scoreText": "4.5",
-    "ratings": 59044,
+    "ratings": 59058,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.05,
     "scoreText": "4.1",
-    "ratings": 5330,
+    "ratings": 5343,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -387,7 +387,7 @@
     "video": null,
     "score": 4,
     "scoreText": "4.0",
-    "ratings": 59,
+    "ratings": 61,
     "reviews": 7,
     "installs": "5,000+",
     "minInstalls": 5000,
@@ -421,6 +421,14 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
+      {
+        "id": "1565e036-f775-4cfc-9bdd-996fb00f0607",
+        "userName": "Dalia Walid",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLSyw7yoTN-stKHHf-B9nUImItjgLIIPFh61cZw-No81NFUgw=mo",
+        "date": "2026-09-12T11:19:36.640Z",
+        "score": 5,
+        "text": "this app is more than just great it's the best animation software I've ever used it contains everything - bones, pins, key frame, and many more. but please make a button to import 3d models to use them as references or backgrounds if you add this the app will be the best on android"
+      },
       {
         "id": "41ae8c45-d561-4be0-a608-603cdffa9e0d",
         "userName": "Lucas tebogo Leshaba",
@@ -508,14 +516,6 @@
         "date": "2026-07-26T05:38:39.404Z",
         "score": 5,
         "text": "It's an amazing app. There are so many tools you can use, and it's for free, too. unfortunately, my only problem so far is the brush option. When you click on a brush, it doesn't change, I click on the pencil brush, and it still looks like I didn't change it. Please fix this."
-      },
-      {
-        "id": "ec0ad2af-2eb3-42ad-9375-ea33c6b82599",
-        "userName": "Haswel Kunyenje",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjU2j29Ki_ZG6irZZYz17k4wo7W1irk7IRT0cvHOI9ewwMBS05J2",
-        "date": "2026-07-22T21:47:47.776Z",
-        "score": 4,
-        "text": "Far much better than many animation apps."
       }
     ]
   },
