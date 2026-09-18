@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.51,
     "scoreText": "4.5",
-    "ratings": 59072,
+    "ratings": 59078,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,22 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "e50295db-5d3e-47e5-8075-ed723dc1b07b",
+        "userName": "Mr Khalid",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUd38PBQUvb16oWFvYgFO0aMxKL1Y-1NktXrY4M0vbVATnY5XAB",
+        "date": "2026-09-17T07:01:35.906Z",
+        "score": 5,
+        "text": "nice 😍😍"
+      },
+      {
+        "id": "2d97ab2f-06e3-4fad-9a8e-ad119803d070",
+        "userName": "M Hashim",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVASuh6FLHYsgVwQMm8Pz-3XzZIkAOgkoRghUPgBw72mRs3RxI",
+        "date": "2026-09-16T13:29:29.400Z",
+        "score": 5,
+        "text": "Foryou"
+      },
       {
         "id": "e4116e9c-53ef-4158-8118-2543dbb7a6dc",
         "userName": "Imran Awan",
@@ -125,22 +141,6 @@
         "date": "2026-08-31T06:32:36.722Z",
         "score": 1,
         "text": "Happy ☺️"
-      },
-      {
-        "id": "0a8e7079-d6d2-43e5-b71d-4f4ffa9ae766",
-        "userName": "sediqzamansadiq sediqzamansadiq",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL72ETwJiBuqafYqC6Skt6FeruGBRBs9PLS39SmoNdVBUgLrQ=mo",
-        "date": "2026-08-26T02:38:41.471Z",
-        "score": 5,
-        "text": "good app"
-      },
-      {
-        "id": "9dc5c047-c849-4609-8321-858f22d2f283",
-        "userName": "Oمer فarooق",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWN7ubu83gvwx4YPtUXUsLW1_Diwb65XblhTCVd0wkY5SBZb2y4",
-        "date": "2026-08-25T16:09:30.199Z",
-        "score": 5,
-        "text": "Fantastic"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.05,
     "scoreText": "4.1",
-    "ratings": 5382,
+    "ratings": 5386,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -542,7 +542,7 @@
     "video": null,
     "score": 4.6,
     "scoreText": "4.6",
-    "ratings": 100,
+    "ratings": 102,
     "reviews": 1,
     "installs": "5,000+",
     "minInstalls": 5000,
@@ -1535,7 +1535,7 @@
     "reviews": 0,
     "installs": "10+",
     "minInstalls": 10,
-    "maxInstalls": 26,
+    "maxInstalls": 33,
     "price": 0,
     "free": true,
     "currency": "USD",
