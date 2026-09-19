@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.51,
     "scoreText": "4.5",
-    "ratings": 59078,
+    "ratings": 59083,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,14 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "ce87d85d-833b-4c69-9b07-a2307ce8db34",
+        "userName": "muhmmad rafiq",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJcTK5Qtaaeeb7f76jy4yvpHzwcbNvGLUKGZIbzSp4JOPLqeg=mo",
+        "date": "2026-09-17T18:07:44.920Z",
+        "score": 5,
+        "text": "for you grow probably"
+      },
       {
         "id": "e50295db-5d3e-47e5-8075-ed723dc1b07b",
         "userName": "Mr Khalid",
@@ -133,14 +141,6 @@
         "date": "2026-09-01T21:44:22.466Z",
         "score": 5,
         "text": "Usman Ali 4924"
-      },
-      {
-        "id": "e6a33595-02cb-4c4a-b0a5-2dc977249a53",
-        "userName": "tayyab marley",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXH4snRESmWOW9y1LamPVJaHzrAG8bHiVHc8co4Odm5a7nlRJY",
-        "date": "2026-08-31T06:32:36.722Z",
-        "score": 1,
-        "text": "Happy ☺️"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.05,
     "scoreText": "4.1",
-    "ratings": 5386,
+    "ratings": 5394,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -391,7 +391,7 @@
     "reviews": 7,
     "installs": "5,000+",
     "minInstalls": 5000,
-    "maxInstalls": 7634,
+    "maxInstalls": 7635,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -658,7 +658,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1656,
+    "maxInstalls": 1657,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1535,7 +1535,7 @@
     "reviews": 0,
     "installs": "10+",
     "minInstalls": 10,
-    "maxInstalls": 33,
+    "maxInstalls": 36,
     "price": 0,
     "free": true,
     "currency": "USD",
