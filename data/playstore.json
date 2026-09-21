@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.51,
     "scoreText": "4.5",
-    "ratings": 59084,
+    "ratings": 59088,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,22 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "2b987051-3025-4933-b361-2f5a40b0820e",
+        "userName": "Faisal Meo",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWFxzwzL6zQkFpB_7z4458PoUBZ_csTXD0CR4zQBj3u_u-Q3C4",
+        "date": "2026-09-19T13:39:24.580Z",
+        "score": 4,
+        "text": "good 😊👍"
+      },
+      {
+        "id": "8c7d882e-8616-4fb5-9b66-cc9d3ee1f932",
+        "userName": "Khan Khan",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLSxJF48ydAg-AKPtNjOJhmWPdno_Q8Ffa5OCAmyKkBcs-9MQ=mo",
+        "date": "2026-09-19T12:59:56.326Z",
+        "score": 5,
+        "text": "Khan Khan viral my TikTok account unfreeze"
+      },
       {
         "id": "ce87d85d-833b-4c69-9b07-a2307ce8db34",
         "userName": "muhmmad rafiq",
@@ -125,22 +141,6 @@
         "date": "2026-09-05T14:02:28.758Z",
         "score": 5,
         "text": "nice app"
-      },
-      {
-        "id": "86011ea4-6ef0-4693-b7e3-b1822156b7d6",
-        "userName": "شكيل احمد",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocITbHXrUABSZeXF6RpFp2yZw3yN01LJ9PLQSXiMzcPZ1Of2Kw=mo",
-        "date": "2026-09-02T12:06:59.254Z",
-        "score": 5,
-        "text": "from Yahoo"
-      },
-      {
-        "id": "72a01ec9-6f38-40d4-864c-019f65bb920b",
-        "userName": "Mohammed Mushtaq Mohammad Mushtaq",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLCM43IBUzah27RQX8ISMwgm0ki93Kh8tQU4RTIDoph9c0tWA=mo",
-        "date": "2026-09-01T21:44:22.466Z",
-        "score": 5,
-        "text": "Usman Ali 4924"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.05,
     "scoreText": "4.1",
-    "ratings": 5403,
+    "ratings": 5411,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -387,7 +387,7 @@
     "video": null,
     "score": 4,
     "scoreText": "4.0",
-    "ratings": 63,
+    "ratings": 64,
     "reviews": 7,
     "installs": "5,000+",
     "minInstalls": 5000,
@@ -421,6 +421,14 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
+      {
+        "id": "eddeb90b-ab6d-4b48-b280-ca7836792650",
+        "userName": "Blazing Kai",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjURVriKfg_SXXNFe8xQsz1FchQZdlfR7qUwxwlWAUAHrm89C6s",
+        "date": "2026-09-20T05:23:31.572Z",
+        "score": 5,
+        "text": "can you add undo with 2 finger tap and redo with 3 finger tap and when I lower the opacity it doesn't work properly the are circles in the button when I draw"
+      },
       {
         "id": "2f45cd03-4265-45b8-aa95-ceb81d167022",
         "userName": "Piyush Sharma",
@@ -508,14 +516,6 @@
         "date": "2026-08-06T08:37:36.120Z",
         "score": 5,
         "text": "this is the best animation software I have used today and there are so many options, btw keep updating it, it was awesome"
-      },
-      {
-        "id": "7230500d-7881-44ac-8790-8fb85c77381f",
-        "userName": "Brighteyes Shedletsky",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLFmdRTA6CGMub6ve_mYYONEKS4F_n08adXZaoYU0kl4G0YCw=mo",
-        "date": "2026-07-29T16:20:56.365Z",
-        "score": 5,
-        "text": "its a fun cool app i like how its offline ! :3"
       }
     ]
   },
@@ -542,7 +542,7 @@
     "video": null,
     "score": 4.6,
     "scoreText": "4.6",
-    "ratings": 105,
+    "ratings": 106,
     "reviews": 1,
     "installs": "5,000+",
     "minInstalls": 5000,
@@ -575,6 +575,14 @@
       "Hook Generator — attention-grabbing openers"
     ],
     "recentReviews": [
+      {
+        "id": "05fcbfb9-a967-4bc5-8cb7-a06996d8ea50",
+        "userName": "Adeel Butt",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKnEPkrYqChjFiPglvV7w9qPCe1vO_unNlMTxW-OVvuYIslJw=mo",
+        "date": "2026-09-20T03:24:51.386Z",
+        "score": 5,
+        "text": "1 million views unfreeez my account"
+      },
       {
         "id": "c5256013-fa6a-4ad3-9dfb-70a1a9521844",
         "userName": "Hasinat Madi",
