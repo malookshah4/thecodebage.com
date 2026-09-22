@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.51,
     "scoreText": "4.5",
-    "ratings": 59088,
+    "ratings": 59096,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,46 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "2dd43562-9be5-44bf-a969-0b43deac0b7e",
+        "userName": "Amad ali Awan",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKZi6Ky0LTpgwQYrS_uq7faiVqCUrll3oh7enuONruhqtuvzQ=mo",
+        "date": "2026-09-20T22:25:54.985Z",
+        "score": 5,
+        "text": "for you"
+      },
+      {
+        "id": "b8e1364b-7838-4e88-a7d4-935823d2f5dc",
+        "userName": "Rahmatullah Sajan",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJBRphBAVeqrLiOkLcNnxMr9wUhh6dPnYkfpFF85AQKkd-h2g=mo",
+        "date": "2026-09-20T21:49:55.993Z",
+        "score": 5,
+        "text": "hand plus skin energy and you can feel the room shift ✨"
+      },
+      {
+        "id": "f2899f00-0fb3-4267-a99c-c1b7557a125e",
+        "userName": "Rk Mobile",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKpUe_x1_lR9LMouUnEKCCiXqBHsH4FrI82I0GCK-4YvkozMQ=mo",
+        "date": "2026-09-20T19:50:00.851Z",
+        "score": 5,
+        "text": "sasi"
+      },
+      {
+        "id": "e545a395-2534-49fe-ac06-b486d9523821",
+        "userName": "Mano Kumar",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVMIfHnPAKm3Nr3fsIO0yfXCFKIKZWVl_MqErDcffYt805cd_9A",
+        "date": "2026-09-20T16:57:12.384Z",
+        "score": 5,
+        "text": "Manu m.r"
+      },
+      {
+        "id": "f9f03b89-af1c-4e95-856a-4c578ea84177",
+        "userName": "ONE Friend's",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI4E54Q-Nv9XdsKUPjtGVSmKTRgE8wCQk6mEXZwy6UwlsMpNw=mo",
+        "date": "2026-09-20T10:23:06.262Z",
+        "score": 2,
+        "text": "famous"
+      },
       {
         "id": "2b987051-3025-4933-b361-2f5a40b0820e",
         "userName": "Faisal Meo",
@@ -101,46 +141,6 @@
         "date": "2026-09-11T15:47:43.949Z",
         "score": 5,
         "text": "nice app"
-      },
-      {
-        "id": "be83219e-262b-40bb-b620-725e5e5fd83c",
-        "userName": "Arslan Ali",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK-5SU8qG4iCFetNmV8pWG0S2c87dQ22vtYXz1m0q_fZaeHjx0=mo",
-        "date": "2026-09-09T16:54:06.381Z",
-        "score": 5,
-        "text": "plz on my TikTok account viral video"
-      },
-      {
-        "id": "c02d266c-ea96-4b2e-b30f-17d445c64e78",
-        "userName": "Waleed khan",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIBLEiF8J_R3pPeLzbK8CzKbFlUzpw67ahUIOw8d3_5ShsmUw=mo",
-        "date": "2026-09-09T03:44:51.152Z",
-        "score": 5,
-        "text": "irfan nabi786"
-      },
-      {
-        "id": "68928752-ef9f-4509-86ab-b250185c3f2f",
-        "userName": "Yudin Chaulagain",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLFLiPVT2hGLUDpOHe6jcMxo86vCr4wKBLNsA05PI-lr88gOA=mo",
-        "date": "2026-09-07T11:39:12.500Z",
-        "score": 1,
-        "text": "VOTU prasad ducelayan"
-      },
-      {
-        "id": "2443e346-df19-4ce4-a959-21396ddcbd81",
-        "userName": "Rahmat ullah Rahmat",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK-T5kVIO5ZArwGQm7ru6HtVc00A0AkgGd7_1jgDo_iZ4raPg=mo",
-        "date": "2026-09-07T06:12:41.884Z",
-        "score": 5,
-        "text": "far you"
-      },
-      {
-        "id": "f3bf15c3-cd5d-4a9c-a464-d0d0ebf83d89",
-        "userName": "TikTok Famous Try",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLZ9lNDVPvZzACtAoHCkMb5BrqCU1Lz24Un2uOq6L2LEQTCFw=mo",
-        "date": "2026-09-05T14:02:28.758Z",
-        "score": 5,
-        "text": "nice app"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.05,
     "scoreText": "4.1",
-    "ratings": 5411,
+    "ratings": 5420,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
