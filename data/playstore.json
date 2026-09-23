@@ -19,9 +19,9 @@
       "/apps/for-you-follower-ai-enhance/screenshot-7.jpg"
     ],
     "video": null,
-    "score": 4.51,
+    "score": 4.49,
     "scoreText": "4.5",
-    "ratings": 59096,
+    "ratings": 59098,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -47,6 +47,14 @@
     "features": [],
     "recentReviews": [
       {
+        "id": "a828a5c3-dd67-4110-b705-4f05592daecb",
+        "userName": "Malak Raja abdurrehman",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIArBIk-nVTeP47MLsu-OY6ctu00iT0nZaT9x3GyMN48RV8xA=mo",
+        "date": "2026-09-21T12:12:36.357Z",
+        "score": 5,
+        "text": "foryou"
+      },
+      {
         "id": "2dd43562-9be5-44bf-a969-0b43deac0b7e",
         "userName": "Amad ali Awan",
         "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKZi6Ky0LTpgwQYrS_uq7faiVqCUrll3oh7enuONruhqtuvzQ=mo",
@@ -61,22 +69,6 @@
         "date": "2026-09-20T21:49:55.993Z",
         "score": 5,
         "text": "hand plus skin energy and you can feel the room shift ✨"
-      },
-      {
-        "id": "f2899f00-0fb3-4267-a99c-c1b7557a125e",
-        "userName": "Rk Mobile",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKpUe_x1_lR9LMouUnEKCCiXqBHsH4FrI82I0GCK-4YvkozMQ=mo",
-        "date": "2026-09-20T19:50:00.851Z",
-        "score": 5,
-        "text": "sasi"
-      },
-      {
-        "id": "e545a395-2534-49fe-ac06-b486d9523821",
-        "userName": "Mano Kumar",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVMIfHnPAKm3Nr3fsIO0yfXCFKIKZWVl_MqErDcffYt805cd_9A",
-        "date": "2026-09-20T16:57:12.384Z",
-        "score": 5,
-        "text": "Manu m.r"
       },
       {
         "id": "f9f03b89-af1c-4e95-856a-4c578ea84177",
@@ -141,6 +133,14 @@
         "date": "2026-09-11T15:47:43.949Z",
         "score": 5,
         "text": "nice app"
+      },
+      {
+        "id": "be83219e-262b-40bb-b620-725e5e5fd83c",
+        "userName": "Arslan Ali",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK-5SU8qG4iCFetNmV8pWG0S2c87dQ22vtYXz1m0q_fZaeHjx0=mo",
+        "date": "2026-09-09T16:54:06.381Z",
+        "score": 5,
+        "text": "plz on my TikTok account viral video"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.05,
     "scoreText": "4.1",
-    "ratings": 5420,
+    "ratings": 5436,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "97bca743-1ec2-483f-bd53-74c1db30c223",
+        "userName": "lmran Bashir",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWvEoB_EWGKcxU5DobcnPKWB39HjTDL5oWLWtitJ2XZsMmba9SO",
+        "date": "2026-09-21T09:41:54.316Z",
+        "score": 5,
+        "text": "best app love it EPIC"
+      },
       {
         "id": "c13dc321-cbbd-4815-8823-e80ef035185c",
         "userName": "Ikram ali",
@@ -276,14 +284,6 @@
         "date": "2026-07-17T03:25:30.636Z",
         "score": 5,
         "text": "good"
-      },
-      {
-        "id": "3382c75a-ed48-4597-973d-8f364b5baa85",
-        "userName": "Muhammad Shahid",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIzH-LvKMJPWrVbh9sOJc8XSMjtv8hayYrKxYyJt_NkP1qmyw=mo",
-        "date": "2026-07-07T03:58:03.520Z",
-        "score": 5,
-        "text": "Achi app hai"
       }
     ]
   },
@@ -542,7 +542,7 @@
     "video": null,
     "score": 4.6,
     "scoreText": "4.6",
-    "ratings": 106,
+    "ratings": 107,
     "reviews": 1,
     "installs": "5,000+",
     "minInstalls": 5000,
