@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ANDROID_APPS, WINDOWS_APPS } from "@/lib/apps";
+import { APP_DELETION_NOTES } from "./app-notes";
 import { DeletionForm } from "./deletion-form";
 
 export const metadata: Metadata = {
@@ -9,7 +10,15 @@ export const metadata: Metadata = {
   alternates: { canonical: "/account-deletion/" },
 };
 
-const LAST_UPDATED = "June 12, 2026";
+const LAST_UPDATED = "September 25, 2026";
+
+/**
+ * Apps that are not in the Play Store feed yet, so do not reach this page
+ * through ANDROID_APPS. Listed by hand so a reviewer or a user can find the app
+ * they are actually asking about. Deduped below, so an entry can stay here
+ * harmlessly once the store feed starts carrying it.
+ */
+const UNLISTED_APPS = ["Postweek"];
 
 function buildAppList(): string[] {
   const featured = ["Phone Mouse", "LifeOS", "Real or AI"];
@@ -19,7 +28,12 @@ function buildAppList(): string[] {
   const fromWin = WINDOWS_APPS.map((a) => a.title).filter(
     (t) => !featured.includes(t) && !fromStore.includes(t)
   );
-  const rest = [...fromStore, ...fromWin].sort((a, b) => a.localeCompare(b));
+  const unlisted = UNLISTED_APPS.filter(
+    (t) => !featured.includes(t) && !fromStore.includes(t) && !fromWin.includes(t)
+  );
+  const rest = [...fromStore, ...fromWin, ...unlisted].sort((a, b) =>
+    a.localeCompare(b)
+  );
   return [...featured, ...rest, "Other / not listed"];
 }
 
@@ -42,6 +56,11 @@ export default function AccountDeletionPage() {
           data associated with it for any of our apps. After we receive your
           request, we will verify your ownership of the account and complete the
           deletion within 30 days.
+        </p>
+        <p>
+          Some apps let you delete everything from inside the app, straight away,
+          without waiting for us. Choose your app in the form below and it will
+          tell you if that applies to yours.
         </p>
 
         <h2>Developer</h2>
@@ -106,7 +125,7 @@ export default function AccountDeletionPage() {
           linked to the account (e.g. your Google sign-in).
         </p>
 
-        <DeletionForm apps={apps} />
+        <DeletionForm apps={apps} notes={APP_DELETION_NOTES} />
 
         <h2>After you submit</h2>
         <p>

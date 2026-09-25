@@ -2,11 +2,15 @@
 
 import { useState, type FormEvent } from "react";
 
+import type { AppDeletionNote } from "./app-notes";
+
 interface DeletionFormProps {
   apps: string[];
+  /** Keyed by app name. Absent for apps with nothing app-specific to say. */
+  notes?: Record<string, AppDeletionNote>;
 }
 
-export function DeletionForm({ apps }: DeletionFormProps) {
+export function DeletionForm({ apps, notes }: DeletionFormProps) {
   const [app, setApp] = useState(apps[0]);
   const [email, setEmail] = useState("");
   const [accountId, setAccountId] = useState("");
@@ -38,6 +42,10 @@ export function DeletionForm({ apps }: DeletionFormProps) {
     window.location.href = href;
   }
 
+  // Shown only for the app actually chosen: the alternative is a page listing
+  // every app's particulars at once, which is how a reader misses their own.
+  const note = notes?.[app];
+
   const inputCls =
     "mt-2 block w-full rounded-md border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-zinc-900 focus:outline-none focus:ring-1 focus:ring-zinc-900";
 
@@ -65,6 +73,48 @@ export function DeletionForm({ apps }: DeletionFormProps) {
           ))}
         </select>
       </div>
+
+      {note ? (
+        <div className="mt-5 rounded-lg border border-zinc-200 bg-white p-5 text-sm text-zinc-700">
+          {note.inApp ? (
+            <>
+              <p className="font-semibold text-zinc-900">
+                You can delete {app} yourself, without waiting for us
+              </p>
+              <p className="mt-2 leading-relaxed">{note.inApp.steps}</p>
+              <p className="mt-3 font-medium text-zinc-900">This removes:</p>
+              <ul className="mt-2 list-disc space-y-1 pl-5">
+                {note.inApp.removes.map((r) => (
+                  <li key={r}>{r}</li>
+                ))}
+              </ul>
+            </>
+          ) : null}
+
+          {note.exportSteps ? (
+            <p className="mt-4 leading-relaxed">
+              <span className="font-medium text-zinc-900">Take a copy first. </span>
+              {note.exportSteps}
+            </p>
+          ) : null}
+
+          {note.caveats?.length ? (
+            <>
+              <p className="mt-4 font-medium text-zinc-900">What deletion does not do:</p>
+              <ul className="mt-2 list-disc space-y-1 pl-5">
+                {note.caveats.map((c) => (
+                  <li key={c}>{c}</li>
+                ))}
+              </ul>
+            </>
+          ) : null}
+
+          <p className="mt-4 text-xs text-zinc-500">
+            Prefer us to do it? Carry on with the form below and we will handle it
+            within 30 days.
+          </p>
+        </div>
+      ) : null}
 
       <div className="mt-5">
         <label htmlFor="email" className="text-sm font-medium text-zinc-900">
