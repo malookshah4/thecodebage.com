@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.49,
     "scoreText": "4.5",
-    "ratings": 59104,
+    "ratings": 59107,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,38 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "e113ecad-8974-4488-8e90-32ba8e2f5531",
+        "userName": "Ali Raza",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI2Fkay89xDV4u1E2NWO07TVxsmY7Jrr6DTVW2oWUMgCfTrBA=mo",
+        "date": "2026-09-25T03:14:08.453Z",
+        "score": 5,
+        "text": "for you My account viral UK TikTok viral google account 1milon views All country like"
+      },
+      {
+        "id": "0d01be56-7fb8-474a-a50c-a2db1f864d36",
+        "userName": "Muhammed Ismail",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIG-uzklzc6Mkj1PRXaUpnoOsWkdU3QEbFvfINLOG7OtA9vkA=mo",
+        "date": "2026-09-25T03:07:15.866Z",
+        "score": 5,
+        "text": "sulomoking 1280"
+      },
+      {
+        "id": "5f9d3204-54f9-4fa0-82a4-03e72d107dff",
+        "userName": "FaisalFozia435 FaisalFozia435",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLlEKHjvgkCVCaIP1gKNimciLdx2imo4Q_9uhyemSKLp8lDfvQ=mo",
+        "date": "2026-09-25T01:07:34.916Z",
+        "score": 5,
+        "text": "FaisalFozia435 FaisalFozia"
+      },
+      {
+        "id": "1797e6a6-85c7-4632-99e4-d0fd985eae53",
+        "userName": "Sulmanali Sulmanali",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJNlxXkAxwfuJD0m05kZNh2ID3YH9jNnfE6uS5116trygQmsg=mo",
+        "date": "2026-09-24T12:07:44.875Z",
+        "score": 5,
+        "text": "sulman sheikh7 ✌️💫 ² TikTok for you"
+      },
       {
         "id": "c4bbced7-2af6-46f8-a9f2-48c979a1f0b5",
         "userName": "Saifal Khaskheli 03",
@@ -109,38 +141,6 @@
         "date": "2026-09-17T18:07:44.920Z",
         "score": 5,
         "text": "for you grow probably"
-      },
-      {
-        "id": "e50295db-5d3e-47e5-8075-ed723dc1b07b",
-        "userName": "Mr Khalid",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUd38PBQUvb16oWFvYgFO0aMxKL1Y-1NktXrY4M0vbVATnY5XAB",
-        "date": "2026-09-17T07:01:35.906Z",
-        "score": 5,
-        "text": "nice 😍😍"
-      },
-      {
-        "id": "2d97ab2f-06e3-4fad-9a8e-ad119803d070",
-        "userName": "M Hashim",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVASuh6FLHYsgVwQMm8Pz-3XzZIkAOgkoRghUPgBw72mRs3RxI",
-        "date": "2026-09-16T13:29:29.400Z",
-        "score": 5,
-        "text": "Foryou"
-      },
-      {
-        "id": "e4116e9c-53ef-4158-8118-2543dbb7a6dc",
-        "userName": "Imran Awan",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKe5zgA4-3OB7l09wXQKfPvEfrBHmoIjyzubpRUA7_jbhgDpw=mo",
-        "date": "2026-09-13T10:35:44.459Z",
-        "score": 5,
-        "text": "ملک عمران اعوان 7272"
-      },
-      {
-        "id": "1d1575e7-22df-45b0-8557-8207491cf2da",
-        "userName": "Muhammad Noor Khan",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXU6PfR_o5XZPEM3MhhhMFQsDarvS_3Bl5PW6L8H01RGYDHeKmd",
-        "date": "2026-09-11T15:47:43.949Z",
-        "score": 5,
-        "text": "nice app"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.05,
     "scoreText": "4.1",
-    "ratings": 5455,
+    "ratings": 5461,
     "reviews": 115,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -387,7 +387,7 @@
     "video": null,
     "score": 4,
     "scoreText": "4.0",
-    "ratings": 66,
+    "ratings": 67,
     "reviews": 7,
     "installs": "5,000+",
     "minInstalls": 5000,
@@ -542,7 +542,7 @@
     "video": null,
     "score": 4.6,
     "scoreText": "4.6",
-    "ratings": 109,
+    "ratings": 110,
     "reviews": 1,
     "installs": "5,000+",
     "minInstalls": 5000,
@@ -1197,7 +1197,16 @@
       "All 8 reply tones unlocked",
       "No ads — completely ad-free experience"
     ],
-    "recentReviews": []
+    "recentReviews": [
+      {
+        "id": "4f5381dc-da99-44aa-be47-2a8635ac6eff",
+        "userName": "Jisnd Dhhsd",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocI8vqdVpdR--5KCSuhZDWk994lsI36ctmg8ENrjfFDxyRYmZg=mo",
+        "date": "2026-09-25T08:18:32.704Z",
+        "score": 5,
+        "text": "for you"
+      }
+    ]
   },
   {
     "appId": "com.codebage.storerush",
@@ -1441,7 +1450,7 @@
     "reviews": 0,
     "installs": "50+",
     "minInstalls": 50,
-    "maxInstalls": 75,
+    "maxInstalls": 76,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1549,9 +1558,9 @@
     "score": 0,
     "ratings": 0,
     "reviews": 0,
-    "installs": "10+",
-    "minInstalls": 10,
-    "maxInstalls": 45,
+    "installs": "50+",
+    "minInstalls": 50,
+    "maxInstalls": 50,
     "price": 0,
     "free": true,
     "currency": "USD",
