@@ -19,9 +19,9 @@
       "/apps/for-you-follower-ai-enhance/screenshot-7.jpg"
     ],
     "video": null,
-    "score": 4.49,
+    "score": 4.48,
     "scoreText": "4.5",
-    "ratings": 59152,
+    "ratings": 59147,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -164,7 +164,7 @@
     "video": null,
     "score": 3.98,
     "scoreText": "4.0",
-    "ratings": 5523,
+    "ratings": 5524,
     "reviews": 116,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "6b7d3409-1e90-41dc-88aa-02b421860009",
+        "userName": "Jobet Manabat",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLHxStfwPp05bYCkSdP1YDYKUTS2HTEKfuNtqy8UdFNNqM4MQ=mo",
+        "date": "2026-10-02T00:32:30.893Z",
+        "score": 5,
+        "text": "verygood"
+      },
       {
         "id": "e89ee4ae-7790-462c-9b7c-0a0ee7c152b0",
         "userName": "Josh Huefner",
@@ -274,14 +282,6 @@
         "userName": "JAMEEL BABAR",
         "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWn_GhaKle8WzFITiJoCrwsrrbrqCJNFkmB_RWl4M7GlWRbwe6N",
         "date": "2026-08-17T05:47:56.127Z",
-        "score": 5,
-        "text": "good"
-      },
-      {
-        "id": "df219478-ad41-42b9-9142-3ca7c6eaab59",
-        "userName": "Dismas Kirui",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJQF148uyKDOefJH9FFxbeC_q5146JX6x79xmOcsa5-RLXO0A=mo",
-        "date": "2026-08-11T14:58:55.167Z",
         "score": 5,
         "text": "good"
       }
@@ -387,7 +387,7 @@
     "video": null,
     "score": 3.73,
     "scoreText": "3.7",
-    "ratings": 67,
+    "ratings": 66,
     "reviews": 8,
     "installs": "5,000+",
     "minInstalls": 5000,
@@ -428,14 +428,6 @@
         "date": "2026-09-30T22:38:02.694Z",
         "score": 1,
         "text": "couldn't animate a single thing every time I tapped on some thing a 30 second add would pop up"
-      },
-      {
-        "id": "70f04bb4-49b3-40d8-86d1-a24cf1a55335",
-        "userName": "Mozammel Hoque",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJN0kNp8T8OVG36JHnHdEGv8zsRTPvMezWUO_lXDap-76EaIw=mo",
-        "date": "2026-09-22T17:06:06.600Z",
-        "score": 4,
-        "text": "good app i can make so many type of animation and save."
       },
       {
         "id": "eddeb90b-ab6d-4b48-b280-ca7836792650",
@@ -516,6 +508,14 @@
         "date": "2026-08-10T22:21:09.854Z",
         "score": 5,
         "text": "but I like this app but the ui is on customizable and I will be greate is like more of the popups and toolbars could be closed and also I have problems zooming in or out but this app gets 4.4 out of 5 for me nice work I"
+      },
+      {
+        "id": "058fd316-f9c1-4352-b75f-677f9bcdbca1",
+        "userName": "Abdulrahaman Ayomide",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLeThcnjW3-xQB81kNMvPgsQ3TlKSq_j5fkauZwmh0JkzFcQw=mo",
+        "date": "2026-08-09T20:10:15.499Z",
+        "score": 4,
+        "text": "“MP4 export still fails on my Android 9 device with Permission Denial ... WRITE_EXTERNAL_STORAGE. Storage permission is already allowed.”"
       }
     ]
   },
