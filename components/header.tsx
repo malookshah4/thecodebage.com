@@ -27,19 +27,30 @@ export function Header() {
         <nav className="flex items-center gap-0.5 text-[13px] sm:gap-1 sm:text-sm">
           <NavLink href="/apps/android/">Mobile apps</NavLink>
           <NavLink href="/apps/windows/">Windows</NavLink>
+          <NavLink href="/blog/">Blog</NavLink>
           <NavLink href="/about/">About</NavLink>
-          <NavLink href="/support/">Support</NavLink>
+          <NavLink href="/support/" className="hidden sm:inline-block">
+            Support
+          </NavLink>
         </nav>
       </div>
     </header>
   );
 }
 
-function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
+function NavLink({
+  href,
+  className = "",
+  children,
+}: {
+  href: string;
+  className?: string;
+  children: React.ReactNode;
+}) {
   return (
     <Link
       href={href}
-      className="rounded-full px-2 py-2 transition-colors sm:px-3"
+      className={`rounded-full px-2 py-2 transition-colors sm:px-3 ${className}`}
       style={{ color: "var(--ink-muted)" }}
     >
       {children}

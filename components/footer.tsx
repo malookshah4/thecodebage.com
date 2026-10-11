@@ -33,6 +33,9 @@ export function Footer() {
             <Link href="/about/" className="hover:text-[color:var(--ink)]">
               About
             </Link>
+            <Link href="/blog/" className="hover:text-[color:var(--ink)]">
+              Blog
+            </Link>
             <Link href="/privacy/" className="hover:text-[color:var(--ink)]">
               Privacy
             </Link>
