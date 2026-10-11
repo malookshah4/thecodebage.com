@@ -33,6 +33,9 @@ export function Footer() {
             <Link href="/about/" className="hover:text-[color:var(--ink)]">
               About
             </Link>
+            <Link href="/tools/" className="hover:text-[color:var(--ink)]">
+              Tools
+            </Link>
             <Link href="/blog/" className="hover:text-[color:var(--ink)]">
               Blog
             </Link>

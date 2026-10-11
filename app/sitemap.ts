@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { ANDROID_APPS, WINDOWS_APPS, appHref } from "@/lib/apps";
 import { getAllPosts } from "@/lib/blog";
+import { TOOLS } from "@/lib/tools";
 
 export const dynamic = "force-static";
 
@@ -24,6 +25,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(`${p.date}T00:00:00Z`),
     changeFrequency: "monthly" as const,
     priority: 0.7,
+  }));
+
+  const toolUrls: MetadataRoute.Sitemap = TOOLS.map((t) => ({
+    url: `${SITE}/tools/${t.slug}/`,
+    lastModified,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
   }));
 
   return [
@@ -59,6 +67,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     ...blogUrls,
+    {
+      url: `${SITE}/tools/`,
+      lastModified,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    ...toolUrls,
     {
       url: `${SITE}/apps/remote-mouse-pro/privacy/`,
       lastModified,

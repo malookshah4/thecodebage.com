@@ -5,6 +5,18 @@ import { AppCard } from "@/components/site/app-card";
 import { AppIcon } from "@/components/site/app-icon";
 import { Stars } from "@/components/site/stars";
 import { PhoneShot } from "@/components/site/shots";
+import { ToolCard } from "@/components/tools/tool-layout";
+import { TOOLS } from "@/lib/tools";
+import { getAllPosts, formatDate } from "@/lib/blog";
+
+const HOME_TOOLS = [
+  "image-compressor",
+  "merge-pdf",
+  "image-to-text",
+  "qr-code-generator",
+  "whatsapp-link-generator",
+  "currency-converter",
+];
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -22,6 +34,7 @@ export default function Home() {
   const others = ANDROID_APPS.filter((a) => a.slug !== featured.slug).slice(0, 6);
   const winApps = WINDOWS_APPS;
   const featuredScreenshots = phoneShots(featured.screenshots);
+  const latestPosts = getAllPosts().slice(0, 3);
 
   return (
     <>
@@ -122,6 +135,31 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Free tools */}
+      <section className="mx-auto max-w-[1480px] px-8 py-20">
+        <div className="mb-8 flex flex-wrap items-end justify-between gap-6">
+          <div>
+            <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
+              Free · runs in your browser · no uploads
+            </div>
+            <h2 className="hub-display" style={{ fontSize: "clamp(28px, 3.6vw, 44px)", marginTop: 6 }}>
+              Free online tools
+            </h2>
+          </div>
+          <Link
+            href="/tools/"
+            className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-5 py-2.5 text-sm font-medium hover:bg-[color:var(--chip-bg)]"
+          >
+            All {TOOLS.length} tools <span aria-hidden>→</span>
+          </Link>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {HOME_TOOLS.map((slug) => (
+            <ToolCard key={slug} slug={slug} />
+          ))}
+        </div>
+      </section>
+
       {/* Mobile grid teaser */}
       {others.length > 0 && (
         <section className="mx-auto max-w-[1480px] px-8 py-20">
@@ -176,6 +214,63 @@ export default function Home() {
           </div>
         )}
       </section>
+
+      {/* Latest from the blog */}
+      {latestPosts.length > 0 && (
+        <section className="mx-auto max-w-[1480px] px-8 py-20">
+          <div className="mb-8 flex flex-wrap items-end justify-between gap-6">
+            <div>
+              <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
+                Guides &amp; notes
+              </div>
+              <h2 className="hub-display" style={{ fontSize: "clamp(28px, 3.6vw, 44px)", marginTop: 6 }}>
+                From the blog
+              </h2>
+            </div>
+            <Link
+              href="/blog/"
+              className="inline-flex items-center gap-2 rounded-full border border-[color:var(--line-strong)] px-5 py-2.5 text-sm font-medium hover:bg-[color:var(--chip-bg)]"
+            >
+              All articles <span aria-hidden>→</span>
+            </Link>
+          </div>
+          <div className="grid gap-5 md:grid-cols-3">
+            {latestPosts.map((p) => (
+              <Link
+                key={p.slug}
+                href={`/blog/${p.slug}/`}
+                className="hub-card block"
+                style={{
+                  padding: 22,
+                  borderRadius: 18,
+                  background: "var(--paper-card)",
+                  border: "1px solid var(--line)",
+                  boxShadow: "var(--shadow-1)",
+                  textDecoration: "none",
+                  color: "inherit",
+                }}
+              >
+                <div className="hub-mono" style={{ fontSize: 11, color: "var(--ink-muted)", textTransform: "uppercase" }}>
+                  {p.category} · {formatDate(p.date)}
+                </div>
+                <div
+                  style={{
+                    fontFamily: "var(--font-fraunces), Georgia, serif",
+                    fontSize: 21,
+                    lineHeight: 1.3,
+                    marginTop: 8,
+                  }}
+                >
+                  {p.title}
+                </div>
+                <p style={{ color: "var(--ink-muted)", fontSize: 14.5, lineHeight: 1.5, marginTop: 8 }}>
+                  {p.description}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Manifesto strip */}
       <section className="mx-auto max-w-[1480px] px-8 py-20">

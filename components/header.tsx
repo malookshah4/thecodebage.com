@@ -25,10 +25,16 @@ export function Header() {
           />
         </Link>
         <nav className="flex items-center gap-0.5 text-[13px] sm:gap-1 sm:text-sm">
-          <NavLink href="/apps/android/">Mobile apps</NavLink>
+          <NavLink href="/apps/android/">
+            <span className="sm:hidden">Apps</span>
+            <span className="hidden sm:inline">Mobile apps</span>
+          </NavLink>
           <NavLink href="/apps/windows/">Windows</NavLink>
+          <NavLink href="/tools/">Tools</NavLink>
           <NavLink href="/blog/">Blog</NavLink>
-          <NavLink href="/about/">About</NavLink>
+          <NavLink href="/about/" className="hidden sm:inline-block">
+            About
+          </NavLink>
           <NavLink href="/support/" className="hidden sm:inline-block">
             Support
           </NavLink>
@@ -50,7 +56,7 @@ function NavLink({
   return (
     <Link
       href={href}
-      className={`rounded-full px-2 py-2 transition-colors sm:px-3 ${className}`}
+      className={`whitespace-nowrap rounded-full px-2 py-2 transition-colors sm:px-3 ${className}`}
       style={{ color: "var(--ink-muted)" }}
     >
       {children}
