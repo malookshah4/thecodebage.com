@@ -21,11 +21,11 @@
     "video": null,
     "score": 4.48,
     "scoreText": "4.5",
-    "ratings": 59190,
+    "ratings": 59191,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
-    "maxInstalls": 1968140,
+    "maxInstalls": 1968145,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -46,6 +46,30 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "36fe963b-6b27-4745-a2d5-029fa4ca279a",
+        "userName": "Aamir Khan Burro",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVZu1LHoZ_VgVKVvgYDGmy2wahEOgplmbFbk-9knGuxlNpHVrra",
+        "date": "2026-10-10T06:29:14.226Z",
+        "score": 5,
+        "text": "yousif King for you"
+      },
+      {
+        "id": "59ddbd60-fa63-49e8-a861-774079d9e74c",
+        "userName": "Ranjana Gautam",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIwyutTW3ZYaUn9P_Y38LKYVo_VkUYRZ9HZgUyB0QNVCv5Q6Q=mo",
+        "date": "2026-10-10T06:23:46.785Z",
+        "score": 2,
+        "text": "tiktok"
+      },
+      {
+        "id": "df36560e-2e5d-4524-87ba-5a49e214cf00",
+        "userName": "BakhtRahman Ganggohi BakhtRahman Ganggohi",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVaP64sExlK_L3JX4xg8RhP2g9V43h1P7nJhedhYg_mOVueXtI",
+        "date": "2026-10-09T20:43:31.191Z",
+        "score": 5,
+        "text": "/***"
+      },
       {
         "id": "552b10c7-0618-4de3-8b72-04b63d4371c2",
         "userName": "jajz Keerio",
@@ -117,30 +141,6 @@
         "date": "2026-10-02T10:15:05.390Z",
         "score": 5,
         "text": "foryou"
-      },
-      {
-        "id": "5311b9d1-f4c4-4a11-84f9-86d9351d6412",
-        "userName": "Muhammad Sajjad",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXQN5H4110oVOwT77PeIxjWBwgtesAzFAlO_OC7Du3XMNx1oLNH",
-        "date": "2026-09-27T17:06:23.871Z",
-        "score": 5,
-        "text": "good"
-      },
-      {
-        "id": "6e9e49c8-a373-4e1a-96b7-9de4513eb635",
-        "userName": "Anwar Khan",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIyvQnkT-6iwcaAtZ1bn6a1KdCSGEQOcMOI7-crHoOyT0vqhw=mo",
-        "date": "2026-09-27T15:06:01.585Z",
-        "score": 5,
-        "text": "isko open kar do please help me"
-      },
-      {
-        "id": "f2b5b9f8-1970-442e-9f77-7bf4e1fc1d76",
-        "userName": "Zohaib Tanveer",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLQvsYXYxx2vl6QRsQ8rE7AypUkM1IW9N8sNMQ4_1SkfxuG-aw=mo",
-        "date": "2026-09-27T03:40:29.680Z",
-        "score": 1,
-        "text": "#foryou, #like, #viral, #viralvideos, #Unfreezemyaccount, #fyp, #pleasesupport , #viralplz, #Trump, #muharram"
       }
     ]
   },
@@ -164,11 +164,11 @@
     "video": null,
     "score": 4.04,
     "scoreText": "4.0",
-    "ratings": 5597,
+    "ratings": 5605,
     "reviews": 118,
     "installs": "500,000+",
     "minInstalls": 500000,
-    "maxInstalls": 694958,
+    "maxInstalls": 694968,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "8066b01a-c31b-411b-805a-7c6510e53744",
+        "userName": "Kenny Kenneto",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKkLNbxamSdG1H41Oky_UW-LIG6ZWHYMupkUanJDaBJe_O2-Q=mo",
+        "date": "2026-10-09T17:41:25.329Z",
+        "score": 5,
+        "text": "superp"
+      },
       {
         "id": "ec9687dc-2a7a-40a7-aff5-6883629b5ad5",
         "userName": "Corina Beltran-Batts",
@@ -276,14 +284,6 @@
         "date": "2026-08-25T08:41:56.270Z",
         "score": 3,
         "text": "Difficult to use"
-      },
-      {
-        "id": "c853132f-6473-4b79-8bcc-67b336422bf6",
-        "userName": "Mico capalaran",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK6b9UzsHEGr9QerLk6FbmF1qOqPTee6Z0bR92DWfhxf51yEg=mo",
-        "date": "2026-08-25T01:16:43.190Z",
-        "score": 5,
-        "text": "good"
       }
     ]
   },
@@ -313,7 +313,7 @@
     "reviews": 8,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 10753,
+    "maxInstalls": 10802,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -463,7 +463,7 @@
     "reviews": 0,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 23263,
+    "maxInstalls": 23284,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -546,7 +546,7 @@
     "reviews": 1,
     "installs": "5,000+",
     "minInstalls": 5000,
-    "maxInstalls": 7118,
+    "maxInstalls": 7121,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -690,7 +690,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 2121,
+    "maxInstalls": 2140,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -910,7 +910,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1432,
+    "maxInstalls": 1433,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1190,7 +1190,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 128,
+    "maxInstalls": 130,
     "price": 0,
     "free": true,
     "currency": "USD",
