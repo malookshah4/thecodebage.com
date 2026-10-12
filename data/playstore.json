@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.48,
     "scoreText": "4.5",
-    "ratings": 59191,
+    "ratings": 59202,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,38 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "cbbda96b-269e-46e5-ad3a-334cd5bc153f",
+        "userName": "Muhammad Rafiq Khan",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocInPXd-W9A_-XYEWETyBBaihnkpDyVlUf-Yp0QBlFOQejPFDA=mo",
+        "date": "2026-10-10T17:41:44.429Z",
+        "score": 5,
+        "text": "good"
+      },
+      {
+        "id": "524920bc-1539-404a-bd88-0c446d061b3d",
+        "userName": "ziulllah Khan",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL3cawlUL4KM8QO8craduZwJoe0l3GcS2xXEhxOW6sfGPbbGQ=mo",
+        "date": "2026-10-10T16:25:45.845Z",
+        "score": 5,
+        "text": "ziaullah king63"
+      },
+      {
+        "id": "0f715c07-c96b-4e28-a27e-3bedb07db31f",
+        "userName": "KHAN",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIaiXkgnf7h9zm1-Yv1j--KxYQAm0RY5TNH_RhkRBhiK8U4xQ=mo",
+        "date": "2026-10-10T13:29:43.800Z",
+        "score": 5,
+        "text": "TikTok for you option"
+      },
+      {
+        "id": "81faf9ba-626b-4888-9824-3d6ae2c637cf",
+        "userName": "SA SA",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLhZE1ExCnjYHOs9DezzD4H2ESL7uW21N01A2_H1UX4QcjTHw=mo",
+        "date": "2026-10-10T11:16:31.726Z",
+        "score": 5,
+        "text": "for you TikTok video for you"
+      },
       {
         "id": "36fe963b-6b27-4745-a2d5-029fa4ca279a",
         "userName": "Aamir Khan Burro",
@@ -109,38 +141,6 @@
         "date": "2026-10-04T16:16:11.375Z",
         "score": 2,
         "text": "me video account for you and video like"
-      },
-      {
-        "id": "43e35d46-a2be-42dc-8c67-5df44283ff54",
-        "userName": "Yaqoob Basri",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWVZIsb4AeC3kN9GIAsHHqlo5nXpY2IioMpHR4DID-kSo7_wK8",
-        "date": "2026-10-03T05:40:43.796Z",
-        "score": 5,
-        "text": "tiktok you for you"
-      },
-      {
-        "id": "7f6eddc6-5410-456b-83b0-340cc070243c",
-        "userName": "Tayyab Abbasi",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIt9AZaOPVsNSurUGixaKKam4VfmwNKa7oeYDdDBnA8Z8q07Q=mo",
-        "date": "2026-10-02T17:37:34.420Z",
-        "score": 5,
-        "text": "Foryou"
-      },
-      {
-        "id": "2278fe6b-b06a-426e-9996-541e6cc1ef5a",
-        "userName": "Khalid jawed",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKVr8l2FAg8MSmGlEjyQckdkmn5AVTqz-FAyDuCwHyq_1OM1g=mo",
-        "date": "2026-10-02T17:18:26.710Z",
-        "score": 5,
-        "text": "wow that's a lot brother 😍 two 👁️ 👁️ do it for w 🤣🤣 of it and"
-      },
-      {
-        "id": "c88a7a40-89d8-4978-b68b-90af3b00525f",
-        "userName": "Sayed Riyaz Hussain Shah B",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIyisjsAMri5unZEEt3V2Cn34cXW5KoBTkCc1hEUGA_XAomVQ=mo",
-        "date": "2026-10-02T10:15:05.390Z",
-        "score": 5,
-        "text": "foryou"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.04,
     "scoreText": "4.0",
-    "ratings": 5605,
+    "ratings": 5615,
     "reviews": 118,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -309,7 +309,7 @@
     "video": null,
     "score": 3.73,
     "scoreText": "3.7",
-    "ratings": 71,
+    "ratings": 72,
     "reviews": 8,
     "installs": "10,000+",
     "minInstalls": 10000,
