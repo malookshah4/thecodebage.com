@@ -104,6 +104,51 @@ const REMOTE_MOUSE_PRO: AppEntry = {
   recentReviews: SCRAPED_RMP?.recentReviews,
 };
 
+// MuscleLit (Android/com.codebage.musclelit + iPhone): pinned so the page exists before launch;
+// once the app is live under the codeBage developer the scraped Play Store data takes over.
+const SCRAPED_ML = PLAYSTORE_APPS.find((a) => a.slug.startsWith("musclelit"));
+const mlRatings = (SCRAPED_ML?.ratings ?? 0) > 0;
+const mlInstalls = !!SCRAPED_ML?.installs && SCRAPED_ML.installs !== "0+";
+
+const MUSCLELIT: AppEntry = {
+  slug: "musclelit",
+  platform: "android",
+  title: "MuscleLit: 3D Workout Anatomy",
+  summary:
+    "Gym & home workout planner with 3D muscle anatomy, camera rep counter and form check.",
+  accentTint: "rose",
+  featured: true,
+  free: true,
+  paid: "Pro from $4.99/mo · 7-day free trial",
+  score: mlRatings ? SCRAPED_ML?.score : undefined,
+  ratings: mlRatings ? SCRAPED_ML?.ratings : undefined,
+  installs: mlInstalls ? SCRAPED_ML?.installs : undefined,
+  genre: SCRAPED_ML?.genre ?? "Health & Fitness",
+  storeUrl: SCRAPED_ML?.storeUrl,
+  description:
+    SCRAPED_ML?.description ??
+    "MuscleLit is a gym and home workout app built around a real 3D body. Watch every exercise on the 3D muscle model from any angle, see exactly which muscles each workout trains, and follow a strength training plan built for your goal. The camera counts your reps and checks your form, hands-free, with nothing leaving your phone.",
+  iconUrl: SCRAPED_ML?.iconUrl ?? "/apps/musclelit/icon.png",
+  screenshots: SCRAPED_ML?.screenshots?.length
+    ? SCRAPED_ML.screenshots
+    : [1, 2, 3, 4, 5, 6, 7].map((n) => `/apps/musclelit/screenshot-${n}.jpg`),
+  version: SCRAPED_ML?.version ?? "1.0.0",
+  released: SCRAPED_ML?.released ?? "Coming soon",
+  updatedDate: SCRAPED_ML?.updatedDate ?? "Oct 13, 2026",
+  features: [
+    "140+ gym and bodyweight exercises on a real 3D anatomy body",
+    "Camera rep counter and form check, on-device, hands-free",
+    "Weekly workout plan for your goal, sport and equipment",
+    "Recovery map and muscle balance on your own body",
+    "Your week in 3D: a recap video and share cards",
+    "Learn what every muscle does, with a quiz",
+  ],
+  recentChanges:
+    SCRAPED_ML?.recentChanges ||
+    "1.0.0 — first release. 3D exercise library, camera rep counter, workout planner, recovery map, muscle balance, week recap video, anatomy quiz and gym tools.",
+  recentReviews: SCRAPED_ML?.recentReviews,
+};
+
 // Manually curated App Store links, keyed by slug prefix. Play Store data is
 // re-scraped on every build (overwriting data/playstore.json), so iOS links
 // can't live in the JSON — they're pinned here and merged onto matching apps.
@@ -133,8 +178,11 @@ function withIosLink(app: AppEntry): AppEntry {
 }
 
 export const ANDROID_APPS: AppEntry[] = [
+  MUSCLELIT,
   REMOTE_MOUSE_PRO,
-  ...PLAYSTORE_APPS.filter((a) => !a.slug.startsWith("remote-mouse-pro")),
+  ...PLAYSTORE_APPS.filter(
+    (a) => !a.slug.startsWith("remote-mouse-pro") && !a.slug.startsWith("musclelit"),
+  ),
 ].map(withIosLink);
 
 export const WINDOWS_APPS: AppEntry[] = ([
