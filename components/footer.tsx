@@ -46,7 +46,7 @@ export function Footer() {
               Terms
             </Link>
             <Link href="/support/" className="hover:text-[color:var(--ink)]">
-              Support
+              Contact &amp; support
             </Link>
             <Link href="/account-deletion/" className="hover:text-[color:var(--ink)]">
               Account deletion

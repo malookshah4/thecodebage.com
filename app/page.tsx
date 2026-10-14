@@ -286,7 +286,7 @@ export default function Home() {
               className="hub-display m-0"
               style={{ fontSize: 28, lineHeight: 1.3, maxWidth: "28ch" }}
             >
-              Local first. Tiny by default. No telemetry, no accounts unless the feature
+              Local first. Tiny by default. No selling your data, no accounts unless the feature
               literally requires one, no dark patterns,
               <em style={{ color: "var(--hub-accent)" }}> ever.</em>
             </p>

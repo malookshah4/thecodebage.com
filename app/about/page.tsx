@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ANDROID_APPS, WINDOWS_APPS } from "@/lib/apps";
+import { TOOLS } from "@/lib/tools";
+import { getAllPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
   title: "About",
@@ -12,6 +14,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   const totalApps = ANDROID_APPS.length + WINDOWS_APPS.length;
+  const totalPosts = getAllPosts().length;
 
   return (
     <main>
@@ -113,10 +116,10 @@ export default function AboutPage() {
                 className="hub-display m-0"
                 style={{ fontSize: 28, lineHeight: 1.35, maxWidth: "32ch" }}
               >
-                Most software has gotten loud, hungry, and entitled — full of accounts,
-                trackers, ads, and dark patterns.{" "}
+                Most software has gotten loud, hungry, and entitled, full of forced
+                accounts, hidden tracking and dark patterns.{" "}
                 <em style={{ color: "var(--hub-accent)" }}>
-                  codeBage is the opposite of that.
+                  codeBage tries to be the opposite of that.
                 </em>
               </p>
               <p
@@ -129,7 +132,7 @@ export default function AboutPage() {
                 }}
               >
                 Every app does one job, runs locally where possible, and stays out of your
-                way. No analytics SDKs, no email collection, no nag screens. Built in
+                way. No email collection, no nag screens, no selling your data. Built in
                 spare hours, released only when the version number is earned.
               </p>
             </div>
@@ -146,7 +149,7 @@ export default function AboutPage() {
               className="hub-display"
               style={{ fontSize: "clamp(28px, 3.6vw, 44px)", marginTop: 6 }}
             >
-              Two platforms, one shelf.
+              Apps, tools and guides.
             </h2>
           </div>
           <div className="grid gap-6 md:grid-cols-2">
@@ -202,6 +205,60 @@ export default function AboutPage() {
               </div>
               <div style={{ color: "var(--ink-2)", fontSize: 15 }}>
                 signed installer{WINDOWS_APPS.length === 1 ? "" : "s"} →
+              </div>
+            </Link>
+            <Link
+              href="/tools/"
+              className="hub-card"
+              style={{
+                display: "block",
+                padding: 28,
+                borderRadius: 18,
+                background: "var(--paper-card)",
+                border: "1px solid var(--line)",
+                boxShadow: "var(--shadow-1)",
+                textDecoration: "none",
+                color: "inherit",
+              }}
+            >
+              <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
+                Web · runs in your browser
+              </div>
+              <div
+                className="hub-display"
+                style={{ fontSize: 44, lineHeight: 1, margin: "12px 0 4px" }}
+              >
+                {TOOLS.length}
+              </div>
+              <div style={{ color: "var(--ink-2)", fontSize: 15 }}>
+                free online tools, no uploads →
+              </div>
+            </Link>
+            <Link
+              href="/blog/"
+              className="hub-card"
+              style={{
+                display: "block",
+                padding: 28,
+                borderRadius: 18,
+                background: "var(--paper-card)",
+                border: "1px solid var(--line)",
+                boxShadow: "var(--shadow-1)",
+                textDecoration: "none",
+                color: "inherit",
+              }}
+            >
+              <div className="hub-mono text-[11px] uppercase text-[color:var(--ink-muted)]">
+                Blog · guides and notes
+              </div>
+              <div
+                className="hub-display"
+                style={{ fontSize: 44, lineHeight: 1, margin: "12px 0 4px" }}
+              >
+                {totalPosts}
+              </div>
+              <div style={{ color: "var(--ink-2)", fontSize: 15 }}>
+                practical guides and build notes →
               </div>
             </Link>
           </div>
@@ -298,7 +355,7 @@ export default function AboutPage() {
 
 const PRINCIPLES = [
   "Local-first. If the feature can run on-device or over LAN, it does. No round-trips to a server I rent.",
-  "No telemetry. I don't ship analytics SDKs, crash reporters, or ad networks. What I don't collect can't leak.",
+  "Honest about money. This website and some of the free apps show ads, because that's what keeps them free. I don't sell your data, and the browser tools never upload your files. What I don't collect can't leak.",
   "No accounts unless the feature literally requires one. Most utilities work the moment you install them.",
   "One thing well. Each app does a single job. Feature creep is how good apps turn into bloated apps.",
   "Earn the version number. v1.0 means I'd happily install it on my mom's phone. Nothing ships before that.",
