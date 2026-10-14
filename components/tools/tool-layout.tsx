@@ -7,6 +7,7 @@ import { ShieldCheck, Wifi } from "lucide-react";
 import { TOOLS, getTool } from "@/lib/tools";
 import { getPost } from "@/lib/blog";
 import { ToolIcon } from "./tool-icon";
+import { DownloadHelper } from "./download-helper";
 
 const SITE = "https://thecodebage.com";
 
@@ -116,6 +117,7 @@ export function ToolLayout({ slug, children }: { slug: string; children: React.R
           </div>
         </header>
 
+        <DownloadHelper />
         <section className="tool-panel" aria-label={tool.name}>
           {children}
         </section>

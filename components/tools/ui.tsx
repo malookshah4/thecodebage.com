@@ -241,15 +241,41 @@ export function Progress({ value, label }: { value: number; label?: string }) {
   );
 }
 
+export interface ToolDownloadDetail {
+  url: string;
+  filename: string;
+  size: number;
+}
+
+/** Event fired on window for every download, so <DownloadHelper> can offer a manual link. */
+export const TOOL_DOWNLOAD_EVENT = "codebage:tool-download";
+
 export function downloadBlob(blob: Blob, filename: string) {
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
   a.download = filename;
+  a.rel = "noopener";
   document.body.appendChild(a);
   a.click();
   a.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 10_000);
+  // Some browsers block a download that starts after async work (no recent
+  // tap), and iPhone Safari asks "Download?" first. Keep the file alive and
+  // let the helper show a link the user can tap themselves.
+  window.dispatchEvent(
+    new CustomEvent<ToolDownloadDetail>(TOOL_DOWNLOAD_EVENT, {
+      detail: { url, filename, size: blob.size },
+    }),
+  );
+  setTimeout(() => URL.revokeObjectURL(url), 10 * 60_000);
+}
+
+/**
+ * In-app browsers (Instagram, Facebook, TikTok, Snapchat, LinkedIn, Android
+ * WebViews) can't save files made in the page. Detect them so we can say so.
+ */
+export function isInAppBrowser(ua: string): boolean {
+  return /FBAN|FBAV|FB_IAB|Instagram|Snapchat|TikTok|musical_ly|BytedanceWebview|LinkedInApp|Line\/|; wv\)/i.test(ua);
 }
 
 export function formatBytes(n: number): string {

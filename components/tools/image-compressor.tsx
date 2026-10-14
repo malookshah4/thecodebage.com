@@ -61,6 +61,8 @@ export default function ImageCompressor() {
   const [format, setFormat] = useState<OutFormat>("keep");
   const [maxSide, setMaxSide] = useState(0);
   const [busy, setBusy] = useState(false);
+  const [zipping, setZipping] = useState(false);
+  const [zipError, setZipError] = useState("");
 
   const addFiles = (files: File[]) => {
     const images = files.filter((f) => f.type.startsWith("image/"));
@@ -75,7 +77,12 @@ export default function ImageCompressor() {
     for (const item of items) {
       setItems((prev) => prev.map((i) => (i.id === item.id ? { ...i, status: "working" } : i)));
       try {
-        const result = await compress(item.file, quality, format, maxSide);
+        const compressed = await compress(item.file, quality, format, maxSide);
+        // Never hand back a bigger file in the same format and size.
+        const result =
+          compressed.size >= item.file.size && compressed.type === item.file.type && maxSide === 0
+            ? item.file
+            : compressed;
         setItems((prev) =>
           prev.map((i) => (i.id === item.id ? { ...i, status: "done", result, error: undefined } : i)),
         );
@@ -93,6 +100,29 @@ export default function ImageCompressor() {
 
   const outName = (i: Item) =>
     renameFile(i.file.name, "-compressed", EXT[i.result?.type ?? "image/jpeg"] ?? "jpg");
+
+  // One zip instead of many downloads: browsers block or drop several
+  // downloads fired at once.
+  const downloadZip = async () => {
+    setZipping(true);
+    setZipError("");
+    try {
+      const JSZip = (await import("jszip")).default;
+      const zip = new JSZip();
+      const used = new Set<string>();
+      for (const i of done) {
+        let name = outName(i);
+        for (let n = 2; used.has(name); n++) name = outName(i).replace(/(\.[^.]+)$/, `-${n}$1`);
+        used.add(name);
+        zip.file(name, i.result!);
+      }
+      downloadBlob(await zip.generateAsync({ type: "blob" }), "compressed-images.zip");
+    } catch {
+      setZipError("Could not build the zip file. Download the images one by one instead.");
+    } finally {
+      setZipping(false);
+    }
+  };
 
   return (
     <div className="tool-stack">
@@ -203,8 +233,8 @@ export default function ImageCompressor() {
           {busy ? "Compressing..." : `Compress ${items.length || ""} image${items.length === 1 ? "" : "s"}`}
         </Btn>
         {done.length > 1 && (
-          <Btn variant="ghost" onClick={() => done.forEach((i) => downloadBlob(i.result!, outName(i)))}>
-            <Download size={16} aria-hidden /> Download all
+          <Btn variant="ghost" onClick={downloadZip} disabled={zipping}>
+            <Download size={16} aria-hidden /> {zipping ? "Zipping..." : "Download all (.zip)"}
           </Btn>
         )}
         {items.length > 0 && (
@@ -213,6 +243,8 @@ export default function ImageCompressor() {
           </Btn>
         )}
       </div>
+
+      {zipError && <Notice tone="error">{zipError}</Notice>}
 
       {done.length > 0 && after > 0 && (
         <Notice tone={after < before ? "success" : "info"}>
