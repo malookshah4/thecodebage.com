@@ -65,8 +65,11 @@ export function Footer() {
           className="mt-14 flex flex-wrap justify-between gap-6 pt-6"
           style={{ borderTop: "1px solid var(--line)", fontFamily: "var(--font-mono-stack)", fontSize: 11 }}
         >
-          <span>© {new Date().getFullYear()} codeBage</span>
-          <span>support@thecodebage.com · dl.thecodebage.com</span>
+          {/* Owner, address and contact as one plain-text node in the static HTML,
+              so automated checkers (e.g. Meta business verification) can read it. */}
+          <p style={{ margin: 0 }}>
+            {`© ${new Date().getFullYear()} Codebage · Owned and operated by Malook Shah · Nar Abas Khan, Begu Khel, Serai Naurang, Lakki Marwat, Pakistan · support@thecodebage.com`}
+          </p>
         </div>
       </div>
     </footer>
