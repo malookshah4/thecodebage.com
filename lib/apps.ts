@@ -104,8 +104,9 @@ const REMOTE_MOUSE_PRO: AppEntry = {
   recentReviews: SCRAPED_RMP?.recentReviews,
 };
 
-// MuscleLit (Android/com.codebage.musclelit + iPhone): pinned so the page exists before launch;
-// once the app is live under the codeBage developer the scraped Play Store data takes over.
+// MuscleLit (com.codebage.musclelit): live on Play since Oct 2026. Icon, screenshots,
+// description, version and ratings come from the scraped Play Store data; the hard-coded
+// values below are only fallbacks if the scrape ever misses it.
 const SCRAPED_ML = PLAYSTORE_APPS.find((a) => a.slug.startsWith("musclelit"));
 const mlRatings = (SCRAPED_ML?.ratings ?? 0) > 0;
 const mlInstalls = !!SCRAPED_ML?.installs && SCRAPED_ML.installs !== "0+";
@@ -133,7 +134,7 @@ const MUSCLELIT: AppEntry = {
     ? SCRAPED_ML.screenshots
     : [1, 2, 3, 4, 5, 6, 7].map((n) => `/apps/musclelit/screenshot-${n}.jpg`),
   version: SCRAPED_ML?.version ?? "1.0.0",
-  released: SCRAPED_ML?.released ?? "Coming soon",
+  released: SCRAPED_ML?.released ?? "Oct 13, 2026",
   updatedDate: SCRAPED_ML?.updatedDate ?? "Oct 13, 2026",
   features: [
     "140+ gym and bodyweight exercises on a real 3D anatomy body",
