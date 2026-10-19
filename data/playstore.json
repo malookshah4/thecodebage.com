@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.48,
     "scoreText": "4.5",
-    "ratings": 59225,
+    "ratings": 59229,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,14 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "8cab5e33-7755-4698-9f04-e083cc8b5346",
+        "userName": "Sarita Ruchal",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKyeJPO8_pdlqTDH5h5CCVSbG2BK5iHjUFKspsWHUOVziXHJw=mo",
+        "date": "2026-10-17T09:24:23.441Z",
+        "score": 5,
+        "text": "Kuwait City file"
+      },
       {
         "id": "3ad036e5-fa7e-4066-b222-48619a8610e0",
         "userName": "Riyaz Md",
@@ -133,14 +141,6 @@
         "date": "2026-10-10T06:29:14.226Z",
         "score": 5,
         "text": "yousif King for you"
-      },
-      {
-        "id": "59ddbd60-fa63-49e8-a861-774079d9e74c",
-        "userName": "Ranjana Gautam",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIwyutTW3ZYaUn9P_Y38LKYVo_VkUYRZ9HZgUyB0QNVCv5Q6Q=mo",
-        "date": "2026-10-10T06:23:46.785Z",
-        "score": 2,
-        "text": "tiktok"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.08,
     "scoreText": "4.1",
-    "ratings": 5663,
+    "ratings": 5669,
     "reviews": 118,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -550,7 +550,7 @@
     "video": null,
     "score": 4.33,
     "scoreText": "4.3",
-    "ratings": 132,
+    "ratings": 134,
     "reviews": 1,
     "installs": "5,000+",
     "minInstalls": 5000,
