@@ -21,11 +21,11 @@
     "video": null,
     "score": 4.48,
     "scoreText": "4.5",
-    "ratings": 59235,
+    "ratings": 59237,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
-    "maxInstalls": 1970366,
+    "maxInstalls": 1970570,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -164,11 +164,11 @@
     "video": null,
     "score": 4.09,
     "scoreText": "4.1",
-    "ratings": 5693,
+    "ratings": 5702,
     "reviews": 118,
     "installs": "500,000+",
     "minInstalls": 500000,
-    "maxInstalls": 700965,
+    "maxInstalls": 701446,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "bbe83406-5309-4adc-bda5-6eca84da8be9",
+        "userName": "Jermie Boy Ando",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXNwU-P6ul1KpIGI-yNrj_T6E2tbnJaEFYDI6EYGyaNgihhRkU",
+        "date": "2026-10-20T10:56:45.907Z",
+        "score": 4,
+        "text": "nice"
+      },
       {
         "id": "8066b01a-c31b-411b-805a-7c6510e53744",
         "userName": "Kenny Kenneto",
@@ -276,14 +284,6 @@
         "date": "2026-08-27T04:31:39.657Z",
         "score": 5,
         "text": "best app"
-      },
-      {
-        "id": "49c61244-60dc-4eaa-abd1-1c1c5cdc56c3",
-        "userName": "Sitwell Kahilu",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLNOlLsmgny3WqKHnwX0uG-08BOyIax40K_g1wiYvN5SNSOzA=mo",
-        "date": "2026-08-25T08:41:56.270Z",
-        "score": 3,
-        "text": "Difficult to use"
       }
     ]
   },
@@ -309,11 +309,11 @@
     "video": null,
     "score": 3.67,
     "scoreText": "3.7",
-    "ratings": 76,
+    "ratings": 77,
     "reviews": 8,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 11899,
+    "maxInstalls": 12387,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -343,6 +343,14 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
+      {
+        "id": "8bada5ba-cd5e-4500-96d9-d9ad20ea20f2",
+        "userName": "Kamal Pun",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLesrGHcKR0vBv4nw471mxkA7av4elS7BOjJEochvQwJoHLpQ=mo",
+        "date": "2026-10-20T15:25:09.644Z",
+        "score": 5,
+        "text": "we need more update"
+      },
       {
         "id": "f76cc6bf-9c53-4364-8e36-5f01bde5c218",
         "userName": "Khalida Jabeen",
@@ -430,14 +438,6 @@
         "date": "2026-09-04T05:14:00.938Z",
         "score": 4,
         "text": "So far there are only 2 annoyances, the delay, and onion skinning only showing the previous frames and not the next frames. Aside from that, this app is awesome and doesn't lock features behind a paywall like a certain animation app *cough cough* Flipaclip *cough cough*"
-      },
-      {
-        "id": "79f65995-2009-4d3d-8f30-25dc50ee0248",
-        "userName": "Altysaltymalty Kellyboy",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLqctx3E2F8kOLTM3ZvfHIwlZDiOUB1lh_pVuO26Z9WMXZz8A=mo",
-        "date": "2026-09-03T04:31:24.666Z",
-        "score": 3,
-        "text": "honestly a good app but they should fix the zooming features when I zoom in the canvas suddenly shakes please fix this"
       }
     ]
   },
@@ -463,7 +463,7 @@
     "reviews": 0,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 24760,
+    "maxInstalls": 25512,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -554,7 +554,7 @@
     "reviews": 1,
     "installs": "5,000+",
     "minInstalls": 5000,
-    "maxInstalls": 7645,
+    "maxInstalls": 7687,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -698,7 +698,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 2318,
+    "maxInstalls": 2403,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -728,6 +728,14 @@
       "Original clip mode for un-cropped highlights"
     ],
     "recentReviews": [
+      {
+        "id": "3b7ef726-8c75-460a-bab6-88fb1de5bc83",
+        "userName": "Davy Sam",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjX8gKOU_f0jR_MSFJk_AjTSy1UP34Sz2sUEEAlS8eJlhgQVZ4q6RA",
+        "date": "2026-10-20T13:20:08.822Z",
+        "score": 5,
+        "text": "very great app, I love it"
+      },
       {
         "id": "5e833ac4-4cfe-4422-aced-ec39cbedf951",
         "userName": "mahen jaiswal",
@@ -815,14 +823,6 @@
         "date": "2026-05-08T13:23:13.246Z",
         "score": 5,
         "text": "very very nice"
-      },
-      {
-        "id": "03f12920-6c94-4273-8fde-8c3019311f66",
-        "userName": "Md Ripon Hossain",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKN8qsjuUS0rKkE5i3XIDcRwhTY_TVNY12UB6SeFuLIOmDHvQ=mo",
-        "date": "2026-04-16T23:34:04.402Z",
-        "score": 1,
-        "text": "so many ads, never to use, also failed export"
       }
     ]
   },
@@ -852,7 +852,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1443,
+    "maxInstalls": 1461,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1101,7 +1101,7 @@
     "reviews": 0,
     "installs": "500+",
     "minInstalls": 500,
-    "maxInstalls": 959,
+    "maxInstalls": 975,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1161,7 +1161,7 @@
     "reviews": 0,
     "installs": "500+",
     "minInstalls": 500,
-    "maxInstalls": 657,
+    "maxInstalls": 668,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1214,7 +1214,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 152,
+    "maxInstalls": 158,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1301,61 +1301,6 @@
     "recentReviews": []
   },
   {
-    "appId": "com.codebage.replyai",
-    "slug": "reply-ai-smart-comment-reply",
-    "title": "Reply AI - Smart Comment Reply",
-    "summary": "AI-powered reply generator for social media comments. Smart, fast &amp; effortless.",
-    "description": "Reply to social media comments instantly with AI-powered smart replies!\n\nReplyAI is your personal comment reply assistant. Simply copy any comment from your favorite social media app, tap the floating bubble, and get multiple AI-generated replies in seconds. Choose from different tones to match your style — whether you want to be friendly, funny, savage, or professional.\n\nHOW IT WORKS\n1. Open any social media app (YouTube, Instagram, TikTok, Facebook, X, and more)\n2. Copy the comment you want to reply to\n3. Tap the floating ReplyAI bubble\n4. Choose your preferred tone\n5. Get smart AI replies instantly — tap to copy and paste!\n\nKEY FEATURES\n\nSmart AI Replies — Powered by advanced AI to generate natural, context-aware responses to any comment.\n\nFloating Bubble — A convenient overlay bubble appears automatically on your social media apps. No need to switch between apps.\n\nMultiple Tones — Choose from Friendly, Funny, Savage, Professional, and more tones to match the vibe you want.\n\nVideo Context — Optionally add the video topic for even more relevant and accurate replies.\n\nMultiple Reply Options — Get several reply suggestions to pick the one that fits best.\n\nOne-Tap Copy — Copy any generated reply with a single tap and paste it directly.\n\nReply History — Access your previously generated replies anytime.\n\nWorks Everywhere — Supports YouTube, Instagram, TikTok, Facebook, X (Twitter), Reddit, Snapchat, LinkedIn, and more.\n\nPREMIUM FEATURES\nUpgrade to Premium for the ultimate experience:\n- Unlimited reply generation\n- All 8 reply tones unlocked\n- No ads — completely ad-free experience\n\nReplyAI saves you time and helps you engage with your audience effortlessly. Whether you're a content creator managing hundreds of comments or just want the perfect comeback, ReplyAI has you covered.\n\nDownload now and never struggle with comment replies again!",
-    "descriptionHTML": "Reply to social media comments instantly with AI-powered smart replies!<br><br>ReplyAI is your personal comment reply assistant. Simply copy any comment from your favorite social media app, tap the floating bubble, and get multiple AI-generated replies in seconds. Choose from different tones to match your style — whether you want to be friendly, funny, savage, or professional.<br><br>HOW IT WORKS<br>1. Open any social media app (YouTube, Instagram, TikTok, Facebook, X, and more)<br>2. Copy the comment you want to reply to<br>3. Tap the floating ReplyAI bubble<br>4. Choose your preferred tone<br>5. Get smart AI replies instantly — tap to copy and paste!<br><br>KEY FEATURES<br><br>Smart AI Replies — Powered by advanced AI to generate natural, context-aware responses to any comment.<br><br>Floating Bubble — A convenient overlay bubble appears automatically on your social media apps. No need to switch between apps.<br><br>Multiple Tones — Choose from Friendly, Funny, Savage, Professional, and more tones to match the vibe you want.<br><br>Video Context — Optionally add the video topic for even more relevant and accurate replies.<br><br>Multiple Reply Options — Get several reply suggestions to pick the one that fits best.<br><br>One-Tap Copy — Copy any generated reply with a single tap and paste it directly.<br><br>Reply History — Access your previously generated replies anytime.<br><br>Works Everywhere — Supports YouTube, Instagram, TikTok, Facebook, X (Twitter), Reddit, Snapchat, LinkedIn, and more.<br><br>PREMIUM FEATURES<br>Upgrade to Premium for the ultimate experience:<br>- Unlimited reply generation<br>- All 8 reply tones unlocked<br>- No ads — completely ad-free experience<br><br>ReplyAI saves you time and helps you engage with your audience effortlessly. Whether you&#39;re a content creator managing hundreds of comments or just want the perfect comeback, ReplyAI has you covered.<br><br>Download now and never struggle with comment replies again!",
-    "icon": "/apps/reply-ai-smart-comment-reply/icon.jpg",
-    "iconRemote": "https://play-lh.googleusercontent.com/hAJE5NHEDwNnweT4EboKi7XmfhyssNY3Qb2rBTsMTKFz68nsuugGazcHs7RtMjG5KfYFNbRcxJaEN95ITUUAaA",
-    "headerImage": "/apps/reply-ai-smart-comment-reply/header.jpg",
-    "screenshots": [
-      "/apps/reply-ai-smart-comment-reply/screenshot-1.jpg",
-      "/apps/reply-ai-smart-comment-reply/screenshot-2.jpg",
-      "/apps/reply-ai-smart-comment-reply/screenshot-3.jpg",
-      "/apps/reply-ai-smart-comment-reply/screenshot-4.jpg",
-      "/apps/reply-ai-smart-comment-reply/screenshot-5.jpg",
-      "/apps/reply-ai-smart-comment-reply/screenshot-6.jpg"
-    ],
-    "video": null,
-    "score": 0,
-    "ratings": 0,
-    "reviews": 0,
-    "installs": "100+",
-    "minInstalls": 100,
-    "maxInstalls": 289,
-    "price": 0,
-    "free": true,
-    "currency": "USD",
-    "genre": "Tools",
-    "genreId": "TOOLS",
-    "contentRating": "Everyone",
-    "released": "Feb 21, 2026",
-    "updated": 1785207253000,
-    "updatedDate": "Jul 28, 2026",
-    "version": "2.0",
-    "recentChanges": "• Updated for the latest version of Android<br>• Fixed a crash that could stop replies from generating<br>• Fixed Premium status not being detected after the Play Store reconnects<br>• Reply history now saves and displays reliably<br>• Fixed setup screens overlapping the status and navigation bars<br>• General performance and stability improvements",
-    "url": "https://play.google.com/store/apps/details?id=com.codebage.replyai&hl=en&gl=us",
-    "developer": "codeBage",
-    "developerId": "codeBage",
-    "developerWebsite": "https://kf8ebaa43.app-ads-txt.com/app-ads.txt",
-    "developerEmail": "codewithhacker@gmail.com",
-    "privacyPolicy": "https://docs.google.com/document/d/e/2PACX-1vROCbgJfrvE5AvooFOMDMaKxkgNwvDest0OR53yK8EzMFwMqS-I97qMxS14L_9lqdahF_j6b2TG_-ao/pub",
-    "androidVersion": "8.0",
-    "features": [
-      "Open any social media app (YouTube, Instagram, TikTok, Facebook, X, and more)",
-      "Copy the comment you want to reply to",
-      "Tap the floating ReplyAI bubble",
-      "Choose your preferred tone",
-      "Get smart AI replies instantly — tap to copy and paste!",
-      "Unlimited reply generation",
-      "All 8 reply tones unlocked",
-      "No ads — completely ad-free experience"
-    ],
-    "recentReviews": []
-  },
-  {
     "appId": "com.codebage.storerush",
     "slug": "store-rush-idle-boss",
     "title": "Store Rush: Idle Boss",
@@ -1411,6 +1356,61 @@
         "text": "This is soo wonderful and there graphics is great 👍🏻"
       }
     ]
+  },
+  {
+    "appId": "com.codebage.replyai",
+    "slug": "reply-ai-smart-comment-reply",
+    "title": "Reply AI - Smart Comment Reply",
+    "summary": "AI-powered reply generator for social media comments. Smart, fast &amp; effortless.",
+    "description": "Reply to social media comments instantly with AI-powered smart replies!\n\nReplyAI is your personal comment reply assistant. Simply copy any comment from your favorite social media app, tap the floating bubble, and get multiple AI-generated replies in seconds. Choose from different tones to match your style — whether you want to be friendly, funny, savage, or professional.\n\nHOW IT WORKS\n1. Open any social media app (YouTube, Instagram, TikTok, Facebook, X, and more)\n2. Copy the comment you want to reply to\n3. Tap the floating ReplyAI bubble\n4. Choose your preferred tone\n5. Get smart AI replies instantly — tap to copy and paste!\n\nKEY FEATURES\n\nSmart AI Replies — Powered by advanced AI to generate natural, context-aware responses to any comment.\n\nFloating Bubble — A convenient overlay bubble appears automatically on your social media apps. No need to switch between apps.\n\nMultiple Tones — Choose from Friendly, Funny, Savage, Professional, and more tones to match the vibe you want.\n\nVideo Context — Optionally add the video topic for even more relevant and accurate replies.\n\nMultiple Reply Options — Get several reply suggestions to pick the one that fits best.\n\nOne-Tap Copy — Copy any generated reply with a single tap and paste it directly.\n\nReply History — Access your previously generated replies anytime.\n\nWorks Everywhere — Supports YouTube, Instagram, TikTok, Facebook, X (Twitter), Reddit, Snapchat, LinkedIn, and more.\n\nPREMIUM FEATURES\nUpgrade to Premium for the ultimate experience:\n- Unlimited reply generation\n- All 8 reply tones unlocked\n- No ads — completely ad-free experience\n\nReplyAI saves you time and helps you engage with your audience effortlessly. Whether you're a content creator managing hundreds of comments or just want the perfect comeback, ReplyAI has you covered.\n\nDownload now and never struggle with comment replies again!",
+    "descriptionHTML": "Reply to social media comments instantly with AI-powered smart replies!<br><br>ReplyAI is your personal comment reply assistant. Simply copy any comment from your favorite social media app, tap the floating bubble, and get multiple AI-generated replies in seconds. Choose from different tones to match your style — whether you want to be friendly, funny, savage, or professional.<br><br>HOW IT WORKS<br>1. Open any social media app (YouTube, Instagram, TikTok, Facebook, X, and more)<br>2. Copy the comment you want to reply to<br>3. Tap the floating ReplyAI bubble<br>4. Choose your preferred tone<br>5. Get smart AI replies instantly — tap to copy and paste!<br><br>KEY FEATURES<br><br>Smart AI Replies — Powered by advanced AI to generate natural, context-aware responses to any comment.<br><br>Floating Bubble — A convenient overlay bubble appears automatically on your social media apps. No need to switch between apps.<br><br>Multiple Tones — Choose from Friendly, Funny, Savage, Professional, and more tones to match the vibe you want.<br><br>Video Context — Optionally add the video topic for even more relevant and accurate replies.<br><br>Multiple Reply Options — Get several reply suggestions to pick the one that fits best.<br><br>One-Tap Copy — Copy any generated reply with a single tap and paste it directly.<br><br>Reply History — Access your previously generated replies anytime.<br><br>Works Everywhere — Supports YouTube, Instagram, TikTok, Facebook, X (Twitter), Reddit, Snapchat, LinkedIn, and more.<br><br>PREMIUM FEATURES<br>Upgrade to Premium for the ultimate experience:<br>- Unlimited reply generation<br>- All 8 reply tones unlocked<br>- No ads — completely ad-free experience<br><br>ReplyAI saves you time and helps you engage with your audience effortlessly. Whether you&#39;re a content creator managing hundreds of comments or just want the perfect comeback, ReplyAI has you covered.<br><br>Download now and never struggle with comment replies again!",
+    "icon": "/apps/reply-ai-smart-comment-reply/icon.jpg",
+    "iconRemote": "https://play-lh.googleusercontent.com/hAJE5NHEDwNnweT4EboKi7XmfhyssNY3Qb2rBTsMTKFz68nsuugGazcHs7RtMjG5KfYFNbRcxJaEN95ITUUAaA",
+    "headerImage": "/apps/reply-ai-smart-comment-reply/header.jpg",
+    "screenshots": [
+      "/apps/reply-ai-smart-comment-reply/screenshot-1.jpg",
+      "/apps/reply-ai-smart-comment-reply/screenshot-2.jpg",
+      "/apps/reply-ai-smart-comment-reply/screenshot-3.jpg",
+      "/apps/reply-ai-smart-comment-reply/screenshot-4.jpg",
+      "/apps/reply-ai-smart-comment-reply/screenshot-5.jpg",
+      "/apps/reply-ai-smart-comment-reply/screenshot-6.jpg"
+    ],
+    "video": null,
+    "score": 0,
+    "ratings": 0,
+    "reviews": 0,
+    "installs": "100+",
+    "minInstalls": 100,
+    "maxInstalls": 290,
+    "price": 0,
+    "free": true,
+    "currency": "USD",
+    "genre": "Tools",
+    "genreId": "TOOLS",
+    "contentRating": "Everyone",
+    "released": "Feb 21, 2026",
+    "updated": 1785207253000,
+    "updatedDate": "Jul 28, 2026",
+    "version": "2.0",
+    "recentChanges": "• Updated for the latest version of Android<br>• Fixed a crash that could stop replies from generating<br>• Fixed Premium status not being detected after the Play Store reconnects<br>• Reply history now saves and displays reliably<br>• Fixed setup screens overlapping the status and navigation bars<br>• General performance and stability improvements",
+    "url": "https://play.google.com/store/apps/details?id=com.codebage.replyai&hl=en&gl=us",
+    "developer": "codeBage",
+    "developerId": "codeBage",
+    "developerWebsite": "https://kf8ebaa43.app-ads-txt.com/app-ads.txt",
+    "developerEmail": "codewithhacker@gmail.com",
+    "privacyPolicy": "https://docs.google.com/document/d/e/2PACX-1vROCbgJfrvE5AvooFOMDMaKxkgNwvDest0OR53yK8EzMFwMqS-I97qMxS14L_9lqdahF_j6b2TG_-ao/pub",
+    "androidVersion": "8.0",
+    "features": [
+      "Open any social media app (YouTube, Instagram, TikTok, Facebook, X, and more)",
+      "Copy the comment you want to reply to",
+      "Tap the floating ReplyAI bubble",
+      "Choose your preferred tone",
+      "Get smart AI replies instantly — tap to copy and paste!",
+      "Unlimited reply generation",
+      "All 8 reply tones unlocked",
+      "No ads — completely ad-free experience"
+    ],
+    "recentReviews": []
   },
   {
     "appId": "com.codebage.battlereel",
@@ -1544,7 +1544,7 @@
     "reviews": 0,
     "installs": "50+",
     "minInstalls": 50,
-    "maxInstalls": 92,
+    "maxInstalls": 93,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1599,7 +1599,7 @@
     "reviews": 0,
     "installs": "50+",
     "minInstalls": 50,
-    "maxInstalls": 75,
+    "maxInstalls": 76,
     "price": 0,
     "free": true,
     "currency": "USD",
