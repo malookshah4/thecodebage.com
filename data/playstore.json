@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.48,
     "scoreText": "4.5",
-    "ratings": 59239,
+    "ratings": 59243,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,14 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "6330bc19-673a-4855-bb84-f9dd3e49fca5",
+        "userName": "Muhammad Saqib",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVyTqGO9S11RfoZzTnuGC--PuoSDLGUflfzaml6PsOm8joyyNdN",
+        "date": "2026-10-22T20:48:13.200Z",
+        "score": 5,
+        "text": "Mohammed Saqib Qureshi saB2"
+      },
       {
         "id": "926f98c2-ddce-47cd-83be-401c3d35b150",
         "userName": "Muhammad Sajid Khan khan",
@@ -133,14 +141,6 @@
         "date": "2026-10-10T17:41:44.429Z",
         "score": 5,
         "text": "good"
-      },
-      {
-        "id": "524920bc-1539-404a-bd88-0c446d061b3d",
-        "userName": "ziulllah Khan",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocL3cawlUL4KM8QO8craduZwJoe0l3GcS2xXEhxOW6sfGPbbGQ=mo",
-        "date": "2026-10-10T16:25:45.845Z",
-        "score": 5,
-        "text": "ziaullah king63"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.12,
     "scoreText": "4.1",
-    "ratings": 5715,
+    "ratings": 5721,
     "reviews": 118,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "530b91fa-fb16-4d5d-a036-4651b79cfe14",
+        "userName": "Roces Patula",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUn6rGRl34gFpiPD_WTZ8rLTJlF8cJ9sDxfYpe2deaTPbGmnb8",
+        "date": "2026-10-23T03:19:32.467Z",
+        "score": 5,
+        "text": "excellent 👍"
+      },
       {
         "id": "bbe83406-5309-4adc-bda5-6eca84da8be9",
         "userName": "Jermie Boy Ando",
@@ -276,14 +284,6 @@
         "date": "2026-09-19T08:11:49.996Z",
         "score": 5,
         "text": "nice"
-      },
-      {
-        "id": "8be5d7b7-1ef3-40d0-a3d8-f609018a3278",
-        "userName": "Aoun Abbas",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVGgZOXGUUo5lcBd-AxFqlUPTQKDt1SLJngPGRXouNgabFFGj0",
-        "date": "2026-08-27T04:31:39.657Z",
-        "score": 5,
-        "text": "best app"
       }
     ]
   },
@@ -309,7 +309,7 @@
     "video": null,
     "score": 3.67,
     "scoreText": "3.7",
-    "ratings": 77,
+    "ratings": 78,
     "reviews": 8,
     "installs": "10,000+",
     "minInstalls": 10000,
@@ -1573,7 +1573,16 @@
       "Multiple media types in one app",
       "Check posts directly by pasting a link"
     ],
-    "recentReviews": []
+    "recentReviews": [
+      {
+        "id": "03fd828d-5478-4ab7-893b-5dcb7e206342",
+        "userName": "Rainbows Merryx",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIe7Z3MbrsafpLKt6sNLiNoUTsDvHMXWMyNVB5FNiVS-Z118w=mo",
+        "date": "2026-10-22T17:39:21.542Z",
+        "score": 5,
+        "text": "anyway vanities"
+      }
+    ]
   },
   {
     "appId": "com.codebage.martscout",
