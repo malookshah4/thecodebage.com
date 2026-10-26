@@ -21,11 +21,11 @@
     "video": null,
     "score": 4.48,
     "scoreText": "4.5",
-    "ratings": 59245,
+    "ratings": 59246,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
-    "maxInstalls": 1971077,
+    "maxInstalls": 1971276,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -46,6 +46,22 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "1f85108b-4027-4077-9eff-61368153d625",
+        "userName": "Muhammad Nalain",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIunCiHj6eTD5Ry6VhH43-tqmrNUc9HnWS0iyW3vuvsEy4lyQ=mo",
+        "date": "2026-10-25T08:11:05.154Z",
+        "score": 5,
+        "text": "10kviews"
+      },
+      {
+        "id": "4bc649f7-8446-4b68-bcbc-cf4c6a1ca76a",
+        "userName": "Amani Everina",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLjB9pdG8UOvWnfQ7hzMhTqLnW3q3s-wvdeW-udyW_n0foLYQ=mo",
+        "date": "2026-10-25T08:05:00.726Z",
+        "score": 5,
+        "text": "Sauzie"
+      },
       {
         "id": "6330bc19-673a-4855-bb84-f9dd3e49fca5",
         "userName": "Muhammad Saqib",
@@ -125,22 +141,6 @@
         "date": "2026-10-12T08:05:35.610Z",
         "score": 3,
         "text": "very nice 👍"
-      },
-      {
-        "id": "7a4a96f4-5918-492d-82ea-c85c8ade8f49",
-        "userName": "Fayyaz Ahmad",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKLPUMazYTWfNnuI6FUpeOU1kncVJUEOsQC3PARSETZaNHUCg=mo",
-        "date": "2026-10-11T22:33:53.588Z",
-        "score": 4,
-        "text": "fayyazAhmad"
-      },
-      {
-        "id": "cbbda96b-269e-46e5-ad3a-334cd5bc153f",
-        "userName": "Muhammad Rafiq Khan",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocInPXd-W9A_-XYEWETyBBaihnkpDyVlUf-Yp0QBlFOQejPFDA=mo",
-        "date": "2026-10-10T17:41:44.429Z",
-        "score": 5,
-        "text": "good"
       }
     ]
   },
@@ -164,11 +164,11 @@
     "video": null,
     "score": 4.12,
     "scoreText": "4.1",
-    "ratings": 5730,
+    "ratings": 5748,
     "reviews": 118,
     "installs": "500,000+",
     "minInstalls": 500000,
-    "maxInstalls": 703002,
+    "maxInstalls": 703544,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "16125ebf-834e-4def-a18b-be6eda1adf71",
+        "userName": "Verghies Komara",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWi0TkoSN1iSJ6eGS0yw8vMSnavdvY5rRs1HVvzX8tEvBW6-noF",
+        "date": "2026-10-24T11:56:35.874Z",
+        "score": 4,
+        "text": "Best app ever"
+      },
       {
         "id": "530b91fa-fb16-4d5d-a036-4651b79cfe14",
         "userName": "Roces Patula",
@@ -276,14 +284,6 @@
         "date": "2026-09-21T09:41:54.316Z",
         "score": 5,
         "text": "best app love it EPIC"
-      },
-      {
-        "id": "c13dc321-cbbd-4815-8823-e80ef035185c",
-        "userName": "Ikram ali",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIpSO8mC71vCFavZ4NNGk28BCo-RRgNHJ15NfdZYWDWyv5AYg=mo",
-        "date": "2026-09-19T08:11:49.996Z",
-        "score": 5,
-        "text": "nice"
       }
     ]
   },
@@ -309,11 +309,11 @@
     "video": null,
     "score": 3.67,
     "scoreText": "3.7",
-    "ratings": 81,
+    "ratings": 82,
     "reviews": 8,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 12702,
+    "maxInstalls": 12819,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -463,7 +463,7 @@
     "reviews": 0,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 25998,
+    "maxInstalls": 26180,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -554,7 +554,7 @@
     "reviews": 1,
     "installs": "5,000+",
     "minInstalls": 5000,
-    "maxInstalls": 7811,
+    "maxInstalls": 7847,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -583,6 +583,14 @@
       "Hook Generator — attention-grabbing openers"
     ],
     "recentReviews": [
+      {
+        "id": "88b79428-cb3f-420b-a905-19fae635073a",
+        "userName": "Mustafa Baloch",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLmH-VzLW21xI1cKlXKlUt2KBsn5F_oAMgxcDD7SRyHzwsQ0g=mo",
+        "date": "2026-10-24T11:20:59.276Z",
+        "score": 5,
+        "text": "Mustafachandio"
+      },
       {
         "id": "6ecdf659-5239-402a-a408-0a10a0826094",
         "userName": "James Mark Eze",
@@ -698,7 +706,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 2456,
+    "maxInstalls": 2477,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -852,7 +860,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1485,
+    "maxInstalls": 1490,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -905,6 +913,72 @@
         "date": "2026-06-24T21:28:53.744Z",
         "score": 1,
         "text": "It has bugs in the process, it stops and kicks me out, and I check data usage: 1.8GB. It's not processing what it should or how it should; it's a total disaster."
+      }
+    ]
+  },
+  {
+    "appId": "com.codebage.flipify",
+    "slug": "flipify-ai-video-effects",
+    "title": "Flipify - AI Video Effects",
+    "summary": "Turn videos into flipbooks, body strings, galaxy silhouettes &amp; 50+ AI effects.",
+    "description": "Flipify — AI Video Effects\n\nTurn any short video into a hand-drawn flipbook, a glitching hologram, a galaxy silhouette, or a glowing skeleton — directly on your phone.\n\nFlipify gives you 50+ one-tap effects designed for vertical short videos like reels and shorts. Every effect runs fully on-device — no upload, no sign-in, no subscription required to start.\n\nWhat you can do\n• Pick any video from your gallery up to 30 seconds\n• Choose an effect — flipbook drawings, echo trails, AI cutouts, scanlines, holograms, plasma bodies, and many more\n• Watch the AI separate you from the background, then apply your effect\n• Preview the result, share, or save to your gallery\n\nEffect highlights\n• Flipbook — your video as a paper page-flip animation\n• Echo Trail — ghostly motion trails of your past frames\n• Hologram — cyan scanline projection with sweeping bars\n• Galaxy — your silhouette filled with stars and nebulae\n• Lightning — neon bolts crackle from your outline\n• Disintegrate — hold a pose, then scatter into ash\n• Pose Lightning — AI tracks your hands and feet, bolts crackle from each\n• Beat Sync — subject pulses in time with your audio\n• …and dozens more, each tuned for vertical video\n\nBuilt for creators\n• 720×1280 export, ready for vertical feeds\n• Source audio preserved\n• AI subject cutout powered by on-device machine learning — no internet needed\n• Fast renders on mid-range devices\n• No watermark on free exports\n\nIf you create vertical short videos, Flipify gives your clips a look most filter apps don't.",
+    "descriptionHTML": "Flipify — AI Video Effects<br><br>Turn any short video into a hand-drawn flipbook, a glitching hologram, a galaxy silhouette, or a glowing skeleton — directly on your phone.<br><br>Flipify gives you 50+ one-tap effects designed for vertical short videos like reels and shorts. Every effect runs fully on-device — no upload, no sign-in, no subscription required to start.<br><br>What you can do<br>• Pick any video from your gallery up to 30 seconds<br>• Choose an effect — flipbook drawings, echo trails, AI cutouts, scanlines, holograms, plasma bodies, and many more<br>• Watch the AI separate you from the background, then apply your effect<br>• Preview the result, share, or save to your gallery<br><br>Effect highlights<br>• Flipbook — your video as a paper page-flip animation<br>• Echo Trail — ghostly motion trails of your past frames<br>• Hologram — cyan scanline projection with sweeping bars<br>• Galaxy — your silhouette filled with stars and nebulae<br>• Lightning — neon bolts crackle from your outline<br>• Disintegrate — hold a pose, then scatter into ash<br>• Pose Lightning — AI tracks your hands and feet, bolts crackle from each<br>• Beat Sync — subject pulses in time with your audio<br>• …and dozens more, each tuned for vertical video<br><br>Built for creators<br>• 720×1280 export, ready for vertical feeds<br>• Source audio preserved<br>• AI subject cutout powered by on-device machine learning — no internet needed<br>• Fast renders on mid-range devices<br>• No watermark on free exports<br><br>If you create vertical short videos, Flipify gives your clips a look most filter apps don&#39;t.",
+    "icon": "/apps/flipify-ai-video-effects/icon.jpg",
+    "iconRemote": "https://play-lh.googleusercontent.com/JUcbE2jrhX2ncR4lvqHfBtYOXrkQTmcy_0rgOdkCahQxSk0xZ67rtQDO2x44ECpBaUNOB5wGNUL9W5pKGqUnvA",
+    "headerImage": "/apps/flipify-ai-video-effects/header.jpg",
+    "screenshots": [
+      "/apps/flipify-ai-video-effects/screenshot-1.jpg",
+      "/apps/flipify-ai-video-effects/screenshot-2.jpg",
+      "/apps/flipify-ai-video-effects/screenshot-3.jpg",
+      "/apps/flipify-ai-video-effects/screenshot-4.jpg",
+      "/apps/flipify-ai-video-effects/screenshot-5.jpg",
+      "/apps/flipify-ai-video-effects/screenshot-6.jpg",
+      "/apps/flipify-ai-video-effects/screenshot-7.jpg",
+      "/apps/flipify-ai-video-effects/screenshot-8.jpg"
+    ],
+    "video": null,
+    "score": 0,
+    "ratings": 0,
+    "reviews": 0,
+    "installs": "1,000+",
+    "minInstalls": 1000,
+    "maxInstalls": 1002,
+    "price": 0,
+    "free": true,
+    "currency": "USD",
+    "genre": "Video Players & Editors",
+    "genreId": "VIDEO_PLAYERS",
+    "contentRating": "Everyone",
+    "released": "Apr 26, 2026",
+    "updated": 1777531147000,
+    "updatedDate": "Apr 30, 2026",
+    "version": "1.0.4",
+    "recentChanges": "What&#39;s new in 1.0.4<br><br>• Exports now match your source — vertical clips stay vertical, horizontal clips stay horizontal.<br>• New effects: Body Strings, Light Strings, Hand Wires.<br>• Higher-quality output (AVC High profile, 15 Mbps).<br>• Fixed slideshow stutter on phone-camera HDR clips.<br>• Each effect now shows a &quot;best with&quot; tip on the configure screen.<br>• New About screen with social links.<br>• Smaller polish: cleaner export-done screen, report-an-issue link.<br>",
+    "url": "https://play.google.com/store/apps/details?id=com.codebage.flipify&hl=en&gl=us",
+    "developer": "codeBage",
+    "developerId": "codeBage",
+    "developerWebsite": "https://kf8ebaa43.app-ads-txt.com",
+    "developerEmail": "support.codebage@gmail.com",
+    "privacyPolicy": "https://sites.google.com/view/flipify-privacy-policy?usp=sharing",
+    "androidVersion": "8.0",
+    "features": [
+      "Pick any video from your gallery up to 30 seconds",
+      "Choose an effect — flipbook drawings, echo trails, AI cutouts, scanlines, holograms, plasma bodies, and many more",
+      "Watch the AI separate you from the background, then apply your effect",
+      "Preview the result, share, or save to your gallery",
+      "Flipbook — your video as a paper page-flip animation",
+      "Echo Trail — ghostly motion trails of your past frames",
+      "Hologram — cyan scanline projection with sweeping bars",
+      "Galaxy — your silhouette filled with stars and nebulae"
+    ],
+    "recentReviews": [
+      {
+        "id": "b088f522-1a5c-4d8f-bb54-57804a3963ce",
+        "userName": "Fundu",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVqFJEBRPWBxz4pgNBUW467wCREcV6CkmEM3XwRJTsbFE6h7llo",
+        "date": "2026-07-11T05:04:24.840Z",
+        "score": 1,
+        "text": "after processing it shows unexpected error can't create media store entry."
       }
     ]
   },
@@ -1076,72 +1150,6 @@
     ]
   },
   {
-    "appId": "com.codebage.flipify",
-    "slug": "flipify-ai-video-effects",
-    "title": "Flipify - AI Video Effects",
-    "summary": "Turn videos into flipbooks, body strings, galaxy silhouettes &amp; 50+ AI effects.",
-    "description": "Flipify — AI Video Effects\n\nTurn any short video into a hand-drawn flipbook, a glitching hologram, a galaxy silhouette, or a glowing skeleton — directly on your phone.\n\nFlipify gives you 50+ one-tap effects designed for vertical short videos like reels and shorts. Every effect runs fully on-device — no upload, no sign-in, no subscription required to start.\n\nWhat you can do\n• Pick any video from your gallery up to 30 seconds\n• Choose an effect — flipbook drawings, echo trails, AI cutouts, scanlines, holograms, plasma bodies, and many more\n• Watch the AI separate you from the background, then apply your effect\n• Preview the result, share, or save to your gallery\n\nEffect highlights\n• Flipbook — your video as a paper page-flip animation\n• Echo Trail — ghostly motion trails of your past frames\n• Hologram — cyan scanline projection with sweeping bars\n• Galaxy — your silhouette filled with stars and nebulae\n• Lightning — neon bolts crackle from your outline\n• Disintegrate — hold a pose, then scatter into ash\n• Pose Lightning — AI tracks your hands and feet, bolts crackle from each\n• Beat Sync — subject pulses in time with your audio\n• …and dozens more, each tuned for vertical video\n\nBuilt for creators\n• 720×1280 export, ready for vertical feeds\n• Source audio preserved\n• AI subject cutout powered by on-device machine learning — no internet needed\n• Fast renders on mid-range devices\n• No watermark on free exports\n\nIf you create vertical short videos, Flipify gives your clips a look most filter apps don't.",
-    "descriptionHTML": "Flipify — AI Video Effects<br><br>Turn any short video into a hand-drawn flipbook, a glitching hologram, a galaxy silhouette, or a glowing skeleton — directly on your phone.<br><br>Flipify gives you 50+ one-tap effects designed for vertical short videos like reels and shorts. Every effect runs fully on-device — no upload, no sign-in, no subscription required to start.<br><br>What you can do<br>• Pick any video from your gallery up to 30 seconds<br>• Choose an effect — flipbook drawings, echo trails, AI cutouts, scanlines, holograms, plasma bodies, and many more<br>• Watch the AI separate you from the background, then apply your effect<br>• Preview the result, share, or save to your gallery<br><br>Effect highlights<br>• Flipbook — your video as a paper page-flip animation<br>• Echo Trail — ghostly motion trails of your past frames<br>• Hologram — cyan scanline projection with sweeping bars<br>• Galaxy — your silhouette filled with stars and nebulae<br>• Lightning — neon bolts crackle from your outline<br>• Disintegrate — hold a pose, then scatter into ash<br>• Pose Lightning — AI tracks your hands and feet, bolts crackle from each<br>• Beat Sync — subject pulses in time with your audio<br>• …and dozens more, each tuned for vertical video<br><br>Built for creators<br>• 720×1280 export, ready for vertical feeds<br>• Source audio preserved<br>• AI subject cutout powered by on-device machine learning — no internet needed<br>• Fast renders on mid-range devices<br>• No watermark on free exports<br><br>If you create vertical short videos, Flipify gives your clips a look most filter apps don&#39;t.",
-    "icon": "/apps/flipify-ai-video-effects/icon.jpg",
-    "iconRemote": "https://play-lh.googleusercontent.com/JUcbE2jrhX2ncR4lvqHfBtYOXrkQTmcy_0rgOdkCahQxSk0xZ67rtQDO2x44ECpBaUNOB5wGNUL9W5pKGqUnvA",
-    "headerImage": "/apps/flipify-ai-video-effects/header.jpg",
-    "screenshots": [
-      "/apps/flipify-ai-video-effects/screenshot-1.jpg",
-      "/apps/flipify-ai-video-effects/screenshot-2.jpg",
-      "/apps/flipify-ai-video-effects/screenshot-3.jpg",
-      "/apps/flipify-ai-video-effects/screenshot-4.jpg",
-      "/apps/flipify-ai-video-effects/screenshot-5.jpg",
-      "/apps/flipify-ai-video-effects/screenshot-6.jpg",
-      "/apps/flipify-ai-video-effects/screenshot-7.jpg",
-      "/apps/flipify-ai-video-effects/screenshot-8.jpg"
-    ],
-    "video": null,
-    "score": 0,
-    "ratings": 0,
-    "reviews": 0,
-    "installs": "500+",
-    "minInstalls": 500,
-    "maxInstalls": 993,
-    "price": 0,
-    "free": true,
-    "currency": "USD",
-    "genre": "Video Players & Editors",
-    "genreId": "VIDEO_PLAYERS",
-    "contentRating": "Everyone",
-    "released": "Apr 26, 2026",
-    "updated": 1777531147000,
-    "updatedDate": "Apr 30, 2026",
-    "version": "1.0.4",
-    "recentChanges": "What&#39;s new in 1.0.4<br><br>• Exports now match your source — vertical clips stay vertical, horizontal clips stay horizontal.<br>• New effects: Body Strings, Light Strings, Hand Wires.<br>• Higher-quality output (AVC High profile, 15 Mbps).<br>• Fixed slideshow stutter on phone-camera HDR clips.<br>• Each effect now shows a &quot;best with&quot; tip on the configure screen.<br>• New About screen with social links.<br>• Smaller polish: cleaner export-done screen, report-an-issue link.<br>",
-    "url": "https://play.google.com/store/apps/details?id=com.codebage.flipify&hl=en&gl=us",
-    "developer": "codeBage",
-    "developerId": "codeBage",
-    "developerWebsite": "https://kf8ebaa43.app-ads-txt.com",
-    "developerEmail": "support.codebage@gmail.com",
-    "privacyPolicy": "https://sites.google.com/view/flipify-privacy-policy?usp=sharing",
-    "androidVersion": "8.0",
-    "features": [
-      "Pick any video from your gallery up to 30 seconds",
-      "Choose an effect — flipbook drawings, echo trails, AI cutouts, scanlines, holograms, plasma bodies, and many more",
-      "Watch the AI separate you from the background, then apply your effect",
-      "Preview the result, share, or save to your gallery",
-      "Flipbook — your video as a paper page-flip animation",
-      "Echo Trail — ghostly motion trails of your past frames",
-      "Hologram — cyan scanline projection with sweeping bars",
-      "Galaxy — your silhouette filled with stars and nebulae"
-    ],
-    "recentReviews": [
-      {
-        "id": "b088f522-1a5c-4d8f-bb54-57804a3963ce",
-        "userName": "Fundu",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVqFJEBRPWBxz4pgNBUW467wCREcV6CkmEM3XwRJTsbFE6h7llo",
-        "date": "2026-07-11T05:04:24.840Z",
-        "score": 1,
-        "text": "after processing it shows unexpected error can't create media store entry."
-      }
-    ]
-  },
-  {
     "appId": "com.codebage.fakecallsimulator",
     "slug": "fake-call-prank",
     "title": "Fake Call Prank",
@@ -1161,7 +1169,7 @@
     "reviews": 0,
     "installs": "500+",
     "minInstalls": 500,
-    "maxInstalls": 678,
+    "maxInstalls": 679,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1214,7 +1222,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 168,
+    "maxInstalls": 175,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1246,6 +1254,67 @@
     "recentReviews": []
   },
   {
+    "appId": "com.codebage.realorai",
+    "slug": "real-or-ai",
+    "title": "Real or AI",
+    "summary": "Check if a photo, video, audio or text is AI-generated or real. Get an estimate.",
+    "description": "Real or AI helps you spot AI-generated and deepfake content in seconds. Wondering if a photo is a deepfake, a voice clip was cloned, or a viral post is genuine? Run it through Real or AI and get a clear, easy-to-read estimate.\n\nHOW IT WORKS\nPick an image, video, audio clip, or paste some text. Real or AI analyzes it using advanced AI-detection technology and shows you how likely it is to be AI-generated versus real — with a simple confidence score.\n\nWHAT YOU CAN CHECK\n• Images — photos, selfies, artwork, and screenshots\n• Videos — short clips and deepfakes\n• Audio — voices and music\n• Text — written content and captions\n• Social links — paste a post link from popular platforms and check the media inside it\n\nKEY FEATURES\n• Fast results — get an estimate in seconds\n• Multiple media types in one app\n• Check posts directly by pasting a link\n• History — review your past checks anytime\n• Clean, simple interface — no tech skills needed\n• Privacy-minded — you choose exactly what to check\n\nWHY REAL OR AI\nAI-generated images, cloned voices, and deepfake videos are everywhere. Before you trust, share, or react to something, take a few seconds to check it. Real or AI gives you a quick second opinion so you can think twice about what's real online.\n\nIMPORTANT — PLEASE READ\nReal or AI provides an ESTIMATE, not proof. AI-detection technology is not perfect and can be wrong. Results are a guide to help your own judgment — they are not a guarantee, and the app does not claim 100% accuracy. Always use your own critical thinking, especially for important decisions.\n\nDetection runs securely on our servers, not on your device. The media you submit is sent for analysis and is not used to claim certainty about any person or content.\n\nStart checking what's real today — download Real or AI.",
+    "descriptionHTML": "Real or AI helps you spot AI-generated and deepfake content in seconds. Wondering if a photo is a deepfake, a voice clip was cloned, or a viral post is genuine? Run it through Real or AI and get a clear, easy-to-read estimate.<br><br>HOW IT WORKS<br>Pick an image, video, audio clip, or paste some text. Real or AI analyzes it using advanced AI-detection technology and shows you how likely it is to be AI-generated versus real — with a simple confidence score.<br><br>WHAT YOU CAN CHECK<br>• Images — photos, selfies, artwork, and screenshots<br>• Videos — short clips and deepfakes<br>• Audio — voices and music<br>• Text — written content and captions<br>• Social links — paste a post link from popular platforms and check the media inside it<br><br>KEY FEATURES<br>• Fast results — get an estimate in seconds<br>• Multiple media types in one app<br>• Check posts directly by pasting a link<br>• History — review your past checks anytime<br>• Clean, simple interface — no tech skills needed<br>• Privacy-minded — you choose exactly what to check<br><br>WHY REAL OR AI<br>AI-generated images, cloned voices, and deepfake videos are everywhere. Before you trust, share, or react to something, take a few seconds to check it. Real or AI gives you a quick second opinion so you can think twice about what&#39;s real online.<br><br>IMPORTANT — PLEASE READ<br>Real or AI provides an ESTIMATE, not proof. AI-detection technology is not perfect and can be wrong. Results are a guide to help your own judgment — they are not a guarantee, and the app does not claim 100% accuracy. Always use your own critical thinking, especially for important decisions.<br><br>Detection runs securely on our servers, not on your device. The media you submit is sent for analysis and is not used to claim certainty about any person or content.<br><br>Start checking what&#39;s real today — download Real or AI.",
+    "icon": "/apps/real-or-ai/icon.jpg",
+    "iconRemote": "https://play-lh.googleusercontent.com/RKnwNz7nnRvQsxEnCJ855Gu_j56hq69dZpv3aleugl_CIX3thMANwy4VoDqqkZZ1UyFO5ega1Tl82rT84uVc",
+    "headerImage": "/apps/real-or-ai/header.jpg",
+    "screenshots": [
+      "/apps/real-or-ai/screenshot-1.jpg",
+      "/apps/real-or-ai/screenshot-2.jpg",
+      "/apps/real-or-ai/screenshot-3.jpg"
+    ],
+    "video": null,
+    "score": 0,
+    "ratings": 0,
+    "reviews": 0,
+    "installs": "100+",
+    "minInstalls": 100,
+    "maxInstalls": 100,
+    "price": 0,
+    "free": true,
+    "currency": "USD",
+    "genre": "Tools",
+    "genreId": "TOOLS",
+    "contentRating": "Everyone",
+    "released": "Jun 14, 2026",
+    "updated": 1785041656000,
+    "updatedDate": "Jul 26, 2026",
+    "version": "2.0.0",
+    "recentChanges": "Real or AI — check whether what you&#39;re looking at is AI-generated or real.<br><br>• Images, video, text and audio — plus deepfake detection<br>• Reverse image search: see where a photo appeared online<br>• Share from any app, or paste a social link<br>• History of every check you run<br>• Credits and Premium, with the cost shown before each check<br><br>Results are an estimate, not proof.",
+    "url": "https://play.google.com/store/apps/details?id=com.codebage.realorai&hl=en&gl=us",
+    "developer": "codeBage",
+    "developerId": "codeBage",
+    "developerWebsite": "https://thecodebage.com/",
+    "developerEmail": "support@thecodebage.com",
+    "privacyPolicy": "https://sites.google.com/view/realoraiprivacypolicy?usp=sharing",
+    "androidVersion": "8.0",
+    "features": [
+      "Images — photos, selfies, artwork, and screenshots",
+      "Videos — short clips and deepfakes",
+      "Audio — voices and music",
+      "Text — written content and captions",
+      "Social links — paste a post link from popular platforms and check the media inside it",
+      "Fast results — get an estimate in seconds",
+      "Multiple media types in one app",
+      "Check posts directly by pasting a link"
+    ],
+    "recentReviews": [
+      {
+        "id": "03fd828d-5478-4ab7-893b-5dcb7e206342",
+        "userName": "Rainbows Merryx",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIe7Z3MbrsafpLKt6sNLiNoUTsDvHMXWMyNVB5FNiVS-Z118w=mo",
+        "date": "2026-10-22T17:39:21.542Z",
+        "score": 5,
+        "text": "anyway vanities"
+      }
+    ]
+  },
+  {
     "appId": "com.codebage.foryoupro",
     "slug": "for-you-pro-go-viral-faster",
     "title": "For you Pro - Go Viral Faster",
@@ -1269,7 +1338,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 143,
+    "maxInstalls": 144,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1522,67 +1591,6 @@
       "Sold by Amazon Detection — Know when Amazon itself is competing on the listing"
     ],
     "recentReviews": []
-  },
-  {
-    "appId": "com.codebage.realorai",
-    "slug": "real-or-ai",
-    "title": "Real or AI",
-    "summary": "Check if a photo, video, audio or text is AI-generated or real. Get an estimate.",
-    "description": "Real or AI helps you spot AI-generated and deepfake content in seconds. Wondering if a photo is a deepfake, a voice clip was cloned, or a viral post is genuine? Run it through Real or AI and get a clear, easy-to-read estimate.\n\nHOW IT WORKS\nPick an image, video, audio clip, or paste some text. Real or AI analyzes it using advanced AI-detection technology and shows you how likely it is to be AI-generated versus real — with a simple confidence score.\n\nWHAT YOU CAN CHECK\n• Images — photos, selfies, artwork, and screenshots\n• Videos — short clips and deepfakes\n• Audio — voices and music\n• Text — written content and captions\n• Social links — paste a post link from popular platforms and check the media inside it\n\nKEY FEATURES\n• Fast results — get an estimate in seconds\n• Multiple media types in one app\n• Check posts directly by pasting a link\n• History — review your past checks anytime\n• Clean, simple interface — no tech skills needed\n• Privacy-minded — you choose exactly what to check\n\nWHY REAL OR AI\nAI-generated images, cloned voices, and deepfake videos are everywhere. Before you trust, share, or react to something, take a few seconds to check it. Real or AI gives you a quick second opinion so you can think twice about what's real online.\n\nIMPORTANT — PLEASE READ\nReal or AI provides an ESTIMATE, not proof. AI-detection technology is not perfect and can be wrong. Results are a guide to help your own judgment — they are not a guarantee, and the app does not claim 100% accuracy. Always use your own critical thinking, especially for important decisions.\n\nDetection runs securely on our servers, not on your device. The media you submit is sent for analysis and is not used to claim certainty about any person or content.\n\nStart checking what's real today — download Real or AI.",
-    "descriptionHTML": "Real or AI helps you spot AI-generated and deepfake content in seconds. Wondering if a photo is a deepfake, a voice clip was cloned, or a viral post is genuine? Run it through Real or AI and get a clear, easy-to-read estimate.<br><br>HOW IT WORKS<br>Pick an image, video, audio clip, or paste some text. Real or AI analyzes it using advanced AI-detection technology and shows you how likely it is to be AI-generated versus real — with a simple confidence score.<br><br>WHAT YOU CAN CHECK<br>• Images — photos, selfies, artwork, and screenshots<br>• Videos — short clips and deepfakes<br>• Audio — voices and music<br>• Text — written content and captions<br>• Social links — paste a post link from popular platforms and check the media inside it<br><br>KEY FEATURES<br>• Fast results — get an estimate in seconds<br>• Multiple media types in one app<br>• Check posts directly by pasting a link<br>• History — review your past checks anytime<br>• Clean, simple interface — no tech skills needed<br>• Privacy-minded — you choose exactly what to check<br><br>WHY REAL OR AI<br>AI-generated images, cloned voices, and deepfake videos are everywhere. Before you trust, share, or react to something, take a few seconds to check it. Real or AI gives you a quick second opinion so you can think twice about what&#39;s real online.<br><br>IMPORTANT — PLEASE READ<br>Real or AI provides an ESTIMATE, not proof. AI-detection technology is not perfect and can be wrong. Results are a guide to help your own judgment — they are not a guarantee, and the app does not claim 100% accuracy. Always use your own critical thinking, especially for important decisions.<br><br>Detection runs securely on our servers, not on your device. The media you submit is sent for analysis and is not used to claim certainty about any person or content.<br><br>Start checking what&#39;s real today — download Real or AI.",
-    "icon": "/apps/real-or-ai/icon.jpg",
-    "iconRemote": "https://play-lh.googleusercontent.com/RKnwNz7nnRvQsxEnCJ855Gu_j56hq69dZpv3aleugl_CIX3thMANwy4VoDqqkZZ1UyFO5ega1Tl82rT84uVc",
-    "headerImage": "/apps/real-or-ai/header.jpg",
-    "screenshots": [
-      "/apps/real-or-ai/screenshot-1.jpg",
-      "/apps/real-or-ai/screenshot-2.jpg",
-      "/apps/real-or-ai/screenshot-3.jpg"
-    ],
-    "video": null,
-    "score": 0,
-    "ratings": 0,
-    "reviews": 0,
-    "installs": "50+",
-    "minInstalls": 50,
-    "maxInstalls": 98,
-    "price": 0,
-    "free": true,
-    "currency": "USD",
-    "genre": "Tools",
-    "genreId": "TOOLS",
-    "contentRating": "Everyone",
-    "released": "Jun 14, 2026",
-    "updated": 1785041656000,
-    "updatedDate": "Jul 26, 2026",
-    "version": "2.0.0",
-    "recentChanges": "Real or AI — check whether what you&#39;re looking at is AI-generated or real.<br><br>• Images, video, text and audio — plus deepfake detection<br>• Reverse image search: see where a photo appeared online<br>• Share from any app, or paste a social link<br>• History of every check you run<br>• Credits and Premium, with the cost shown before each check<br><br>Results are an estimate, not proof.",
-    "url": "https://play.google.com/store/apps/details?id=com.codebage.realorai&hl=en&gl=us",
-    "developer": "codeBage",
-    "developerId": "codeBage",
-    "developerWebsite": "https://thecodebage.com/",
-    "developerEmail": "support@thecodebage.com",
-    "privacyPolicy": "https://sites.google.com/view/realoraiprivacypolicy?usp=sharing",
-    "androidVersion": "8.0",
-    "features": [
-      "Images — photos, selfies, artwork, and screenshots",
-      "Videos — short clips and deepfakes",
-      "Audio — voices and music",
-      "Text — written content and captions",
-      "Social links — paste a post link from popular platforms and check the media inside it",
-      "Fast results — get an estimate in seconds",
-      "Multiple media types in one app",
-      "Check posts directly by pasting a link"
-    ],
-    "recentReviews": [
-      {
-        "id": "03fd828d-5478-4ab7-893b-5dcb7e206342",
-        "userName": "Rainbows Merryx",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIe7Z3MbrsafpLKt6sNLiNoUTsDvHMXWMyNVB5FNiVS-Z118w=mo",
-        "date": "2026-10-22T17:39:21.542Z",
-        "score": 5,
-        "text": "anyway vanities"
-      }
-    ]
   },
   {
     "appId": "com.codebage.martscout",
