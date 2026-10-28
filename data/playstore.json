@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.48,
     "scoreText": "4.5",
-    "ratings": 59245,
+    "ratings": 59256,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,38 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "c16a97c2-4b1d-4f70-aa09-a9ff4ae6c7be",
+        "userName": "Ahmed Ali",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLJzJHfX3iOug4260ijZ1zO5NElhvgKnrI53jk8JEPOmGvMUA=mo",
+        "date": "2026-10-27T03:57:41.809Z",
+        "score": 5,
+        "text": "bahut achcha"
+      },
+      {
+        "id": "fded210c-8aac-4f4a-9768-5d6caa80fc2e",
+        "userName": "Shyamkrishna Paudel",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjV08cqc4PPKJtShHAzdTdmzryilvS7VfdCfySI5wh3k77sfroAtRQ",
+        "date": "2026-10-27T02:16:49.616Z",
+        "score": 2,
+        "text": "G.N."
+      },
+      {
+        "id": "3ca74396-7283-4541-90c6-96f95b40e5bd",
+        "userName": "baba naagi",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWBuQhUCpbd3zQBVwFLST5Gt5TKwa7OywdmIJ1PytwJkSvNu4bd",
+        "date": "2026-10-26T16:57:43.964Z",
+        "score": 5,
+        "text": "baba naagi for you is love you"
+      },
+      {
+        "id": "00eab6f7-92d2-4539-9cb7-19539855524b",
+        "userName": "naqeebullahstanikzai naqeebullahstanikzai",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJS9Nlih-UzGk8NG5tQqzQQPdqCcHDAAZ3Gxb2qIVGKzNUqVDjV=mo",
+        "date": "2026-10-26T15:35:59.579Z",
+        "score": 5,
+        "text": "good"
+      },
       {
         "id": "1f85108b-4027-4077-9eff-61368153d625",
         "userName": "Muhammad Nalain",
@@ -109,38 +141,6 @@
         "date": "2026-10-15T09:59:39.244Z",
         "score": 5,
         "text": "💓💓💓💯💯👌🥰💕"
-      },
-      {
-        "id": "8d5c9978-8e8d-4132-8f6b-0bc4fcfe7c6e",
-        "userName": "Zeeshan Khan",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJL9Z8dKjATFl31RMTE-87uTjuci2fkP-z6Pbmp9e0k-q1Gfw=mo",
-        "date": "2026-10-12T16:38:20.854Z",
-        "score": 5,
-        "text": "viral video title and hashtags"
-      },
-      {
-        "id": "2027b241-eea0-4643-9c14-207988c39da6",
-        "userName": "Animal Life Day",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVP-bGtaXBXx7TD7MWmqhFCMajHfIB5WjIFRBGRp26atvHITA8",
-        "date": "2026-10-12T14:37:02.830Z",
-        "score": 4,
-        "text": "Good Work"
-      },
-      {
-        "id": "528540b8-111b-4b26-a87d-0e6eb8cc3999",
-        "userName": "Saran Raja",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLMDJwpmAT1yGa9rAVbM95WZNT0FBB9DP4t4k7jq5hy1WHgUg=mo",
-        "date": "2026-10-12T13:15:52.710Z",
-        "score": 5,
-        "text": "good"
-      },
-      {
-        "id": "62d4fe64-9c02-4bb4-a6a3-2eec3d4315c6",
-        "userName": "Anees Butt",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIBeFSciNEL4z63OafwMu42jSOe9IT8m-awePQOqJGhoZY5xg=mo",
-        "date": "2026-10-12T08:05:35.610Z",
-        "score": 3,
-        "text": "very nice 👍"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.12,
     "scoreText": "4.1",
-    "ratings": 5754,
+    "ratings": 5764,
     "reviews": 118,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -289,31 +289,31 @@
   },
   {
     "appId": "com.codebage.artanimator",
-    "slug": "artanimator-animation-maker",
-    "title": "ArtAnimator - Animation Maker",
+    "slug": "artanimator-draw-animate",
+    "title": "ArtAnimator - Draw & Animate",
     "summary": "Frame by frame, bring it to life. Draw, animate &amp; export MP4, GIF with ease.",
     "description": "ArtAnimator is a powerful frame-by-frame animation app that lets you create stunning 2D animations right on your phone. Whether you're a beginner or a professional animator, ArtAnimator gives you all the tools you need to bring your ideas to life.\n\nDRAWING TOOLS\n• 24+ professional brushes including Pen, Pencil, Airbrush, Crayon, Calligraphy, Marker, and more\n• Shape tools: Line, Rectangle, Circle with fill options\n• Color picker with full palette and custom colors\n• Adjustable brush size and opacity\n• Eraser and flood fill tools\n• Text tool with multiple fonts\n\nANIMATION\n• Intuitive frame-by-frame timeline\n• Onion skin overlay to see previous and next frames\n• Add, duplicate, and reorder frames easily\n• Adjustable FPS for smooth playback\n• Ghost trail for motion visualization\n\nLAYERS\n• Multi-layer support for each frame\n• Layer visibility, opacity, and reorder controls\n• Merge layers for easy organization\n\nAUDIO\n• Record audio directly with your microphone\n• Import audio files from your device\n• Multiple audio tracks with volume control\n• Sync audio with your animation playback\n\nEXPORT & SHARE\n• Export as MP4 video in HD quality\n• Export as GIF animation\n• Export as PNG image sequence\n• Share your animations directly to social media\n\nCANVAS OPTIONS\n• Multiple canvas presets: YouTube 1080p, TikTok, Instagram, and custom sizes\n• Grid overlay for precise drawing\n• Zoom and pan for detailed work\n• Reference image import for tracing\n\nADDITIONAL FEATURES\n• Undo and redo support\n• Copy, paste, and cut frames\n• Select and transform drawn objects\n• Mirror and symmetry drawing mode\n• Demo project included to get started\n• Clean, intuitive white interface\n\nCreate professional-quality animations with ArtAnimator. Download now and start animating!",
     "descriptionHTML": "ArtAnimator is a powerful frame-by-frame animation app that lets you create stunning 2D animations right on your phone. Whether you&#39;re a beginner or a professional animator, ArtAnimator gives you all the tools you need to bring your ideas to life.<br><br>DRAWING TOOLS<br>• 24+ professional brushes including Pen, Pencil, Airbrush, Crayon, Calligraphy, Marker, and more<br>• Shape tools: Line, Rectangle, Circle with fill options<br>• Color picker with full palette and custom colors<br>• Adjustable brush size and opacity<br>• Eraser and flood fill tools<br>• Text tool with multiple fonts<br><br>ANIMATION<br>• Intuitive frame-by-frame timeline<br>• Onion skin overlay to see previous and next frames<br>• Add, duplicate, and reorder frames easily<br>• Adjustable FPS for smooth playback<br>• Ghost trail for motion visualization<br><br>LAYERS<br>• Multi-layer support for each frame<br>• Layer visibility, opacity, and reorder controls<br>• Merge layers for easy organization<br><br>AUDIO<br>• Record audio directly with your microphone<br>• Import audio files from your device<br>• Multiple audio tracks with volume control<br>• Sync audio with your animation playback<br><br>EXPORT &amp; SHARE<br>• Export as MP4 video in HD quality<br>• Export as GIF animation<br>• Export as PNG image sequence<br>• Share your animations directly to social media<br><br>CANVAS OPTIONS<br>• Multiple canvas presets: YouTube 1080p, TikTok, Instagram, and custom sizes<br>• Grid overlay for precise drawing<br>• Zoom and pan for detailed work<br>• Reference image import for tracing<br><br>ADDITIONAL FEATURES<br>• Undo and redo support<br>• Copy, paste, and cut frames<br>• Select and transform drawn objects<br>• Mirror and symmetry drawing mode<br>• Demo project included to get started<br>• Clean, intuitive white interface<br><br>Create professional-quality animations with ArtAnimator. Download now and start animating!",
-    "icon": "/apps/artanimator-animation-maker/icon.jpg",
+    "icon": "/apps/artanimator-draw-animate/icon.jpg",
     "iconRemote": "https://play-lh.googleusercontent.com/QzZcHiAptWxtiImnO1UgJp4qgIcwCnSQbkGjRWY-rvy8ZDufwOvznVM8mGUwY0rJx5UxsQl-oCtGeklKcxjXwcM",
-    "headerImage": "/apps/artanimator-animation-maker/header.jpg",
+    "headerImage": "/apps/artanimator-draw-animate/header.jpg",
     "screenshots": [
-      "/apps/artanimator-animation-maker/screenshot-1.jpg",
-      "/apps/artanimator-animation-maker/screenshot-2.jpg",
-      "/apps/artanimator-animation-maker/screenshot-3.jpg",
-      "/apps/artanimator-animation-maker/screenshot-4.jpg",
-      "/apps/artanimator-animation-maker/screenshot-5.jpg",
-      "/apps/artanimator-animation-maker/screenshot-6.jpg",
-      "/apps/artanimator-animation-maker/screenshot-7.jpg"
+      "/apps/artanimator-draw-animate/screenshot-1.jpg",
+      "/apps/artanimator-draw-animate/screenshot-2.jpg",
+      "/apps/artanimator-draw-animate/screenshot-3.jpg",
+      "/apps/artanimator-draw-animate/screenshot-4.jpg",
+      "/apps/artanimator-draw-animate/screenshot-5.jpg",
+      "/apps/artanimator-draw-animate/screenshot-6.jpg",
+      "/apps/artanimator-draw-animate/screenshot-7.jpg"
     ],
     "video": null,
     "score": 3.67,
     "scoreText": "3.7",
-    "ratings": 82,
+    "ratings": 84,
     "reviews": 8,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 12982,
+    "maxInstalls": 12999,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -321,10 +321,10 @@
     "genreId": "ART_AND_DESIGN",
     "contentRating": "Everyone",
     "released": "Mar 17, 2026",
-    "updated": 1788489606000,
-    "updatedDate": "Sep 4, 2026",
-    "version": "6.1.0",
-    "recentChanges": "What&#39;s new in 6.1.0<br>• Fixed the canvas shaking and glitching when you pinch-zoom or pan<br>• Strokes now land exactly under your finger at any zoom, pan or rotation<br>• Draw-offset pencil cursor now follows zoom, pan and rotation<br>• Smoother playback and onion skin in projects with imported images<br>• Smaller, faster app",
+    "updated": 1793097619000,
+    "updatedDate": "Oct 27, 2026",
+    "version": "6.2.0",
+    "recentChanges": "• Cleaner canvas: tool options now live in the top bar<br>• Select tool: one box for multi-select + “All frames” mode to move, rotate or scale shapes on every frame<br>• Undo/redo now covers select-tool moves<br>• My Library: save any drawing, reuse it in any project<br>• Add sounds straight from your phone’s music and recordings<br>• Reference image controls moved to the top bar<br>• New hand-drawn demo project and redrawn starter templates",
     "url": "https://play.google.com/store/apps/details?id=com.codebage.artanimator&hl=en&gl=us",
     "developer": "codeBage",
     "developerId": "codeBage",
@@ -343,6 +343,14 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
+      {
+        "id": "951bd668-5c47-42d6-a407-f40097a15fc2",
+        "userName": "Ira Sheila Galapon",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocImCipI3iSv_fSnM2r_li7cYAZn3Ij_O-9ur8A3PjCLEvmTrA=mo",
+        "date": "2026-10-27T05:56:27.908Z",
+        "score": 3,
+        "text": "i like this animation app but they should add a feature that you can save your drawings for a future animation and, remove the subscriptions replacing them with a payment that cost 100 pesos or 2$"
+      },
       {
         "id": "5fba8723-1e7d-4591-b80f-eaadd24d69b2",
         "userName": "IDrinkRum",
@@ -430,14 +438,6 @@
         "date": "2026-09-12T11:19:36.640Z",
         "score": 5,
         "text": "this app is more than just great it's the best animation software I've ever used it contains everything - bones, pins, key frame, and many more. but please make a button to import 3d models to use them as references or backgrounds if you add this the app will be the best on android"
-      },
-      {
-        "id": "41ae8c45-d561-4be0-a608-603cdffa9e0d",
-        "userName": "Lucas tebogo Leshaba",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIW3xQSX0GHFUjQ2G6O4h8wNyoTUN2CF9cFfT-l7WW6xnjB=mo",
-        "date": "2026-09-11T11:20:42.884Z",
-        "score": 4,
-        "text": "Wonderful app easy to use and needs a few upgrades,changing your drawings to 2D or 3D without any interuption after creating art work. Thank you"
       }
     ]
   },
@@ -550,7 +550,7 @@
     "video": null,
     "score": 4.33,
     "scoreText": "4.3",
-    "ratings": 138,
+    "ratings": 143,
     "reviews": 1,
     "installs": "5,000+",
     "minInstalls": 5000,
