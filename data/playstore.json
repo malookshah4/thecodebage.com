@@ -21,11 +21,11 @@
     "video": null,
     "score": 4.49,
     "scoreText": "4.5",
-    "ratings": 59259,
+    "ratings": 59264,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
-    "maxInstalls": 1971456,
+    "maxInstalls": 1971981,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -46,6 +46,30 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "53e4e044-b0d9-44ff-9f4c-a1a1c4a76c4a",
+        "userName": "SheRaz Raja",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKTwBwQwFYflDMzY0vaQaXoOfjSUTEDXqWcLjYueUuWQw_dJg=mo",
+        "date": "2026-10-30T08:02:52.541Z",
+        "score": 5,
+        "text": "raghjdh"
+      },
+      {
+        "id": "c7b33523-0bf3-42ba-8085-0171875ff389",
+        "userName": "Dil Bar",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUeh3aRxaYO0yZgegz29k57LHLgtlcCd1se85vIxG945tUT9su3",
+        "date": "2026-10-29T22:19:39.940Z",
+        "score": 5,
+        "text": "dilbar ps"
+      },
+      {
+        "id": "059d1c25-65d6-4c99-b3ae-9ff8102666ab",
+        "userName": "Hanif Ullah",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKTnjzGSFM1Xr8ZcAqtacxcQpgpQkjbUaU2tpsQe-fhy9gtfg=mo",
+        "date": "2026-10-29T13:34:16.616Z",
+        "score": 2,
+        "text": "best viral apps"
+      },
       {
         "id": "c16a97c2-4b1d-4f70-aa09-a9ff4ae6c7be",
         "userName": "Ahmed Ali",
@@ -117,30 +141,6 @@
         "date": "2026-10-21T17:49:42.681Z",
         "score": 5,
         "text": "Sijawal m.s"
-      },
-      {
-        "id": "0f1c3c79-f9ab-4329-a306-0206a2eaaadd",
-        "userName": "Muneeb Basra",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIq6o2iS1F7ycrG_gbxNgxfsnjVQ8Ld5TdOd3-np3mh3WoxQw=mo",
-        "date": "2026-10-19T13:58:43.479Z",
-        "score": 5,
-        "text": "5.7 Millon 55.0 Billon 1 Millon"
-      },
-      {
-        "id": "8cab5e33-7755-4698-9f04-e083cc8b5346",
-        "userName": "Sarita Ruchal",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKyeJPO8_pdlqTDH5h5CCVSbG2BK5iHjUFKspsWHUOVziXHJw=mo",
-        "date": "2026-10-17T09:24:23.441Z",
-        "score": 5,
-        "text": "Kuwait City file"
-      },
-      {
-        "id": "3ad036e5-fa7e-4066-b222-48619a8610e0",
-        "userName": "Riyaz Md",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKYEEk81jPdOpD11uunsz6MK0bM8qw9PxM5ZGR9KcCEdeISZA=mo",
-        "date": "2026-10-15T09:59:39.244Z",
-        "score": 5,
-        "text": "💓💓💓💯💯👌🥰💕"
       }
     ]
   },
@@ -164,11 +164,11 @@
     "video": null,
     "score": 4.12,
     "scoreText": "4.1",
-    "ratings": 5781,
+    "ratings": 5794,
     "reviews": 118,
     "installs": "500,000+",
     "minInstalls": 500000,
-    "maxInstalls": 704062,
+    "maxInstalls": 705637,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -189,6 +189,14 @@
     "androidVersion": "7.1",
     "features": [],
     "recentReviews": [
+      {
+        "id": "af318657-a6b2-43fb-8e5f-6a6abd80b821",
+        "userName": "Erica Jane Lazarte",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocKzXwft3MDz0uEmwMwAB0ui3RAACSY6XNxghOsn6HBih4s4iw=mo",
+        "date": "2026-10-30T06:58:43.338Z",
+        "score": 5,
+        "text": "Nice apps"
+      },
       {
         "id": "9205f801-5317-4fa1-997f-2247276f940a",
         "userName": "Saritha Nikode",
@@ -276,14 +284,6 @@
         "date": "2026-09-24T08:27:02.551Z",
         "score": 5,
         "text": "awsome😂😂"
-      },
-      {
-        "id": "12f7774e-23bc-46a8-adf1-555212f533f5",
-        "userName": "Gareth Kachulu",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIOo409RNmbg5IP9xRN-H7kzZfJyonXL860qvPzHJk5pwG8bw=mo",
-        "date": "2026-09-22T11:39:51.166Z",
-        "score": 5,
-        "text": "I like it"
       }
     ]
   },
@@ -463,7 +463,7 @@
     "reviews": 0,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 26364,
+    "maxInstalls": 26837,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -550,11 +550,11 @@
     "video": null,
     "score": 4.33,
     "scoreText": "4.3",
-    "ratings": 144,
+    "ratings": 145,
     "reviews": 1,
     "installs": "5,000+",
     "minInstalls": 5000,
-    "maxInstalls": 7890,
+    "maxInstalls": 8014,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -737,6 +737,14 @@
     ],
     "recentReviews": [
       {
+        "id": "8b711fde-c1a9-47a7-a63a-3893741dd674",
+        "userName": "genny9410",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJCH3--iIZzBQ39LQLjiWFVLgMHeX0mSgNCx33Ysnwvdb9hlH4=mo",
+        "date": "2026-10-29T16:49:18.831Z",
+        "score": 1,
+        "text": "Since the latest update when I upload a clip to react to, the side of the clip is completely black with no video and no audio whatsoever. Only my side works, both video and audio. I tried with both really short videos and longer videos, but same problem. Before the update it was perfect. I updated the app today. Please fix it."
+      },
+      {
         "id": "c841de6e-fa59-4e6a-8e43-698ae04238b7",
         "userName": "Talha Shahab",
         "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJ0rhnax71D6WkD28N57FBvSFaM5peT-TvouLFLLvpJPwwSqA=mo",
@@ -823,14 +831,6 @@
         "date": "2026-05-24T15:32:21.870Z",
         "score": 3,
         "text": "While making a reaction video, when we pause the video and say something, the video has a problem. It skips a bit and doesn't have the right timing."
-      },
-      {
-        "id": "6a0c5d7f-011b-4bb5-b0e7-0aa822a9f349",
-        "userName": "JOFER.10 F.M",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjXVs5vcQW3LJl9Z3QW4tVMkXmD_FaAioY_ZuQFc4jluYPql2uo",
-        "date": "2026-05-20T13:56:47.822Z",
-        "score": 5,
-        "text": "very well"
       }
     ]
   },
@@ -860,7 +860,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 1496,
+    "maxInstalls": 1522,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1222,7 +1222,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 176,
+    "maxInstalls": 184,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1338,7 +1338,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 148,
+    "maxInstalls": 158,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1393,7 +1393,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 300,
+    "maxInstalls": 303,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1507,7 +1507,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 142,
+    "maxInstalls": 148,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1561,7 +1561,7 @@
     "reviews": 0,
     "installs": "50+",
     "minInstalls": 50,
-    "maxInstalls": 98,
+    "maxInstalls": 99,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1616,7 +1616,7 @@
     "reviews": 0,
     "installs": "50+",
     "minInstalls": 50,
-    "maxInstalls": 77,
+    "maxInstalls": 80,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1673,7 +1673,7 @@
     "reviews": 0,
     "installs": "10+",
     "minInstalls": 10,
-    "maxInstalls": 15,
+    "maxInstalls": 34,
     "price": 0,
     "free": true,
     "currency": "USD",
