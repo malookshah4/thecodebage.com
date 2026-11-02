@@ -21,7 +21,7 @@
     "video": null,
     "score": 4.49,
     "scoreText": "4.5",
-    "ratings": 59267,
+    "ratings": 59266,
     "reviews": 128,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
@@ -46,6 +46,14 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "3c043db1-904f-4bce-89f9-d45b407956c9",
+        "userName": "Ishfaq Kiayni",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjVAolVR9rzyZsSnnyibQ3S3uClBxb3zonWtKbtPZBEhfqOSvGY4",
+        "date": "2026-11-01T08:28:00.870Z",
+        "score": 5,
+        "text": "گڈ ایپ"
+      },
       {
         "id": "53e4e044-b0d9-44ff-9f4c-a1a1c4a76c4a",
         "userName": "SheRaz Raja",
@@ -133,14 +141,6 @@
         "date": "2026-10-22T04:04:03.698Z",
         "score": 5,
         "text": "for you"
-      },
-      {
-        "id": "1835b5b4-6cff-48c3-a907-b78b08d502f1",
-        "userName": "Sijawal Jatoi",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJrENA560QAFeNdXM2xxVMWKHjUoICQyH_RAanBHKBjSL2VGQ=mo",
-        "date": "2026-10-21T17:49:42.681Z",
-        "score": 5,
-        "text": "Sijawal m.s"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.12,
     "scoreText": "4.1",
-    "ratings": 5800,
+    "ratings": 5807,
     "reviews": 118,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -307,13 +307,13 @@
       "/apps/artanimator-draw-animate/screenshot-7.jpg"
     ],
     "video": null,
-    "score": 3.67,
-    "scoreText": "3.7",
+    "score": 3.77,
+    "scoreText": "3.8",
     "ratings": 87,
     "reviews": 8,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 13752,
+    "maxInstalls": 13918,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -321,10 +321,10 @@
     "genreId": "ART_AND_DESIGN",
     "contentRating": "Everyone",
     "released": "Mar 17, 2026",
-    "updated": 1793453057000,
-    "updatedDate": "Oct 31, 2026",
-    "version": "6.2.2",
-    "recentChanges": "• New: 25 video lessons in Learn → Videos, from your first line to rigging, camera and effects<br>• Projects keep their size on any screen: no more drawings that look smaller after a rotation or a new phone<br>• New option: Fit canvas to width (Canvas Settings)<br>• Landscape on phones: tool options float next to the toolbox<br>• Fixed a crash when opening My Library<br>• Fixed Auto In-Between and a rare crash when undoing during save",
+    "updated": 1793601475000,
+    "updatedDate": "Nov 2, 2026",
+    "version": "6.2.3",
+    "recentChanges": "• Sound in exported MP4<br>• Timelapse export<br>• 12 built-in sound effects<br>• Backup &amp; Restore<br>• Scenes with optional fade<br>• Pencil offset quick menu<br>• No watermark on canvas<br>• Bug fixes",
     "url": "https://play.google.com/store/apps/details?id=com.codebage.artanimator&hl=en&gl=us",
     "developer": "codeBage",
     "developerId": "codeBage",
@@ -416,14 +416,6 @@
         "text": "couldn't animate a single thing every time I tapped on some thing a 30 second add would pop up"
       },
       {
-        "id": "eddeb90b-ab6d-4b48-b280-ca7836792650",
-        "userName": "Blazing Kai",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjURVriKfg_SXXNFe8xQsz1FchQZdlfR7qUwxwlWAUAHrm89C6s",
-        "date": "2026-09-20T05:23:31.572Z",
-        "score": 5,
-        "text": "can you add undo with 2 finger tap and redo with 3 finger tap and when I lower the opacity it doesn't work properly the are circles in the button when I draw"
-      },
-      {
         "id": "2f45cd03-4265-45b8-aa95-ceb81d167022",
         "userName": "Piyush Sharma",
         "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWXNdV2_Fvjia-rhItDqhE6AkAigb2xWZ4jADyhtGpzQ4GFQQ0S",
@@ -438,6 +430,14 @@
         "date": "2026-09-13T18:02:20.780Z",
         "score": 1,
         "text": "is there no color-pick option??? and editing a reference image is annoying. If I can't color pick for my animation or have better control of my ref image to move it or edit freely then this app is useless to me"
+      },
+      {
+        "id": "1565e036-f775-4cfc-9bdd-996fb00f0607",
+        "userName": "Dalia Walid",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLSyw7yoTN-stKHHf-B9nUImItjgLIIPFh61cZw-No81NFUgw=mo",
+        "date": "2026-09-12T11:19:36.640Z",
+        "score": 5,
+        "text": "this app is more than just great it's the best animation software I've ever used it contains everything - bones, pins, key frame, and many more. but please make a button to import 3d models to use them as references or backgrounds if you add this the app will be the best on android"
       }
     ]
   },
@@ -706,7 +706,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 2609,
+    "maxInstalls": 2624,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -736,6 +736,14 @@
       "Original clip mode for un-cropped highlights"
     ],
     "recentReviews": [
+      {
+        "id": "d3345e69-5fb1-4a74-8611-c7ac63448674",
+        "userName": "Arun Kumar Trader",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUh5nXa2GSKY11XjakQifL5BuEOhuBjajrYTCwXxLsCuclgm2A",
+        "date": "2026-11-01T10:26:37.600Z",
+        "score": 5,
+        "text": "nice"
+      },
       {
         "id": "8b711fde-c1a9-47a7-a63a-3893741dd674",
         "userName": "genny9410",
@@ -823,14 +831,6 @@
         "date": "2026-07-17T11:45:24.462Z",
         "score": 5,
         "text": "ReelReact just wow"
-      },
-      {
-        "id": "8efb37e1-709b-4490-877f-272b8cbf84ac",
-        "userName": "MS Mike",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJjm77QqftJmOmmm-fZny-iI_dLsczYuRaq7awWFrkGO-NhLA=mo",
-        "date": "2026-05-24T15:32:21.870Z",
-        "score": 3,
-        "text": "While making a reaction video, when we pause the video and say something, the video has a problem. It skips a bit and doesn't have the right timing."
       }
     ]
   },
@@ -1222,7 +1222,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 184,
+    "maxInstalls": 193,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1274,7 +1274,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 104,
+    "maxInstalls": 109,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1539,6 +1539,61 @@
     "recentReviews": []
   },
   {
+    "appId": "com.codebage.musclelit",
+    "slug": "musclelit-3d-workout-anatomy",
+    "title": "MuscleLit: 3D Workout Anatomy",
+    "summary": "Gym &amp; home workout planner wth 3D muscle anatomy, cam rep counter, video studio",
+    "description": "MuscleLit is a gym and home workout app built around a real 3D body. Watch every exercise on the 3D muscle model from any angle, see exactly which muscles each workout trains, follow a strength plan built for your goal, and turn your sets into videos worth posting with Creator Studio, free for everyone.\n\n3D EXERCISE LIBRARY\n156 gym and bodyweight exercises on a 3D anatomy body: dumbbell, barbell, kettlebell, cable, machine and bodyweight moves for chest, back, shoulders, biceps, triceps, abs, glutes and legs. The working muscles light up as the body does the move. Slow it down, see the common mistake, switch between skin, muscles and X-ray.\n\nCAMERA REP COUNTER AND FORM CHECK\nProp up your phone and the camera counts 92 exercises: squats, lunges, push-ups, curls, presses, raises, bench presses, rows, pull-ups, dips, leg machines, leg raises and more. It scores every rep, ends the set and tells you when a rep goes shallow. Say \"done\" or \"skip\" and it listens. Nothing the camera sees leaves your phone.\n\nCREATOR STUDIO (FREE)\nTap record while the camera counts you, then pick a template: Rep counter, Muscle glow, Form check with joint angles, PR attempt with bullet time around your 3D body, Anatomy mirror, or Ghost rival racing your last set. The last rep glides into slow motion, every rep lands with a burst, and it ends on a card with your count. Export a 9:16 MP4 and share it anywhere.\n\nCHALLENGE DUET\n\"Beat my 25 push-ups in 45 seconds.\" Share the video and its link; your friend's try runs against your count with a clock, and the result throws the challenge back.\n\nWORKOUT PLANNER AND COACH\nAnswer a few questions and get a weekly plan for your goal: build muscle, get stronger, lose fat or train for your sport. Only the equipment you have, sore joints worked around, every week building on the last. Ask the coach to change it in your own words, cut today's session to 15, 20 or 30 minutes, or take a 28-day challenge.\n\nWORKOUT TRACKER\nEach session plays on the 3D body with sets, reps, rest timer, drop sets and supersets, a spoken count and a lock-screen timer. Smart rest, auto-start, music from your player, personal records and history.\n\nPROGRESS ON YOUR BODY\n• Your 3D twin takes your build from your weight and measurements, and changes as they do\n• Then and now: the muscles your tape measure says grew light up and swell\n• Muscle balance and recovery map\n• Your week in 3D and your year in muscles, as videos to share\n• Transformation reel: your progress photos, your twin and your numbers in one video\n• Strength forecast, badges, streaks, weigh-ins, measurements and progress photos\n\nLEARN ANATOMY\nTap any muscle to learn what it does and which exercises train it. Scan any gym machine to see how to use it in 3D. Test yourself with the anatomy quiz.\n\nIN YOUR LANGUAGE\nEnglish, Spanish, Portuguese, Hindi, Arabic and Urdu, including every exercise, cue and plan.\n\nMUSCLELIT PRO\nThe exercise library, the 3D body, starter plans, basic logging and all of Creator Studio are free. Pro adds the camera coach in every workout, voice commands, the mirror, X-ray, muscle balance, then and now, the week and year videos, the transformation reel, your own plan, coach and meal plans, challenges, the machine scanner, unlimited workouts, progress photos and backups. Try it free for 7 days, then monthly, yearly or once for a lifetime. Cancel any time in Google Play.\n\nYour data stays on your phone. No ads, no account, no tracking.\n\nMuscleLit shows exercises for general fitness and is not medical advice. Stop if you feel pain and ask a professional if you have an injury or a health condition.",
+    "descriptionHTML": "MuscleLit is a gym and home workout app built around a real 3D body. Watch every exercise on the 3D muscle model from any angle, see exactly which muscles each workout trains, follow a strength plan built for your goal, and turn your sets into videos worth posting with Creator Studio, free for everyone.<br><br>3D EXERCISE LIBRARY<br>156 gym and bodyweight exercises on a 3D anatomy body: dumbbell, barbell, kettlebell, cable, machine and bodyweight moves for chest, back, shoulders, biceps, triceps, abs, glutes and legs. The working muscles light up as the body does the move. Slow it down, see the common mistake, switch between skin, muscles and X-ray.<br><br>CAMERA REP COUNTER AND FORM CHECK<br>Prop up your phone and the camera counts 92 exercises: squats, lunges, push-ups, curls, presses, raises, bench presses, rows, pull-ups, dips, leg machines, leg raises and more. It scores every rep, ends the set and tells you when a rep goes shallow. Say &quot;done&quot; or &quot;skip&quot; and it listens. Nothing the camera sees leaves your phone.<br><br>CREATOR STUDIO (FREE)<br>Tap record while the camera counts you, then pick a template: Rep counter, Muscle glow, Form check with joint angles, PR attempt with bullet time around your 3D body, Anatomy mirror, or Ghost rival racing your last set. The last rep glides into slow motion, every rep lands with a burst, and it ends on a card with your count. Export a 9:16 MP4 and share it anywhere.<br><br>CHALLENGE DUET<br>&quot;Beat my 25 push-ups in 45 seconds.&quot; Share the video and its link; your friend&#39;s try runs against your count with a clock, and the result throws the challenge back.<br><br>WORKOUT PLANNER AND COACH<br>Answer a few questions and get a weekly plan for your goal: build muscle, get stronger, lose fat or train for your sport. Only the equipment you have, sore joints worked around, every week building on the last. Ask the coach to change it in your own words, cut today&#39;s session to 15, 20 or 30 minutes, or take a 28-day challenge.<br><br>WORKOUT TRACKER<br>Each session plays on the 3D body with sets, reps, rest timer, drop sets and supersets, a spoken count and a lock-screen timer. Smart rest, auto-start, music from your player, personal records and history.<br><br>PROGRESS ON YOUR BODY<br>• Your 3D twin takes your build from your weight and measurements, and changes as they do<br>• Then and now: the muscles your tape measure says grew light up and swell<br>• Muscle balance and recovery map<br>• Your week in 3D and your year in muscles, as videos to share<br>• Transformation reel: your progress photos, your twin and your numbers in one video<br>• Strength forecast, badges, streaks, weigh-ins, measurements and progress photos<br><br>LEARN ANATOMY<br>Tap any muscle to learn what it does and which exercises train it. Scan any gym machine to see how to use it in 3D. Test yourself with the anatomy quiz.<br><br>IN YOUR LANGUAGE<br>English, Spanish, Portuguese, Hindi, Arabic and Urdu, including every exercise, cue and plan.<br><br>MUSCLELIT PRO<br>The exercise library, the 3D body, starter plans, basic logging and all of Creator Studio are free. Pro adds the camera coach in every workout, voice commands, the mirror, X-ray, muscle balance, then and now, the week and year videos, the transformation reel, your own plan, coach and meal plans, challenges, the machine scanner, unlimited workouts, progress photos and backups. Try it free for 7 days, then monthly, yearly or once for a lifetime. Cancel any time in Google Play.<br><br>Your data stays on your phone. No ads, no account, no tracking.<br><br>MuscleLit shows exercises for general fitness and is not medical advice. Stop if you feel pain and ask a professional if you have an injury or a health condition.",
+    "icon": "/apps/musclelit-3d-workout-anatomy/icon.jpg",
+    "iconRemote": "https://play-lh.googleusercontent.com/rkkYOzZFZXImT-RMaC3mX7ttTNa5Kw2GNcrpkW0ipuLk1nwOV8UgAFX_CNL-Dv_VCTBjchpevlNNhmxzrFkbKpY",
+    "headerImage": "/apps/musclelit-3d-workout-anatomy/header.jpg",
+    "screenshots": [
+      "/apps/musclelit-3d-workout-anatomy/screenshot-1.jpg",
+      "/apps/musclelit-3d-workout-anatomy/screenshot-2.jpg",
+      "/apps/musclelit-3d-workout-anatomy/screenshot-3.jpg",
+      "/apps/musclelit-3d-workout-anatomy/screenshot-4.jpg",
+      "/apps/musclelit-3d-workout-anatomy/screenshot-5.jpg",
+      "/apps/musclelit-3d-workout-anatomy/screenshot-6.jpg",
+      "/apps/musclelit-3d-workout-anatomy/screenshot-7.jpg",
+      "/apps/musclelit-3d-workout-anatomy/screenshot-8.jpg"
+    ],
+    "video": null,
+    "score": 0,
+    "ratings": 0,
+    "reviews": 0,
+    "installs": "50+",
+    "minInstalls": 50,
+    "maxInstalls": 55,
+    "price": 0,
+    "free": true,
+    "currency": "USD",
+    "genre": "Health & Fitness",
+    "genreId": "HEALTH_AND_FITNESS",
+    "contentRating": "Everyone",
+    "released": "Oct 13, 2026",
+    "updated": 1792904215000,
+    "updatedDate": "Oct 25, 2026",
+    "version": "1.2.0",
+    "recentChanges": "Creator Studio, free for everyone: film a set while the camera counts, pick a template, share the video. Challenge a friend with a duet link. The camera now counts 92 exercises. Voice commands, drop sets and supersets, then and now, your 3D twin, the machine scanner, your year in muscles, and six languages.",
+    "url": "https://play.google.com/store/apps/details?id=com.codebage.musclelit&hl=en&gl=us",
+    "developer": "codeBage",
+    "developerId": "codeBage",
+    "developerWebsite": "https://thecodebage.com/",
+    "developerEmail": "support.codebage@gmail.com",
+    "privacyPolicy": "https://malookshah4.github.io/musclelit/privacy.html",
+    "androidVersion": "8.0",
+    "features": [
+      "Your 3D twin takes your build from your weight and measurements, and changes as they do",
+      "Then and now: the muscles your tape measure says grew light up and swell",
+      "Muscle balance and recovery map",
+      "Your week in 3D and your year in muscles, as videos to share",
+      "Transformation reel: your progress photos, your twin and your numbers in one video",
+      "Strength forecast, badges, streaks, weigh-ins, measurements and progress photos"
+    ],
+    "recentReviews": []
+  },
+  {
     "appId": "com.codebage.scout",
     "slug": "scout-profit-calculator",
     "title": "Scout - Profit Calculator",
@@ -1644,61 +1699,6 @@
       "Buy Box seller tracking — see who's winning the listing",
       "Seller count, ratings, and competition data",
       "Full haul list with search, filter, and sort"
-    ],
-    "recentReviews": []
-  },
-  {
-    "appId": "com.codebage.musclelit",
-    "slug": "musclelit-3d-workout-anatomy",
-    "title": "MuscleLit: 3D Workout Anatomy",
-    "summary": "Gym &amp; home workout planner wth 3D muscle anatomy, cam rep counter, video studio",
-    "description": "MuscleLit is a gym and home workout app built around a real 3D body. Watch every exercise on the 3D muscle model from any angle, see exactly which muscles each workout trains, follow a strength plan built for your goal, and turn your sets into videos worth posting with Creator Studio, free for everyone.\n\n3D EXERCISE LIBRARY\n156 gym and bodyweight exercises on a 3D anatomy body: dumbbell, barbell, kettlebell, cable, machine and bodyweight moves for chest, back, shoulders, biceps, triceps, abs, glutes and legs. The working muscles light up as the body does the move. Slow it down, see the common mistake, switch between skin, muscles and X-ray.\n\nCAMERA REP COUNTER AND FORM CHECK\nProp up your phone and the camera counts 92 exercises: squats, lunges, push-ups, curls, presses, raises, bench presses, rows, pull-ups, dips, leg machines, leg raises and more. It scores every rep, ends the set and tells you when a rep goes shallow. Say \"done\" or \"skip\" and it listens. Nothing the camera sees leaves your phone.\n\nCREATOR STUDIO (FREE)\nTap record while the camera counts you, then pick a template: Rep counter, Muscle glow, Form check with joint angles, PR attempt with bullet time around your 3D body, Anatomy mirror, or Ghost rival racing your last set. The last rep glides into slow motion, every rep lands with a burst, and it ends on a card with your count. Export a 9:16 MP4 and share it anywhere.\n\nCHALLENGE DUET\n\"Beat my 25 push-ups in 45 seconds.\" Share the video and its link; your friend's try runs against your count with a clock, and the result throws the challenge back.\n\nWORKOUT PLANNER AND COACH\nAnswer a few questions and get a weekly plan for your goal: build muscle, get stronger, lose fat or train for your sport. Only the equipment you have, sore joints worked around, every week building on the last. Ask the coach to change it in your own words, cut today's session to 15, 20 or 30 minutes, or take a 28-day challenge.\n\nWORKOUT TRACKER\nEach session plays on the 3D body with sets, reps, rest timer, drop sets and supersets, a spoken count and a lock-screen timer. Smart rest, auto-start, music from your player, personal records and history.\n\nPROGRESS ON YOUR BODY\n• Your 3D twin takes your build from your weight and measurements, and changes as they do\n• Then and now: the muscles your tape measure says grew light up and swell\n• Muscle balance and recovery map\n• Your week in 3D and your year in muscles, as videos to share\n• Transformation reel: your progress photos, your twin and your numbers in one video\n• Strength forecast, badges, streaks, weigh-ins, measurements and progress photos\n\nLEARN ANATOMY\nTap any muscle to learn what it does and which exercises train it. Scan any gym machine to see how to use it in 3D. Test yourself with the anatomy quiz.\n\nIN YOUR LANGUAGE\nEnglish, Spanish, Portuguese, Hindi, Arabic and Urdu, including every exercise, cue and plan.\n\nMUSCLELIT PRO\nThe exercise library, the 3D body, starter plans, basic logging and all of Creator Studio are free. Pro adds the camera coach in every workout, voice commands, the mirror, X-ray, muscle balance, then and now, the week and year videos, the transformation reel, your own plan, coach and meal plans, challenges, the machine scanner, unlimited workouts, progress photos and backups. Try it free for 7 days, then monthly, yearly or once for a lifetime. Cancel any time in Google Play.\n\nYour data stays on your phone. No ads, no account, no tracking.\n\nMuscleLit shows exercises for general fitness and is not medical advice. Stop if you feel pain and ask a professional if you have an injury or a health condition.",
-    "descriptionHTML": "MuscleLit is a gym and home workout app built around a real 3D body. Watch every exercise on the 3D muscle model from any angle, see exactly which muscles each workout trains, follow a strength plan built for your goal, and turn your sets into videos worth posting with Creator Studio, free for everyone.<br><br>3D EXERCISE LIBRARY<br>156 gym and bodyweight exercises on a 3D anatomy body: dumbbell, barbell, kettlebell, cable, machine and bodyweight moves for chest, back, shoulders, biceps, triceps, abs, glutes and legs. The working muscles light up as the body does the move. Slow it down, see the common mistake, switch between skin, muscles and X-ray.<br><br>CAMERA REP COUNTER AND FORM CHECK<br>Prop up your phone and the camera counts 92 exercises: squats, lunges, push-ups, curls, presses, raises, bench presses, rows, pull-ups, dips, leg machines, leg raises and more. It scores every rep, ends the set and tells you when a rep goes shallow. Say &quot;done&quot; or &quot;skip&quot; and it listens. Nothing the camera sees leaves your phone.<br><br>CREATOR STUDIO (FREE)<br>Tap record while the camera counts you, then pick a template: Rep counter, Muscle glow, Form check with joint angles, PR attempt with bullet time around your 3D body, Anatomy mirror, or Ghost rival racing your last set. The last rep glides into slow motion, every rep lands with a burst, and it ends on a card with your count. Export a 9:16 MP4 and share it anywhere.<br><br>CHALLENGE DUET<br>&quot;Beat my 25 push-ups in 45 seconds.&quot; Share the video and its link; your friend&#39;s try runs against your count with a clock, and the result throws the challenge back.<br><br>WORKOUT PLANNER AND COACH<br>Answer a few questions and get a weekly plan for your goal: build muscle, get stronger, lose fat or train for your sport. Only the equipment you have, sore joints worked around, every week building on the last. Ask the coach to change it in your own words, cut today&#39;s session to 15, 20 or 30 minutes, or take a 28-day challenge.<br><br>WORKOUT TRACKER<br>Each session plays on the 3D body with sets, reps, rest timer, drop sets and supersets, a spoken count and a lock-screen timer. Smart rest, auto-start, music from your player, personal records and history.<br><br>PROGRESS ON YOUR BODY<br>• Your 3D twin takes your build from your weight and measurements, and changes as they do<br>• Then and now: the muscles your tape measure says grew light up and swell<br>• Muscle balance and recovery map<br>• Your week in 3D and your year in muscles, as videos to share<br>• Transformation reel: your progress photos, your twin and your numbers in one video<br>• Strength forecast, badges, streaks, weigh-ins, measurements and progress photos<br><br>LEARN ANATOMY<br>Tap any muscle to learn what it does and which exercises train it. Scan any gym machine to see how to use it in 3D. Test yourself with the anatomy quiz.<br><br>IN YOUR LANGUAGE<br>English, Spanish, Portuguese, Hindi, Arabic and Urdu, including every exercise, cue and plan.<br><br>MUSCLELIT PRO<br>The exercise library, the 3D body, starter plans, basic logging and all of Creator Studio are free. Pro adds the camera coach in every workout, voice commands, the mirror, X-ray, muscle balance, then and now, the week and year videos, the transformation reel, your own plan, coach and meal plans, challenges, the machine scanner, unlimited workouts, progress photos and backups. Try it free for 7 days, then monthly, yearly or once for a lifetime. Cancel any time in Google Play.<br><br>Your data stays on your phone. No ads, no account, no tracking.<br><br>MuscleLit shows exercises for general fitness and is not medical advice. Stop if you feel pain and ask a professional if you have an injury or a health condition.",
-    "icon": "/apps/musclelit-3d-workout-anatomy/icon.jpg",
-    "iconRemote": "https://play-lh.googleusercontent.com/rkkYOzZFZXImT-RMaC3mX7ttTNa5Kw2GNcrpkW0ipuLk1nwOV8UgAFX_CNL-Dv_VCTBjchpevlNNhmxzrFkbKpY",
-    "headerImage": "/apps/musclelit-3d-workout-anatomy/header.jpg",
-    "screenshots": [
-      "/apps/musclelit-3d-workout-anatomy/screenshot-1.jpg",
-      "/apps/musclelit-3d-workout-anatomy/screenshot-2.jpg",
-      "/apps/musclelit-3d-workout-anatomy/screenshot-3.jpg",
-      "/apps/musclelit-3d-workout-anatomy/screenshot-4.jpg",
-      "/apps/musclelit-3d-workout-anatomy/screenshot-5.jpg",
-      "/apps/musclelit-3d-workout-anatomy/screenshot-6.jpg",
-      "/apps/musclelit-3d-workout-anatomy/screenshot-7.jpg",
-      "/apps/musclelit-3d-workout-anatomy/screenshot-8.jpg"
-    ],
-    "video": null,
-    "score": 0,
-    "ratings": 0,
-    "reviews": 0,
-    "installs": "10+",
-    "minInstalls": 10,
-    "maxInstalls": 34,
-    "price": 0,
-    "free": true,
-    "currency": "USD",
-    "genre": "Health & Fitness",
-    "genreId": "HEALTH_AND_FITNESS",
-    "contentRating": "Everyone",
-    "released": "Oct 13, 2026",
-    "updated": 1792904215000,
-    "updatedDate": "Oct 25, 2026",
-    "version": "1.2.0",
-    "recentChanges": "Creator Studio, free for everyone: film a set while the camera counts, pick a template, share the video. Challenge a friend with a duet link. The camera now counts 92 exercises. Voice commands, drop sets and supersets, then and now, your 3D twin, the machine scanner, your year in muscles, and six languages.",
-    "url": "https://play.google.com/store/apps/details?id=com.codebage.musclelit&hl=en&gl=us",
-    "developer": "codeBage",
-    "developerId": "codeBage",
-    "developerWebsite": "https://thecodebage.com/",
-    "developerEmail": "support.codebage@gmail.com",
-    "privacyPolicy": "https://malookshah4.github.io/musclelit/privacy.html",
-    "androidVersion": "8.0",
-    "features": [
-      "Your 3D twin takes your build from your weight and measurements, and changes as they do",
-      "Then and now: the muscles your tape measure says grew light up and swell",
-      "Muscle balance and recovery map",
-      "Your week in 3D and your year in muscles, as videos to share",
-      "Transformation reel: your progress photos, your twin and your numbers in one video",
-      "Strength forecast, badges, streaks, weigh-ins, measurements and progress photos"
     ],
     "recentReviews": []
   }
