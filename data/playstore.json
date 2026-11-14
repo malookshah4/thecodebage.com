@@ -21,11 +21,11 @@
     "video": null,
     "score": 4.49,
     "scoreText": "4.5",
-    "ratings": 59297,
+    "ratings": 59296,
     "reviews": 127,
     "installs": "1,000,000+",
     "minInstalls": 1000000,
-    "maxInstalls": 1974523,
+    "maxInstalls": 1974529,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -46,6 +46,14 @@
     "androidVersion": "7.0",
     "features": [],
     "recentReviews": [
+      {
+        "id": "b126da6c-0741-46b7-8194-c69212cbd3a5",
+        "userName": "UZAIR ULLAH",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocK83150seIFa4L1RM0tTp7eDx0C0xYDuvcFV-2Dw5qNltOZRw=mo",
+        "date": "2026-11-13T04:26:36.340Z",
+        "score": 5,
+        "text": "man content home caretar ho AP moje Sanja ho ke kaesy Hashtags lagate hai"
+      },
       {
         "id": "aa312d15-a999-4538-be75-d4434b4ba277",
         "userName": "Sajid Ali",
@@ -69,22 +77,6 @@
         "date": "2026-11-10T14:17:07.820Z",
         "score": 1,
         "text": "good 👍"
-      },
-      {
-        "id": "69b9c68e-c859-4301-ae8c-57b7f322c1bc",
-        "userName": "Jiwan Nath",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocJCuEmIqivQH2GuGUEVf5f_XE1TMvRkIR9NbOyWmrG3kZ5tKA=mo",
-        "date": "2026-11-08T12:02:08.875Z",
-        "score": 5,
-        "text": "vairl"
-      },
-      {
-        "id": "e036850f-9d19-4e3d-ae28-7fcf9adacd97",
-        "userName": "Saif Kharal",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLlYD3KkY4IOULHW0EE_pVNIL8ADzlu2Xj7howWeXcpY4pX-w=mo",
-        "date": "2026-11-08T09:34:36.416Z",
-        "score": 5,
-        "text": "saif kharal jani"
       },
       {
         "id": "134bc31e-88fa-44e3-b60b-abe3c398a7b9",
@@ -141,6 +133,14 @@
         "date": "2026-10-27T02:16:49.616Z",
         "score": 2,
         "text": "G.N."
+      },
+      {
+        "id": "3ca74396-7283-4541-90c6-96f95b40e5bd",
+        "userName": "baba naagi",
+        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjWBuQhUCpbd3zQBVwFLST5Gt5TKwa7OywdmIJ1PytwJkSvNu4bd",
+        "date": "2026-10-26T16:57:43.964Z",
+        "score": 5,
+        "text": "baba naagi for you is love you"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "video": null,
     "score": 4.12,
     "scoreText": "4.1",
-    "ratings": 5927,
+    "ratings": 5932,
     "reviews": 118,
     "installs": "500,000+",
     "minInstalls": 500000,
@@ -309,11 +309,11 @@
     "video": null,
     "score": 3.53,
     "scoreText": "3.5",
-    "ratings": 98,
+    "ratings": 104,
     "reviews": 9,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 16005,
+    "maxInstalls": 16015,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -343,6 +343,14 @@
       "Onion skin overlay to see previous and next frames"
     ],
     "recentReviews": [
+      {
+        "id": "8bd759d0-c2e7-4a90-99c9-82bddd982ddc",
+        "userName": "AMY MYTH",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocLt3ziBt3zpNwFqW3QFcrKBD8dHhpmXp1S_UbHmiKpzrvIPSw=mo",
+        "date": "2026-11-12T13:46:46.639Z",
+        "score": 1,
+        "text": "app keeps stopping whenever I try to open a project.... pls help!!!!"
+      },
       {
         "id": "b87e677c-25f0-4fb6-a63a-4d7e9a37ae55",
         "userName": "Guillermo Solis",
@@ -430,14 +438,6 @@
         "date": "2026-10-02T14:43:25.415Z",
         "score": 4,
         "text": "good app i can make so many type of animation and save."
-      },
-      {
-        "id": "d6432174-6889-436f-b3c4-468a01c6ccfa",
-        "userName": "Lu MigKla",
-        "userImage": "https://play-lh.googleusercontent.com/a-/ALV-UjUNAXPAvuMmuEZyvTbJn9aEAGFMCGLgSyofyjzFQAa07Xqn67k",
-        "date": "2026-09-30T22:38:02.694Z",
-        "score": 1,
-        "text": "couldn't animate a single thing every time I tapped on some thing a 30 second add would pop up"
       }
     ]
   },
@@ -463,7 +463,7 @@
     "reviews": 0,
     "installs": "10,000+",
     "minInstalls": 10000,
-    "maxInstalls": 29060,
+    "maxInstalls": 29237,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -550,11 +550,11 @@
     "video": null,
     "score": 4.33,
     "scoreText": "4.3",
-    "ratings": 160,
+    "ratings": 162,
     "reviews": 1,
     "installs": "5,000+",
     "minInstalls": 5000,
-    "maxInstalls": 8659,
+    "maxInstalls": 8664,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -562,10 +562,10 @@
     "genreId": "TOOLS",
     "contentRating": "Everyone",
     "released": "Feb 19, 2026",
-    "updated": 1789013906000,
-    "updatedDate": "Sep 10, 2026",
-    "version": "5.6.0",
-    "recentChanges": "Privacy: optional ad-measurement setting added under Settings → Privacy.",
+    "updated": 1794544811000,
+    "updatedDate": "Nov 13, 2026",
+    "version": "5.6.2",
+    "recentChanges": "• Removed unused storage permissions — GoViral AI now uses only the Android photo picker to select videos.<br>• Performance and stability improvements.",
     "url": "https://play.google.com/store/apps/details?id=com.codebage.goviralai&hl=en&gl=us",
     "developer": "codeBage",
     "developerId": "codeBage",
@@ -788,7 +788,7 @@
     "reviews": 0,
     "installs": "1,000+",
     "minInstalls": 1000,
-    "maxInstalls": 2820,
+    "maxInstalls": 2821,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1309,67 +1309,6 @@
     "recentReviews": []
   },
   {
-    "appId": "com.codebage.realorai",
-    "slug": "real-or-ai",
-    "title": "Real or AI",
-    "summary": "Check if a photo, video, audio or text is AI-generated or real. Get an estimate.",
-    "description": "Real or AI helps you spot AI-generated and deepfake content in seconds. Wondering if a photo is a deepfake, a voice clip was cloned, or a viral post is genuine? Run it through Real or AI and get a clear, easy-to-read estimate.\n\nHOW IT WORKS\nPick an image, video, audio clip, or paste some text. Real or AI analyzes it using advanced AI-detection technology and shows you how likely it is to be AI-generated versus real — with a simple confidence score.\n\nWHAT YOU CAN CHECK\n• Images — photos, selfies, artwork, and screenshots\n• Videos — short clips and deepfakes\n• Audio — voices and music\n• Text — written content and captions\n• Social links — paste a post link from popular platforms and check the media inside it\n\nKEY FEATURES\n• Fast results — get an estimate in seconds\n• Multiple media types in one app\n• Check posts directly by pasting a link\n• History — review your past checks anytime\n• Clean, simple interface — no tech skills needed\n• Privacy-minded — you choose exactly what to check\n\nWHY REAL OR AI\nAI-generated images, cloned voices, and deepfake videos are everywhere. Before you trust, share, or react to something, take a few seconds to check it. Real or AI gives you a quick second opinion so you can think twice about what's real online.\n\nIMPORTANT — PLEASE READ\nReal or AI provides an ESTIMATE, not proof. AI-detection technology is not perfect and can be wrong. Results are a guide to help your own judgment — they are not a guarantee, and the app does not claim 100% accuracy. Always use your own critical thinking, especially for important decisions.\n\nDetection runs securely on our servers, not on your device. The media you submit is sent for analysis and is not used to claim certainty about any person or content.\n\nStart checking what's real today — download Real or AI.",
-    "descriptionHTML": "Real or AI helps you spot AI-generated and deepfake content in seconds. Wondering if a photo is a deepfake, a voice clip was cloned, or a viral post is genuine? Run it through Real or AI and get a clear, easy-to-read estimate.<br><br>HOW IT WORKS<br>Pick an image, video, audio clip, or paste some text. Real or AI analyzes it using advanced AI-detection technology and shows you how likely it is to be AI-generated versus real — with a simple confidence score.<br><br>WHAT YOU CAN CHECK<br>• Images — photos, selfies, artwork, and screenshots<br>• Videos — short clips and deepfakes<br>• Audio — voices and music<br>• Text — written content and captions<br>• Social links — paste a post link from popular platforms and check the media inside it<br><br>KEY FEATURES<br>• Fast results — get an estimate in seconds<br>• Multiple media types in one app<br>• Check posts directly by pasting a link<br>• History — review your past checks anytime<br>• Clean, simple interface — no tech skills needed<br>• Privacy-minded — you choose exactly what to check<br><br>WHY REAL OR AI<br>AI-generated images, cloned voices, and deepfake videos are everywhere. Before you trust, share, or react to something, take a few seconds to check it. Real or AI gives you a quick second opinion so you can think twice about what&#39;s real online.<br><br>IMPORTANT — PLEASE READ<br>Real or AI provides an ESTIMATE, not proof. AI-detection technology is not perfect and can be wrong. Results are a guide to help your own judgment — they are not a guarantee, and the app does not claim 100% accuracy. Always use your own critical thinking, especially for important decisions.<br><br>Detection runs securely on our servers, not on your device. The media you submit is sent for analysis and is not used to claim certainty about any person or content.<br><br>Start checking what&#39;s real today — download Real or AI.",
-    "icon": "/apps/real-or-ai/icon.jpg",
-    "iconRemote": "https://play-lh.googleusercontent.com/RKnwNz7nnRvQsxEnCJ855Gu_j56hq69dZpv3aleugl_CIX3thMANwy4VoDqqkZZ1UyFO5ega1Tl82rT84uVc",
-    "headerImage": "/apps/real-or-ai/header.jpg",
-    "screenshots": [
-      "/apps/real-or-ai/screenshot-1.jpg",
-      "/apps/real-or-ai/screenshot-2.jpg",
-      "/apps/real-or-ai/screenshot-3.jpg"
-    ],
-    "video": null,
-    "score": 0,
-    "ratings": 0,
-    "reviews": 0,
-    "installs": "100+",
-    "minInstalls": 100,
-    "maxInstalls": 123,
-    "price": 0,
-    "free": true,
-    "currency": "USD",
-    "genre": "Tools",
-    "genreId": "TOOLS",
-    "contentRating": "Everyone",
-    "released": "Jun 14, 2026",
-    "updated": 1785041656000,
-    "updatedDate": "Jul 26, 2026",
-    "version": "2.0.0",
-    "recentChanges": "Real or AI — check whether what you&#39;re looking at is AI-generated or real.<br><br>• Images, video, text and audio — plus deepfake detection<br>• Reverse image search: see where a photo appeared online<br>• Share from any app, or paste a social link<br>• History of every check you run<br>• Credits and Premium, with the cost shown before each check<br><br>Results are an estimate, not proof.",
-    "url": "https://play.google.com/store/apps/details?id=com.codebage.realorai&hl=en&gl=us",
-    "developer": "codeBage",
-    "developerId": "codeBage",
-    "developerWebsite": "https://thecodebage.com/",
-    "developerEmail": "support@thecodebage.com",
-    "privacyPolicy": "https://sites.google.com/view/realoraiprivacypolicy?usp=sharing",
-    "androidVersion": "8.0",
-    "features": [
-      "Images — photos, selfies, artwork, and screenshots",
-      "Videos — short clips and deepfakes",
-      "Audio — voices and music",
-      "Text — written content and captions",
-      "Social links — paste a post link from popular platforms and check the media inside it",
-      "Fast results — get an estimate in seconds",
-      "Multiple media types in one app",
-      "Check posts directly by pasting a link"
-    ],
-    "recentReviews": [
-      {
-        "id": "03fd828d-5478-4ab7-893b-5dcb7e206342",
-        "userName": "Rainbows Merryx",
-        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIe7Z3MbrsafpLKt6sNLiNoUTsDvHMXWMyNVB5FNiVS-Z118w=mo",
-        "date": "2026-10-22T17:39:21.542Z",
-        "score": 5,
-        "text": "anyway vanities"
-      }
-    ]
-  },
-  {
     "appId": "com.codebage.scout",
     "slug": "scout-profit-calculator",
     "title": "Scout - Profit Calculator",
@@ -1447,7 +1386,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 239,
+    "maxInstalls": 244,
     "price": 0,
     "free": true,
     "currency": "USD",
@@ -1477,6 +1416,67 @@
       "Re-audit after your trims and watch the score climb."
     ],
     "recentReviews": []
+  },
+  {
+    "appId": "com.codebage.realorai",
+    "slug": "real-or-ai",
+    "title": "Real or AI",
+    "summary": "Check if a photo, video, audio or text is AI-generated or real. Get an estimate.",
+    "description": "Real or AI helps you spot AI-generated and deepfake content in seconds. Wondering if a photo is a deepfake, a voice clip was cloned, or a viral post is genuine? Run it through Real or AI and get a clear, easy-to-read estimate.\n\nHOW IT WORKS\nPick an image, video, audio clip, or paste some text. Real or AI analyzes it using advanced AI-detection technology and shows you how likely it is to be AI-generated versus real — with a simple confidence score.\n\nWHAT YOU CAN CHECK\n• Images — photos, selfies, artwork, and screenshots\n• Videos — short clips and deepfakes\n• Audio — voices and music\n• Text — written content and captions\n• Social links — paste a post link from popular platforms and check the media inside it\n\nKEY FEATURES\n• Fast results — get an estimate in seconds\n• Multiple media types in one app\n• Check posts directly by pasting a link\n• History — review your past checks anytime\n• Clean, simple interface — no tech skills needed\n• Privacy-minded — you choose exactly what to check\n\nWHY REAL OR AI\nAI-generated images, cloned voices, and deepfake videos are everywhere. Before you trust, share, or react to something, take a few seconds to check it. Real or AI gives you a quick second opinion so you can think twice about what's real online.\n\nIMPORTANT — PLEASE READ\nReal or AI provides an ESTIMATE, not proof. AI-detection technology is not perfect and can be wrong. Results are a guide to help your own judgment — they are not a guarantee, and the app does not claim 100% accuracy. Always use your own critical thinking, especially for important decisions.\n\nDetection runs securely on our servers, not on your device. The media you submit is sent for analysis and is not used to claim certainty about any person or content.\n\nStart checking what's real today — download Real or AI.",
+    "descriptionHTML": "Real or AI helps you spot AI-generated and deepfake content in seconds. Wondering if a photo is a deepfake, a voice clip was cloned, or a viral post is genuine? Run it through Real or AI and get a clear, easy-to-read estimate.<br><br>HOW IT WORKS<br>Pick an image, video, audio clip, or paste some text. Real or AI analyzes it using advanced AI-detection technology and shows you how likely it is to be AI-generated versus real — with a simple confidence score.<br><br>WHAT YOU CAN CHECK<br>• Images — photos, selfies, artwork, and screenshots<br>• Videos — short clips and deepfakes<br>• Audio — voices and music<br>• Text — written content and captions<br>• Social links — paste a post link from popular platforms and check the media inside it<br><br>KEY FEATURES<br>• Fast results — get an estimate in seconds<br>• Multiple media types in one app<br>• Check posts directly by pasting a link<br>• History — review your past checks anytime<br>• Clean, simple interface — no tech skills needed<br>• Privacy-minded — you choose exactly what to check<br><br>WHY REAL OR AI<br>AI-generated images, cloned voices, and deepfake videos are everywhere. Before you trust, share, or react to something, take a few seconds to check it. Real or AI gives you a quick second opinion so you can think twice about what&#39;s real online.<br><br>IMPORTANT — PLEASE READ<br>Real or AI provides an ESTIMATE, not proof. AI-detection technology is not perfect and can be wrong. Results are a guide to help your own judgment — they are not a guarantee, and the app does not claim 100% accuracy. Always use your own critical thinking, especially for important decisions.<br><br>Detection runs securely on our servers, not on your device. The media you submit is sent for analysis and is not used to claim certainty about any person or content.<br><br>Start checking what&#39;s real today — download Real or AI.",
+    "icon": "/apps/real-or-ai/icon.jpg",
+    "iconRemote": "https://play-lh.googleusercontent.com/RKnwNz7nnRvQsxEnCJ855Gu_j56hq69dZpv3aleugl_CIX3thMANwy4VoDqqkZZ1UyFO5ega1Tl82rT84uVc",
+    "headerImage": "/apps/real-or-ai/header.jpg",
+    "screenshots": [
+      "/apps/real-or-ai/screenshot-1.jpg",
+      "/apps/real-or-ai/screenshot-2.jpg",
+      "/apps/real-or-ai/screenshot-3.jpg"
+    ],
+    "video": null,
+    "score": 0,
+    "ratings": 0,
+    "reviews": 0,
+    "installs": "100+",
+    "minInstalls": 100,
+    "maxInstalls": 123,
+    "price": 0,
+    "free": true,
+    "currency": "USD",
+    "genre": "Tools",
+    "genreId": "TOOLS",
+    "contentRating": "Everyone",
+    "released": "Jun 14, 2026",
+    "updated": 1785041656000,
+    "updatedDate": "Jul 26, 2026",
+    "version": "2.0.0",
+    "recentChanges": "Real or AI — check whether what you&#39;re looking at is AI-generated or real.<br><br>• Images, video, text and audio — plus deepfake detection<br>• Reverse image search: see where a photo appeared online<br>• Share from any app, or paste a social link<br>• History of every check you run<br>• Credits and Premium, with the cost shown before each check<br><br>Results are an estimate, not proof.",
+    "url": "https://play.google.com/store/apps/details?id=com.codebage.realorai&hl=en&gl=us",
+    "developer": "codeBage",
+    "developerId": "codeBage",
+    "developerWebsite": "https://thecodebage.com/",
+    "developerEmail": "support@thecodebage.com",
+    "privacyPolicy": "https://sites.google.com/view/realoraiprivacypolicy?usp=sharing",
+    "androidVersion": "8.0",
+    "features": [
+      "Images — photos, selfies, artwork, and screenshots",
+      "Videos — short clips and deepfakes",
+      "Audio — voices and music",
+      "Text — written content and captions",
+      "Social links — paste a post link from popular platforms and check the media inside it",
+      "Fast results — get an estimate in seconds",
+      "Multiple media types in one app",
+      "Check posts directly by pasting a link"
+    ],
+    "recentReviews": [
+      {
+        "id": "03fd828d-5478-4ab7-893b-5dcb7e206342",
+        "userName": "Rainbows Merryx",
+        "userImage": "https://play-lh.googleusercontent.com/a/ACg8ocIe7Z3MbrsafpLKt6sNLiNoUTsDvHMXWMyNVB5FNiVS-Z118w=mo",
+        "date": "2026-10-22T17:39:21.542Z",
+        "score": 5,
+        "text": "anyway vanities"
+      }
+    ]
   },
   {
     "appId": "com.codebage.replyai",
@@ -1559,7 +1559,7 @@
     "reviews": 0,
     "installs": "100+",
     "minInstalls": 100,
-    "maxInstalls": 385,
+    "maxInstalls": 386,
     "price": 0,
     "free": true,
     "currency": "USD",
